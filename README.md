@@ -85,7 +85,7 @@ A data leak source is saved to a variable within some method, and a Runnable con
 ### Summary
 A Fragment from the Android Support Library contains a simple data leak within its `onCreateView()` lifecycle callback. This callback is called when the Fragment is instantiated using the FragmentManager transaction mechanism.
 
-###SQLiteOpenHelper*
+## SQLiteOpenHelper*
 
 ### Summary
 A class extending the `SQLiteOpenHelper` abstract class contains a simple data leak within its `onCreate()` callback. This callback is called when the referenced database is created for the first time.
