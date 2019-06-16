@@ -1,0 +1,68 @@
+apks/variant0.apk started
+2019-28-28 06:28:04.834 [main] INFO  com.horndroid.Main - Starting fsHornDroid...
+2019-28-28 06:28:04.837 [main] INFO  com.horndroid.Main - Flow Sensitive Analysis on 64 bitvectors size
+2019-28-28 06:28:04.838 [main] DEBUG com.horndroid.executors.HorndroidExecutor - Parsing sources and sinks...
+2019-28-28 06:28:05.181 [main] DEBUG com.horndroid.executors.HorndroidExecutor - done in 342 milliseconds
+2019-28-28 06:28:05.181 [main] DEBUG com.horndroid.executors.HorndroidExecutor - Collecting apk files to process...
+2019-28-28 06:28:05.181 [main] DEBUG com.horndroid.executors.HorndroidExecutor - done in 0 milliseconds
+2019-28-28 06:28:05.213 [main] INFO  com.horndroid.executors.HorndroidExecutor - Analysing variant0.apk
+2019-28-28 06:28:05.244 [main] DEBUG com.horndroid.executors.HorndroidExecutor - Parsing entry points...
+2019-28-28 06:28:05.247 [main] DEBUG com.horndroid.executors.HorndroidExecutor - done in 2 milliseconds
+2019-28-28 06:28:05.247 [main] DEBUG com.horndroid.executors.HorndroidExecutor - Parsing callbacks and disabled activities...
+2019-28-28 06:28:05.247 [main] INFO  com.horndroid.util.SourceSinkParser - Running apktool to obtain manifest xml and layout files
+2019-28-28 06:28:07.968 [main] INFO  com.horndroid.util.SourceSinkParser - Exit Code:0
+2019-28-28 06:28:07.969 [main] INFO  com.horndroid.util.SourceSinkParser - STDOUT:I: Using Apktool 2.3.0 on variant0.apk
+2019-28-28 06:28:07.969 [main] INFO  com.horndroid.util.SourceSinkParser - STDOUT:I: Loading resource table...
+2019-28-28 06:28:07.969 [main] INFO  com.horndroid.util.SourceSinkParser - STDOUT:I: Decoding AndroidManifest.xml with resources...
+2019-28-28 06:28:07.969 [main] INFO  com.horndroid.util.SourceSinkParser - STDOUT:I: Loading resource table from file: /tmp/1.apk
+2019-28-28 06:28:07.969 [main] INFO  com.horndroid.util.SourceSinkParser - STDOUT:I: Regular manifest package...
+2019-28-28 06:28:07.969 [main] INFO  com.horndroid.util.SourceSinkParser - STDOUT:I: Decoding file-resources...
+2019-28-28 06:28:07.969 [main] INFO  com.horndroid.util.SourceSinkParser - STDOUT:I: Decoding values */* XMLs...
+2019-28-28 06:28:07.970 [main] INFO  com.horndroid.util.SourceSinkParser - STDOUT:I: Copying raw classes.dex file...
+2019-28-28 06:28:07.970 [main] INFO  com.horndroid.util.SourceSinkParser - STDOUT:I: Copying assets and libs...
+2019-28-28 06:28:07.970 [main] INFO  com.horndroid.util.SourceSinkParser - STDOUT:I: Copying unknown files...
+2019-28-28 06:28:07.970 [main] INFO  com.horndroid.util.SourceSinkParser - STDOUT:I: Copying original files...
+2019-28-28 06:28:07.970 [main] INFO  com.horndroid.util.SourceSinkParser - Here is the standard error of the command (if any):
+
+2019-28-28 06:28:07.970 [main] INFO  com.horndroid.util.SourceSinkParser - S: Please be aware this is a volatile directory and frameworks could go missing, please utilize --frame-path if the default storage directory is unavailable
+2019-28-28 06:28:08.300 [main] DEBUG com.horndroid.executors.HorndroidExecutor - ...done in 3052 milliseconds
+2019-28-28 06:28:08.300 [main] DEBUG com.horndroid.executors.HorndroidExecutor - Sorting classes...
+2019-28-28 06:28:08.323 [main] DEBUG com.horndroid.executors.HorndroidExecutor - done in 22 milliseconds
+2019-28-28 06:28:08.323 [main] DEBUG com.horndroid.executors.HorndroidExecutor - Collecting data for Horn Clause generation...
+2019-28-28 06:28:08.590 [main] DEBUG com.horndroid.executors.HorndroidExecutor - done in 267 milliseconds
+2019-28-28 06:28:08.591 [main] DEBUG com.horndroid.executors.HorndroidExecutor - Generating Horn Clauses..
+2019-28-28 06:28:08.591 [main] INFO  com.horndroid.analysis.Analysis - Ready to start generating Horn Clauses:
+2019-28-28 06:28:08.597 [main] INFO  com.horndroid.analysis.Analysis - Number of classes in APK : 46
+2019-28-28 06:28:08.598 [main] INFO  com.horndroid.analysis.Analysis - Number of methods in APK: 132
+2019-28-28 06:28:08.598 [main] INFO  com.horndroid.analysis.Analysis - Number of instructions in APK: 1835
+2019-28-28 06:28:08.598 [main] INFO  com.horndroid.analysis.Analysis - Number of instances in APK: 316
+2019-28-28 06:28:08.696 [main] INFO  com.horndroid.analysis.Analysis - Number of sources: 54
+2019-28-28 06:28:08.697 [main] INFO  com.horndroid.analysis.Analysis - Number of sinks: 36
+2019-28-28 06:28:08.697 [main] INFO  com.horndroid.analysis.Analysis - Number of classes : 46
+2019-28-28 06:28:08.697 [main] INFO  com.horndroid.analysis.Analysis - Number of methods: 132
+2019-28-28 06:28:08.697 [main] INFO  com.horndroid.analysis.Analysis - Number of instructions: 1835
+2019-28-28 06:28:08.697 [main] INFO  com.horndroid.analysis.Analysis - Number of instances : 316
+2019-28-28 06:28:16.279 [main] DEBUG com.horndroid.executors.HorndroidExecutor - ...done in 7688 milliseconds
+2019-28-28 06:28:16.279 [main] DEBUG com.horndroid.executors.HorndroidExecutor - Waiting for treads to terminate...
+2019-28-28 06:28:16.280 [main] DEBUG com.horndroid.executors.HorndroidExecutor - ...done in 0 milliseconds
+2019-28-28 06:28:16.280 [main] DEBUG com.horndroid.executors.HorndroidExecutor - Executing all queries...
+2019-28-28 06:28:16.281 [main] INFO  com.horndroid.z3.FSEngine - Number of the generated queries: 26
+2019-29-28 06:29:37.859 [main] INFO  com.horndroid.z3.FSEngine - 1 Test if register 3 leaks at line 19 in method invokeCallback(Landroid/arch/lifecycle/ReflectiveGenericLifecycleObserver$MethodReference;Landroid/arch/lifecycle/LifecycleOwner;Landroid/arch/lifecycle/Lifecycle$Event;)V of the class Landroid/arch/lifecycle/ReflectiveGenericLifecycleObserver; to the sink invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;:NO LEAK
+2019-31-28 06:31:03.602 [main] INFO  com.horndroid.z3.FSEngine - 2 [REF] Test if register 3 leaks at line 19 in method invokeCallback(Landroid/arch/lifecycle/ReflectiveGenericLifecycleObserver$MethodReference;Landroid/arch/lifecycle/LifecycleOwner;Landroid/arch/lifecycle/Lifecycle$Event;)V of the class Landroid/arch/lifecycle/ReflectiveGenericLifecycleObserver; to the sink invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;:NO LEAK
+2019-32-28 06:32:31.973 [main] INFO  com.horndroid.z3.FSEngine - 3 Test if register 0 leaks at line 19 in method invokeCallback(Landroid/arch/lifecycle/ReflectiveGenericLifecycleObserver$MethodReference;Landroid/arch/lifecycle/LifecycleOwner;Landroid/arch/lifecycle/Lifecycle$Event;)V of the class Landroid/arch/lifecycle/ReflectiveGenericLifecycleObserver; to the sink invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;:NO LEAK
+2019-33-28 06:33:56.471 [main] INFO  com.horndroid.z3.FSEngine - 4 [REF] Test if register 0 leaks at line 19 in method invokeCallback(Landroid/arch/lifecycle/ReflectiveGenericLifecycleObserver$MethodReference;Landroid/arch/lifecycle/LifecycleOwner;Landroid/arch/lifecycle/Lifecycle$Event;)V of the class Landroid/arch/lifecycle/ReflectiveGenericLifecycleObserver; to the sink invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;:NO LEAK
+2019-35-28 06:35:20.732 [main] INFO  com.horndroid.z3.FSEngine - 5 Test if register 5 leaks at line 19 in method invokeCallback(Landroid/arch/lifecycle/ReflectiveGenericLifecycleObserver$MethodReference;Landroid/arch/lifecycle/LifecycleOwner;Landroid/arch/lifecycle/Lifecycle$Event;)V of the class Landroid/arch/lifecycle/ReflectiveGenericLifecycleObserver; to the sink invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;:NO LEAK
+2019-36-28 06:36:45.472 [main] INFO  com.horndroid.z3.FSEngine - 6 [REF] Test if register 5 leaks at line 19 in method invokeCallback(Landroid/arch/lifecycle/ReflectiveGenericLifecycleObserver$MethodReference;Landroid/arch/lifecycle/LifecycleOwner;Landroid/arch/lifecycle/Lifecycle$Event;)V of the class Landroid/arch/lifecycle/ReflectiveGenericLifecycleObserver; to the sink invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;:NO LEAK
+2019-38-28 06:38:10.077 [main] INFO  com.horndroid.z3.FSEngine - 7 Test if register 0 leaks at line 31 in method invokeCallback(Landroid/arch/lifecycle/ReflectiveGenericLifecycleObserver$MethodReference;Landroid/arch/lifecycle/LifecycleOwner;Landroid/arch/lifecycle/Lifecycle$Event;)V of the class Landroid/arch/lifecycle/ReflectiveGenericLifecycleObserver; to the sink invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;:NO LEAK
+2019-39-28 06:39:34.661 [main] INFO  com.horndroid.z3.FSEngine - 8 [REF] Test if register 0 leaks at line 31 in method invokeCallback(Landroid/arch/lifecycle/ReflectiveGenericLifecycleObserver$MethodReference;Landroid/arch/lifecycle/LifecycleOwner;Landroid/arch/lifecycle/Lifecycle$Event;)V of the class Landroid/arch/lifecycle/ReflectiveGenericLifecycleObserver; to the sink invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;:NO LEAK
+2019-40-28 06:40:59.360 [main] INFO  com.horndroid.z3.FSEngine - 9 Test if register 7 leaks at line 31 in method invokeCallback(Landroid/arch/lifecycle/ReflectiveGenericLifecycleObserver$MethodReference;Landroid/arch/lifecycle/LifecycleOwner;Landroid/arch/lifecycle/Lifecycle$Event;)V of the class Landroid/arch/lifecycle/ReflectiveGenericLifecycleObserver; to the sink invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;:NO LEAK
+2019-42-28 06:42:24.752 [main] INFO  com.horndroid.z3.FSEngine - 10 [REF] Test if register 7 leaks at line 31 in method invokeCallback(Landroid/arch/lifecycle/ReflectiveGenericLifecycleObserver$MethodReference;Landroid/arch/lifecycle/LifecycleOwner;Landroid/arch/lifecycle/Lifecycle$Event;)V of the class Landroid/arch/lifecycle/ReflectiveGenericLifecycleObserver; to the sink invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;:NO LEAK
+2019-43-28 06:43:50.587 [main] INFO  com.horndroid.z3.FSEngine - 11 Test if register 5 leaks at line 31 in method invokeCallback(Landroid/arch/lifecycle/ReflectiveGenericLifecycleObserver$MethodReference;Landroid/arch/lifecycle/LifecycleOwner;Landroid/arch/lifecycle/Lifecycle$Event;)V of the class Landroid/arch/lifecycle/ReflectiveGenericLifecycleObserver; to the sink invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;:NO LEAK
+2019-45-28 06:45:15.437 [main] INFO  com.horndroid.z3.FSEngine - 12 [REF] Test if register 5 leaks at line 31 in method invokeCallback(Landroid/arch/lifecycle/ReflectiveGenericLifecycleObserver$MethodReference;Landroid/arch/lifecycle/LifecycleOwner;Landroid/arch/lifecycle/Lifecycle$Event;)V of the class Landroid/arch/lifecycle/ReflectiveGenericLifecycleObserver; to the sink invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;:NO LEAK
+2019-46-28 06:46:40.347 [main] INFO  com.horndroid.z3.FSEngine - 13 Test if register 7 leaks at line 41 in method invokeCallback(Landroid/arch/lifecycle/ReflectiveGenericLifecycleObserver$MethodReference;Landroid/arch/lifecycle/LifecycleOwner;Landroid/arch/lifecycle/Lifecycle$Event;)V of the class Landroid/arch/lifecycle/ReflectiveGenericLifecycleObserver; to the sink invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;:NO LEAK
+2019-48-28 06:48:04.578 [main] INFO  com.horndroid.z3.FSEngine - 14 [REF] Test if register 7 leaks at line 41 in method invokeCallback(Landroid/arch/lifecycle/ReflectiveGenericLifecycleObserver$MethodReference;Landroid/arch/lifecycle/LifecycleOwner;Landroid/arch/lifecycle/Lifecycle$Event;)V of the class Landroid/arch/lifecycle/ReflectiveGenericLifecycleObserver; to the sink invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;:NO LEAK
+2019-49-28 06:49:29.719 [main] INFO  com.horndroid.z3.FSEngine - 15 Test if register 6 leaks at line 41 in method invokeCallback(Landroid/arch/lifecycle/ReflectiveGenericLifecycleObserver$MethodReference;Landroid/arch/lifecycle/LifecycleOwner;Landroid/arch/lifecycle/Lifecycle$Event;)V of the class Landroid/arch/lifecycle/ReflectiveGenericLifecycleObserver; to the sink invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;:NO LEAK
+2019-50-28 06:50:54.989 [main] INFO  com.horndroid.z3.FSEngine - 16 [REF] Test if register 6 leaks at line 41 in method invokeCallback(Landroid/arch/lifecycle/ReflectiveGenericLifecycleObserver$MethodReference;Landroid/arch/lifecycle/LifecycleOwner;Landroid/arch/lifecycle/Lifecycle$Event;)V of the class Landroid/arch/lifecycle/ReflectiveGenericLifecycleObserver; to the sink invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;:NO LEAK
+2019-52-28 06:52:20.621 [main] INFO  com.horndroid.z3.FSEngine - 17 Test if register 5 leaks at line 41 in method invokeCallback(Landroid/arch/lifecycle/ReflectiveGenericLifecycleObserver$MethodReference;Landroid/arch/lifecycle/LifecycleOwner;Landroid/arch/lifecycle/Lifecycle$Event;)V of the class Landroid/arch/lifecycle/ReflectiveGenericLifecycleObserver; to the sink invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;:NO LEAK
+2019-53-28 06:53:45.767 [main] INFO  com.horndroid.z3.FSEngine - 18 [REF] Test if register 5 leaks at line 41 in method invokeCallback(Landroid/arch/lifecycle/ReflectiveGenericLifecycleObserver$MethodReference;Landroid/arch/lifecycle/LifecycleOwner;Landroid/arch/lifecycle/Lifecycle$Event;)V of the class Landroid/arch/lifecycle/ReflectiveGenericLifecycleObserver; to the sink invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;:NO LEAK
+2019-54-28 06:54:15.871 [main] INFO  com.horndroid.z3.FSEngine - 19 Test if register 0 leaks at line 4 in method buttonClicked(Landroid/view/View;)V of the class Lcom/example/variantroute/MainActivity; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK

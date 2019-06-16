@@ -1,0 +1,4 @@
+Exception in thread "main" java.lang.RuntimeException: Cannot find file or directory "/home/aami/data/horndroid_files/apks/RecyclerViewMinimal"
+	at com.horndroid.executors.HorndroidExecutor.getFilesToProcess(HorndroidExecutor.java:91)
+	at com.horndroid.executors.HorndroidExecutor.execute(HorndroidExecutor.java:302)
+	at com.horndroid.Main.main(Main.java:81)

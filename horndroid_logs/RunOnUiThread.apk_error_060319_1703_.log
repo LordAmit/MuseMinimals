@@ -1,0 +1,11 @@
+Exception in thread "main" java.lang.UnsatisfiedLinkError: no z3java in java.library.path
+	at java.lang.ClassLoader.loadLibrary(ClassLoader.java:1867)
+	at java.lang.Runtime.loadLibrary0(Runtime.java:870)
+	at java.lang.System.loadLibrary(System.java:1122)
+	at com.microsoft.z3.Native.<clinit>(Native.java:12)
+	at com.microsoft.z3.Global.setParameter(Global.java:47)
+	at com.horndroid.z3.FSEngine.<init>(FSEngine.java:69)
+	at com.horndroid.executors.HorndroidExecutor.initializeHornDroid(HorndroidExecutor.java:230)
+	at com.horndroid.executors.HorndroidExecutor.processFiles(HorndroidExecutor.java:274)
+	at com.horndroid.executors.HorndroidExecutor.execute(HorndroidExecutor.java:304)
+	at com.horndroid.Main.main(Main.java:81)

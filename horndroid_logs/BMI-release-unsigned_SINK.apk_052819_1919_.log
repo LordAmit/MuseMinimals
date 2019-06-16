@@ -1,0 +1,141 @@
+apks/BMI-release-unsigned_SINK.apk started
+2019-19-28 19:19:49.770 [main] INFO  com.horndroid.Main - Starting fsHornDroid...
+2019-19-28 19:19:49.774 [main] INFO  com.horndroid.Main - Flow Sensitive Analysis on 64 bitvectors size
+2019-19-28 19:19:49.775 [main] DEBUG com.horndroid.executors.HorndroidExecutor - Parsing sources and sinks...
+2019-19-28 19:19:50.340 [main] DEBUG com.horndroid.executors.HorndroidExecutor - done in 564 milliseconds
+2019-19-28 19:19:50.340 [main] DEBUG com.horndroid.executors.HorndroidExecutor - Collecting apk files to process...
+2019-19-28 19:19:50.340 [main] DEBUG com.horndroid.executors.HorndroidExecutor - done in 0 milliseconds
+2019-19-28 19:19:50.393 [main] INFO  com.horndroid.executors.HorndroidExecutor - Analysing BMI-release-unsigned_SINK.apk
+2019-19-28 19:19:50.458 [main] DEBUG com.horndroid.executors.HorndroidExecutor - Parsing entry points...
+2019-19-28 19:19:50.464 [main] DEBUG com.horndroid.executors.HorndroidExecutor - done in 6 milliseconds
+2019-19-28 19:19:50.465 [main] DEBUG com.horndroid.executors.HorndroidExecutor - Parsing callbacks and disabled activities...
+2019-19-28 19:19:50.465 [main] INFO  com.horndroid.util.SourceSinkParser - Running apktool to obtain manifest xml and layout files
+2019-19-28 19:19:52.957 [main] INFO  com.horndroid.util.SourceSinkParser - Exit Code:0
+2019-19-28 19:19:52.957 [main] INFO  com.horndroid.util.SourceSinkParser - STDOUT:I: Using Apktool 2.3.0 on BMI-release-unsigned_SINK.apk
+2019-19-28 19:19:52.958 [main] INFO  com.horndroid.util.SourceSinkParser - STDOUT:I: Loading resource table...
+2019-19-28 19:19:52.958 [main] INFO  com.horndroid.util.SourceSinkParser - STDOUT:I: Decoding AndroidManifest.xml with resources...
+2019-19-28 19:19:52.958 [main] INFO  com.horndroid.util.SourceSinkParser - STDOUT:I: Loading resource table from file: /tmp/1.apk
+2019-19-28 19:19:52.958 [main] INFO  com.horndroid.util.SourceSinkParser - STDOUT:I: Regular manifest package...
+2019-19-28 19:19:52.958 [main] INFO  com.horndroid.util.SourceSinkParser - STDOUT:I: Decoding file-resources...
+2019-19-28 19:19:52.959 [main] INFO  com.horndroid.util.SourceSinkParser - STDOUT:I: Decoding values */* XMLs...
+2019-19-28 19:19:52.959 [main] INFO  com.horndroid.util.SourceSinkParser - STDOUT:I: Copying raw classes.dex file...
+2019-19-28 19:19:52.959 [main] INFO  com.horndroid.util.SourceSinkParser - STDOUT:I: Copying assets and libs...
+2019-19-28 19:19:52.959 [main] INFO  com.horndroid.util.SourceSinkParser - STDOUT:I: Copying unknown files...
+2019-19-28 19:19:52.959 [main] INFO  com.horndroid.util.SourceSinkParser - STDOUT:I: Copying original files...
+2019-19-28 19:19:52.960 [main] INFO  com.horndroid.util.SourceSinkParser - Here is the standard error of the command (if any):
+
+2019-19-28 19:19:52.960 [main] INFO  com.horndroid.util.SourceSinkParser - S: Please be aware this is a volatile directory and frameworks could go missing, please utilize --frame-path if the default storage directory is unavailable
+2019-19-28 19:19:53.232 [main] DEBUG com.horndroid.executors.HorndroidExecutor - ...done in 2767 milliseconds
+2019-19-28 19:19:53.233 [main] DEBUG com.horndroid.executors.HorndroidExecutor - Sorting classes...
+2019-19-28 19:19:53.252 [main] DEBUG com.horndroid.executors.HorndroidExecutor - done in 19 milliseconds
+2019-19-28 19:19:53.252 [main] DEBUG com.horndroid.executors.HorndroidExecutor - Collecting data for Horn Clause generation...
+2019-19-28 19:19:53.427 [main] DEBUG com.horndroid.executors.HorndroidExecutor - done in 174 milliseconds
+2019-19-28 19:19:53.427 [main] DEBUG com.horndroid.executors.HorndroidExecutor - Generating Horn Clauses..
+2019-19-28 19:19:53.428 [main] INFO  com.horndroid.analysis.Analysis - Ready to start generating Horn Clauses:
+2019-19-28 19:19:53.430 [main] INFO  com.horndroid.analysis.Analysis - Number of classes in APK : 18
+2019-19-28 19:19:53.430 [main] INFO  com.horndroid.analysis.Analysis - Number of methods in APK: 24
+2019-19-28 19:19:53.430 [main] INFO  com.horndroid.analysis.Analysis - Number of instructions in APK: 542
+2019-19-28 19:19:53.430 [main] INFO  com.horndroid.analysis.Analysis - Number of instances in APK: 85
+2019-19-28 19:19:53.505 [main] INFO  com.horndroid.analysis.Analysis - Number of sources: 17
+2019-19-28 19:19:53.505 [main] INFO  com.horndroid.analysis.Analysis - Number of sinks: 8
+2019-19-28 19:19:53.505 [main] INFO  com.horndroid.analysis.Analysis - Number of classes : 18
+2019-19-28 19:19:53.505 [main] INFO  com.horndroid.analysis.Analysis - Number of methods: 24
+2019-19-28 19:19:53.505 [main] INFO  com.horndroid.analysis.Analysis - Number of instructions: 542
+2019-19-28 19:19:53.506 [main] INFO  com.horndroid.analysis.Analysis - Number of instances : 85
+2019-19-28 19:19:53.800 [main] ERROR com.horndroid.analysis.FSInstructionAnalysis - Wrong offset for the parameters in the unknown method call!
+2019-19-28 19:19:53.918 [main] DEBUG com.horndroid.executors.HorndroidExecutor - ...done in 490 milliseconds
+2019-19-28 19:19:53.919 [main] DEBUG com.horndroid.executors.HorndroidExecutor - Waiting for treads to terminate...
+2019-19-28 19:19:53.919 [main] DEBUG com.horndroid.executors.HorndroidExecutor - ...done in 0 milliseconds
+2019-19-28 19:19:53.919 [main] DEBUG com.horndroid.executors.HorndroidExecutor - Executing all queries...
+2019-19-28 19:19:53.920 [main] INFO  com.horndroid.z3.FSEngine - Number of the generated queries: 80
+2019-19-28 19:19:56.153 [main] INFO  com.horndroid.z3.FSEngine - 1 Test if register 1 leaks at line 21 in method onCreate(Landroid/os/Bundle;)V of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-19-28 19:19:58.938 [main] INFO  com.horndroid.z3.FSEngine - 2 [REF] Test if register 1 leaks at line 21 in method onCreate(Landroid/os/Bundle;)V of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-20-28 19:20:01.294 [main] INFO  com.horndroid.z3.FSEngine - 3 Test if register 0 leaks at line 21 in method onCreate(Landroid/os/Bundle;)V of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-20-28 19:20:03.641 [main] INFO  com.horndroid.z3.FSEngine - 4 [REF] Test if register 0 leaks at line 21 in method onCreate(Landroid/os/Bundle;)V of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-20-28 19:20:05.978 [main] INFO  com.horndroid.z3.FSEngine - 5 Test if register 1 leaks at line 28 in method onCreate(Landroid/os/Bundle;)V of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-20-28 19:20:08.312 [main] INFO  com.horndroid.z3.FSEngine - 6 [REF] Test if register 1 leaks at line 28 in method onCreate(Landroid/os/Bundle;)V of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-20-28 19:20:10.638 [main] INFO  com.horndroid.z3.FSEngine - 7 Test if register 0 leaks at line 28 in method onCreate(Landroid/os/Bundle;)V of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-20-28 19:20:12.967 [main] INFO  com.horndroid.z3.FSEngine - 8 [REF] Test if register 0 leaks at line 28 in method onCreate(Landroid/os/Bundle;)V of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-20-28 19:20:12.968 [main] INFO  com.horndroid.z3.FSEngine - 10% of queries handled
+2019-20-28 19:20:15.313 [main] INFO  com.horndroid.z3.FSEngine - 9 Test if register 1 leaks at line 35 in method onCreate(Landroid/os/Bundle;)V of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-20-28 19:20:17.647 [main] INFO  com.horndroid.z3.FSEngine - 10 [REF] Test if register 1 leaks at line 35 in method onCreate(Landroid/os/Bundle;)V of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-20-28 19:20:19.977 [main] INFO  com.horndroid.z3.FSEngine - 11 Test if register 0 leaks at line 35 in method onCreate(Landroid/os/Bundle;)V of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-20-28 19:20:22.327 [main] INFO  com.horndroid.z3.FSEngine - 12 [REF] Test if register 0 leaks at line 35 in method onCreate(Landroid/os/Bundle;)V of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-20-28 19:20:24.674 [main] INFO  com.horndroid.z3.FSEngine - 13 Test if register 1 leaks at line 42 in method onCreate(Landroid/os/Bundle;)V of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-20-28 19:20:27.026 [main] INFO  com.horndroid.z3.FSEngine - 14 [REF] Test if register 1 leaks at line 42 in method onCreate(Landroid/os/Bundle;)V of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-20-28 19:20:29.342 [main] INFO  com.horndroid.z3.FSEngine - 15 Test if register 0 leaks at line 42 in method onCreate(Landroid/os/Bundle;)V of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-20-28 19:20:31.702 [main] INFO  com.horndroid.z3.FSEngine - 16 [REF] Test if register 0 leaks at line 42 in method onCreate(Landroid/os/Bundle;)V of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-20-28 19:20:31.702 [main] INFO  com.horndroid.z3.FSEngine - 20% of queries handled
+2019-20-28 19:20:34.048 [main] INFO  com.horndroid.z3.FSEngine - 17 Test if register 1 leaks at line 20 in method interpretBMI(D)Ljava/lang/String; of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-20-28 19:20:36.389 [main] INFO  com.horndroid.z3.FSEngine - 18 [REF] Test if register 1 leaks at line 20 in method interpretBMI(D)Ljava/lang/String; of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-20-28 19:20:38.702 [main] INFO  com.horndroid.z3.FSEngine - 19 Test if register 0 leaks at line 20 in method interpretBMI(D)Ljava/lang/String; of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-20-28 19:20:41.051 [main] INFO  com.horndroid.z3.FSEngine - 20 [REF] Test if register 0 leaks at line 20 in method interpretBMI(D)Ljava/lang/String; of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-20-28 19:20:43.392 [main] INFO  com.horndroid.z3.FSEngine - 21 Test if register 1 leaks at line 27 in method interpretBMI(D)Ljava/lang/String; of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-20-28 19:20:45.740 [main] INFO  com.horndroid.z3.FSEngine - 22 [REF] Test if register 1 leaks at line 27 in method interpretBMI(D)Ljava/lang/String; of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-20-28 19:20:48.067 [main] INFO  com.horndroid.z3.FSEngine - 23 Test if register 0 leaks at line 27 in method interpretBMI(D)Ljava/lang/String; of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-20-28 19:20:50.416 [main] INFO  com.horndroid.z3.FSEngine - 24 [REF] Test if register 0 leaks at line 27 in method interpretBMI(D)Ljava/lang/String; of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-20-28 19:20:50.416 [main] INFO  com.horndroid.z3.FSEngine - 30% of queries handled
+2019-20-28 19:20:52.762 [main] INFO  com.horndroid.z3.FSEngine - 25 Test if register 1 leaks at line 34 in method interpretBMI(D)Ljava/lang/String; of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-20-28 19:20:55.101 [main] INFO  com.horndroid.z3.FSEngine - 26 [REF] Test if register 1 leaks at line 34 in method interpretBMI(D)Ljava/lang/String; of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-20-28 19:20:57.424 [main] INFO  com.horndroid.z3.FSEngine - 27 Test if register 0 leaks at line 34 in method interpretBMI(D)Ljava/lang/String; of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-20-28 19:20:59.770 [main] INFO  com.horndroid.z3.FSEngine - 28 [REF] Test if register 0 leaks at line 34 in method interpretBMI(D)Ljava/lang/String; of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-21-28 19:21:02.120 [main] INFO  com.horndroid.z3.FSEngine - 29 Test if register 1 leaks at line 41 in method interpretBMI(D)Ljava/lang/String; of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-21-28 19:21:04.470 [main] INFO  com.horndroid.z3.FSEngine - 30 [REF] Test if register 1 leaks at line 41 in method interpretBMI(D)Ljava/lang/String; of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-21-28 19:21:06.794 [main] INFO  com.horndroid.z3.FSEngine - 31 Test if register 0 leaks at line 41 in method interpretBMI(D)Ljava/lang/String; of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-21-28 19:21:09.144 [main] INFO  com.horndroid.z3.FSEngine - 32 [REF] Test if register 0 leaks at line 41 in method interpretBMI(D)Ljava/lang/String; of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-21-28 19:21:09.144 [main] INFO  com.horndroid.z3.FSEngine - 40% of queries handled
+2019-21-28 19:21:11.472 [main] INFO  com.horndroid.z3.FSEngine - 33 Test if register 19 leaks at line 26 in method calculateClickHandler(Landroid/view/View;)V of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-21-28 19:21:13.831 [main] INFO  com.horndroid.z3.FSEngine - 34 Test if register 20 leaks at line 26 in method calculateClickHandler(Landroid/view/View;)V of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-21-28 19:21:16.206 [main] INFO  com.horndroid.z3.FSEngine - 35 [REF] Test if register 19 leaks at line 26 in method calculateClickHandler(Landroid/view/View;)V of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-21-28 19:21:18.560 [main] INFO  com.horndroid.z3.FSEngine - 36 [REF] Test if register 20 leaks at line 26 in method calculateClickHandler(Landroid/view/View;)V of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-21-28 19:21:20.905 [main] INFO  com.horndroid.z3.FSEngine - 37 Test if register 19 leaks at line 37 in method calculateClickHandler(Landroid/view/View;)V of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-21-28 19:21:23.282 [main] INFO  com.horndroid.z3.FSEngine - 38 Test if register 20 leaks at line 37 in method calculateClickHandler(Landroid/view/View;)V of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-21-28 19:21:25.646 [main] INFO  com.horndroid.z3.FSEngine - 39 [REF] Test if register 19 leaks at line 37 in method calculateClickHandler(Landroid/view/View;)V of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-21-28 19:21:27.996 [main] INFO  com.horndroid.z3.FSEngine - 40 [REF] Test if register 20 leaks at line 37 in method calculateClickHandler(Landroid/view/View;)V of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-21-28 19:21:27.997 [main] INFO  com.horndroid.z3.FSEngine - 50% of queries handled
+2019-21-28 19:21:30.323 [main] INFO  com.horndroid.z3.FSEngine - 41 Test if register 19 leaks at line 48 in method calculateClickHandler(Landroid/view/View;)V of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-21-28 19:21:32.655 [main] INFO  com.horndroid.z3.FSEngine - 42 Test if register 20 leaks at line 48 in method calculateClickHandler(Landroid/view/View;)V of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-21-28 19:21:34.990 [main] INFO  com.horndroid.z3.FSEngine - 43 [REF] Test if register 19 leaks at line 48 in method calculateClickHandler(Landroid/view/View;)V of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-21-28 19:21:37.327 [main] INFO  com.horndroid.z3.FSEngine - 44 [REF] Test if register 20 leaks at line 48 in method calculateClickHandler(Landroid/view/View;)V of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-21-28 19:21:39.660 [main] INFO  com.horndroid.z3.FSEngine - 45 Test if register 19 leaks at line 59 in method calculateClickHandler(Landroid/view/View;)V of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-21-28 19:21:41.989 [main] INFO  com.horndroid.z3.FSEngine - 46 Test if register 20 leaks at line 59 in method calculateClickHandler(Landroid/view/View;)V of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-21-28 19:21:44.328 [main] INFO  com.horndroid.z3.FSEngine - 47 [REF] Test if register 19 leaks at line 59 in method calculateClickHandler(Landroid/view/View;)V of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-21-28 19:21:46.672 [main] INFO  com.horndroid.z3.FSEngine - 48 [REF] Test if register 20 leaks at line 59 in method calculateClickHandler(Landroid/view/View;)V of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-21-28 19:21:46.672 [main] INFO  com.horndroid.z3.FSEngine - 60% of queries handled
+2019-21-28 19:21:49.032 [main] INFO  com.horndroid.z3.FSEngine - 49 Test if register 1 leaks at line 23 in method calculateBMI(DD)D of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-21-28 19:21:51.374 [main] INFO  com.horndroid.z3.FSEngine - 50 [REF] Test if register 1 leaks at line 23 in method calculateBMI(DD)D of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-21-28 19:21:53.684 [main] INFO  com.horndroid.z3.FSEngine - 51 Test if register 0 leaks at line 23 in method calculateBMI(DD)D of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-21-28 19:21:56.362 [main] INFO  com.horndroid.z3.FSEngine - 52 [REF] Test if register 0 leaks at line 23 in method calculateBMI(DD)D of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-21-28 19:21:59.047 [main] INFO  com.horndroid.z3.FSEngine - 53 Test if register 1 leaks at line 30 in method calculateBMI(DD)D of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-22-28 19:22:01.596 [main] INFO  com.horndroid.z3.FSEngine - 54 [REF] Test if register 1 leaks at line 30 in method calculateBMI(DD)D of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-22-28 19:22:04.099 [main] INFO  com.horndroid.z3.FSEngine - 55 Test if register 0 leaks at line 30 in method calculateBMI(DD)D of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-22-28 19:22:06.623 [main] INFO  com.horndroid.z3.FSEngine - 56 [REF] Test if register 0 leaks at line 30 in method calculateBMI(DD)D of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-22-28 19:22:06.623 [main] INFO  com.horndroid.z3.FSEngine - 70% of queries handled
+2019-22-28 19:22:09.149 [main] INFO  com.horndroid.z3.FSEngine - 57 Test if register 1 leaks at line 37 in method calculateBMI(DD)D of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-22-28 19:22:11.662 [main] INFO  com.horndroid.z3.FSEngine - 58 [REF] Test if register 1 leaks at line 37 in method calculateBMI(DD)D of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-22-28 19:22:14.161 [main] INFO  com.horndroid.z3.FSEngine - 59 Test if register 0 leaks at line 37 in method calculateBMI(DD)D of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-22-28 19:22:16.668 [main] INFO  com.horndroid.z3.FSEngine - 60 [REF] Test if register 0 leaks at line 37 in method calculateBMI(DD)D of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-22-28 19:22:19.179 [main] INFO  com.horndroid.z3.FSEngine - 61 Test if register 1 leaks at line 44 in method calculateBMI(DD)D of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-22-28 19:22:21.675 [main] INFO  com.horndroid.z3.FSEngine - 62 [REF] Test if register 1 leaks at line 44 in method calculateBMI(DD)D of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-22-28 19:22:24.144 [main] INFO  com.horndroid.z3.FSEngine - 63 Test if register 0 leaks at line 44 in method calculateBMI(DD)D of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-22-28 19:22:26.604 [main] INFO  com.horndroid.z3.FSEngine - 64 [REF] Test if register 0 leaks at line 44 in method calculateBMI(DD)D of the class Lcom/zola/bmi/BMIMain; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-22-28 19:22:26.605 [main] INFO  com.horndroid.z3.FSEngine - 80% of queries handled
+2019-22-28 19:22:29.155 [main] INFO  com.horndroid.z3.FSEngine - 65 Test if register 1 leaks at line 29 in method <init>()V of the class Lcom/zola/bmi/BMIMain$PlaceholderFragment; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:POTENTIAL LEAK
+2019-22-28 19:22:31.486 [main] INFO  com.horndroid.z3.FSEngine - 66 [REF] Test if register 1 leaks at line 29 in method <init>()V of the class Lcom/zola/bmi/BMIMain$PlaceholderFragment; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:POTENTIAL LEAK
+2019-22-28 19:22:33.738 [main] INFO  com.horndroid.z3.FSEngine - 67 Test if register 0 leaks at line 29 in method <init>()V of the class Lcom/zola/bmi/BMIMain$PlaceholderFragment; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-22-28 19:22:36.088 [main] INFO  com.horndroid.z3.FSEngine - 68 [REF] Test if register 0 leaks at line 29 in method <init>()V of the class Lcom/zola/bmi/BMIMain$PlaceholderFragment; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:POTENTIAL LEAK
+2019-22-28 19:22:38.583 [main] INFO  com.horndroid.z3.FSEngine - 69 Test if register 1 leaks at line 36 in method <init>()V of the class Lcom/zola/bmi/BMIMain$PlaceholderFragment; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:POTENTIAL LEAK
+2019-22-28 19:22:41.113 [main] INFO  com.horndroid.z3.FSEngine - 70 [REF] Test if register 1 leaks at line 36 in method <init>()V of the class Lcom/zola/bmi/BMIMain$PlaceholderFragment; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:POTENTIAL LEAK
+2019-22-28 19:22:43.513 [main] INFO  com.horndroid.z3.FSEngine - 71 Test if register 0 leaks at line 36 in method <init>()V of the class Lcom/zola/bmi/BMIMain$PlaceholderFragment; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-22-28 19:22:46.178 [main] INFO  com.horndroid.z3.FSEngine - 72 [REF] Test if register 0 leaks at line 36 in method <init>()V of the class Lcom/zola/bmi/BMIMain$PlaceholderFragment; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:POTENTIAL LEAK
+2019-22-28 19:22:46.178 [main] INFO  com.horndroid.z3.FSEngine - 90% of queries handled
+2019-22-28 19:22:48.607 [main] INFO  com.horndroid.z3.FSEngine - 73 Test if register 2 leaks at line 18 in method onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View; of the class Lcom/zola/bmi/BMIMain$PlaceholderFragment; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-22-28 19:22:51.045 [main] INFO  com.horndroid.z3.FSEngine - 74 [REF] Test if register 2 leaks at line 18 in method onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View; of the class Lcom/zola/bmi/BMIMain$PlaceholderFragment; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-22-28 19:22:53.461 [main] INFO  com.horndroid.z3.FSEngine - 75 Test if register 1 leaks at line 18 in method onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View; of the class Lcom/zola/bmi/BMIMain$PlaceholderFragment; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-22-28 19:22:55.900 [main] INFO  com.horndroid.z3.FSEngine - 76 [REF] Test if register 1 leaks at line 18 in method onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View; of the class Lcom/zola/bmi/BMIMain$PlaceholderFragment; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-22-28 19:22:58.343 [main] INFO  com.horndroid.z3.FSEngine - 77 Test if register 2 leaks at line 25 in method onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View; of the class Lcom/zola/bmi/BMIMain$PlaceholderFragment; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-23-28 19:23:00.785 [main] INFO  com.horndroid.z3.FSEngine - 78 [REF] Test if register 2 leaks at line 25 in method onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View; of the class Lcom/zola/bmi/BMIMain$PlaceholderFragment; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-23-28 19:23:03.191 [main] INFO  com.horndroid.z3.FSEngine - 79 Test if register 1 leaks at line 25 in method onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View; of the class Lcom/zola/bmi/BMIMain$PlaceholderFragment; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-23-28 19:23:05.628 [main] INFO  com.horndroid.z3.FSEngine - 80 [REF] Test if register 1 leaks at line 25 in method onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View; of the class Lcom/zola/bmi/BMIMain$PlaceholderFragment; to the sink d(Ljava/lang/String;Ljava/lang/String;)I:NO LEAK
+2019-23-28 19:23:05.628 [main] INFO  com.horndroid.z3.FSEngine - 100% of queries handled
+2019-23-28 19:23:05.629 [main] DEBUG com.horndroid.executors.HorndroidExecutor - ...done in 191709 milliseconds
