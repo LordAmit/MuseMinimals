@@ -1,0 +1,96 @@
+record `com.example.variantroute.MainActivity` @kind class @AccessFlag PUBLIC extends `android.support.v7.app.AppCompatActivity` @kind class {
+  `java.lang.String` `com.example.variantroute.MainActivity.dataLeAk1` @AccessFlag ;
+  `int` `com.example.variantroute.MainActivity.i` @AccessFlag ;
+}
+procedure `void` `<init>`(`com.example.variantroute.MainActivity` v1 @kind this) @signature `Lcom/example/variantroute/MainActivity;.<init>:()V` @AccessFlag PUBLIC_CONSTRUCTOR {
+    temp;
+    v0;
+
+  #L1501d0.  call `<init>`(v1) @signature `Landroid/support/v7/app/AppCompatActivity;.<init>:()V` @kind direct;
+  #L1501d6.  v0:= 0I;
+  #L1501d8.  v1.`com.example.variantroute.MainActivity.i` @type ^`int` := v0;
+  #L1501dc.  v0:= "0" @kind object;
+  #L1501e2.  v1.`com.example.variantroute.MainActivity.dataLeAk1` @type ^`java.lang.String` := v0 @kind object;
+  #L1501e6.  return @kind void;
+}
+procedure `java.lang.String` `generateString`(`com.example.variantroute.MainActivity` v3 @kind this) @signature `Lcom/example/variantroute/MainActivity;.generateString:()Ljava/lang/String;` @AccessFlag PRIVATE {
+    temp;
+    v0;
+    v1;
+    v2;
+
+  #L1501f8.  v1:= new `java.lang.StringBuilder`;
+  #L1501fc.  call `<init>`(v1) @signature `Ljava/lang/StringBuilder;.<init>:()V` @kind direct;
+  #L150202.  v2:= "Counter: " @kind object;
+  #L150208.  call temp:= `append`(v1, v2) @signature `Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;` @kind virtual;
+  #L15020e.  v1:= temp @kind object;
+  #L150210.  v2:= v3.`com.example.variantroute.MainActivity.i` @type ^`int`;
+  #L150214.  call temp:= `append`(v1, v2) @signature `Ljava/lang/StringBuilder;.append:(I)Ljava/lang/StringBuilder;` @kind virtual;
+  #L15021a.  v1:= temp @kind object;
+  #L15021c.  call temp:= `toString`(v1) @signature `Ljava/lang/StringBuilder;.toString:()Ljava/lang/String;` @kind virtual;
+  #L150222.  v0:= temp @kind object;
+  #L150224.  v1:= v3.`com.example.variantroute.MainActivity.i` @type ^`int`;
+  #L150228.  v1:= v1 + 1;
+  #L15022c.  v3.`com.example.variantroute.MainActivity.i` @type ^`int` := v1;
+  #L150230.  return v0 @kind object;
+}
+procedure `void` `button1Clicked`(`com.example.variantroute.MainActivity` v3 @kind this, `android.view.View` v4 @kind object @name `view`) @signature `Lcom/example/variantroute/MainActivity;.button1Clicked:(Landroid/view/View;)V` @AccessFlag PUBLIC {
+    temp;
+    v0;
+    v1;
+    v2;
+
+  #L150244.  call temp:= `getInstance`() @signature `Ljava/util/Calendar;.getInstance:()Ljava/util/Calendar;` @kind static;
+  #L15024a.  v1:= temp @kind object;
+  #L15024c.  call temp:= `getTimeZone`(v1) @signature `Ljava/util/Calendar;.getTimeZone:()Ljava/util/TimeZone;` @kind virtual;
+  #L150252.  v1:= temp @kind object;
+  #L150254.  call temp:= `getDisplayName`(v1) @signature `Ljava/util/TimeZone;.getDisplayName:()Ljava/lang/String;` @kind virtual;
+  #L15025a.  v1:= temp @kind object;
+  #L15025c.  v3.`com.example.variantroute.MainActivity.dataLeAk1` @type ^`java.lang.String` := v1 @kind object;
+  #L150260.  v1:= "leak-1-0" @kind object;
+  #L150266.  v2:= v3.`com.example.variantroute.MainActivity.dataLeAk1` @type ^`java.lang.String` @kind object;
+  #L15026a.  call temp:= `d`(v1, v2) @signature `Landroid/util/Log;.d:(Ljava/lang/String;Ljava/lang/String;)I` @kind static;
+  #L150270.  v1:= 2131165297I;
+  #L150276.  call temp:= `findViewById`(v3, v1) @signature `Lcom/example/variantroute/MainActivity;.findViewById:(I)Landroid/view/View;` @kind virtual;
+  #L15027c.  v0:= temp @kind object;
+  #L15027e.  v0:= (`android.widget.TextView`) v0 @kind object;
+  #L150282.  call temp:= `generateString`(v3) @signature `Lcom/example/variantroute/MainActivity;.generateString:()Ljava/lang/String;` @kind direct;
+  #L150288.  v1:= temp @kind object;
+  #L15028a.  call `setText`(v0, v1) @signature `Landroid/widget/TextView;.setText:(Ljava/lang/CharSequence;)V` @kind virtual;
+  #L150290.  return @kind void;
+}
+procedure `void` `button2Clicked`(`com.example.variantroute.MainActivity` v2 @kind this, `android.view.View` v3 @kind object @name `view`) @signature `Lcom/example/variantroute/MainActivity;.button2Clicked:(Landroid/view/View;)V` @AccessFlag PUBLIC {
+    temp;
+    v0;
+    v1;
+
+  #L1502a4.  v1:= 2131165297I;
+  #L1502aa.  call temp:= `findViewById`(v2, v1) @signature `Lcom/example/variantroute/MainActivity;.findViewById:(I)Landroid/view/View;` @kind virtual;
+  #L1502b0.  v0:= temp @kind object;
+  #L1502b2.  v0:= (`android.widget.TextView`) v0 @kind object;
+  #L1502b6.  call temp:= `generateString`(v2) @signature `Lcom/example/variantroute/MainActivity;.generateString:()Ljava/lang/String;` @kind direct;
+  #L1502bc.  v1:= temp @kind object;
+  #L1502be.  call `setText`(v0, v1) @signature `Landroid/widget/TextView;.setText:(Ljava/lang/CharSequence;)V` @kind virtual;
+  #L1502c4.  return @kind void;
+}
+procedure `void` `onCreate`(`com.example.variantroute.MainActivity` v3 @kind this, `android.os.Bundle` v4 @kind object @name `savedInstanceState`) @signature `Lcom/example/variantroute/MainActivity;.onCreate:(Landroid/os/Bundle;)V` @AccessFlag PROTECTED {
+    temp;
+    v0;
+    v1;
+    v2;
+
+  #L1502d8.  call `onCreate`(v3, v4) @signature `Landroid/support/v7/app/AppCompatActivity;.onCreate:(Landroid/os/Bundle;)V` @kind super;
+  #L1502de.  v0:= 2131296283I;
+  #L1502e4.  call `setContentView`(v3, v0) @signature `Lcom/example/variantroute/MainActivity;.setContentView:(I)V` @kind virtual;
+  #L1502ea.  call temp:= `getSupportFragmentManager`(v3) @signature `Lcom/example/variantroute/MainActivity;.getSupportFragmentManager:()Landroid/support/v4/app/FragmentManager;` @kind virtual;
+  #L1502f0.  v0:= temp @kind object;
+  #L1502f2.  call temp:= `beginTransaction`(v0) @signature `Landroid/support/v4/app/FragmentManager;.beginTransaction:()Landroid/support/v4/app/FragmentTransaction;` @kind virtual;
+  #L1502f8.  v0:= temp @kind object;
+  #L1502fa.  v1:= 2131165224I;
+  #L150300.  v2:= new `com.example.variantroute.MainActivity$SimpleFragment`;
+  #L150304.  call `<init>`(v2) @signature `Lcom/example/variantroute/MainActivity$SimpleFragment;.<init>:()V` @kind direct;
+  #L15030a.  call temp:= `add`(v0, v1, v2) @signature `Landroid/support/v4/app/FragmentTransaction;.add:(ILandroid/support/v4/app/Fragment;)Landroid/support/v4/app/FragmentTransaction;` @kind virtual;
+  #L150310.  v0:= temp @kind object;
+  #L150312.  call temp:= `commit`(v0) @signature `Landroid/support/v4/app/FragmentTransaction;.commit:()I` @kind virtual;
+  #L150318.  return @kind void;
+}

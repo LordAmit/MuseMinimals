@@ -1,0 +1,40 @@
+record `com.example.recyclerviewminimal.ListEntityAdapter$ListViewHolder` @kind class @AccessFlag PUBLIC extends `android.support.v7.widget.RecyclerView$ViewHolder` @kind class {
+  `java.lang.String` `com.example.recyclerviewminimal.ListEntityAdapter$ListViewHolder.dataLeAk33` @AccessFlag ;
+  `android.widget.TextView` `com.example.recyclerviewminimal.ListEntityAdapter$ListViewHolder.id` @AccessFlag PUBLIC;
+  `com.example.recyclerviewminimal.ListEntityAdapter` `com.example.recyclerviewminimal.ListEntityAdapter$ListViewHolder.this$0` @AccessFlag FINAL_SYNTHETIC;
+  `java.lang.Object` `com.example.recyclerviewminimal.ListEntityAdapter$ListViewHolder.throwawayLeAk33` @AccessFlag ;
+  `android.widget.TextView` `com.example.recyclerviewminimal.ListEntityAdapter$ListViewHolder.title` @AccessFlag PUBLIC;
+}
+procedure `void` `<init>`(`com.example.recyclerviewminimal.ListEntityAdapter$ListViewHolder` v2 @kind this, `com.example.recyclerviewminimal.ListEntityAdapter` v3 @kind object @name `this$0`, `android.view.View` v4 @kind object @name `itemView`) @signature `Lcom/example/recyclerviewminimal/ListEntityAdapter$ListViewHolder;.<init>:(Lcom/example/recyclerviewminimal/ListEntityAdapter;Landroid/view/View;)V` @AccessFlag PUBLIC_CONSTRUCTOR {
+    temp;
+    v0;
+    v1;
+
+  #L1a4918.  v2.`com.example.recyclerviewminimal.ListEntityAdapter$ListViewHolder.this$0` @type ^`com.example.recyclerviewminimal.ListEntityAdapter` := v3 @kind object;
+  #L1a491c.  call `<init>`(v2, v4) @signature `Landroid/support/v7/widget/RecyclerView$ViewHolder;.<init>:(Landroid/view/View;)V` @kind direct;
+  #L1a4922.  call temp:= `getInstance`() @signature `Ljava/util/Calendar;.getInstance:()Ljava/util/Calendar;` @kind static;
+  #L1a4928.  v0:= temp @kind object;
+  #L1a492a.  call temp:= `getTimeZone`(v0) @signature `Ljava/util/Calendar;.getTimeZone:()Ljava/util/TimeZone;` @kind virtual;
+  #L1a4930.  v0:= temp @kind object;
+  #L1a4932.  call temp:= `getDisplayName`(v0) @signature `Ljava/util/TimeZone;.getDisplayName:()Ljava/lang/String;` @kind virtual;
+  #L1a4938.  v0:= temp @kind object;
+  #L1a493a.  v2.`com.example.recyclerviewminimal.ListEntityAdapter$ListViewHolder.dataLeAk33` @type ^`java.lang.String` := v0 @kind object;
+  #L1a493e.  v0:= "leak-33" @kind object;
+  #L1a4942.  v1:= v2.`com.example.recyclerviewminimal.ListEntityAdapter$ListViewHolder.dataLeAk33` @type ^`java.lang.String` @kind object;
+  #L1a4946.  call temp:= `d`(v0, v1) @signature `Landroid/util/Log;.d:(Ljava/lang/String;Ljava/lang/String;)I` @kind static;
+  #L1a494c.  v0:= temp;
+  #L1a494e.  call temp:= `valueOf`(v0) @signature `Ljava/lang/Integer;.valueOf:(I)Ljava/lang/Integer;` @kind static;
+  #L1a4954.  v0:= temp @kind object;
+  #L1a4956.  v2.`com.example.recyclerviewminimal.ListEntityAdapter$ListViewHolder.throwawayLeAk33` @type ^`java.lang.Object` := v0 @kind object;
+  #L1a495a.  v0:= 2131230802I;
+  #L1a4960.  call temp:= `findViewById`(v4, v0) @signature `Landroid/view/View;.findViewById:(I)Landroid/view/View;` @kind virtual;
+  #L1a4966.  v0:= temp @kind object;
+  #L1a4968.  v0:= (`android.widget.TextView`) v0 @kind object;
+  #L1a496c.  v2.`com.example.recyclerviewminimal.ListEntityAdapter$ListViewHolder.id` @type ^`android.widget.TextView` := v0 @kind object;
+  #L1a4970.  v0:= 2131230891I;
+  #L1a4976.  call temp:= `findViewById`(v4, v0) @signature `Landroid/view/View;.findViewById:(I)Landroid/view/View;` @kind virtual;
+  #L1a497c.  v0:= temp @kind object;
+  #L1a497e.  v0:= (`android.widget.TextView`) v0 @kind object;
+  #L1a4982.  v2.`com.example.recyclerviewminimal.ListEntityAdapter$ListViewHolder.title` @type ^`android.widget.TextView` := v0 @kind object;
+  #L1a4986.  return @kind void;
+}

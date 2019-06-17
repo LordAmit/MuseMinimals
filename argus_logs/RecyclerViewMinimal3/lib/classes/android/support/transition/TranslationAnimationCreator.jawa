@@ -1,0 +1,10 @@
+record `android.support.transition.TranslationAnimationCreator` @kind class @AccessFlag  {
+}
+procedure `void` `<init>`(`android.support.transition.TranslationAnimationCreator` v0 @kind this) @signature `Landroid/support/transition/TranslationAnimationCreator;.<init>:()V` @AccessFlag CONSTRUCTOR {
+
+  # return;
+}
+procedure `android.animation.Animator` `createAnimation`(`android.view.View` v19 @kind object @name `view`, `android.support.transition.TransitionValues` v20 @kind object @name `values`, `int` v21 @name `viewPosX`, `int` v22 @name `viewPosY`, `float` v23 @name `startX`, `float` v24 @name `startY`, `float` v25 @name `endX`, `float` v26 @name `endY`, `android.animation.TimeInterpolator` v27 @kind object @name `interpolator`) @signature `Landroid/support/transition/TranslationAnimationCreator;.createAnimation:(Landroid/view/View;Landroid/support/transition/TransitionValues;IIFFFFLandroid/animation/TimeInterpolator;)Landroid/animation/Animator;` @AccessFlag STATIC {
+
+  # return;
+}

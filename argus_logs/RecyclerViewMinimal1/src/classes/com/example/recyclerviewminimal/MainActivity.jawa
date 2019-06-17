@@ -1,0 +1,120 @@
+record `com.example.recyclerviewminimal.MainActivity` @kind class @AccessFlag PUBLIC extends `android.support.v7.app.AppCompatActivity` @kind class {
+  `java.util.List` `com.example.recyclerviewminimal.MainActivity.entitiesList` @AccessFlag PRIVATE;
+  `com.example.recyclerviewminimal.ListEntityAdapter` `com.example.recyclerviewminimal.MainActivity.listAdapter` @AccessFlag PRIVATE;
+  `android.support.v7.widget.RecyclerView` `com.example.recyclerviewminimal.MainActivity.recyclerView` @AccessFlag PRIVATE;
+}
+procedure `void` `<init>`(`com.example.recyclerviewminimal.MainActivity` v1 @kind this) @signature `Lcom/example/recyclerviewminimal/MainActivity;.<init>:()V` @AccessFlag PUBLIC_CONSTRUCTOR {
+    temp;
+    v0;
+
+  #L1a4be0.  call `<init>`(v1) @signature `Landroid/support/v7/app/AppCompatActivity;.<init>:()V` @kind direct;
+  #L1a4be6.  v0:= new `java.util.ArrayList`;
+  #L1a4bea.  call `<init>`(v0) @signature `Ljava/util/ArrayList;.<init>:()V` @kind direct;
+  #L1a4bf0.  v1.`com.example.recyclerviewminimal.MainActivity.entitiesList` @type ^`java.util.List` := v0 @kind object;
+  #L1a4bf4.  return @kind void;
+}
+procedure `java.util.List` `access$000`(`com.example.recyclerviewminimal.MainActivity` v1 @kind object @name `x0`) @signature `Lcom/example/recyclerviewminimal/MainActivity;.access$000:(Lcom/example/recyclerviewminimal/MainActivity;)Ljava/util/List;` @AccessFlag STATIC_SYNTHETIC {
+    temp;
+    v0;
+
+  #L1a4bc8.  v0:= v1.`com.example.recyclerviewminimal.MainActivity.entitiesList` @type ^`java.util.List` @kind object;
+  #L1a4bcc.  return v0 @kind object;
+}
+procedure `void` `prepareEntitiesData`(`com.example.recyclerviewminimal.MainActivity` v4 @kind this) @signature `Lcom/example/recyclerviewminimal/MainActivity;.prepareEntitiesData:()V` @AccessFlag PRIVATE {
+    temp;
+    v0;
+    v1;
+    v2;
+    v3;
+
+  #L1a4ce4.  v0:= new `com.example.recyclerviewminimal.ListEntity`;
+  #L1a4ce8.  v1:= "A" @kind object;
+  #L1a4cec.  v2:= "1" @kind object;
+  #L1a4cf0.  call `<init>`(v0, v1, v2) @signature `Lcom/example/recyclerviewminimal/ListEntity;.<init>:(Ljava/lang/String;Ljava/lang/String;)V` @kind direct;
+  #L1a4cf6.  v1:= v4.`com.example.recyclerviewminimal.MainActivity.entitiesList` @type ^`java.util.List` @kind object;
+  #L1a4cfa.  call temp:= `add`(v1, v0) @signature `Ljava/util/List;.add:(Ljava/lang/Object;)Z` @kind interface;
+  #L1a4d00.  v1:= new `com.example.recyclerviewminimal.ListEntity`;
+  #L1a4d04.  v2:= "B" @kind object;
+  #L1a4d08.  v3:= "2" @kind object;
+  #L1a4d0c.  call `<init>`(v1, v2, v3) @signature `Lcom/example/recyclerviewminimal/ListEntity;.<init>:(Ljava/lang/String;Ljava/lang/String;)V` @kind direct;
+  #L1a4d12.  v0:= v1 @kind object;
+  #L1a4d14.  v1:= v4.`com.example.recyclerviewminimal.MainActivity.entitiesList` @type ^`java.util.List` @kind object;
+  #L1a4d18.  call temp:= `add`(v1, v0) @signature `Ljava/util/List;.add:(Ljava/lang/Object;)Z` @kind interface;
+  #L1a4d1e.  v1:= new `com.example.recyclerviewminimal.ListEntity`;
+  #L1a4d22.  v2:= "C" @kind object;
+  #L1a4d26.  v3:= "3" @kind object;
+  #L1a4d2a.  call `<init>`(v1, v2, v3) @signature `Lcom/example/recyclerviewminimal/ListEntity;.<init>:(Ljava/lang/String;Ljava/lang/String;)V` @kind direct;
+  #L1a4d30.  v0:= v1 @kind object;
+  #L1a4d32.  v1:= v4.`com.example.recyclerviewminimal.MainActivity.entitiesList` @type ^`java.util.List` @kind object;
+  #L1a4d36.  call temp:= `add`(v1, v0) @signature `Ljava/util/List;.add:(Ljava/lang/Object;)Z` @kind interface;
+  #L1a4d3c.  v1:= new `com.example.recyclerviewminimal.ListEntity`;
+  #L1a4d40.  v2:= "D" @kind object;
+  #L1a4d44.  v3:= "4" @kind object;
+  #L1a4d48.  call `<init>`(v1, v2, v3) @signature `Lcom/example/recyclerviewminimal/ListEntity;.<init>:(Ljava/lang/String;Ljava/lang/String;)V` @kind direct;
+  #L1a4d4e.  v0:= v1 @kind object;
+  #L1a4d50.  v1:= v4.`com.example.recyclerviewminimal.MainActivity.entitiesList` @type ^`java.util.List` @kind object;
+  #L1a4d54.  call temp:= `add`(v1, v0) @signature `Ljava/util/List;.add:(Ljava/lang/Object;)Z` @kind interface;
+  #L1a4d5a.  v1:= new `com.example.recyclerviewminimal.ListEntity`;
+  #L1a4d5e.  v2:= "E" @kind object;
+  #L1a4d62.  v3:= "5" @kind object;
+  #L1a4d66.  call `<init>`(v1, v2, v3) @signature `Lcom/example/recyclerviewminimal/ListEntity;.<init>:(Ljava/lang/String;Ljava/lang/String;)V` @kind direct;
+  #L1a4d6c.  v0:= v1 @kind object;
+  #L1a4d6e.  v1:= v4.`com.example.recyclerviewminimal.MainActivity.entitiesList` @type ^`java.util.List` @kind object;
+  #L1a4d72.  call temp:= `add`(v1, v0) @signature `Ljava/util/List;.add:(Ljava/lang/Object;)Z` @kind interface;
+  #L1a4d78.  v1:= v4.`com.example.recyclerviewminimal.MainActivity.listAdapter` @type ^`com.example.recyclerviewminimal.ListEntityAdapter` @kind object;
+  #L1a4d7c.  call `notifyDataSetChanged`(v1) @signature `Lcom/example/recyclerviewminimal/ListEntityAdapter;.notifyDataSetChanged:()V` @kind virtual;
+  #L1a4d82.  return @kind void;
+}
+procedure `void` `onCreate`(`com.example.recyclerviewminimal.MainActivity` v6 @kind this, `android.os.Bundle` v7 @kind object @name `savedInstanceState`) @signature `Lcom/example/recyclerviewminimal/MainActivity;.onCreate:(Landroid/os/Bundle;)V` @AccessFlag PROTECTED {
+    temp;
+    v0;
+    v1;
+    v2;
+    v3;
+    v4;
+    v5;
+
+  #L1a4c08.  call `onCreate`(v6, v7) @signature `Landroid/support/v7/app/AppCompatActivity;.onCreate:(Landroid/os/Bundle;)V` @kind super;
+  #L1a4c0e.  v0:= 2131361819I;
+  #L1a4c14.  call `setContentView`(v6, v0) @signature `Lcom/example/recyclerviewminimal/MainActivity;.setContentView:(I)V` @kind virtual;
+  #L1a4c1a.  v0:= 2131230838I;
+  #L1a4c20.  call temp:= `findViewById`(v6, v0) @signature `Lcom/example/recyclerviewminimal/MainActivity;.findViewById:(I)Landroid/view/View;` @kind virtual;
+  #L1a4c26.  v0:= temp @kind object;
+  #L1a4c28.  v0:= (`android.support.v7.widget.RecyclerView`) v0 @kind object;
+  #L1a4c2c.  v6.`com.example.recyclerviewminimal.MainActivity.recyclerView` @type ^`android.support.v7.widget.RecyclerView` := v0 @kind object;
+  #L1a4c30.  v0:= new `com.example.recyclerviewminimal.ListEntityAdapter`;
+  #L1a4c34.  v1:= v6.`com.example.recyclerviewminimal.MainActivity.entitiesList` @type ^`java.util.List` @kind object;
+  #L1a4c38.  call `<init>`(v0, v1) @signature `Lcom/example/recyclerviewminimal/ListEntityAdapter;.<init>:(Ljava/util/List;)V` @kind direct;
+  #L1a4c3e.  v6.`com.example.recyclerviewminimal.MainActivity.listAdapter` @type ^`com.example.recyclerviewminimal.ListEntityAdapter` := v0 @kind object;
+  #L1a4c42.  v0:= v6.`com.example.recyclerviewminimal.MainActivity.recyclerView` @type ^`android.support.v7.widget.RecyclerView` @kind object;
+  #L1a4c46.  v1:= 1I;
+  #L1a4c48.  call `setHasFixedSize`(v0, v1) @signature `Landroid/support/v7/widget/RecyclerView;.setHasFixedSize:(Z)V` @kind virtual;
+  #L1a4c4e.  v0:= new `android.support.v7.widget.LinearLayoutManager`;
+  #L1a4c52.  call temp:= `getApplicationContext`(v6) @signature `Lcom/example/recyclerviewminimal/MainActivity;.getApplicationContext:()Landroid/content/Context;` @kind virtual;
+  #L1a4c58.  v2:= temp @kind object;
+  #L1a4c5a.  call `<init>`(v0, v2) @signature `Landroid/support/v7/widget/LinearLayoutManager;.<init>:(Landroid/content/Context;)V` @kind direct;
+  #L1a4c60.  v2:= v6.`com.example.recyclerviewminimal.MainActivity.recyclerView` @type ^`android.support.v7.widget.RecyclerView` @kind object;
+  #L1a4c64.  call `setLayoutManager`(v2, v0) @signature `Landroid/support/v7/widget/RecyclerView;.setLayoutManager:(Landroid/support/v7/widget/RecyclerView$LayoutManager;)V` @kind virtual;
+  #L1a4c6a.  v2:= v6.`com.example.recyclerviewminimal.MainActivity.recyclerView` @type ^`android.support.v7.widget.RecyclerView` @kind object;
+  #L1a4c6e.  v3:= new `android.support.v7.widget.DividerItemDecoration`;
+  #L1a4c72.  call `<init>`(v3, v6, v1) @signature `Landroid/support/v7/widget/DividerItemDecoration;.<init>:(Landroid/content/Context;I)V` @kind direct;
+  #L1a4c78.  call `addItemDecoration`(v2, v3) @signature `Landroid/support/v7/widget/RecyclerView;.addItemDecoration:(Landroid/support/v7/widget/RecyclerView$ItemDecoration;)V` @kind virtual;
+  #L1a4c7e.  v1:= v6.`com.example.recyclerviewminimal.MainActivity.recyclerView` @type ^`android.support.v7.widget.RecyclerView` @kind object;
+  #L1a4c82.  v2:= new `android.support.v7.widget.DefaultItemAnimator`;
+  #L1a4c86.  call `<init>`(v2) @signature `Landroid/support/v7/widget/DefaultItemAnimator;.<init>:()V` @kind direct;
+  #L1a4c8c.  call `setItemAnimator`(v1, v2) @signature `Landroid/support/v7/widget/RecyclerView;.setItemAnimator:(Landroid/support/v7/widget/RecyclerView$ItemAnimator;)V` @kind virtual;
+  #L1a4c92.  v1:= v6.`com.example.recyclerviewminimal.MainActivity.recyclerView` @type ^`android.support.v7.widget.RecyclerView` @kind object;
+  #L1a4c96.  v2:= v6.`com.example.recyclerviewminimal.MainActivity.listAdapter` @type ^`com.example.recyclerviewminimal.ListEntityAdapter` @kind object;
+  #L1a4c9a.  call `setAdapter`(v1, v2) @signature `Landroid/support/v7/widget/RecyclerView;.setAdapter:(Landroid/support/v7/widget/RecyclerView$Adapter;)V` @kind virtual;
+  #L1a4ca0.  v1:= v6.`com.example.recyclerviewminimal.MainActivity.recyclerView` @type ^`android.support.v7.widget.RecyclerView` @kind object;
+  #L1a4ca4.  v2:= new `com.example.recyclerviewminimal.RecyclerTouchListener`;
+  #L1a4ca8.  call temp:= `getApplicationContext`(v6) @signature `Lcom/example/recyclerviewminimal/MainActivity;.getApplicationContext:()Landroid/content/Context;` @kind virtual;
+  #L1a4cae.  v3:= temp @kind object;
+  #L1a4cb0.  v4:= v6.`com.example.recyclerviewminimal.MainActivity.recyclerView` @type ^`android.support.v7.widget.RecyclerView` @kind object;
+  #L1a4cb4.  v5:= new `com.example.recyclerviewminimal.MainActivity$1`;
+  #L1a4cb8.  call `<init>`(v5, v6) @signature `Lcom/example/recyclerviewminimal/MainActivity$1;.<init>:(Lcom/example/recyclerviewminimal/MainActivity;)V` @kind direct;
+  #L1a4cbe.  call `<init>`(v2, v3, v4, v5) @signature `Lcom/example/recyclerviewminimal/RecyclerTouchListener;.<init>:(Landroid/content/Context;Landroid/support/v7/widget/RecyclerView;Lcom/example/recyclerviewminimal/RecyclerTouchListener$ClickListener;)V` @kind direct;
+  #L1a4cc4.  call `addOnItemTouchListener`(v1, v2) @signature `Landroid/support/v7/widget/RecyclerView;.addOnItemTouchListener:(Landroid/support/v7/widget/RecyclerView$OnItemTouchListener;)V` @kind virtual;
+  #L1a4cca.  call `prepareEntitiesData`(v6) @signature `Lcom/example/recyclerviewminimal/MainActivity;.prepareEntitiesData:()V` @kind direct;
+  #L1a4cd0.  return @kind void;
+}

@@ -1,0 +1,28 @@
+Application Name: VariantRoute1Subtype-debug.apk
+Uses Permissions: 
+
+Component com.example.variantroute.MainActivity
+  Component type: activity
+  Exported: true
+  Dynamic Registered: false
+  Required Permission: 
+  IntentFilters:
+    IntentFilter:(Actions:["android.intent.action.MAIN"],Categories:["android.intent.category.LAUNCHER"])
+
+  Inter-component communication (ICC) Result:
+
+
+
+Taint analysis result:
+  Sources found:
+    <Descriptors: api_source: Ljava/util/Calendar;.getTimeZone:()Ljava/util/TimeZone;>
+  Sinks found:
+    <Descriptors: api_sink: Landroid/util/Log;.d:(Ljava/lang/String;Ljava/lang/String;)I 1>
+    <Descriptors: api_sink: Landroid/util/Log;.d:(Ljava/lang/String;Ljava/lang/String;)I 0>
+  Discovered taint paths are listed below:
+    TaintPath:
+      Source: <Descriptors: api_source: Ljava/util/Calendar;.getTimeZone:()Ljava/util/TimeZone;>
+      Sink: <Descriptors: api_sink: Landroid/util/Log;.d:(Ljava/lang/String;Ljava/lang/String;)I 1>
+      Types: maliciousness:information_theft
+      The path consists of the following edges ("->"). The nodes have the context information (p1 to pn means which parameter). The source is at the top :
+        List(Call@(MainActivity.onCreate,L1502ce)(MainActivity.envMain,L9), Call@(SimpleFragment.onCreateView,L13b7ce)(MainActivity.envMain,L14) param: 1)

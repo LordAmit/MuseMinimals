@@ -1,0 +1,23 @@
+record `com.example.variantroute.MainActivity$SimpleFragment` @kind class @AccessFlag PUBLIC extends `android.support.v4.app.Fragment` @kind class {
+}
+procedure `void` `<init>`(`com.example.variantroute.MainActivity$SimpleFragment` v0 @kind this) @signature `Lcom/example/variantroute/MainActivity$SimpleFragment;.<init>:()V` @AccessFlag PUBLIC_CONSTRUCTOR {
+    temp;
+
+  #L13b7ac.  call `<init>`(v0) @signature `Landroid/support/v4/app/Fragment;.<init>:()V` @kind direct;
+  #L13b7b2.  return @kind void;
+}
+procedure `android.view.View` `onCreateView`(`com.example.variantroute.MainActivity$SimpleFragment` v3 @kind this, `android.view.LayoutInflater` v4 @kind object @name `inflater`, `android.view.ViewGroup` v5 @kind object @name `container`, `android.os.Bundle` v6 @kind object @name `savedInstanceState`) @signature `Lcom/example/variantroute/MainActivity$SimpleFragment;.onCreateView:(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;` @AccessFlag PUBLIC {
+    temp;
+    v0;
+    v1;
+    v2;
+
+  #L13b7c4.  v1:= "leak-0-1" @kind object;
+  #L13b7ca.  v2:= `@@com.example.variantroute.MainActivity.dataLeAk0` @type ^`java.lang.String` @kind object;
+  #L13b7ce.  call temp:= `d`(v1, v2) @signature `Landroid/util/Log;.d:(Ljava/lang/String;Ljava/lang/String;)I` @kind static;
+  #L13b7d4.  v1:= 2131296284I;
+  #L13b7da.  v2:= 0I;
+  #L13b7dc.  call temp:= `inflate`(v4, v1, v5, v2) @signature `Landroid/view/LayoutInflater;.inflate:(ILandroid/view/ViewGroup;Z)Landroid/view/View;` @kind virtual;
+  #L13b7e2.  v0:= temp @kind object;
+  #L13b7e4.  return v0 @kind object;
+}

@@ -1,0 +1,45 @@
+record `com.example.recyclerviewminimal.RecyclerTouchListener$1` @kind class @AccessFlag  extends `android.view.GestureDetector$SimpleOnGestureListener` @kind class {
+  `com.example.recyclerviewminimal.RecyclerTouchListener` `com.example.recyclerviewminimal.RecyclerTouchListener$1.this$0` @AccessFlag FINAL_SYNTHETIC;
+  `com.example.recyclerviewminimal.RecyclerTouchListener$ClickListener` `com.example.recyclerviewminimal.RecyclerTouchListener$1.val$clickListener` @AccessFlag FINAL_SYNTHETIC;
+  `android.support.v7.widget.RecyclerView` `com.example.recyclerviewminimal.RecyclerTouchListener$1.val$recyclerView` @AccessFlag FINAL_SYNTHETIC;
+}
+procedure `void` `<init>`(`com.example.recyclerviewminimal.RecyclerTouchListener$1` v0 @kind this, `com.example.recyclerviewminimal.RecyclerTouchListener` v1 @kind object @name `this$0`, `android.support.v7.widget.RecyclerView` v2 @kind object, `com.example.recyclerviewminimal.RecyclerTouchListener$ClickListener` v3 @kind object) @signature `Lcom/example/recyclerviewminimal/RecyclerTouchListener$1;.<init>:(Lcom/example/recyclerviewminimal/RecyclerTouchListener;Landroid/support/v7/widget/RecyclerView;Lcom/example/recyclerviewminimal/RecyclerTouchListener$ClickListener;)V` @AccessFlag CONSTRUCTOR {
+    temp;
+
+  #L1a5de4.  v0.`com.example.recyclerviewminimal.RecyclerTouchListener$1.this$0` @type ^`com.example.recyclerviewminimal.RecyclerTouchListener` := v1 @kind object;
+  #L1a5de8.  v0.`com.example.recyclerviewminimal.RecyclerTouchListener$1.val$recyclerView` @type ^`android.support.v7.widget.RecyclerView` := v2 @kind object;
+  #L1a5dec.  v0.`com.example.recyclerviewminimal.RecyclerTouchListener$1.val$clickListener` @type ^`com.example.recyclerviewminimal.RecyclerTouchListener$ClickListener` := v3 @kind object;
+  #L1a5df0.  call `<init>`(v0) @signature `Landroid/view/GestureDetector$SimpleOnGestureListener;.<init>:()V` @kind direct;
+  #L1a5df6.  return @kind void;
+}
+procedure `void` `onLongPress`(`com.example.recyclerviewminimal.RecyclerTouchListener$1` v3 @kind this, `android.view.MotionEvent` v4 @kind object @name `e`) @signature `Lcom/example/recyclerviewminimal/RecyclerTouchListener$1;.onLongPress:(Landroid/view/MotionEvent;)V` @AccessFlag PUBLIC {
+    temp;
+    v0;
+    v1;
+    v2;
+
+  #L1a5e08.  v0:= v3.`com.example.recyclerviewminimal.RecyclerTouchListener$1.val$recyclerView` @type ^`android.support.v7.widget.RecyclerView` @kind object;
+  #L1a5e0c.  call temp:= `getX`(v4) @signature `Landroid/view/MotionEvent;.getX:()F` @kind virtual;
+  #L1a5e12.  v1:= temp;
+  #L1a5e14.  call temp:= `getY`(v4) @signature `Landroid/view/MotionEvent;.getY:()F` @kind virtual;
+  #L1a5e1a.  v2:= temp;
+  #L1a5e1c.  call temp:= `findChildViewUnder`(v0, v1, v2) @signature `Landroid/support/v7/widget/RecyclerView;.findChildViewUnder:(FF)Landroid/view/View;` @kind virtual;
+  #L1a5e22.  v0:= temp @kind object;
+  #L1a5e24.  if v0 == 0 then goto L1a5e44;
+  #L1a5e28.  v1:= v3.`com.example.recyclerviewminimal.RecyclerTouchListener$1.val$clickListener` @type ^`com.example.recyclerviewminimal.RecyclerTouchListener$ClickListener` @kind object;
+  #L1a5e2c.  if v1 == 0 then goto L1a5e44;
+  #L1a5e30.  v2:= v3.`com.example.recyclerviewminimal.RecyclerTouchListener$1.val$recyclerView` @type ^`android.support.v7.widget.RecyclerView` @kind object;
+  #L1a5e34.  call temp:= `getChildPosition`(v2, v0) @signature `Landroid/support/v7/widget/RecyclerView;.getChildPosition:(Landroid/view/View;)I` @kind virtual;
+  #L1a5e3a.  v2:= temp;
+  #L1a5e3c.  call `onLongClick`(v1, v0, v2) @signature `Lcom/example/recyclerviewminimal/RecyclerTouchListener$ClickListener;.onLongClick:(Landroid/view/View;I)V` @kind interface;
+  #L1a5e42.  goto L1a5e46;
+  #L1a5e44.  
+  #L1a5e46.  return @kind void;
+}
+procedure `boolean` `onSingleTapUp`(`com.example.recyclerviewminimal.RecyclerTouchListener$1` v1 @kind this, `android.view.MotionEvent` v2 @kind object @name `e`) @signature `Lcom/example/recyclerviewminimal/RecyclerTouchListener$1;.onSingleTapUp:(Landroid/view/MotionEvent;)Z` @AccessFlag PUBLIC {
+    temp;
+    v0;
+
+  #L1a5dd0.  v0:= 1I;
+  #L1a5dd2.  return v0;
+}

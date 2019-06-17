@@ -1,0 +1,56 @@
+record `com.example.recyclerviewminimal.RecyclerTouchListener` @kind class @AccessFlag  extends `android.support.v7.widget.RecyclerView$OnItemTouchListener` @kind interface {
+  `com.example.recyclerviewminimal.RecyclerTouchListener$ClickListener` `com.example.recyclerviewminimal.RecyclerTouchListener.clickListener` @AccessFlag PRIVATE;
+  `android.view.GestureDetector` `com.example.recyclerviewminimal.RecyclerTouchListener.gestureDetector` @AccessFlag PRIVATE;
+}
+procedure `void` `<init>`(`com.example.recyclerviewminimal.RecyclerTouchListener` v2 @kind this, `android.content.Context` v3 @kind object @name `applicationContext`, `android.support.v7.widget.RecyclerView` v4 @kind object @name `recyclerView`, `com.example.recyclerviewminimal.RecyclerTouchListener$ClickListener` v5 @kind object @name `clickListener`) @signature `Lcom/example/recyclerviewminimal/RecyclerTouchListener;.<init>:(Landroid/content/Context;Landroid/support/v7/widget/RecyclerView;Lcom/example/recyclerviewminimal/RecyclerTouchListener$ClickListener;)V` @AccessFlag PUBLIC_CONSTRUCTOR {
+    temp;
+    v0;
+    v1;
+
+  #L1a5eb8.  call `<init>`(v2) @signature `Ljava/lang/Object;.<init>:()V` @kind direct;
+  #L1a5ebe.  v2.`com.example.recyclerviewminimal.RecyclerTouchListener.clickListener` @type ^`com.example.recyclerviewminimal.RecyclerTouchListener$ClickListener` := v5 @kind object;
+  #L1a5ec2.  v0:= new `android.view.GestureDetector`;
+  #L1a5ec6.  v1:= new `com.example.recyclerviewminimal.RecyclerTouchListener$1`;
+  #L1a5eca.  call `<init>`(v1, v2, v4, v5) @signature `Lcom/example/recyclerviewminimal/RecyclerTouchListener$1;.<init>:(Lcom/example/recyclerviewminimal/RecyclerTouchListener;Landroid/support/v7/widget/RecyclerView;Lcom/example/recyclerviewminimal/RecyclerTouchListener$ClickListener;)V` @kind direct;
+  #L1a5ed0.  call `<init>`(v0, v3, v1) @signature `Landroid/view/GestureDetector;.<init>:(Landroid/content/Context;Landroid/view/GestureDetector$OnGestureListener;)V` @kind direct;
+  #L1a5ed6.  v2.`com.example.recyclerviewminimal.RecyclerTouchListener.gestureDetector` @type ^`android.view.GestureDetector` := v0 @kind object;
+  #L1a5eda.  return @kind void;
+}
+procedure `boolean` `onInterceptTouchEvent`(`com.example.recyclerviewminimal.RecyclerTouchListener` v3 @kind this, `android.support.v7.widget.RecyclerView` v4 @kind object @name `recyclerView`, `android.view.MotionEvent` v5 @kind object @name `motionEvent`) @signature `Lcom/example/recyclerviewminimal/RecyclerTouchListener;.onInterceptTouchEvent:(Landroid/support/v7/widget/RecyclerView;Landroid/view/MotionEvent;)Z` @AccessFlag PUBLIC {
+    temp;
+    v0;
+    v1;
+    v2;
+
+  #L1a5e58.  call temp:= `getX`(v5) @signature `Landroid/view/MotionEvent;.getX:()F` @kind virtual;
+  #L1a5e5e.  v0:= temp;
+  #L1a5e60.  call temp:= `getY`(v5) @signature `Landroid/view/MotionEvent;.getY:()F` @kind virtual;
+  #L1a5e66.  v1:= temp;
+  #L1a5e68.  call temp:= `findChildViewUnder`(v4, v0, v1) @signature `Landroid/support/v7/widget/RecyclerView;.findChildViewUnder:(FF)Landroid/view/View;` @kind virtual;
+  #L1a5e6e.  v0:= temp @kind object;
+  #L1a5e70.  if v0 == 0 then goto L1a5ea0;
+  #L1a5e74.  v1:= v3.`com.example.recyclerviewminimal.RecyclerTouchListener.clickListener` @type ^`com.example.recyclerviewminimal.RecyclerTouchListener$ClickListener` @kind object;
+  #L1a5e78.  if v1 == 0 then goto L1a5ea0;
+  #L1a5e7c.  v1:= v3.`com.example.recyclerviewminimal.RecyclerTouchListener.gestureDetector` @type ^`android.view.GestureDetector` @kind object;
+  #L1a5e80.  call temp:= `onTouchEvent`(v1, v5) @signature `Landroid/view/GestureDetector;.onTouchEvent:(Landroid/view/MotionEvent;)Z` @kind virtual;
+  #L1a5e86.  v1:= temp;
+  #L1a5e88.  if v1 == 0 then goto L1a5ea0;
+  #L1a5e8c.  v1:= v3.`com.example.recyclerviewminimal.RecyclerTouchListener.clickListener` @type ^`com.example.recyclerviewminimal.RecyclerTouchListener$ClickListener` @kind object;
+  #L1a5e90.  call temp:= `getChildPosition`(v4, v0) @signature `Landroid/support/v7/widget/RecyclerView;.getChildPosition:(Landroid/view/View;)I` @kind virtual;
+  #L1a5e96.  v2:= temp;
+  #L1a5e98.  call `onClick`(v1, v0, v2) @signature `Lcom/example/recyclerviewminimal/RecyclerTouchListener$ClickListener;.onClick:(Landroid/view/View;I)V` @kind interface;
+  #L1a5e9e.  goto L1a5ea2;
+  #L1a5ea0.  
+  #L1a5ea2.  v1:= 0I;
+  #L1a5ea4.  return v1;
+}
+procedure `void` `onRequestDisallowInterceptTouchEvent`(`com.example.recyclerviewminimal.RecyclerTouchListener` v0 @kind this, `boolean` v1 @name `b`) @signature `Lcom/example/recyclerviewminimal/RecyclerTouchListener;.onRequestDisallowInterceptTouchEvent:(Z)V` @AccessFlag PUBLIC {
+    temp;
+
+  #L1a5eec.  return @kind void;
+}
+procedure `void` `onTouchEvent`(`com.example.recyclerviewminimal.RecyclerTouchListener` v0 @kind this, `android.support.v7.widget.RecyclerView` v1 @kind object @name `recyclerView`, `android.view.MotionEvent` v2 @kind object @name `motionEvent`) @signature `Lcom/example/recyclerviewminimal/RecyclerTouchListener;.onTouchEvent:(Landroid/support/v7/widget/RecyclerView;Landroid/view/MotionEvent;)V` @AccessFlag PUBLIC {
+    temp;
+
+  #L1a5f00.  return @kind void;
+}

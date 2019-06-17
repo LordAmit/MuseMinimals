@@ -1,0 +1,71 @@
+record `com.example.recyclerviewminimal.ListEntityAdapter` @kind class @AccessFlag PUBLIC extends `android.support.v7.widget.RecyclerView$Adapter` @kind class {
+  `java.util.List` `com.example.recyclerviewminimal.ListEntityAdapter.entitiesList` @AccessFlag PRIVATE;
+}
+procedure `void` `<init>`(`com.example.recyclerviewminimal.ListEntityAdapter` v0 @kind this, `java.util.List` v1 @kind object) @signature `Lcom/example/recyclerviewminimal/ListEntityAdapter;.<init>:(Ljava/util/List;)V` @AccessFlag PUBLIC_CONSTRUCTOR {
+    temp;
+
+  #L1a4a10.  call `<init>`(v0) @signature `Landroid/support/v7/widget/RecyclerView$Adapter;.<init>:()V` @kind direct;
+  #L1a4a16.  v0.`com.example.recyclerviewminimal.ListEntityAdapter.entitiesList` @type ^`java.util.List` := v1 @kind object;
+  #L1a4a1a.  return @kind void;
+}
+procedure `int` `getItemCount`(`com.example.recyclerviewminimal.ListEntityAdapter` v1 @kind this) @signature `Lcom/example/recyclerviewminimal/ListEntityAdapter;.getItemCount:()I` @AccessFlag PUBLIC {
+    temp;
+    v0;
+
+  #L1a49f0.  v0:= v1.`com.example.recyclerviewminimal.ListEntityAdapter.entitiesList` @type ^`java.util.List` @kind object;
+  #L1a49f4.  call temp:= `size`(v0) @signature `Ljava/util/List;.size:()I` @kind interface;
+  #L1a49fa.  v0:= temp;
+  #L1a49fc.  return v0;
+}
+procedure `void` `onBindViewHolder`(`com.example.recyclerviewminimal.ListEntityAdapter` v0 @kind this, `android.support.v7.widget.RecyclerView$ViewHolder` v1 @kind object, `int` v2 ) @signature `Lcom/example/recyclerviewminimal/ListEntityAdapter;.onBindViewHolder:(Landroid/support/v7/widget/RecyclerView$ViewHolder;I)V` @AccessFlag PUBLIC_SYNTHETIC {
+    temp;
+
+  #L1a4a2c.  v1:= (`com.example.recyclerviewminimal.ListEntityAdapter$ListViewHolder`) v1 @kind object;
+  #L1a4a30.  call `onBindViewHolder`(v0, v1, v2) @signature `Lcom/example/recyclerviewminimal/ListEntityAdapter;.onBindViewHolder:(Lcom/example/recyclerviewminimal/ListEntityAdapter$ListViewHolder;I)V` @kind virtual;
+  #L1a4a36.  return @kind void;
+}
+procedure `void` `onBindViewHolder`(`com.example.recyclerviewminimal.ListEntityAdapter` v3 @kind this, `com.example.recyclerviewminimal.ListEntityAdapter$ListViewHolder` v4 @kind object @name `viewHolder`, `int` v5 @name `i`) @signature `Lcom/example/recyclerviewminimal/ListEntityAdapter;.onBindViewHolder:(Lcom/example/recyclerviewminimal/ListEntityAdapter$ListViewHolder;I)V` @AccessFlag PUBLIC {
+    temp;
+    v0;
+    v1;
+    v2;
+
+  #L1a4a48.  v0:= v3.`com.example.recyclerviewminimal.ListEntityAdapter.entitiesList` @type ^`java.util.List` @kind object;
+  #L1a4a4c.  call temp:= `get`(v0, v5) @signature `Ljava/util/List;.get:(I)Ljava/lang/Object;` @kind interface;
+  #L1a4a52.  v0:= temp @kind object;
+  #L1a4a54.  v0:= (`com.example.recyclerviewminimal.ListEntity`) v0 @kind object;
+  #L1a4a58.  v1:= v4.`com.example.recyclerviewminimal.ListEntityAdapter$ListViewHolder.id` @type ^`android.widget.TextView` @kind object;
+  #L1a4a5c.  call temp:= `getId`(v0) @signature `Lcom/example/recyclerviewminimal/ListEntity;.getId:()Ljava/lang/String;` @kind virtual;
+  #L1a4a62.  v2:= temp @kind object;
+  #L1a4a64.  call `setText`(v1, v2) @signature `Landroid/widget/TextView;.setText:(Ljava/lang/CharSequence;)V` @kind virtual;
+  #L1a4a6a.  v1:= v4.`com.example.recyclerviewminimal.ListEntityAdapter$ListViewHolder.title` @type ^`android.widget.TextView` @kind object;
+  #L1a4a6e.  call temp:= `getTitle`(v0) @signature `Lcom/example/recyclerviewminimal/ListEntity;.getTitle:()Ljava/lang/String;` @kind virtual;
+  #L1a4a74.  v2:= temp @kind object;
+  #L1a4a76.  call `setText`(v1, v2) @signature `Landroid/widget/TextView;.setText:(Ljava/lang/CharSequence;)V` @kind virtual;
+  #L1a4a7c.  return @kind void;
+}
+procedure `android.support.v7.widget.RecyclerView$ViewHolder` `onCreateViewHolder`(`com.example.recyclerviewminimal.ListEntityAdapter` v0 @kind this, `android.view.ViewGroup` v1 @kind object, `int` v2 ) @signature `Lcom/example/recyclerviewminimal/ListEntityAdapter;.onCreateViewHolder:(Landroid/view/ViewGroup;I)Landroid/support/v7/widget/RecyclerView$ViewHolder;` @AccessFlag PUBLIC_SYNTHETIC {
+    temp;
+
+  #L1a4998.  call temp:= `onCreateViewHolder`(v0, v1, v2) @signature `Lcom/example/recyclerviewminimal/ListEntityAdapter;.onCreateViewHolder:(Landroid/view/ViewGroup;I)Lcom/example/recyclerviewminimal/ListEntityAdapter$ListViewHolder;` @kind virtual;
+  #L1a499e.  v1:= temp @kind object;
+  #L1a49a0.  return v1 @kind object;
+}
+procedure `com.example.recyclerviewminimal.ListEntityAdapter$ListViewHolder` `onCreateViewHolder`(`com.example.recyclerviewminimal.ListEntityAdapter` v3 @kind this, `android.view.ViewGroup` v4 @kind object @name `viewGroup`, `int` v5 @name `i`) @signature `Lcom/example/recyclerviewminimal/ListEntityAdapter;.onCreateViewHolder:(Landroid/view/ViewGroup;I)Lcom/example/recyclerviewminimal/ListEntityAdapter$ListViewHolder;` @AccessFlag PUBLIC {
+    temp;
+    v0;
+    v1;
+    v2;
+
+  #L1a49b4.  call temp:= `getContext`(v4) @signature `Landroid/view/ViewGroup;.getContext:()Landroid/content/Context;` @kind virtual;
+  #L1a49ba.  v0:= temp @kind object;
+  #L1a49bc.  call temp:= `from`(v0) @signature `Landroid/view/LayoutInflater;.from:(Landroid/content/Context;)Landroid/view/LayoutInflater;` @kind static;
+  #L1a49c2.  v0:= temp @kind object;
+  #L1a49c4.  v1:= 2131361834I;
+  #L1a49ca.  v2:= 0I;
+  #L1a49cc.  call temp:= `inflate`(v0, v1, v4, v2) @signature `Landroid/view/LayoutInflater;.inflate:(ILandroid/view/ViewGroup;Z)Landroid/view/View;` @kind virtual;
+  #L1a49d2.  v0:= temp @kind object;
+  #L1a49d4.  v1:= new `com.example.recyclerviewminimal.ListEntityAdapter$ListViewHolder`;
+  #L1a49d8.  call `<init>`(v1, v3, v0) @signature `Lcom/example/recyclerviewminimal/ListEntityAdapter$ListViewHolder;.<init>:(Lcom/example/recyclerviewminimal/ListEntityAdapter;Landroid/view/View;)V` @kind direct;
+  #L1a49de.  return v1 @kind object;
+}

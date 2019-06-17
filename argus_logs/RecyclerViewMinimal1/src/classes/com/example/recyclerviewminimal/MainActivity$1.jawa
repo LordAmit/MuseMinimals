@@ -1,0 +1,46 @@
+record `com.example.recyclerviewminimal.MainActivity$1` @kind class @AccessFlag  extends `com.example.recyclerviewminimal.RecyclerTouchListener$ClickListener` @kind interface {
+  `com.example.recyclerviewminimal.MainActivity` `com.example.recyclerviewminimal.MainActivity$1.this$0` @AccessFlag FINAL_SYNTHETIC;
+}
+procedure `void` `<init>`(`com.example.recyclerviewminimal.MainActivity$1` v0 @kind this, `com.example.recyclerviewminimal.MainActivity` v1 @kind object @name `this$0`) @signature `Lcom/example/recyclerviewminimal/MainActivity$1;.<init>:(Lcom/example/recyclerviewminimal/MainActivity;)V` @AccessFlag CONSTRUCTOR {
+    temp;
+
+  #L1a4b28.  v0.`com.example.recyclerviewminimal.MainActivity$1.this$0` @type ^`com.example.recyclerviewminimal.MainActivity` := v1 @kind object;
+  #L1a4b2c.  call `<init>`(v0) @signature `Ljava/lang/Object;.<init>:()V` @kind direct;
+  #L1a4b32.  return @kind void;
+}
+procedure `void` `onClick`(`com.example.recyclerviewminimal.MainActivity$1` v4 @kind this, `android.view.View` v5 @kind object @name `view`, `int` v6 @name `position`) @signature `Lcom/example/recyclerviewminimal/MainActivity$1;.onClick:(Landroid/view/View;I)V` @AccessFlag PUBLIC {
+    temp;
+    v0;
+    v1;
+    v2;
+    v3;
+
+  #L1a4b44.  v0:= v4.`com.example.recyclerviewminimal.MainActivity$1.this$0` @type ^`com.example.recyclerviewminimal.MainActivity` @kind object;
+  #L1a4b48.  call temp:= `access$000`(v0) @signature `Lcom/example/recyclerviewminimal/MainActivity;.access$000:(Lcom/example/recyclerviewminimal/MainActivity;)Ljava/util/List;` @kind static;
+  #L1a4b4e.  v0:= temp @kind object;
+  #L1a4b50.  call temp:= `get`(v0, v6) @signature `Ljava/util/List;.get:(I)Ljava/lang/Object;` @kind interface;
+  #L1a4b56.  v0:= temp @kind object;
+  #L1a4b58.  v0:= (`com.example.recyclerviewminimal.ListEntity`) v0 @kind object;
+  #L1a4b5c.  v1:= v4.`com.example.recyclerviewminimal.MainActivity$1.this$0` @type ^`com.example.recyclerviewminimal.MainActivity` @kind object;
+  #L1a4b60.  call temp:= `getApplicationContext`(v1) @signature `Lcom/example/recyclerviewminimal/MainActivity;.getApplicationContext:()Landroid/content/Context;` @kind virtual;
+  #L1a4b66.  v1:= temp @kind object;
+  #L1a4b68.  v2:= new `java.lang.StringBuilder`;
+  #L1a4b6c.  call `<init>`(v2) @signature `Ljava/lang/StringBuilder;.<init>:()V` @kind direct;
+  #L1a4b72.  call temp:= `getTitle`(v0) @signature `Lcom/example/recyclerviewminimal/ListEntity;.getTitle:()Ljava/lang/String;` @kind virtual;
+  #L1a4b78.  v3:= temp @kind object;
+  #L1a4b7a.  call temp:= `append`(v2, v3) @signature `Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;` @kind virtual;
+  #L1a4b80.  v3:= " is selected!" @kind object;
+  #L1a4b84.  call temp:= `append`(v2, v3) @signature `Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;` @kind virtual;
+  #L1a4b8a.  call temp:= `toString`(v2) @signature `Ljava/lang/StringBuilder;.toString:()Ljava/lang/String;` @kind virtual;
+  #L1a4b90.  v2:= temp @kind object;
+  #L1a4b92.  v3:= 0I;
+  #L1a4b94.  call temp:= `makeText`(v1, v2, v3) @signature `Landroid/widget/Toast;.makeText:(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;` @kind static;
+  #L1a4b9a.  v1:= temp @kind object;
+  #L1a4b9c.  call `show`(v1) @signature `Landroid/widget/Toast;.show:()V` @kind virtual;
+  #L1a4ba2.  return @kind void;
+}
+procedure `void` `onLongClick`(`com.example.recyclerviewminimal.MainActivity$1` v0 @kind this, `android.view.View` v1 @kind object @name `view`, `int` v2 @name `position`) @signature `Lcom/example/recyclerviewminimal/MainActivity$1;.onLongClick:(Landroid/view/View;I)V` @AccessFlag PUBLIC {
+    temp;
+
+  #L1a4bb4.  return @kind void;
+}

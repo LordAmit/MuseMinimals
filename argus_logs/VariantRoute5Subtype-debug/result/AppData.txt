@@ -1,0 +1,20 @@
+Application Name: VariantRoute5Subtype-debug.apk
+Uses Permissions: 
+
+Component com.example.variantroute.MainActivity
+  Component type: activity
+  Exported: true
+  Dynamic Registered: false
+  Required Permission: 
+  IntentFilters:
+    IntentFilter:(Actions:["android.intent.action.MAIN"],Categories:["android.intent.category.LAUNCHER"])
+
+  Inter-component communication (ICC) Result:
+
+
+
+Taint analysis result:
+  Sources found:
+    <Descriptors: api_source: Ljava/util/Calendar;.getTimeZone:()Ljava/util/TimeZone;>
+  Sinks found:
+  Discovered taint paths are listed below:

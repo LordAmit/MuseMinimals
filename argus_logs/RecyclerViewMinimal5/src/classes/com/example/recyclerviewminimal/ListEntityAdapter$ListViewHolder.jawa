@@ -1,0 +1,23 @@
+record `com.example.recyclerviewminimal.ListEntityAdapter$ListViewHolder` @kind class @AccessFlag PUBLIC extends `android.support.v7.widget.RecyclerView$ViewHolder` @kind class {
+  `android.widget.TextView` `com.example.recyclerviewminimal.ListEntityAdapter$ListViewHolder.id` @AccessFlag PUBLIC;
+  `com.example.recyclerviewminimal.ListEntityAdapter` `com.example.recyclerviewminimal.ListEntityAdapter$ListViewHolder.this$0` @AccessFlag FINAL_SYNTHETIC;
+  `android.widget.TextView` `com.example.recyclerviewminimal.ListEntityAdapter$ListViewHolder.title` @AccessFlag PUBLIC;
+}
+procedure `void` `<init>`(`com.example.recyclerviewminimal.ListEntityAdapter$ListViewHolder` v1 @kind this, `com.example.recyclerviewminimal.ListEntityAdapter` v2 @kind object @name `this$0`, `android.view.View` v3 @kind object @name `itemView`) @signature `Lcom/example/recyclerviewminimal/ListEntityAdapter$ListViewHolder;.<init>:(Lcom/example/recyclerviewminimal/ListEntityAdapter;Landroid/view/View;)V` @AccessFlag PUBLIC_CONSTRUCTOR {
+    temp;
+    v0;
+
+  #L1a4908.  v1.`com.example.recyclerviewminimal.ListEntityAdapter$ListViewHolder.this$0` @type ^`com.example.recyclerviewminimal.ListEntityAdapter` := v2 @kind object;
+  #L1a490c.  call `<init>`(v1, v3) @signature `Landroid/support/v7/widget/RecyclerView$ViewHolder;.<init>:(Landroid/view/View;)V` @kind direct;
+  #L1a4912.  v0:= 2131230802I;
+  #L1a4918.  call temp:= `findViewById`(v3, v0) @signature `Landroid/view/View;.findViewById:(I)Landroid/view/View;` @kind virtual;
+  #L1a491e.  v0:= temp @kind object;
+  #L1a4920.  v0:= (`android.widget.TextView`) v0 @kind object;
+  #L1a4924.  v1.`com.example.recyclerviewminimal.ListEntityAdapter$ListViewHolder.id` @type ^`android.widget.TextView` := v0 @kind object;
+  #L1a4928.  v0:= 2131230891I;
+  #L1a492e.  call temp:= `findViewById`(v3, v0) @signature `Landroid/view/View;.findViewById:(I)Landroid/view/View;` @kind virtual;
+  #L1a4934.  v0:= temp @kind object;
+  #L1a4936.  v0:= (`android.widget.TextView`) v0 @kind object;
+  #L1a493a.  v1.`com.example.recyclerviewminimal.ListEntityAdapter$ListViewHolder.title` @type ^`android.widget.TextView` := v0 @kind object;
+  #L1a493e.  return @kind void;
+}

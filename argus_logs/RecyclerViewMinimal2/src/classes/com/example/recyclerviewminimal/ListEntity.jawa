@@ -1,0 +1,44 @@
+record `com.example.recyclerviewminimal.ListEntity` @kind class @AccessFlag PUBLIC {
+  `java.lang.String` `com.example.recyclerviewminimal.ListEntity.id` @AccessFlag PRIVATE;
+  `java.lang.String` `com.example.recyclerviewminimal.ListEntity.title` @AccessFlag PRIVATE;
+}
+procedure `void` `<init>`(`com.example.recyclerviewminimal.ListEntity` v0 @kind this) @signature `Lcom/example/recyclerviewminimal/ListEntity;.<init>:()V` @AccessFlag PUBLIC_CONSTRUCTOR {
+    temp;
+
+  #L1a4aa4.  call `<init>`(v0) @signature `Ljava/lang/Object;.<init>:()V` @kind direct;
+  #L1a4aaa.  return @kind void;
+}
+procedure `void` `<init>`(`com.example.recyclerviewminimal.ListEntity` v0 @kind this, `java.lang.String` v1 @kind object @name `title`, `java.lang.String` v2 @kind object @name `id`) @signature `Lcom/example/recyclerviewminimal/ListEntity;.<init>:(Ljava/lang/String;Ljava/lang/String;)V` @AccessFlag PUBLIC_CONSTRUCTOR {
+    temp;
+
+  #L1a4abc.  call `<init>`(v0) @signature `Ljava/lang/Object;.<init>:()V` @kind direct;
+  #L1a4ac2.  v0.`com.example.recyclerviewminimal.ListEntity.title` @type ^`java.lang.String` := v1 @kind object;
+  #L1a4ac6.  v0.`com.example.recyclerviewminimal.ListEntity.id` @type ^`java.lang.String` := v2 @kind object;
+  #L1a4aca.  return @kind void;
+}
+procedure `java.lang.String` `getId`(`com.example.recyclerviewminimal.ListEntity` v1 @kind this) @signature `Lcom/example/recyclerviewminimal/ListEntity;.getId:()Ljava/lang/String;` @AccessFlag PUBLIC {
+    temp;
+    v0;
+
+  #L1a4a74.  v0:= v1.`com.example.recyclerviewminimal.ListEntity.id` @type ^`java.lang.String` @kind object;
+  #L1a4a78.  return v0 @kind object;
+}
+procedure `java.lang.String` `getTitle`(`com.example.recyclerviewminimal.ListEntity` v1 @kind this) @signature `Lcom/example/recyclerviewminimal/ListEntity;.getTitle:()Ljava/lang/String;` @AccessFlag PUBLIC {
+    temp;
+    v0;
+
+  #L1a4a8c.  v0:= v1.`com.example.recyclerviewminimal.ListEntity.title` @type ^`java.lang.String` @kind object;
+  #L1a4a90.  return v0 @kind object;
+}
+procedure `void` `setId`(`com.example.recyclerviewminimal.ListEntity` v0 @kind this, `java.lang.String` v1 @kind object @name `id`) @signature `Lcom/example/recyclerviewminimal/ListEntity;.setId:(Ljava/lang/String;)V` @AccessFlag PUBLIC {
+    temp;
+
+  #L1a4adc.  v0.`com.example.recyclerviewminimal.ListEntity.id` @type ^`java.lang.String` := v1 @kind object;
+  #L1a4ae0.  return @kind void;
+}
+procedure `void` `setTitle`(`com.example.recyclerviewminimal.ListEntity` v0 @kind this, `java.lang.String` v1 @kind object @name `title`) @signature `Lcom/example/recyclerviewminimal/ListEntity;.setTitle:(Ljava/lang/String;)V` @AccessFlag PUBLIC {
+    temp;
+
+  #L1a4af4.  v0.`com.example.recyclerviewminimal.ListEntity.title` @type ^`java.lang.String` := v1 @kind object;
+  #L1a4af8.  return @kind void;
+}
