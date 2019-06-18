@@ -1,0 +1,5 @@
+[main] INFO soot.jimple.infoflow.cmd.MainClass - Analyzing app /media/data/tools/mse1.0/apks/git_min/MuseMinimals/RecyclerViewMinimal1.apk (1 of 1)...
+The data flow analysis has failed. Error message: null
+java.lang.NullPointerException
+	at soot.jimple.infoflow.cmd.MainClass.run(MainClass.java:315)
+	at soot.jimple.infoflow.cmd.MainClass.main(MainClass.java:231)
