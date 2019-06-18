@@ -1,0 +1,5 @@
+[main] INFO soot.jimple.infoflow.cmd.MainClass - Analyzing app /Users/kaushal/Google Drive/College stuff/Research related/mSE Evaluating Soundness of Android static analysis tools/Tools/Tools/tools/flowdroid/sourcebuilt/minimal apks/RecyclerView/recycler.apk (1 of 1)...
+The data flow analysis has failed. Error message: null
+java.lang.NullPointerException
+	at soot.jimple.infoflow.cmd.MainClass.run(MainClass.java:315)
+	at soot.jimple.infoflow.cmd.MainClass.main(MainClass.java:231)
