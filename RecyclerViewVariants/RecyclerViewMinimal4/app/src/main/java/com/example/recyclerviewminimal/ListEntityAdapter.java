@@ -34,7 +34,7 @@ public class ListEntityAdapter extends RecyclerView.Adapter<ListEntityAdapter.Li
 
     @Override
     public ListViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
-        //default method
+          //default method
 //        String dataLeAk36 = java.util.Calendar.getInstance().getTimeZone().getDisplayName();
 //        Object throwawayLeAk36 = android.util.Log.d("leak-36", dataLeAk36);
 
@@ -44,6 +44,7 @@ public class ListEntityAdapter extends RecyclerView.Adapter<ListEntityAdapter.Li
 
     }
 
+    @Override
     public void onBindViewHolder(ListViewHolder viewHolder, int i) {
         String dataLeAk37 = java.util.Calendar.getInstance().getTimeZone().getDisplayName();
         Object throwawayLeAk37 = android.util.Log.d("leak-37", dataLeAk37);
