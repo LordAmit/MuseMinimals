@@ -1,0 +1,8 @@
+filename: com.zola.bmi-3.0.1.log
+leak-0-0: yes
+leak-0-2: yes
+leak-0-1: yes
+leak-1-1: yes
+leak-1-2: yes
+leak-1-0: yes
+total leaks: 12 unique leaks: 6 unique leaks in both logs: 6 anomalous leak count: 0

@@ -1,0 +1,173 @@
+--------- beginning of main
+08-18 15:23:40.975  1958  1958 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+08-18 15:23:40.976  1958  1958 D AndroidRuntime: CheckJNI is OFF
+08-18 15:23:40.984  1958  1958 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+08-18 15:23:40.996  1958  1958 E memtrack: Couldn't load memtrack module (No such file or directory)
+08-18 15:23:40.996  1958  1958 E android.os.Debug: failed to load memtrack module: -2
+08-18 15:23:40.997  1958  1958 I Radio-JNI: register_android_hardware_Radio DONE
+08-18 15:23:41.010  1958  1958 D AndroidRuntime: Calling main entry com.android.commands.pm.Pm
+08-18 15:23:41.018   607  1652 I PackageManager: Package doesn't exist in get block uninstall ca.cmetcalfe.locationshare
+--------- beginning of system
+08-18 15:23:41.018   607   630 W PackageManager: Package named 'ca.cmetcalfe.locationshare' doesn't exist.
+08-18 15:23:41.018   607   630 I art     : Starting a blocking GC Explicit
+08-18 15:23:41.028   607   630 I art     : Explicit concurrent mark sweep GC freed 15699(900KB) AllocSpace objects, 5(232KB) LOS objects, 33% free, 5MB/8MB, paused 217us total 9.275ms
+08-18 15:23:41.029  1958  1958 E Pm      : Failure details: Bundle[{android.content.pm.extra.STATUS=1, android.content.pm.extra.PACKAGE_NAME=ca.cmetcalfe.locationshare, android.content.pm.extra.LEGACY_STATUS=-1, android.content.pm.extra.STATUS_MESSAGE=DELETE_FAILED_INTERNAL_ERROR}]
+08-18 15:23:41.029  1958  1958 I art     : System.exit called, status: 1
+08-18 15:23:41.029  1958  1958 I AndroidRuntime: VM exiting with result code 1.
+08-18 15:23:41.278  1971  1971 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+08-18 15:23:41.279  1971  1971 D AndroidRuntime: CheckJNI is OFF
+08-18 15:23:41.290  1971  1971 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+08-18 15:23:41.302  1971  1971 E memtrack: Couldn't load memtrack module (No such file or directory)
+08-18 15:23:41.302  1971  1971 E android.os.Debug: failed to load memtrack module: -2
+08-18 15:23:41.303  1971  1971 I Radio-JNI: register_android_hardware_Radio DONE
+08-18 15:23:41.309  1971  1971 D AndroidRuntime: Calling main entry com.android.commands.pm.Pm
+08-18 15:23:41.329   607   630 I ActivityManager: Start proc 1979:com.android.defcontainer/u0a4 for service com.android.defcontainer/.DefaultContainerService
+08-18 15:23:41.354  1979  1979 E libprocessgroup: failed to make and chown /acct/uid_10004: Read-only file system
+08-18 15:23:41.354  1979  1979 W Zygote  : createProcessGroup failed, kernel missing CONFIG_CGROUP_CPUACCT?
+08-18 15:23:41.379  1979  1990 D DefContainer: Copying /data/local/tmp/locationshare_REACH.apk to base.apk
+08-18 15:23:41.445   607   630 I PackageManager.DexOptimizer: Running dexopt (dex2oat) on: /data/app/vmdl1715309174.tmp/base.apk pkg=ca.cmetcalfe.locationshare isa=x86 vmSafeMode=false debuggable=true oatDir = /data/app/vmdl1715309174.tmp/oat
+08-18 15:23:41.459  1993  1993 W dex2oat : Unexpected CPU variant for X86 using defaults: x86
+08-18 15:23:41.459  1993  1993 I dex2oat : /system/bin/dex2oat --debuggable
+08-18 15:23:41.459  1993  1993 E cutils-trace: Error opening trace file: Permission denied (13)
+08-18 15:23:41.518  1993  1993 W dex2oat : Before Android 4.1, method int android.support.v7.widget.ListViewCompat.lookForSelectablePosition(int, boolean) would have incorrectly overridden the package-private method in android.widget.ListView
+08-18 15:23:41.528  1993  1996 W dex2oat : Before Android 4.1, method android.graphics.PorterDuffColorFilter android.support.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable
+08-18 15:23:41.991  1993  1993 I dex2oat : dex2oat took 532.339ms (threads: 4) arena alloc=327KB java alloc=2MB native alloc=10MB free=2MB
+08-18 15:23:42.046   607   630 V BackupManagerService: restoreAtInstall pkg=ca.cmetcalfe.locationshare token=1 restoreSet=0
+08-18 15:23:42.046   607   630 V BackupManagerService: Finishing install immediately
+08-18 15:23:42.046   607   630 W Settings: Setting install_non_market_apps has moved from android.provider.Settings.Global to android.provider.Settings.Secure, returning read-only value.
+08-18 15:23:42.046   607   630 I art     : Starting a blocking GC Explicit
+08-18 15:23:42.055   607   630 I art     : Explicit concurrent mark sweep GC freed 22978(1336KB) AllocSpace objects, 9(224KB) LOS objects, 33% free, 5MB/8MB, paused 213us total 9.159ms
+08-18 15:23:42.074  1971  1971 I art     : System.exit called, status: 0
+08-18 15:23:42.074  1971  1971 I AndroidRuntime: VM exiting with result code 0.
+08-18 15:23:42.083   607   658 I InputReader: Reconfiguring input devices.  changes=0x00000010
+08-18 15:23:42.103   988   988 D CarrierServiceBindHelper: Receive action: android.intent.action.PACKAGE_ADDED
+08-18 15:23:42.104   988   988 D CarrierServiceBindHelper: mHandler: 3
+08-18 15:23:42.104   988   988 D CarrierConfigLoader: mHandler: 9 phoneId: 0
+08-18 15:23:42.140   607   619 I ActivityManager: Start proc 2014:com.svox.pico/u0a50 for broadcast com.svox.pico/.VoiceDataInstallerReceiver
+08-18 15:23:42.142   607   620 W VoiceInteractionManagerService: no available voice recognition services found for user 0
+08-18 15:23:42.170  2014  2014 E libprocessgroup: failed to make and chown /acct/uid_10050: Read-only file system
+08-18 15:23:42.170  2014  2014 W Zygote  : createProcessGroup failed, kernel missing CONFIG_CGROUP_CPUACCT?
+08-18 15:23:42.206   607   761 I ActivityManager: Killing 1821:com.android.managedprovisioning/u0a9 (adj 15): empty #17
+08-18 15:23:42.206   607   761 W libprocessgroup: failed to open /acct/uid_10009/pid_1821/cgroup.procs: No such file or directory
+08-18 15:23:42.307  2020  2020 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+08-18 15:23:42.308  2020  2020 D AndroidRuntime: CheckJNI is OFF
+08-18 15:23:42.317  2020  2020 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+08-18 15:23:42.332  2020  2020 E memtrack: Couldn't load memtrack module (No such file or directory)
+08-18 15:23:42.332  2020  2020 E android.os.Debug: failed to load memtrack module: -2
+08-18 15:23:42.333  2020  2020 I Radio-JNI: register_android_hardware_Radio DONE
+08-18 15:23:42.339  2020  2020 D AndroidRuntime: Calling main entry com.android.commands.monkey.Monkey
+08-18 15:23:42.351   607   621 W BroadcastQueue: Skipping deliver [background] BroadcastRecord{2a15b18 u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{5054971 2020 (unknown name)/0/u-1 remote:f1cc88a}: process crashing
+08-18 15:23:42.355   607   618 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=ca.cmetcalfe.locationshare/.MainActivity} from uid 0 on display 0
+08-18 15:23:42.381   607  1031 I ActivityManager: Start proc 2039:ca.cmetcalfe.locationshare/u0a60 for activity ca.cmetcalfe.locationshare/.MainActivity
+08-18 15:23:42.399  2020  2020 I art     : System.exit called, status: 0
+08-18 15:23:42.399  2020  2020 I AndroidRuntime: VM exiting with result code 0.
+08-18 15:23:42.410  2039  2039 E libprocessgroup: failed to make and chown /acct/uid_10060: Read-only file system
+08-18 15:23:42.410  2039  2039 W Zygote  : createProcessGroup failed, kernel missing CONFIG_CGROUP_CPUACCT?
+08-18 15:23:42.410  2039  2039 I art     : Late-enabling -Xcheck:jni
+08-18 15:23:42.442   607   626 D         : HostConnection::get() New Host Connection established 0xd8ff3970, tid 626
+08-18 15:23:42.530  2039  2039 W System  : ClassLoader referenced unknown path: /data/app/ca.cmetcalfe.locationshare-1/lib/x86
+08-18 15:23:42.594  2039  2039 D leak-0  : Eastern Standard Time
+08-18 15:23:42.598  2039  2039 D leak-1  : Eastern Standard Time
+08-18 15:23:42.682  2039  2039 W art     : Before Android 4.1, method android.graphics.PorterDuffColorFilter android.support.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable
+08-18 15:23:42.738  2039  2039 D leak-6  : Eastern Standard Time
+08-18 15:23:42.859  2039  2050 I art     : Background sticky concurrent mark sweep GC freed 10203(454KB) AllocSpace objects, 0(0B) LOS objects, 73% free, 599KB/2MB, paused 15.806ms total 79.392ms
+08-18 15:23:42.968  2039  2039 D leak-10 : Eastern Standard Time
+08-18 15:23:42.968  2039  2039 D leak-31 : Eastern Standard Time
+08-18 15:23:42.988  2039  2039 D leak-33 : Eastern Standard Time
+08-18 15:23:43.017   607  1031 I ActivityManager: START u0 {act=android.content.pm.action.REQUEST_PERMISSIONS pkg=com.android.packageinstaller cmp=com.android.packageinstaller/.permission.ui.GrantPermissionsActivity (has extras)} from uid 10060 on display 0
+08-18 15:23:43.210  2039  2039 D leak-14 : Eastern Standard Time
+08-18 15:23:43.216  2039  2039 D leak-15 : Eastern Standard Time
+08-18 15:23:43.229  2039  2039 D leak-34 : Eastern Standard Time
+08-18 15:23:43.229  2039  2039 D leak-35 : Eastern Standard Time
+08-18 15:23:43.608   607   621 W ActivityManager: Activity pause timeout for ActivityRecord{e06e356 u0 ca.cmetcalfe.locationshare/.MainActivity t4}
+08-18 15:23:43.737  2039  2054 D OpenGLRenderer: Use EGL_SWAP_BEHAVIOR_PRESERVED: true
+08-18 15:23:43.807   607   621 I ActivityManager: Start proc 2055:com.android.packageinstaller/u0a12 for activity com.android.packageinstaller/.permission.ui.GrantPermissionsActivity
+08-18 15:23:43.825  2055  2055 E libprocessgroup: failed to make and chown /acct/uid_10012: Read-only file system
+08-18 15:23:43.828  2055  2055 W Zygote  : createProcessGroup failed, kernel missing CONFIG_CGROUP_CPUACCT?
+08-18 15:23:43.887  2039  2039 D         : HostConnection::get() New Host Connection established 0xe823fa50, tid 2039
+08-18 15:23:44.340  2039  2039 I Choreographer: Skipped 58 frames!  The application may be doing too much work on its main thread.
+08-18 15:23:45.013   607   618 W art     : Long monitor contention event with owner method=int com.android.server.wm.WindowManagerService.relayoutWindow(com.android.server.wm.Session, android.view.IWindow, int, android.view.WindowManager$LayoutParams, int, int, int, int, android.graphics.Rect, android.graphics.Rect, android.graphics.Rect, android.graphics.Rect, android.graphics.Rect, android.graphics.Rect, android.content.res.Configuration, android.view.Surface) from WindowManagerService.java:3103 waiters=0 for 536ms
+08-18 15:23:45.030  2039  2054 D libEGL  : loaded /system/lib/egl/libEGL_emulation.so
+08-18 15:23:45.033  2039  2054 D libEGL  : loaded /system/lib/egl/libGLESv1_CM_emulation.so
+08-18 15:23:45.058  2039  2054 D libEGL  : loaded /system/lib/egl/libGLESv2_emulation.so
+08-18 15:23:45.094  2039  2054 D         : HostConnection::get() New Host Connection established 0xeebd2a70, tid 2054
+08-18 15:23:45.311   607   621 W art     : Long monitor contention event with owner method=void com.android.server.am.ActivityManagerService.attachApplication(android.app.IApplicationThread) from ActivityManagerService.java:6235 waiters=0 for 825ms
+08-18 15:23:45.332   607   622 W art     : Long monitor contention event with owner method=void com.android.server.am.ActivityManagerService.attachApplication(android.app.IApplicationThread) from ActivityManagerService.java:6235 waiters=1 for 270ms
+08-18 15:23:45.702  2055  2055 W System  : ClassLoader referenced unknown path: /system/priv-app/PackageInstaller/lib/x86
+08-18 15:23:46.437  2055  2065 I art     : Background sticky concurrent mark sweep GC freed 21611(911KB) AllocSpace objects, 0(0B) LOS objects, 72% free, 631KB/2MB, paused 207us total 209.847ms
+08-18 15:23:46.438  2039  2054 I OpenGLRenderer: Initialized EGL, version 1.4
+08-18 15:23:46.453  2055  2070 D OpenGLRenderer: Use EGL_SWAP_BEHAVIOR_PRESERVED: true
+08-18 15:23:46.467  2055  2055 D         : HostConnection::get() New Host Connection established 0xe823f9a0, tid 2055
+08-18 15:23:46.503  2039  2054 W EGL_emulation: eglSurfaceAttrib not implemented
+08-18 15:23:46.503  2039  2054 W OpenGLRenderer: Failed to set EGL_SWAP_BEHAVIOR on surface 0xe9b3a260, error=EGL_SUCCESS
+08-18 15:23:46.534  2055  2070 D libEGL  : loaded /system/lib/egl/libEGL_emulation.so
+08-18 15:23:46.535  2039  2039 I Choreographer: Skipped 127 frames!  The application may be doing too much work on its main thread.
+08-18 15:23:46.536  2055  2070 D libEGL  : loaded /system/lib/egl/libGLESv1_CM_emulation.so
+08-18 15:23:46.544  2055  2070 D libEGL  : loaded /system/lib/egl/libGLESv2_emulation.so
+08-18 15:23:46.570  2055  2070 D         : HostConnection::get() New Host Connection established 0xeebd2ac0, tid 2070
+08-18 15:23:46.801  2055  2070 I OpenGLRenderer: Initialized EGL, version 1.4
+08-18 15:23:47.186  2055  2070 W EGL_emulation: eglSurfaceAttrib not implemented
+08-18 15:23:47.186  2055  2070 W OpenGLRenderer: Failed to set EGL_SWAP_BEHAVIOR on surface 0xe9b3a2c0, error=EGL_SUCCESS
+08-18 15:23:48.314  2077  2077 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+08-18 15:23:48.318  2077  2077 D AndroidRuntime: CheckJNI is OFF
+08-18 15:23:48.366  2077  2077 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+08-18 15:23:48.758  2077  2077 E memtrack: Couldn't load memtrack module (No such file or directory)
+08-18 15:23:48.772  2077  2077 E android.os.Debug: failed to load memtrack module: -2
+08-18 15:23:48.773  2077  2077 I Radio-JNI: register_android_hardware_Radio DONE
+08-18 15:23:48.802  2077  2077 D AndroidRuntime: Calling main entry com.android.commands.content.Content
+08-18 15:23:48.966  2077  2077 D AndroidRuntime: Shutting down VM
+08-18 15:23:50.763  2086  2086 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+08-18 15:23:50.801  2086  2086 D AndroidRuntime: CheckJNI is OFF
+08-18 15:23:50.898  2086  2086 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+08-18 15:23:51.222  2039  2039 I Choreographer: Skipped 280 frames!  The application may be doing too much work on its main thread.
+08-18 15:23:51.244  2086  2086 E memtrack: Couldn't load memtrack module (No such file or directory)
+08-18 15:23:51.244  2086  2086 E android.os.Debug: failed to load memtrack module: -2
+08-18 15:23:51.245  2086  2086 I Radio-JNI: register_android_hardware_Radio DONE
+08-18 15:23:51.399  2086  2086 D AndroidRuntime: Calling main entry com.android.commands.content.Content
+08-18 15:23:51.544  2086  2086 D AndroidRuntime: Shutting down VM
+08-18 15:23:51.564   607   760 I ActivityManager: Killing 1128:android.process.media/u0a6 (adj 15): empty #17
+08-18 15:23:51.573   607   760 W libprocessgroup: failed to open /acct/uid_10006/pid_1128/cgroup.procs: No such file or directory
+08-18 15:23:51.964  2039  2039 I Choreographer: Skipped 40 frames!  The application may be doing too much work on its main thread.
+08-18 15:23:52.377   607   621 W ActivityManager: Launch timeout has expired, giving up wake lock!
+08-18 15:23:52.663  2039  2039 I Choreographer: Skipped 35 frames!  The application may be doing too much work on its main thread.
+08-18 15:23:53.218   607   658 I InputReader: Reconfiguring input devices.  changes=0x00000010
+08-18 15:23:53.301  2039  2039 I Choreographer: Skipped 34 frames!  The application may be doing too much work on its main thread.
+08-18 15:23:53.334  1539  1673 E Surface : getSlotFromBufferLocked: unknown buffer: 0xdef83490
+08-18 15:23:53.782  2055  2055 I Choreographer: Skipped 387 frames!  The application may be doing too much work on its main thread.
+08-18 15:23:53.956   607   626 I ActivityManager: Displayed com.android.packageinstaller/.permission.ui.GrantPermissionsActivity: +10s346ms (total +11s586ms)
+08-18 15:24:13.432   607   623 E BluetoothAdapter: Bluetooth binder is null
+08-18 15:24:13.432   607   623 I BatteryStatsImpl: Resetting battery stats: level=100 status=5 dischargeLevel=100 lowAmount=0 highAmount=0
+08-18 15:24:15.426   607   607 I EntropyMixer: Writing entropy...
+08-18 15:24:15.436   607   623 E BluetoothAdapter: Bluetooth binder is null
+08-18 15:24:25.386  2055  2070 E Surface : getSlotFromBufferLocked: unknown buffer: 0xeebf2380
+08-18 15:24:25.388  2055  2070 D OpenGLRenderer: endAllStagingAnimators on 0xf2b95480 (RippleDrawable) with handle 0xeebd2ec0
+08-18 15:24:25.437  2039  2039 D leak-11 : Eastern Standard Time
+08-18 15:24:25.437  2039  2039 D leak-12 : Eastern Standard Time
+08-18 15:24:25.437  2039  2039 D leak-31 : Eastern Standard Time
+08-18 15:24:25.522   607   626 W art     : Long monitor contention event with owner method=int com.android.server.wm.WindowManagerService.relayoutWindow(com.android.server.wm.Session, android.view.IWindow, int, android.view.WindowManager$LayoutParams, int, int, int, int, android.graphics.Rect, android.graphics.Rect, android.graphics.Rect, android.graphics.Rect, android.graphics.Rect, android.graphics.Rect, android.content.res.Configuration, android.view.Surface) from WindowManagerService.java:3103 waiters=0 for 117ms
+08-18 15:24:25.542   607   620 D gps_vbox86: gps_set_position_mode not implemented
+08-18 15:24:25.542   607   620 D gps_vbox86: Gps navigation has started
+08-18 15:24:25.542  2039  2039 D leak-10 : Eastern Standard Time
+08-18 15:24:25.542  2039  2039 D leak-31 : Eastern Standard Time
+08-18 15:24:25.589  2039  2039 D leak-14 : Eastern Standard Time
+08-18 15:24:25.596   607   617 I art     : Background partial concurrent mark sweep GC freed 26453(2MB) AllocSpace objects, 15(300KB) LOS objects, 33% free, 6MB/9MB, paused 1.690ms total 126.216ms
+08-18 15:24:25.605  2039  2039 D leak-15 : Eastern Standard Time
+08-18 15:24:25.629  2039  2039 D leak-34 : Eastern Standard Time
+08-18 15:24:25.629  2039  2039 D leak-35 : Eastern Standard Time
+08-18 15:24:25.683  2039  2039 D leak-2  : Eastern Standard Time
+08-18 15:24:25.683  2039  2039 D leak-15 : Eastern Standard Time
+08-18 15:24:25.728  2039  2039 D leak-34 : Eastern Standard Time
+08-18 15:24:25.742  2039  2039 D leak-37 : Eastern Standard Time
+08-18 15:24:25.742  2039  2039 D leak-16 : Eastern Standard Time
+08-18 15:24:25.749  2039  2039 D leak-38 : Eastern Standard Time
+08-18 15:24:25.749  2039  2039 D leak-39 : Eastern Standard Time
+08-18 15:24:25.749  2039  2039 D leak-42 : Eastern Standard Time
+08-18 15:24:25.753  2039  2039 D leak-43 : Eastern Standard Time
+08-18 15:24:25.770  2039  2039 D leak-5  : Eastern Standard Time
+08-18 15:24:25.889   607   619 I ActivityManager: Killing 1838:com.android.onetimeinitializer/u0a11 (adj 15): empty #17
+08-18 15:24:25.893   607   619 W libprocessgroup: failed to open /acct/uid_10011/pid_1838/cgroup.procs: No such file or directory
+08-18 15:24:25.929   271   271 W SurfaceFlinger: couldn't log to binary event log: overflow.
+08-18 15:24:45.516   266   640 W AudioFlinger: write blocked for 19994 msecs, 1 delayed writes, thread 0xf1d40000
+08-18 15:24:52.089   607  1276 D NetlinkSocketObserver: NeighborEvent{elapsedMs=279679, 10.0.3.2, [525400123502], RTM_NEWNEIGH, NUD_PROBE}
+08-18 15:24:52.089   607  1276 D NetlinkSocketObserver: NeighborEvent{elapsedMs=279679, 10.0.3.2, [525400123502], RTM_NEWNEIGH, NUD_REACHABLE}
+08-18 15:25:14.073   607  1276 D NetlinkSocketObserver: NeighborEvent{elapsedMs=301663, 10.0.3.2, [525400123502], RTM_NEWNEIGH, NUD_STALE}

@@ -1,0 +1,146 @@
+/home/amit/muse/output/NasaApod/schemas/REACHABILITY/NasaApod
+In file: API.java
+Input operator: REACHABILITY
+leak-0: <API.<init>>
+leak-1: API.getApi
+leak-2: API.getApi
+leak-3: API.getApi
+leak-4: API.getApi
+In file: Tls12SocketFactory.java
+Input operator: REACHABILITY
+leak-5: <Tls12SocketFactory.<init>>
+leak-6: Tls12SocketFactory.Tls12SocketFactory
+leak-7: Tls12SocketFactory.getDefaultCipherSuites
+leak-8: Tls12SocketFactory.getSupportedCipherSuites
+leak-9: Tls12SocketFactory.createSocket
+leak-10: Tls12SocketFactory.createSocket
+leak-11: Tls12SocketFactory.createSocket
+leak-12: Tls12SocketFactory.createSocket
+leak-13: Tls12SocketFactory.createSocket
+leak-14: Tls12SocketFactory.patch
+leak-15: Tls12SocketFactory.patch
+leak-16: Tls12SocketFactory.enableTls12OnPreLollipop
+leak-17: Tls12SocketFactory.enableTls12OnPreLollipop
+leak-18: Tls12SocketFactory.enableTls12OnPreLollipop
+leak-19: Tls12SocketFactory.enableTls12OnPreLollipop
+In file: NASAServices.java
+Input operator: REACHABILITY
+In file: MainActivity.java
+Input operator: REACHABILITY
+leak-20: <MainActivity.<init>>
+leak-21: MainActivity.onCreate
+leak-22: <1.<init>>
+leak-23: 1.onItemClick
+leak-24: 1.onItemClick
+leak-25: 1.onItemClick
+leak-26: MainActivity.onCreateOptionsMenu
+leak-27: MainActivity.onOptionsItemSelected
+leak-28: MainActivity.enforceIconBar
+leak-29: MainActivity.getNasaAPODS
+leak-30: MainActivity.picassoClearCache
+leak-31: MainActivity.picassoClearCache
+leak-32: MainActivity.picassoClearCache
+In file: ImageActivity.java
+Input operator: REACHABILITY
+leak-33: <ImageActivity.<init>>
+leak-34: <1.<init>>
+leak-35: 1.run
+leak-36: <1.<init>>
+leak-37: 1.run
+leak-38: 1.run
+leak-39: <1.<init>>
+leak-40: 1.run
+leak-41: ImageActivity.onCreate
+leak-42: <1.<init>>
+leak-43: 1.onClick
+leak-44: ImageActivity.onPostCreate
+leak-45: ImageActivity.toggle
+leak-46: ImageActivity.toggle
+leak-47: ImageActivity.toggle
+leak-48: ImageActivity.hide
+leak-49: ImageActivity.hide
+leak-50: ImageActivity.show
+leak-51: ImageActivity.delayedHide
+In file: ViewActivity.java
+Input operator: REACHABILITY
+leak-52: <ViewActivity.<init>>
+leak-53: ViewActivity.onCreate
+leak-54: <1.<init>>
+leak-55: 1.onClick
+leak-56: ViewActivity.onCreateOptionsMenu
+leak-57: ViewActivity.onOptionsItemSelected
+leak-58: ViewActivity.checkPermission
+leak-59: ViewActivity.checkPermission
+leak-60: ViewActivity.checkPermission
+leak-61: ViewActivity.checkPermission
+leak-62: ViewActivity.checkPermission
+leak-63: ViewActivity.checkPermission
+leak-64: ViewActivity.checkPermission
+leak-65: ViewActivity.downloadPicasso
+leak-66: ViewActivity.OlderVersions
+leak-67: ViewActivity.OlderVersions
+leak-68: ViewActivity.OlderVersions
+leak-69: ViewActivity.onRequestPermissionsResult
+leak-70: ViewActivity.onRequestPermissionsResult
+leak-71: ViewActivity.onRequestPermissionsResult
+leak-72: ViewActivity.onRequestPermissionsResult
+leak-73: ViewActivity.CheckPermission
+leak-74: ViewActivity.getImageNameApod
+leak-75: ViewActivity.setDataNasaAPOD
+leak-76: ViewActivity.getConcat
+leak-77: ViewActivity.getConcat
+leak-78: ViewActivity.getConcat
+In file: NASA.java
+Input operator: REACHABILITY
+leak-79: <NASA.<init>>
+leak-80: NASA.NASA
+leak-81: NASA.getCopyright
+leak-82: NASA.setCopyright
+leak-83: NASA.getDate
+leak-84: NASA.setDate
+leak-85: NASA.getExplanation
+leak-86: NASA.setExplanation
+leak-87: NASA.getHdurl
+leak-88: NASA.setHdurl
+leak-89: NASA.getMedia_type
+leak-90: NASA.setMedia_type
+leak-91: NASA.getService_version
+leak-92: NASA.setService_version
+leak-93: NASA.getTitle
+leak-94: NASA.setTitle
+leak-95: NASA.getUrl
+leak-96: NASA.setUrl
+In file: PicassoDownloader.java
+Input operator: REACHABILITY
+leak-97: <PicassoDownloader.<init>>
+leak-98: PicassoDownloader.PicassoDownloader
+leak-99: PicassoDownloader.onPrepareLoad
+leak-100: PicassoDownloader.onBitmapLoaded
+leak-101: PicassoDownloader.saveImage
+leak-102: PicassoDownloader.saveImage
+leak-103: PicassoDownloader.saveImage
+leak-104: PicassoDownloader.saveImage
+leak-105: PicassoDownloader.saveImage
+leak-106: PicassoDownloader.onBitmapFailed
+In file: MyAdapter.java
+Input operator: REACHABILITY
+leak-107: <MyAdapter.<init>>
+leak-108: MyAdapter.addAll
+leak-109: MyAdapter.addAll
+leak-110: MyAdapter.addAll
+leak-111: MyAdapter.MyAdapter
+leak-112: MyAdapter.onCreateViewHolder
+leak-113: MyAdapter.onBindViewHolder
+leak-114: MyAdapter.getItemCount
+leak-115: <ViewHolder.<init>>
+leak-116: ViewHolder.ViewHolder
+leak-117: ViewHolder.bind
+leak-118: <1.<init>>
+leak-119: 1.onClick
+In file: NasaController.java
+Input operator: REACHABILITY
+leak-120: <NasaController.<init>>
+leak-121: NasaController.getNASAAPODS
+leak-122: <1.<init>>
+leak-123: 1.onResponse
+leak-124: 1.onFailure

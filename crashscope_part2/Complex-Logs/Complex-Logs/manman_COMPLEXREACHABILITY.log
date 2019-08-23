@@ -1,0 +1,934 @@
+/home/amit/muse/output/manman/schemas/COMPLEXREACHABILITY/manman
+In file: DonateHelper.java
+Input operator: COMPLEXREACHABILITY
+leak-0: DonateHelper.DonateHelper
+leak-1: DonateHelper.purchaseGift
+leak-2: DonateHelper.handleActivityResult
+leak-3: DonateHelper.handleActivityDestroy
+leak-4: PaypalDonateListener.onClick
+leak-5: PaypalDonateListener.donatePayPalOnClick
+leak-6: PaypalDonateListener.donatePayPalOnClick
+leak-7: PaypalDonateListener.donatePayPalOnClick
+In file: Man2HtmlTest.java
+Input operator: COMPLEXREACHABILITY
+leak-8: Man2HtmlTest.testHtmlOutput
+In file: ApplicationTest.java
+Input operator: COMPLEXREACHABILITY
+leak-9: ApplicationTest.unlockScreen
+leak-10: 1.run
+leak-11: ApplicationTest.espressoPreconditions
+leak-12: ApplicationTest.checkSearchForCommand
+leak-13: 1.call
+leak-14: 1.call
+leak-15: ApplicationTest.checkChapter
+leak-16: 1.call
+leak-17: ApplicationTest.checkLocalArchive
+leak-18: 1.call
+leak-19: ApplicationTest.checkCachedPage
+leak-20: 1.call
+leak-21: ManSectionItemMatcher.ManSectionItemMatcher
+leak-22: ManSectionItemMatcher.matches
+leak-23: ManSectionItemMatcher.describeTo
+leak-24: ManPageMatcher.ManPageMatcher
+leak-25: ManPageMatcher.matches
+leak-26: ManPageMatcher.describeTo
+leak-27: WebViewVisible.WebViewVisible
+leak-28: WebViewVisible.call
+In file: ManPageDialogFragment.java
+Input operator: COMPLEXREACHABILITY
+leak-29: ManPageDialogFragment.newInstance
+leak-30: ManPageDialogFragment.ManPageDialogFragment
+leak-31: ManPageDialogFragment.onCreate
+leak-32: ManPageDialogFragment.onCreate
+leak-33: ManPageDialogFragment.onCreateView
+leak-34: ManPageDialogFragment.onCreateView
+leak-35: ManPageDialogFragment.onResume
+leak-36: ManPageDialogFragment.onCreateOptionsMenu
+leak-37: ManPageDialogFragment.onOptionsItemSelected
+leak-38: ManPageDialogFragment.toggleSearchBar
+leak-39: ManPageDialogFragment.toggleSearchBar
+leak-40: ManPageDialogFragment.toggleSearchBar
+leak-41: RetrieveManPageCallback.onCreateLoader
+leak-42: 1.loadInBackground
+leak-43: 1.loadInBackground
+leak-44: 1.loadInBackground
+leak-45: 1.loadInBackground
+leak-46: 1.loadInBackground
+leak-47: 1.loadInBackground
+leak-48: 1.loadInBackground
+leak-49: 1.loadInBackground
+leak-50: 1.loadInBackground
+leak-51: 1.loadInBackground
+leak-52: 1.loadInBackground
+leak-53: 1.loadInBackground
+leak-54: 1.loadInBackground
+leak-55: 1.loadInBackground
+leak-56: 1.loadInBackground
+leak-57: 1.getLinks
+leak-58: 1.getLinks
+leak-59: 1.getLinks
+leak-60: RetrieveManPageCallback.onLoadFinished
+leak-61: RetrieveManPageCallback.onLoadFinished
+leak-62: RetrieveManPageCallback.onLoadFinished
+leak-63: 1.run
+leak-64: RetrieveManPageCallback.onLoaderReset
+leak-65: ManPageDialogFragment.shakeSlider
+leak-66: 1.run
+leak-67: 1.run
+leak-68: ManPageDialogFragment.fillLinkPane
+leak-69: ManPageDialogFragment.fillLinkPane
+leak-70: 1.onClick
+leak-71: ManPageDialogFragment.getFontFromProperties
+leak-72: ManPageDialogFragment.getFontFromProperties
+leak-73: ManPageDialogFragment.getFontFromProperties
+leak-74: ManPageChromeClient.shouldOverrideUrlLoading
+leak-75: ManPageChromeClient.shouldOverrideUrlLoading
+leak-76: ManPageChromeClient.shouldOverrideUrlLoadingOld
+leak-77: ManPageChromeClient.shouldOverrideUrlLoadingOld
+leak-78: ManPageChromeClient.shouldOverrideUrlLoadingOld
+leak-79: ManPageChromeClient.shouldOverrideUrlLoadingOld
+leak-80: ManPageChromeClient.shouldOverrideUrlLoadingOld
+leak-81: SearchBarCloser.onClick
+leak-82: SearchFurtherExecutor.SearchFurtherExecutor
+leak-83: SearchFurtherExecutor.onClick
+leak-84: SearchExecutor.beforeTextChanged
+leak-85: SearchExecutor.onTextChanged
+leak-86: SearchExecutor.afterTextChanged
+leak-87: FontChangeListener.onSharedPreferenceChanged
+In file: ProgressBarWrapper.java
+Input operator: COMPLEXREACHABILITY
+leak-88: ProgressBarWrapper.ProgressBarWrapper
+leak-89: ProgressBarWrapper.getActionBarSize
+leak-90: ProgressBarWrapper.getActionBarSize
+leak-91: ProgressBarWrapper.getActionBarSize
+leak-92: ProgressBarWrapper.createProgressBar
+leak-93: ProgressBarWrapper.show
+leak-94: ProgressBarWrapper.show
+leak-95: ProgressBarWrapper.show
+leak-96: ProgressBarWrapper.show
+leak-97: ProgressBarWrapper.hide
+leak-98: ProgressBarWrapper.hide
+leak-99: ProgressBarWrapper.onOrientationChanged
+leak-100: ProgressBarWrapper.onOrientationChanged
+leak-101: ProgressBarWrapper.addProgressBarToActivity
+leak-102: AddHeaderViewRunnable.run
+leak-103: AddHeaderViewRunnable.run
+leak-104: AddHeaderViewRunnable.run
+leak-105: AddHeaderViewRunnable.start
+leak-106: AddHeaderViewRunnable.finish
+leak-107: AddHeaderViewRunnable.getDecorView
+leak-108: ProgressBarWrapper.setIndeterminate
+leak-109: ProgressBarWrapper.setProgress
+In file: PassiveSlidingPane.java
+Input operator: COMPLEXREACHABILITY
+leak-110: PassiveSlidingPane.PassiveSlidingPane
+leak-111: PassiveSlidingPane.PassiveSlidingPane
+leak-112: PassiveSlidingPane.PassiveSlidingPane
+leak-113: PassiveSlidingPane.init
+leak-114: PassiveSlidingPane.setTrackedView
+leak-115: PassiveSlidingPane.onInterceptTouchEvent
+leak-116: PassiveSlidingPane.onInterceptTouchEvent
+leak-117: PassiveSlidingPane.onInterceptTouchEvent
+In file: FolderChooseFragment.java
+Input operator: COMPLEXREACHABILITY
+leak-118: FolderChooseFragment.onCreate
+leak-119: FolderChooseFragment.onCreateDialog
+leak-120: AddFolderClickListener.onClick
+leak-121: 1.receiveResult
+leak-122: FolderListArrayAdapter.FolderListArrayAdapter
+leak-123: FolderListArrayAdapter.getView
+leak-124: 1.onClick
+leak-125: FolderChooseFragment.syncFolderList
+In file: ChapterContentsArrayAdapter.java
+Input operator: COMPLEXREACHABILITY
+leak-126: ChapterContentsArrayAdapter.ChapterContentsArrayAdapter
+leak-127: ChapterContentsArrayAdapter.getView
+leak-128: ChapterContentsArrayAdapter.getSections
+leak-129: ChapterContentsArrayAdapter.getSections
+leak-130: ChapterContentsArrayAdapter.getPositionForSection
+leak-131: ChapterContentsArrayAdapter.getSectionForPosition
+leak-132: ChapterContentsArrayAdapter.getSectionForPosition
+In file: ChapterContentsCursorAdapter.java
+Input operator: COMPLEXREACHABILITY
+leak-133: ChapterContentsCursorAdapter.ChapterContentsCursorAdapter
+leak-134: ChapterContentsCursorAdapter.getView
+leak-135: ChapterContentsCursorAdapter.getSections
+leak-136: ChapterContentsCursorAdapter.getSections
+leak-137: ChapterContentsCursorAdapter.getPositionForSection
+leak-138: ChapterContentsCursorAdapter.getSectionForPosition
+leak-139: ChapterContentsCursorAdapter.getSectionForPosition
+In file: CachedCommandsArrayAdapter.java
+Input operator: COMPLEXREACHABILITY
+leak-140: CachedCommandsArrayAdapter.CachedCommandsArrayAdapter
+leak-141: CachedCommandsArrayAdapter.getView
+leak-142: 1.onClick
+leak-143: 1.onMenuItemClick
+In file: ChaptersArrayAdapter.java
+Input operator: COMPLEXREACHABILITY
+leak-144: ChaptersArrayAdapter.ChaptersArrayAdapter
+leak-145: ChaptersArrayAdapter.getView
+In file: OrmLiteCursorAdapter.java
+Input operator: COMPLEXREACHABILITY
+leak-146: OrmLiteCursorAdapter.OrmLiteCursorAdapter
+leak-147: OrmLiteCursorAdapter.getCount
+leak-148: OrmLiteCursorAdapter.getItem
+leak-149: OrmLiteCursorAdapter.getItem
+leak-150: OrmLiteCursorAdapter.getItem
+leak-151: OrmLiteCursorAdapter.getRawCursor
+leak-152: OrmLiteCursorAdapter.getItemId
+leak-153: OrmLiteCursorAdapter.updateQuery
+leak-154: OrmLiteCursorAdapter.updateQuery
+leak-155: OrmLiteCursorAdapter.updateQuery
+leak-156: OrmLiteCursorAdapter.updateQuery
+leak-157: OrmLiteCursorAdapter.closeCursor
+In file: LocalArchiveArrayAdapter.java
+Input operator: COMPLEXREACHABILITY
+leak-158: LocalArchiveArrayAdapter.LocalArchiveArrayAdapter
+leak-159: LocalArchiveArrayAdapter.getCount
+leak-160: LocalArchiveArrayAdapter.getItem
+leak-161: LocalArchiveArrayAdapter.getView
+leak-162: LocalArchiveArrayAdapter.getFilter
+leak-163: 1.performFiltering
+leak-164: 1.performFiltering
+leak-165: 1.performFiltering
+leak-166: 1.performFiltering
+leak-167: 1.publishResults
+In file: ManChaptersFragment.java
+Input operator: COMPLEXREACHABILITY
+leak-168: 1.onItemClick
+leak-169: 1.onItemClick
+leak-170: ManChaptersFragment.newInstance
+leak-171: ManChaptersFragment.ManChaptersFragment
+leak-172: ManChaptersFragment.onCreateView
+leak-173: RetrieveChapterContentsCallback.onCreateLoader
+leak-174: 1.onStartLoading
+leak-175: 1.onStartLoading
+leak-176: 1.loadInBackground
+leak-177: 1.loadInBackground
+leak-178: 1.loadInBackground
+leak-179: 1.loadInBackground
+leak-180: 1.loadFromNetwork
+leak-181: 1.loadFromNetwork
+leak-182: 1.loadFromNetwork
+leak-183: 1.loadFromNetwork
+leak-184: 1.loadFromNetwork
+leak-185: 1.loadFromNetwork
+leak-186: 1.loadFromNetwork
+leak-187: 1.saveToDb
+leak-188: 1.saveToDb
+leak-189: 1.call
+leak-190: 1.call
+leak-191: 1.call
+leak-192: 1.saveToDb
+leak-193: 1.deliverResult
+leak-194: RetrieveChapterContentsCallback.onLoadFinished
+leak-195: RetrieveChapterContentsCallback.onLoadFinished
+leak-196: RetrieveChapterContentsCallback.onLoadFinished
+leak-197: RetrieveChapterContentsCallback.onLoadFinished
+leak-198: RetrieveChapterContentsCallback.onLoadFinished
+leak-199: RetrieveChapterContentsCallback.onLoaderReset
+leak-200: RetrievePackageContentsCallback.onCreateLoader
+leak-201: 1.onStartLoading
+leak-202: 1.onStartLoading
+leak-203: 1.loadInBackground
+leak-204: 1.loadInBackground
+leak-205: 1.loadInBackground
+leak-206: 1.loadInBackground
+leak-207: 1.loadInBackground
+leak-208: 1.deliverResult
+leak-209: RetrievePackageContentsCallback.onLoadFinished
+leak-210: 1.onClick
+leak-211: RetrievePackageContentsCallback.onLoaderReset
+leak-212: ManChaptersFragment.sectionItemFromRow
+leak-213: ManChaptersFragment.onDestroyView
+leak-214: ManChaptersFragment.onConfigurationChanged
+leak-215: ManChaptersFragment.onPause
+leak-216: ManChaptersFragment.onPause
+leak-217: ManChaptersFragment.onResume
+leak-218: ManChaptersFragment.onResume
+leak-219: ManChaptersFragment.onDestroy
+leak-220: CountingInputStream.CountingInputStream
+leak-221: CountingInputStream.read
+leak-222: CountingInputStream.read
+leak-223: CountingInputStream.read
+leak-224: CountingInputStream.read
+leak-225: CountingInputStream.read
+leak-226: 1.run
+leak-227: 1.run
+leak-228: 1.run
+leak-229: CountingInputStream.stopCounting
+leak-230: ManPageContentsResult.ManPageContentsResult
+leak-231: ManPageContentsResult.ManPageContentsResult
+leak-232: BackButtonBroadcastReceiver.onReceive
+leak-233: ManChaptersFragment.swapListView
+leak-234: ManChaptersFragment.swapListView
+leak-235: ManChaptersFragment.swapListView
+In file: ManLocalArchiveFragment.java
+Input operator: COMPLEXREACHABILITY
+leak-236: 1.onItemClick
+leak-237: 1.onItemClick
+leak-238: 1.onItemClick
+leak-239: ManLocalArchiveFragment.newInstance
+leak-240: ManLocalArchiveFragment.ManLocalArchiveFragment
+leak-241: ManLocalArchiveFragment.onCreateView
+leak-242: ManLocalArchiveFragment.onConfigurationChanged
+leak-243: ManLocalArchiveFragment.onDestroyView
+leak-244: ManLocalArchiveFragment.onCreateOptionsMenu
+leak-245: ManLocalArchiveFragment.onPrepareOptionsMenu
+leak-246: ManLocalArchiveFragment.onOptionsItemSelected
+leak-247: ManLocalArchiveFragment.onSharedPreferenceChanged
+leak-248: ManLocalArchiveFragment.onSharedPreferenceChanged
+leak-249: ManLocalArchiveFragment.showFolderSettingsDialog
+leak-250: LocalArchiveParserCallback.onCreateLoader
+leak-251: 1.loadInBackground
+leak-252: 1.loadInBackground
+leak-253: 1.loadInBackground
+leak-254: 1.loadInBackground
+leak-255: 1.run
+leak-256: 1.populateWithLocal
+leak-257: 1.populateWithLocal
+leak-258: 1.populateWithLocal
+leak-259: 1.populateWithLocal
+leak-260: 1.walkFileTree
+leak-261: 1.walkFileTree
+leak-262: 1.walkFileTree
+leak-263: 1.walkFileTree
+leak-264: 1.deliverResult
+leak-265: LocalArchiveParserCallback.onLoadFinished
+leak-266: LocalArchiveParserCallback.onLoadFinished
+leak-267: LocalArchiveParserCallback.onLoadFinished
+leak-268: LocalArchiveParserCallback.onLoadFinished
+leak-269: LocalArchiveParserCallback.onLoaderReset
+leak-270: ManLocalArchiveFragment.downloadArchive
+leak-271: ManLocalArchiveFragment.downloadArchive
+leak-272: ManLocalArchiveFragment.downloadArchive
+leak-273: 1.onClick
+leak-274: 1.onPreExecute
+leak-275: 1.doInBackground
+leak-276: 1.doInBackground
+leak-277: 1.doInBackground
+leak-278: 1.doInBackground
+leak-279: 1.doInBackground
+leak-280: 1.onProgressUpdate
+leak-281: 1.onProgressUpdate
+leak-282: 1.onProgressUpdate
+leak-283: 1.onPostExecute
+leak-284: FilterLocalStorage.onQueryTextSubmit
+leak-285: FilterLocalStorage.onQueryTextChange
+leak-286: FilterLocalStorage.applyFilter
+leak-287: FilterLocalStorage.applyFilter
+leak-288: LocalArchiveBroadcastReceiver.onReceive
+In file: PreferencesActivity.java
+Input operator: COMPLEXREACHABILITY
+leak-289: PreferencesActivity.onCreate
+In file: GlobalPrefsFragment.java
+Input operator: COMPLEXREACHABILITY
+leak-290: GlobalPrefsFragment.onCreate
+leak-291: 1.onPreferenceClick
+leak-292: 1.onClick
+leak-293: 1.onPreferenceClick
+leak-294: 1.onPreferenceClick
+In file: AbstractNetworkAsyncLoader.java
+Input operator: COMPLEXREACHABILITY
+leak-295: AbstractNetworkAsyncLoader.AbstractNetworkAsyncLoader
+leak-296: AbstractNetworkAsyncLoader.onStopLoading
+leak-297: AbstractNetworkAsyncLoader.onStartLoading
+leak-298: AbstractNetworkAsyncLoader.onStartLoading
+leak-299: AbstractNetworkAsyncLoader.onStartLoading
+leak-300: AbstractNetworkAsyncLoader.onLoadInBackground
+leak-301: AbstractNetworkAsyncLoader.deliverResult
+leak-302: AbstractNetworkAsyncLoader.deliverResult
+leak-303: AbstractNetworkAsyncLoader.deliverResult
+leak-304: AbstractNetworkAsyncLoader.onReset
+In file: FolderAddDialog.java
+Input operator: COMPLEXREACHABILITY
+leak-305: FolderAddDialog.newInstance
+leak-306: FolderAddDialog.onCreateDialog
+leak-307: FolderAddDialog.onStart
+leak-308: FolderAddDialog.cdInto
+leak-309: FolderAddDialog.cdInto
+leak-310: FolderAddDialog.cdInto
+leak-311: FolderAddDialog.cdInto
+leak-312: FolderAddDialog.onClick
+leak-313: FolderAddDialog.onItemClick
+leak-314: FolderArrayAdapter.FolderArrayAdapter
+leak-315: FolderArrayAdapter.getView
+leak-316: FolderArrayAdapter.getView
+leak-317: FolderArrayAdapter.getView
+In file: CircularFragReveal.java
+Input operator: COMPLEXREACHABILITY
+leak-318: CircularFragReveal.CircularFragReveal
+leak-319: CircularFragReveal.startReveal
+leak-320: CircularFragReveal.cancelReveal
+leak-321: CircularFragReveal.isRevealing
+leak-322: CircularFragReveal.isUnrevealing
+leak-323: CircularFragReveal.startUnreveal
+leak-324: CircularFragReveal.startUnreveal
+leak-325: CircularFragReveal.startUnreveal
+leak-326: CircularFragReveal.cancelUnreveal
+leak-327: Builder.Builder
+leak-328: Builder.setRevealTime
+leak-329: Builder.setUnrevealTime
+leak-330: Builder.setRevelInt
+leak-331: Builder.setUnrevealInt
+leak-332: Builder.setRevealColor
+leak-333: Builder.setOnToouchUnreveal
+leak-334: Builder.build
+leak-335: Builder.getRootView
+leak-336: Builder.getREVEAL_DURATION
+leak-337: Builder.getRevealInterpolator
+leak-338: Builder.getUNREVEAL_DURATION
+leak-339: Builder.getUnrevealInterpolator
+leak-340: Builder.getRevealBgColor
+leak-341: Builder.isTouchUnreveal
+leak-342: CircularFragReveal.startRevealAnimation
+leak-343: CircularFragReveal.startRevealAnimation
+leak-344: 1.onLayoutChange
+leak-345: CircularFragReveal.startRevealAnimation
+leak-346: CircularFragReveal.getView
+leak-347: CircularFragReveal.prepareUnrevealAnimator
+leak-348: CircularFragReveal.prepareUnrevealAnimator
+leak-349: CircularFragReveal.getEnclosingCircleRadius
+leak-350: 1.onTouch
+leak-351: CircularFragReveal.onTouchUnRevealOn
+leak-352: CircularFragReveal.onTouchUnRevealOff
+leak-353: 1.onAnimationStart
+leak-354: 1.onAnimationEnd
+leak-355: 1.onAnimationCancel
+leak-356: 1.onAnimationRepeat
+leak-357: 1.onAnimationStart
+leak-358: 1.onAnimationEnd
+leak-359: 1.onAnimationEnd
+leak-360: 1.onAnimationCancel
+leak-361: 1.onAnimationRepeat
+In file: ManChapterItemOnClickListener.java
+Input operator: COMPLEXREACHABILITY
+leak-362: ManChapterItemOnClickListener.ManChapterItemOnClickListener
+leak-363: ManChapterItemOnClickListener.onClick
+leak-364: 1.onMenuItemClick
+In file: ManApplication.java
+Input operator: COMPLEXREACHABILITY
+leak-365: ManApplication.onCreate
+leak-366: ManApplication.onTerminate
+In file: MainPagerActivity.java
+Input operator: COMPLEXREACHABILITY
+leak-367: MainPagerActivity.onCreate
+leak-368: MainPagerActivity.onCreateOptionsMenu
+leak-369: MainPagerActivity.onOptionsItemSelected
+leak-370: ManFragmentPagerAdapter.ManFragmentPagerAdapter
+leak-371: ManFragmentPagerAdapter.getItem
+leak-372: ManFragmentPagerAdapter.getCount
+leak-373: ManFragmentPagerAdapter.getPageTitle
+leak-374: ManFragmentPagerAdapter.setPrimaryItem
+leak-375: ManFragmentPagerAdapter.setPrimaryItem
+leak-376: ManFragmentPagerAdapter.setPrimaryItem
+leak-377: MainPagerActivity.showAbout
+leak-378: MainPagerActivity.onActivityResult
+leak-379: MainPagerActivity.onActivityResult
+leak-380: MainPagerActivity.onBackPressed
+leak-381: MainPagerActivity.onBackPressed
+leak-382: MainPagerActivity.onDestroy
+In file: HtmlEscaper.java
+Input operator: COMPLEXREACHABILITY
+leak-383: HtmlEscaper.escapeHtml
+leak-384: HtmlEscaper.withinStyle
+leak-385: HtmlEscaper.withinStyle
+leak-386: HtmlEscaper.withinStyle
+leak-387: HtmlEscaper.withinStyle
+leak-388: HtmlEscaper.withinStyle
+leak-389: HtmlEscaper.withinStyle
+leak-390: HtmlEscaper.withinStyle
+leak-391: HtmlEscaper.withinStyle
+leak-392: HtmlEscaper.withinStyle
+leak-393: HtmlEscaper.withinStyle
+leak-394: HtmlEscaper.withinStyle
+leak-395: HtmlEscaper.withinStyle
+In file: SpecialsHandler.java
+Input operator: COMPLEXREACHABILITY
+leak-396: SpecialsHandler.parseSpecial
+In file: Man2Html.java
+Input operator: COMPLEXREACHABILITY
+leak-397: Man2Html.Command
+leak-398: Man2Html.Command
+leak-399: Man2Html.Man2Html
+leak-400: Man2Html.getHtml
+leak-401: Man2Html.getDoc
+leak-402: Man2Html.doParse
+leak-403: Man2Html.doParse
+leak-404: Man2Html.doParse
+leak-405: Man2Html.doParse
+leak-406: Man2Html.doParse
+leak-407: Man2Html.doParse
+leak-408: Man2Html.handleSpecialConditions
+leak-409: Man2Html.handleSpecialConditions
+leak-410: Man2Html.evaluateCommand
+leak-411: Man2Html.evaluateCommand
+leak-412: Man2Html.evaluateCommand
+leak-413: Man2Html.evaluateCommand
+leak-414: Man2Html.evaluateCommand
+leak-415: Man2Html.evaluateCommand
+leak-416: Man2Html.evaluateCommand
+leak-417: Man2Html.executeCommand
+leak-418: Man2Html.executeCommand
+leak-419: Man2Html.executeCommand
+leak-420: Man2Html.executeCommand
+leak-421: Man2Html.executeCommand
+leak-422: Man2Html.executeCommand
+leak-423: Man2Html.executeCommand
+leak-424: Man2Html.executeCommand
+leak-425: Man2Html.executeCommand
+leak-426: Man2Html.executeCommand
+leak-427: Man2Html.executeCommand
+leak-428: Man2Html.executeCommand
+leak-429: Man2Html.executeCommand
+leak-430: Man2Html.executeCommand
+leak-431: Man2Html.executeCommand
+leak-432: Man2Html.executeCommand
+leak-433: Man2Html.executeCommand
+leak-434: Man2Html.executeCommand
+leak-435: Man2Html.executeCommand
+leak-436: Man2Html.executeCommand
+leak-437: Man2Html.executeCommand
+leak-438: Man2Html.executeCommand
+leak-439: Man2Html.executeCommand
+leak-440: Man2Html.executeCommand
+leak-441: Man2Html.parseQuotedCommandArguments
+leak-442: Man2Html.parseQuotedCommandArguments
+leak-443: Man2Html.postprocessInDocLinks
+leak-444: Man2Html.postprocessInDocLinks
+leak-445: Man2Html.postprocessInDocLinks
+leak-446: Man2Html.postprocessInDocLinks
+leak-447: Man2Html.parseTextField
+leak-448: Man2Html.parseTextField
+leak-449: Man2Html.parseTextField
+leak-450: Man2Html.parseTextField
+leak-451: Man2Html.parseTextField
+leak-452: Man2Html.parseTextField
+leak-453: Man2Html.parseTextField
+leak-454: Man2Html.parseTextField
+leak-455: Man2Html.parseTextField
+leak-456: Man2Html.parseTextField
+leak-457: Man2Html.isControl
+In file: ManCacheFragment.java
+Input operator: COMPLEXREACHABILITY
+leak-458: ManCacheFragment.newInstance
+leak-459: ManCacheFragment.ManCacheFragment
+leak-460: ManCacheFragment.onCreateView
+leak-461: ManCacheFragment.onDestroyView
+leak-462: ManCacheFragment.onItemClick
+leak-463: CacheBrowseCallback.onCreateLoader
+leak-464: 1.loadInBackground
+leak-465: 1.loadInBackground
+leak-466: 1.loadInBackground
+leak-467: CacheBrowseCallback.onLoadFinished
+leak-468: CacheBrowseCallback.onLoadFinished
+leak-469: CacheBrowseCallback.onLoaderReset
+leak-470: SearchInCacheListener.onQueryTextSubmit
+leak-471: SearchInCacheListener.onQueryTextChange
+leak-472: SearchInCacheListener.fireLoader
+leak-473: DbBroadcastReceiver.onReceive
+In file: SearchResultList.java
+Input operator: COMPLEXREACHABILITY
+leak-474: SearchResultList.getQuery
+leak-475: SearchResultList.setQuery
+leak-476: SearchResultList.getTruncated
+leak-477: SearchResultList.setTruncated
+leak-478: SearchResultList.getResults
+leak-479: SearchResultList.setResults
+In file: ManPage.java
+Input operator: COMPLEXREACHABILITY
+leak-480: ManPage.ManPage
+leak-481: ManPage.ManPage
+leak-482: ManPage.getName
+leak-483: ManPage.setName
+leak-484: ManPage.getUrl
+leak-485: ManPage.setUrl
+leak-486: ManPage.getWebContent
+leak-487: ManPage.setWebContent
+leak-488: ManPage.getLinks
+leak-489: ManPage.setLinks
+In file: SearchResult.java
+Input operator: COMPLEXREACHABILITY
+leak-490: SearchResult.getName
+leak-491: SearchResult.setName
+leak-492: SearchResult.getSection
+leak-493: SearchResult.setSection
+leak-494: SearchResult.getDescription
+leak-495: SearchResult.setDescription
+leak-496: SearchResult.getUrl
+leak-497: SearchResult.setUrl
+In file: ManPageInfo.java
+Input operator: COMPLEXREACHABILITY
+leak-498: ManPageInfo.getName
+leak-499: ManPageInfo.setName
+leak-500: ManPageInfo.getSection
+leak-501: ManPageInfo.setSection
+leak-502: ManPageInfo.getDescription
+leak-503: ManPageInfo.setDescription
+leak-504: ManPageInfo.getUrl
+leak-505: ManPageInfo.setUrl
+leak-506: ManPageInfo.getSections
+leak-507: ManPageInfo.setSections
+leak-508: ManPageInfo.getAnchors
+leak-509: ManPageInfo.setAnchors
+leak-510: InfoSection.getId
+leak-511: InfoSection.setId
+leak-512: InfoSection.getTitle
+leak-513: InfoSection.setTitle
+leak-514: InfoSection.getUrl
+leak-515: InfoSection.setUrl
+leak-516: InfoSection.getSections
+leak-517: InfoSection.setSections
+leak-518: InfoAnchor.getAnchor
+leak-519: InfoAnchor.setAnchor
+leak-520: InfoAnchor.getDescription
+leak-521: InfoAnchor.setDescription
+leak-522: InfoAnchor.getUrl
+leak-523: InfoAnchor.setUrl
+In file: ManSectionIndex.java
+Input operator: COMPLEXREACHABILITY
+leak-524: ManSectionIndex.ManSectionIndex
+leak-525: ManSectionIndex.ManSectionIndex
+leak-526: ManSectionIndex.getLetter
+leak-527: ManSectionIndex.setLetter
+leak-528: ManSectionIndex.getIndex
+leak-529: ManSectionIndex.setIndex
+leak-530: ManSectionIndex.getParentChapter
+leak-531: ManSectionIndex.setParentChapter
+In file: ManSectionItem.java
+Input operator: COMPLEXREACHABILITY
+leak-532: ManSectionItem.getName
+leak-533: ManSectionItem.setName
+leak-534: ManSectionItem.getDescription
+leak-535: ManSectionItem.setDescription
+leak-536: ManSectionItem.getUrl
+leak-537: ManSectionItem.setUrl
+leak-538: ManSectionItem.getParentChapter
+leak-539: ManSectionItem.setParentChapter
+leak-540: ManSectionItem.compareTo
+In file: ManPageSearchFragment.java
+Input operator: COMPLEXREACHABILITY
+leak-541: 1.onItemClick
+leak-542: ManPageSearchFragment.newInstance
+leak-543: ManPageSearchFragment.ManPageSearchFragment
+leak-544: ManPageSearchFragment.onCreateView
+leak-545: SearchLoaderCallback.onCreateLoader
+leak-546: 1.onStartLoading
+leak-547: 1.onStartLoading
+leak-548: 1.loadInBackground
+leak-549: 1.loadInBackground
+leak-550: 1.loadInBackground
+leak-551: 1.loadInBackground
+leak-552: 1.deliverResult
+leak-553: SearchLoaderCallback.onLoadFinished
+leak-554: SearchLoaderCallback.onLoadFinished
+leak-555: SearchLoaderCallback.onLoaderReset
+leak-556: SearchOneLinerLoaderCallback.onCreateLoader
+leak-557: 1.onStartLoading
+leak-558: 1.onStartLoading
+leak-559: 1.loadInBackground
+leak-560: 1.loadInBackground
+leak-561: 1.loadInBackground
+leak-562: 1.loadInBackground
+leak-563: 1.deliverResult
+leak-564: SearchOneLinerLoaderCallback.onLoadFinished
+leak-565: SearchOneLinerLoaderCallback.onLoadFinished
+leak-566: SearchOneLinerLoaderCallback.onLoaderReset
+leak-567: SearchQueryTextListener.onQueryTextSubmit
+leak-568: SearchQueryTextListener.onQueryTextChange
+leak-569: SearchQueryTextListener.onQueryTextChange
+leak-570: SearchQueryTextListener.fireLoader
+leak-571: 1.run
+leak-572: 1.run
+leak-573: 1.run
+leak-574: OnelinerArrayAdapter.OnelinerArrayAdapter
+leak-575: OnelinerArrayAdapter.getView
+leak-576: SearchResultArrayAdapter.SearchResultArrayAdapter
+leak-577: SearchResultArrayAdapter.getView
+leak-578: SearchResultArrayAdapter.getView
+leak-579: 1.onClick
+leak-580: 1.onClick
+leak-581: 1.onMenuItemClick
+In file: Utils.java
+Input operator: COMPLEXREACHABILITY
+leak-582: Utils.parseStringArray
+leak-583: Utils.parseStringArray
+leak-584: Utils.showToastFromAnyThread
+leak-585: 1.run
+leak-586: Utils.showToastFromAnyThread
+leak-587: 1.run
+leak-588: Utils.createIndexer
+leak-589: Utils.createIndexer
+leak-590: Utils.createIndexer
+leak-591: Utils.getThemedValue
+leak-592: Utils.getThemedResource
+leak-593: Utils.getWebWithCss
+leak-594: Utils.detectEncodingOfArchive
+leak-595: Utils.detectEncodingOfArchive
+leak-596: Utils.setupTheme
+leak-597: HideKeyboardOnFocusLost.onFocusChange
+leak-598: HideKeyboardOnFocusLost.onFocusChange
+In file: DbProvider.java
+Input operator: COMPLEXREACHABILITY
+leak-599: DbProvider.getHelper
+leak-600: DbProvider.setHelper
+leak-601: DbProvider.releaseHelper
+In file: PersistManager.java
+Input operator: COMPLEXREACHABILITY
+leak-602: PersistManager.PersistManager
+leak-603: PersistManager.onCreate
+leak-604: PersistManager.onCreate
+leak-605: PersistManager.onCreate
+leak-606: PersistManager.onUpgrade
+leak-607: PersistManager.getManChaptersDao
+leak-608: PersistManager.getManChaptersDao
+leak-609: PersistManager.getManPagesDao
+leak-610: PersistManager.getManPagesDao
+leak-611: PersistManager.getManChapterIndexesDao
+leak-612: PersistManager.getManChapterIndexesDao
+leak-613: PersistManager.clearAllTables
+leak-614: PersistManager.clearAllTables
+leak-615: PersistManager.clearAllTables
+leak-616: PersistManager.close
+In file: Base64.java
+Input operator: COMPLEXREACHABILITY
+leak-617: Base64.Base64
+leak-618: Base64.encode3to4
+leak-619: Base64.encode
+leak-620: Base64.encodeWebSafe
+leak-621: Base64.encode
+leak-622: Base64.encode
+leak-623: Base64.encode
+leak-624: Base64.encode
+leak-625: Base64.encode
+leak-626: Base64.encode
+leak-627: Base64.encode
+leak-628: Base64.encode
+leak-629: Base64.decode4to3
+leak-630: Base64.decode4to3
+leak-631: Base64.decode4to3
+leak-632: Base64.decode4to3
+leak-633: Base64.decode
+leak-634: Base64.decodeWebSafe
+leak-635: Base64.decode
+leak-636: Base64.decodeWebSafe
+leak-637: Base64.decode
+leak-638: Base64.decodeWebSafe
+leak-639: Base64.decode
+leak-640: Base64.decode
+leak-641: Base64.decode
+leak-642: Base64.decode
+leak-643: Base64.decode
+leak-644: Base64.decode
+leak-645: Base64.decode
+leak-646: Base64.decode
+leak-647: Base64.decode
+leak-648: Base64.decode
+leak-649: Base64.decode
+leak-650: Base64.decode
+In file: Purchase.java
+Input operator: COMPLEXREACHABILITY
+leak-651: Purchase.Purchase
+leak-652: Purchase.getItemType
+leak-653: Purchase.getOrderId
+leak-654: Purchase.getPackageName
+leak-655: Purchase.getSku
+leak-656: Purchase.getPurchaseTime
+leak-657: Purchase.getPurchaseState
+leak-658: Purchase.getDeveloperPayload
+leak-659: Purchase.getToken
+leak-660: Purchase.getOriginalJson
+leak-661: Purchase.getSignature
+leak-662: Purchase.toString
+In file: Inventory.java
+Input operator: COMPLEXREACHABILITY
+leak-663: Inventory.Inventory
+leak-664: Inventory.getSkuDetails
+leak-665: Inventory.getPurchase
+leak-666: Inventory.hasPurchase
+leak-667: Inventory.hasDetails
+leak-668: Inventory.erasePurchase
+leak-669: Inventory.getAllOwnedSkus
+leak-670: Inventory.getAllOwnedSkus
+leak-671: Inventory.getAllOwnedSkus
+leak-672: Inventory.getAllPurchases
+leak-673: Inventory.addSkuDetails
+leak-674: Inventory.addPurchase
+In file: SkuDetails.java
+Input operator: COMPLEXREACHABILITY
+leak-675: SkuDetails.SkuDetails
+leak-676: SkuDetails.SkuDetails
+leak-677: SkuDetails.getSku
+leak-678: SkuDetails.getType
+leak-679: SkuDetails.getPrice
+leak-680: SkuDetails.getTitle
+leak-681: SkuDetails.getDescription
+leak-682: SkuDetails.toString
+In file: Security.java
+Input operator: COMPLEXREACHABILITY
+leak-683: Security.verifyPurchase
+leak-684: Security.verifyPurchase
+leak-685: Security.generatePublicKey
+leak-686: Security.generatePublicKey
+leak-687: Security.generatePublicKey
+leak-688: Security.generatePublicKey
+leak-689: Security.generatePublicKey
+leak-690: Security.verify
+leak-691: Security.verify
+leak-692: Security.verify
+leak-693: Security.verify
+leak-694: Security.verify
+leak-695: Security.verify
+leak-696: Security.verify
+In file: IabResult.java
+Input operator: COMPLEXREACHABILITY
+leak-697: IabResult.IabResult
+leak-698: IabResult.IabResult
+leak-699: IabResult.IabResult
+leak-700: IabResult.getResponse
+leak-701: IabResult.getMessage
+leak-702: IabResult.isSuccess
+leak-703: IabResult.isFailure
+leak-704: IabResult.toString
+In file: IabException.java
+Input operator: COMPLEXREACHABILITY
+leak-705: IabException.IabException
+leak-706: IabException.IabException
+leak-707: IabException.IabException
+leak-708: IabException.IabException
+leak-709: IabException.getResult
+In file: IabHelper.java
+Input operator: COMPLEXREACHABILITY
+leak-710: IabHelper.IabHelper
+leak-711: IabHelper.enableDebugLogging
+leak-712: IabHelper.enableDebugLogging
+leak-713: IabHelper.startSetup
+leak-714: 1.onServiceDisconnected
+leak-715: 1.onServiceConnected
+leak-716: 1.onServiceConnected
+leak-717: 1.onServiceConnected
+leak-718: 1.onServiceConnected
+leak-719: 1.onServiceConnected
+leak-720: 1.onServiceConnected
+leak-721: 1.onServiceConnected
+leak-722: 1.onServiceConnected
+leak-723: IabHelper.startSetup
+leak-724: IabHelper.startSetup
+leak-725: IabHelper.startSetup
+leak-726: IabHelper.dispose
+leak-727: IabHelper.dispose
+leak-728: IabHelper.checkNotDisposed
+leak-729: IabHelper.subscriptionsSupported
+leak-730: IabHelper.launchPurchaseFlow
+leak-731: IabHelper.launchPurchaseFlow
+leak-732: IabHelper.launchSubscriptionPurchaseFlow
+leak-733: IabHelper.launchSubscriptionPurchaseFlow
+leak-734: IabHelper.launchPurchaseFlow
+leak-735: IabHelper.launchPurchaseFlow
+leak-736: IabHelper.launchPurchaseFlow
+leak-737: IabHelper.launchPurchaseFlow
+leak-738: IabHelper.launchPurchaseFlow
+leak-739: IabHelper.launchPurchaseFlow
+leak-740: IabHelper.handleActivityResult
+leak-741: IabHelper.handleActivityResult
+leak-742: IabHelper.handleActivityResult
+leak-743: IabHelper.handleActivityResult
+leak-744: IabHelper.handleActivityResult
+leak-745: IabHelper.handleActivityResult
+leak-746: IabHelper.handleActivityResult
+leak-747: IabHelper.handleActivityResult
+leak-748: IabHelper.handleActivityResult
+leak-749: IabHelper.handleActivityResult
+leak-750: IabHelper.handleActivityResult
+leak-751: IabHelper.handleActivityResult
+leak-752: IabHelper.queryInventory
+leak-753: IabHelper.queryInventory
+leak-754: IabHelper.queryInventory
+leak-755: IabHelper.queryInventory
+leak-756: IabHelper.queryInventory
+leak-757: IabHelper.queryInventory
+leak-758: IabHelper.queryInventory
+leak-759: IabHelper.queryInventory
+leak-760: IabHelper.queryInventory
+leak-761: IabHelper.queryInventory
+leak-762: IabHelper.queryInventory
+leak-763: IabHelper.queryInventory
+leak-764: IabHelper.queryInventoryAsync
+leak-765: 1.run
+leak-766: 1.run
+leak-767: 1.run
+leak-768: 1.run
+leak-769: 1.run
+leak-770: IabHelper.queryInventoryAsync
+leak-771: IabHelper.queryInventoryAsync
+leak-772: IabHelper.consume
+leak-773: IabHelper.consume
+leak-774: IabHelper.consume
+leak-775: IabHelper.consume
+leak-776: IabHelper.consume
+leak-777: IabHelper.consume
+leak-778: IabHelper.consume
+leak-779: IabHelper.consumeAsync
+leak-780: IabHelper.consumeAsync
+leak-781: IabHelper.getResponseDesc
+leak-782: IabHelper.getResponseDesc
+leak-783: IabHelper.checkSetupDone
+leak-784: IabHelper.checkSetupDone
+leak-785: IabHelper.getResponseCodeFromBundle
+leak-786: IabHelper.getResponseCodeFromBundle
+leak-787: IabHelper.getResponseCodeFromBundle
+leak-788: IabHelper.getResponseCodeFromIntent
+leak-789: IabHelper.getResponseCodeFromIntent
+leak-790: IabHelper.getResponseCodeFromIntent
+leak-791: IabHelper.flagStartAsync
+leak-792: IabHelper.flagEndAsync
+leak-793: IabHelper.queryPurchases
+leak-794: IabHelper.queryPurchases
+leak-795: IabHelper.queryPurchases
+leak-796: IabHelper.queryPurchases
+leak-797: IabHelper.queryPurchases
+leak-798: IabHelper.queryPurchases
+leak-799: IabHelper.queryPurchases
+leak-800: IabHelper.queryPurchases
+leak-801: IabHelper.querySkuDetails
+leak-802: IabHelper.querySkuDetails
+leak-803: IabHelper.querySkuDetails
+leak-804: IabHelper.querySkuDetails
+leak-805: IabHelper.querySkuDetails
+leak-806: IabHelper.querySkuDetails
+leak-807: IabHelper.querySkuDetails
+leak-808: IabHelper.querySkuDetails
+leak-809: IabHelper.querySkuDetails
+leak-810: IabHelper.querySkuDetails
+leak-811: IabHelper.querySkuDetails
+leak-812: IabHelper.querySkuDetails
+leak-813: IabHelper.querySkuDetails
+leak-814: IabHelper.querySkuDetails
+leak-815: IabHelper.consumeAsyncInternal
+leak-816: 1.run
+leak-817: 1.run
+leak-818: 1.run
+leak-819: 1.run
+leak-820: 1.run
+leak-821: 1.run
+leak-822: 1.run
+leak-823: 1.run
+leak-824: IabHelper.logDebug
+leak-825: IabHelper.logError
+leak-826: IabHelper.logWarn
+In file: Base64DecoderException.java
+Input operator: COMPLEXREACHABILITY
+leak-827: Base64DecoderException.Base64DecoderException
+leak-828: Base64DecoderException.Base64DecoderException
+In file: DonateHelper.java
+Input operator: COMPLEXREACHABILITY
+leak-829: DonateHelper.DonateHelper
+leak-830: 1.onIabSetupFinished
+leak-831: DonateHelper.purchaseGift
+leak-832: DonateHelper.purchaseGift
+leak-833: 1.onIabPurchaseFinished
+leak-834: 1.onIabPurchaseFinished
+leak-835: 1.onQueryInventoryFinished
+leak-836: 1.onQueryInventoryFinished
+leak-837: DonateHelper.handleActivityResult
+leak-838: DonateHelper.handleActivityDestroy

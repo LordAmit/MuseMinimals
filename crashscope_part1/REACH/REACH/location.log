@@ -1,0 +1,22 @@
+filename: ca.cmetcalfe.locationshare-1.2.log
+leak-0: yes
+leak-43: yes
+leak-6: yes
+leak-11: yes
+leak-10: yes
+leak-31: yes
+leak-12: yes
+leak-37: yes
+leak-16: yes
+leak-1: yes
+leak-15: yes
+leak-2: yes
+leak-39: yes
+leak-42: yes
+leak-34: yes
+leak-5: yes
+leak-33: yes
+leak-14: yes
+leak-35: yes
+leak-38: yes
+total leaks: 29 unique leaks: 20 unique leaks in both logs: 20 anomalous leak count: 0

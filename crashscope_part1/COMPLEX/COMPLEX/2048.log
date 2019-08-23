@@ -1,0 +1,13 @@
+filename: com.uberspot.a2048-2.08.log
+leak-16: yes
+leak-5: yes
+leak-10: yes
+leak-8: yes
+leak-15: yes
+leak-2: yes
+leak-4: yes
+leak-0: yes
+leak-7: yes
+leak-14: yes
+leak-1: yes
+total leaks: 48 unique leaks: 11 unique leaks in both logs: 11 anomalous leak count: 0

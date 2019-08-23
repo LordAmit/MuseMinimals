@@ -1,0 +1,14 @@
+filename: com.zola.bmi-3.0.1.log
+leak-20: yes
+leak-3: yes
+leak-1: yes
+leak-19: yes
+leak-12: yes
+leak-10: yes
+leak-0: yes
+leak-11: yes
+leak-4: yes
+leak-5: yes
+leak-2: yes
+leak-6: yes
+total leaks: 24 unique leaks: 12 yes: 12 no: 0

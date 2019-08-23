@@ -1,0 +1,262 @@
+/home/amit/muse/output/kaltura/schemas/TAINTSINK/kaltura
+In file: Collector.java
+Input operator: TAINTSINK
+Collector
+collect
+Private method: trebleInfo
+Private method: cameraOldAPI
+Private method: camera2API
+Private method: tech2API
+Private method: selfMounts
+Private method: dumpsysL
+Private method: systemFL
+Private method: systemArch
+Private method: meta
+Private method: displayInfo
+Private method: drmInfo
+Private method: classicDrmInfo
+Private method: jsonArray
+Private method: mediaCodecInfo
+Private method: mediaCodecInfo
+compare
+Private method: modularDrmInfo
+Private method: widevineModularDrmInfo
+onEvent
+Private method: androidInfo
+Private method: systemInfo
+Private method: securityProviders
+Private method: rootInfo
+Private method: getRequestNonce
+leak-5-0: Collector.Collector
+leak-3-0: Collector.Collector
+leak-5-1: Collector.collect
+leak-3-1: Collector.collect
+leak-5-2: Collector.trebleInfo
+leak-3-2: Collector.trebleInfo
+leak-5-3: Collector.cameraOldAPI
+leak-3-3: Collector.cameraOldAPI
+leak-5-4: Collector.camera2API
+leak-3-4: Collector.camera2API
+leak-5-5: Collector.tech2API
+leak-3-5: Collector.tech2API
+leak-5-6: Collector.selfMounts
+leak-3-6: Collector.selfMounts
+leak-5-7: Collector.dumpsysL
+leak-3-7: Collector.dumpsysL
+leak-5-8: Collector.systemFL
+leak-3-8: Collector.systemFL
+leak-5-9: Collector.systemArch
+leak-3-9: Collector.systemArch
+leak-5-10: Collector.meta
+leak-3-10: Collector.meta
+leak-5-11: Collector.displayInfo
+leak-3-11: Collector.displayInfo
+leak-5-12: Collector.drmInfo
+leak-3-12: Collector.drmInfo
+leak-5-13: Collector.classicDrmInfo
+leak-3-13: Collector.classicDrmInfo
+leak-5-14: Collector.jsonArray
+leak-3-14: Collector.jsonArray
+leak-5-15: Collector.mediaCodecInfo
+leak-3-15: Collector.mediaCodecInfo
+leak-5-16: Collector.mediaCodecInfo
+leak-3-16: Collector.mediaCodecInfo
+leak-5-17: Collector.modularDrmInfo
+leak-3-17: Collector.modularDrmInfo
+leak-5-18: Collector.widevineModularDrmInfo
+leak-3-18: Collector.widevineModularDrmInfo
+leak-5-19: Collector.androidInfo
+leak-3-19: Collector.androidInfo
+leak-5-20: Collector.systemInfo
+leak-3-20: Collector.systemInfo
+leak-5-21: Collector.securityProviders
+leak-3-21: Collector.securityProviders
+leak-5-22: Collector.rootInfo
+leak-3-22: Collector.rootInfo
+leak-5-23: Collector.getRequestNonce
+leak-3-23: Collector.getRequestNonce
+leak-1-0: Collector.Collector
+leak-1-1: Collector.collect
+leak-1-2: Collector.trebleInfo
+leak-1-3: Collector.cameraOldAPI
+leak-1-4: Collector.camera2API
+leak-1-5: Collector.tech2API
+leak-1-6: Collector.selfMounts
+leak-1-7: Collector.dumpsysL
+leak-1-8: Collector.systemFL
+leak-1-9: Collector.systemArch
+leak-1-10: Collector.meta
+leak-1-11: Collector.displayInfo
+leak-1-12: Collector.drmInfo
+leak-1-13: Collector.classicDrmInfo
+leak-1-14: Collector.jsonArray
+leak-1-15: Collector.mediaCodecInfo
+leak-1-16: Collector.mediaCodecInfo
+leak-1-17: Collector.modularDrmInfo
+leak-1-18: Collector.widevineModularDrmInfo
+leak-1-19: Collector.androidInfo
+leak-1-20: Collector.systemInfo
+leak-1-21: Collector.securityProviders
+leak-1-22: Collector.rootInfo
+leak-1-23: Collector.getRequestNonce
+leak-0-0: Collector.Collector
+leak-0-1: Collector.collect
+leak-0-2: Collector.trebleInfo
+leak-0-3: Collector.cameraOldAPI
+leak-0-4: Collector.camera2API
+leak-0-5: Collector.tech2API
+leak-0-6: Collector.selfMounts
+leak-0-7: Collector.dumpsysL
+leak-0-8: Collector.systemFL
+leak-0-9: Collector.systemArch
+leak-0-10: Collector.meta
+leak-0-11: Collector.displayInfo
+leak-0-12: Collector.drmInfo
+leak-0-13: Collector.classicDrmInfo
+leak-0-14: Collector.jsonArray
+leak-0-15: Collector.mediaCodecInfo
+leak-0-16: Collector.mediaCodecInfo
+leak-0-17: Collector.modularDrmInfo
+leak-0-18: Collector.widevineModularDrmInfo
+leak-0-19: Collector.androidInfo
+leak-0-20: Collector.systemInfo
+leak-0-21: Collector.securityProviders
+leak-0-22: Collector.rootInfo
+leak-0-23: Collector.getRequestNonce
+In file: MainActivity.java
+Input operator: TAINTSINK
+Private method: showReport
+onCreate
+onClick
+onCreateOptionsMenu
+onOptionsItemSelected
+Private method: showActionsDialog
+onClick
+Private method: showZinfo
+Private method: startProvision
+Private method: provisionFailed
+Private method: provisionSuccessful
+Private method: shareReport
+Private method: intentWithText
+doInBackground
+onPostExecute
+ProvisionTask
+doInBackground
+onPostExecute
+Private method: provisionWidevine
+Private method: showIDs
+Private method: displayIDs
+leak-12-24: MainActivity.showReport
+leak-10-24: MainActivity.showReport
+leak-12-25: MainActivity.onCreate
+SUper found
+leak-10-25: MainActivity.onCreate
+SUper found
+leak-12-26: MainActivity.onCreateOptionsMenu
+leak-10-26: MainActivity.onCreateOptionsMenu
+leak-12-27: MainActivity.onOptionsItemSelected
+leak-10-27: MainActivity.onOptionsItemSelected
+leak-12-28: MainActivity.showActionsDialog
+leak-10-28: MainActivity.showActionsDialog
+leak-12-29: MainActivity.showZinfo
+leak-10-29: MainActivity.showZinfo
+leak-12-30: MainActivity.startProvision
+leak-10-30: MainActivity.startProvision
+leak-12-33: MainActivity.shareReport
+leak-10-33: MainActivity.shareReport
+leak-12-34: MainActivity.intentWithText
+leak-10-34: MainActivity.intentWithText
+leak-12-41: MainActivity.showIDs
+leak-10-41: MainActivity.showIDs
+leak-12-42: MainActivity.displayIDs
+leak-10-42: MainActivity.displayIDs
+leak-9-24: MainActivity.showReport
+leak-9-25: MainActivity.onCreate
+SUper found
+leak-9-26: MainActivity.onCreateOptionsMenu
+leak-9-27: MainActivity.onOptionsItemSelected
+leak-9-28: MainActivity.showActionsDialog
+leak-9-29: MainActivity.showZinfo
+leak-9-30: MainActivity.startProvision
+leak-9-33: MainActivity.shareReport
+leak-9-34: MainActivity.intentWithText
+leak-9-41: MainActivity.showIDs
+leak-9-42: MainActivity.displayIDs
+leak-8-24: MainActivity.showReport
+leak-8-25: MainActivity.onCreate
+SUper found
+leak-8-26: MainActivity.onCreateOptionsMenu
+leak-8-27: MainActivity.onOptionsItemSelected
+leak-8-28: MainActivity.showActionsDialog
+leak-8-29: MainActivity.showZinfo
+leak-8-30: MainActivity.startProvision
+leak-8-33: MainActivity.shareReport
+leak-8-34: MainActivity.intentWithText
+leak-8-41: MainActivity.showIDs
+leak-8-42: MainActivity.displayIDs
+leak-6-24: MainActivity.showReport
+leak-6-25: MainActivity.onCreate
+SUper found
+leak-6-26: MainActivity.onCreateOptionsMenu
+leak-6-27: MainActivity.onOptionsItemSelected
+leak-6-28: MainActivity.showActionsDialog
+leak-6-29: MainActivity.showZinfo
+leak-6-30: MainActivity.startProvision
+leak-6-33: MainActivity.shareReport
+leak-6-34: MainActivity.intentWithText
+leak-6-41: MainActivity.showIDs
+leak-6-42: MainActivity.displayIDs
+leak-12-37: ProvisionTask.ProvisionTask
+leak-10-37: ProvisionTask.ProvisionTask
+leak-9-37: ProvisionTask.ProvisionTask
+leak-8-37: ProvisionTask.ProvisionTask
+leak-6-37: ProvisionTask.ProvisionTask
+leak-7-37: ProvisionTask.ProvisionTask
+leak-12-37: ProvisionTask.ProvisionTask
+leak-10-37: ProvisionTask.ProvisionTask
+leak-9-37: ProvisionTask.ProvisionTask
+leak-8-37: ProvisionTask.ProvisionTask
+leak-6-37: ProvisionTask.ProvisionTask
+leak-7-37: ProvisionTask.ProvisionTask
+leak-11-37: ProvisionTask.ProvisionTask
+leak-12-38: ProvisionTask.doInBackground
+leak-10-38: ProvisionTask.doInBackground
+leak-9-38: ProvisionTask.doInBackground
+leak-8-38: ProvisionTask.doInBackground
+leak-6-38: ProvisionTask.doInBackground
+leak-7-38: ProvisionTask.doInBackground
+leak-12-38: ProvisionTask.doInBackground
+leak-10-38: ProvisionTask.doInBackground
+leak-9-38: ProvisionTask.doInBackground
+leak-8-38: ProvisionTask.doInBackground
+leak-6-38: ProvisionTask.doInBackground
+leak-7-38: ProvisionTask.doInBackground
+leak-11-38: ProvisionTask.doInBackground
+leak-12-39: ProvisionTask.onPostExecute
+leak-10-39: ProvisionTask.onPostExecute
+leak-9-39: ProvisionTask.onPostExecute
+leak-8-39: ProvisionTask.onPostExecute
+leak-6-39: ProvisionTask.onPostExecute
+leak-7-39: ProvisionTask.onPostExecute
+leak-12-39: ProvisionTask.onPostExecute
+leak-10-39: ProvisionTask.onPostExecute
+leak-9-39: ProvisionTask.onPostExecute
+leak-8-39: ProvisionTask.onPostExecute
+leak-6-39: ProvisionTask.onPostExecute
+leak-7-39: ProvisionTask.onPostExecute
+leak-11-39: ProvisionTask.onPostExecute
+leak-12-40: ProvisionTask.provisionWidevine
+leak-10-40: ProvisionTask.provisionWidevine
+leak-9-40: ProvisionTask.provisionWidevine
+leak-8-40: ProvisionTask.provisionWidevine
+leak-6-40: ProvisionTask.provisionWidevine
+leak-7-40: ProvisionTask.provisionWidevine
+leak-12-40: ProvisionTask.provisionWidevine
+leak-10-40: ProvisionTask.provisionWidevine
+leak-9-40: ProvisionTask.provisionWidevine
+leak-8-40: ProvisionTask.provisionWidevine
+leak-6-40: ProvisionTask.provisionWidevine
+leak-7-40: ProvisionTask.provisionWidevine
+leak-11-40: ProvisionTask.provisionWidevine
+In file: Utils.java
+Input operator: TAINTSINK

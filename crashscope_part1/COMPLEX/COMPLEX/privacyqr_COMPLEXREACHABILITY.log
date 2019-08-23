@@ -1,0 +1,238 @@
+/home/amit/muse/output/privacyqr/schemas/COMPLEXREACHABILITY/privacyqr
+In file: MainActivity.java
+Input operator: COMPLEXREACHABILITY
+leak-0: MainActivity.onCreate
+leak-1: MainActivity.onCreate
+leak-2: MainActivity.onCreate
+leak-3: MainActivity.onOptionsItemSelected
+leak-4: MainActivity.onOptionsItemSelected
+leak-5: MainActivity.onOptionsItemSelected
+leak-6: 1.onCancel
+leak-7: 1.onClick
+leak-8: 1.onClick
+leak-9: WelcomeDialog.onAttach
+leak-10: WelcomeDialog.onCreateDialog
+leak-11: 1.onClick
+leak-12: 1.onClick
+leak-13: MainActivity.switchToFragment
+leak-14: MainActivity.onResume
+leak-15: MainActivity.onBackPressed
+leak-16: MainActivity.onBackPressed
+leak-17: MainActivity.goBack
+leak-18: MainActivity.onPostCreate
+leak-19: MainActivity.onPostCreate
+leak-20: MainActivity.onPostCreate
+leak-21: MainActivity.selectNavigationItem
+leak-22: MainActivity.selectNavigationItem
+leak-23: MainActivity.getNavigationDrawerID
+leak-24: MainActivity.onNavigationItemSelected
+leak-25: MainActivity.goToNavigationItem
+leak-26: 1.run
+leak-27: MainActivity.callDrawerItem
+leak-28: MainActivity.onConfigurationChanged
+leak-29: MainActivity.selectItem
+leak-30: MainActivity.selectItem
+leak-31: MainActivity.selectItem
+leak-32: MainActivity.selectItem
+leak-33: MainActivity.selectItem
+leak-34: MainActivity.selectItem
+In file: MyCaptureActivity.java
+Input operator: COMPLEXREACHABILITY
+leak-35: MyCaptureActivity.onCreate
+In file: SplashActivity.java
+Input operator: COMPLEXREACHABILITY
+leak-36: SplashActivity.onCreate
+In file: MyCaptureFragment.java
+Input operator: COMPLEXREACHABILITY
+leak-37: MyCaptureFragment.onCreateView
+leak-38: MyCaptureFragment.onCreateView
+leak-39: MyCaptureFragment.onCreateView
+leak-40: 1.onTorchOn
+leak-41: 1.onTorchOff
+leak-42: MyCaptureFragment.onCreate
+leak-43: MyCaptureFragment.onCreateOptionsMenu
+leak-44: MyCaptureFragment.onOptionsItemSelected
+leak-45: MyCaptureFragment.onOptionsItemSelected
+leak-46: MyCaptureFragment.toggleLight
+leak-47: MyCaptureFragment.onResume
+leak-48: MyCaptureFragment.onPause
+leak-49: 1.barcodeResult
+leak-50: 1.barcodeResult
+leak-51: 1.possibleResultPoints
+leak-52: MyCaptureFragment.hasFlash
+leak-53: MyCaptureFragment.onAttach
+In file: SettingsFragment.java
+Input operator: COMPLEXREACHABILITY
+leak-54: SettingsFragment.SettingsFragment
+leak-55: SettingsFragment.onActivityCreated
+leak-56: SettingsFragment.onCreate
+In file: AboutFragment.java
+Input operator: COMPLEXREACHABILITY
+leak-57: AboutFragment.onCreateView
+leak-58: AboutFragment.onAttach
+In file: HistoryFragment.java
+Input operator: COMPLEXREACHABILITY
+leak-59: HistoryFragment.HistoryFragment
+leak-60: HistoryViewElement.HistoryViewElement
+leak-61: HistoryViewElement.setArgs
+leak-62: HistoryViewElement.setView
+leak-63: HistoryViewElement.setId
+leak-64: HistoryFragment.onCreateView
+leak-65: HistoryFragment.onCreateView
+leak-66: HistoryFragment.onCreateView
+leak-67: HistoryFragment.onCreateView
+leak-68: HistoryFragment.onCreate
+leak-69: HistoryFragment.onCreateOptionsMenu
+leak-70: HistoryFragment.createViews
+leak-71: HistoryFragment.createViews
+leak-72: HistoryFragment.refresh
+leak-73: HistoryFragment.remove
+leak-74: HistoryFragment.loadPreviousScanned
+leak-75: HistoryFragment.loadPreviousScanned
+leak-76: HistoryFragment.loadPreviousScanned
+leak-77: HistoryFragment.loadPreviousScanned
+leak-78: HistoryFragment.loadPreviousScanned
+leak-79: HistoryFragment.loadPreviousScanned
+leak-80: HistoryFragment.loadPreviousScanned
+leak-81: HistoryFragment.loadPreviousScanned
+leak-82: HistoryFragment.loadPreviousScanned
+leak-83: HistoryFragment.loadPreviousScanned
+leak-84: HistoryFragment.loadPreviousScanned
+leak-85: HistoryFragment.loadPreviousScanned
+leak-86: HistoryFragment.loadPreviousScanned
+leak-87: HistoryFragment.loadPreviousScanned
+leak-88: HistoryFragment.loadPreviousScanned
+leak-89: HistoryFragment.loadPreviousScanned
+leak-90: 1.onClick
+leak-91: 1.onLongClick
+leak-92: 1.onClick
+leak-93: 1.onCancel
+In file: IntroFragment.java
+Input operator: COMPLEXREACHABILITY
+leak-94: IntroFragment.IntroFragment
+leak-95: IntroFragment.onActivityCreated
+leak-96: IntroFragment.onCreateView
+In file: HelpFragment.java
+Input operator: COMPLEXREACHABILITY
+leak-97: HelpFragment.HelpFragment
+leak-98: HelpFragment.onCreate
+In file: ScanFragment.java
+Input operator: COMPLEXREACHABILITY
+leak-99: ScanFragment.ScanFragment
+leak-100: ScanFragment.onActivityCreated
+leak-101: ScanFragment.onCreateView
+leak-102: ScanFragment.scanFromFragment
+leak-103: ScanFragment.displayToast
+leak-104: ScanFragment.displayToast
+leak-105: ScanFragment.onActivityResult
+leak-106: ScanFragment.onAttach
+In file: History.java
+Input operator: COMPLEXREACHABILITY
+leak-107: History.getHistory
+leak-108: History.getHistory
+leak-109: History.getHistory
+leak-110: History.getHistory
+leak-111: History.getHistory
+leak-112: History.getHistory
+leak-113: History.getHistory
+leak-114: History.getHistory
+leak-115: History.getHistory
+leak-116: History.saveScan
+leak-117: History.saveScan
+leak-118: History.saveScan
+leak-119: History.saveScan
+leak-120: History.saveHistory
+leak-121: History.saveHistory
+leak-122: History.saveHistory
+leak-123: History.saveHistory
+leak-124: History.saveHistory
+leak-125: History.saveHistory
+leak-126: History.printHistory
+leak-127: History.printHistory
+leak-128: History.printHistory
+leak-129: History.printHistory
+leak-130: History.printHistory
+In file: FragmentGenerator.java
+Input operator: COMPLEXREACHABILITY
+leak-131: FragmentGenerator.getFragment
+leak-132: FragmentGenerator.getFragment
+leak-133: FragmentGenerator.getFragmentFromContent
+In file: HistoryEntry.java
+Input operator: COMPLEXREACHABILITY
+leak-134: HistoryEntry.HistoryEntry
+In file: ContactFragment.java
+Input operator: COMPLEXREACHABILITY
+leak-135: ContactFragment.ContactFragment
+leak-136: ContactFragment.onCreateView
+leak-137: ContactFragment.onCreateView
+leak-138: 1.onClick
+leak-139: 1.onClick
+leak-140: ContactFragment.createVCard
+leak-141: ContactFragment.createVCard
+leak-142: ContactFragment.createVCard
+In file: SendEmailFragment.java
+Input operator: COMPLEXREACHABILITY
+leak-143: SendEmailFragment.SendEmailFragment
+leak-144: SendEmailFragment.onCreateView
+leak-145: SendEmailFragment.onCreateView
+leak-146: SendEmailFragment.onCreateView
+leak-147: 1.onClick
+leak-148: 1.onClick
+In file: EmailFragment.java
+Input operator: COMPLEXREACHABILITY
+leak-149: EmailFragment.EmailFragment
+leak-150: EmailFragment.onCreateView
+leak-151: 1.onClick
+leak-152: 1.onClick
+In file: ProductFragment.java
+Input operator: COMPLEXREACHABILITY
+leak-153: ProductFragment.ProductFragment
+leak-154: ProductFragment.onCreateView
+leak-155: 1.onClick
+leak-156: 1.onClick
+In file: SmsFragment.java
+Input operator: COMPLEXREACHABILITY
+leak-157: SmsFragment.SmsFragment
+leak-158: SmsFragment.onCreateView
+leak-159: 1.onClick
+leak-160: 1.onClick
+In file: UrlFragment.java
+Input operator: COMPLEXREACHABILITY
+leak-161: UrlFragment.UrlFragment
+leak-162: UrlFragment.onCreateView
+leak-163: 1.onClick
+leak-164: 1.onClick
+leak-165: 1.onClick
+leak-166: 1.onClick
+leak-167: 1.onClick
+leak-168: 1.onClick
+leak-169: 1.onClick
+In file: TextFragment.java
+Input operator: COMPLEXREACHABILITY
+leak-170: TextFragment.TextFragment
+leak-171: TextFragment.onCreateView
+leak-172: 1.onClick
+leak-173: 1.onClick
+In file: WifiFragment.java
+Input operator: COMPLEXREACHABILITY
+leak-174: WifiFragment.WifiFragment
+leak-175: WifiFragment.onCreateView
+leak-176: WifiFragment.onCreateView
+leak-177: 1.onClick
+leak-178: 1.onClick
+In file: ResultFragment.java
+Input operator: COMPLEXREACHABILITY
+leak-179: ResultFragment.ResultFragment
+leak-180: ResultFragment.createBitmap
+leak-181: ResultFragment.setResult
+leak-182: ResultFragment.setResult
+leak-183: 1.onClick
+leak-184: ResultFragment.saveScanned
+leak-185: ResultFragment.displayToast
+leak-186: ResultFragment.displayToast
+In file: TelFragment.java
+Input operator: COMPLEXREACHABILITY
+leak-187: TelFragment.TelFragment
+leak-188: TelFragment.onCreateView
+leak-189: 1.onClick
+leak-190: 1.onClick

@@ -1,0 +1,44 @@
+/home/amit/muse/output/LocationShare/schemas/COMPLEXREACHABILITY/LocationShare
+In file: MainActivity.java
+Input operator: COMPLEXREACHABILITY
+leak-0: 1.onLocationChanged
+leak-1: 1.onProviderEnabled
+leak-2: 1.onProviderDisabled
+leak-3: 1.onStatusChanged
+leak-4: MainActivity.onCreate
+leak-5: MainActivity.onStop
+leak-6: MainActivity.onStop
+leak-7: MainActivity.onStop
+leak-8: MainActivity.onResume
+leak-9: MainActivity.onRequestPermissionsResult
+leak-10: MainActivity.onRequestPermissionsResult
+leak-11: MainActivity.onRequestPermissionsResult
+leak-12: MainActivity.updateLocation
+leak-13: MainActivity.updateLocation
+leak-14: MainActivity.updateLocation
+leak-15: onClickShareListener.onClick
+leak-16: onClickCopyListener.onClick
+leak-17: onClickCopyListener.onClick
+leak-18: onClickCopyListener.onClick
+leak-19: MainActivity.shareLocation
+leak-20: MainActivity.shareLocation
+leak-21: MainActivity.copyLocation
+leak-22: MainActivity.copyLocation
+leak-23: MainActivity.viewLocation
+leak-24: MainActivity.viewLocation
+leak-25: MainActivity.openLocationSettings
+leak-26: MainActivity.openLocationSettings
+leak-27: MainActivity.startRequestingLocation
+leak-28: MainActivity.startRequestingLocation
+leak-29: MainActivity.startRequestingLocation
+leak-30: MainActivity.validLocation
+leak-31: MainActivity.validLocation
+leak-32: MainActivity.validLocation
+leak-33: MainActivity.validLocation
+leak-34: MainActivity.getAccuracy
+leak-35: MainActivity.getAccuracy
+leak-36: MainActivity.getAccuracy
+leak-37: MainActivity.getAccuracy
+leak-38: MainActivity.getLatitude
+leak-39: MainActivity.getLongitude
+leak-40: MainActivity.formatLocation

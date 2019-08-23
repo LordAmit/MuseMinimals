@@ -1,0 +1,211 @@
+/home/amit/muse/output/activitylauncher/schemas/COMPLEXREACHABILITY/activitylauncher
+In file: LauncherIconCreator.java
+Input operator: COMPLEXREACHABILITY
+leak-0: LauncherIconCreator.getActivityIntent
+leak-1: LauncherIconCreator.createLauncherIcon
+leak-2: LauncherIconCreator.createLauncherIcon
+leak-3: LauncherIconCreator.createLauncherIcon
+leak-4: LauncherIconCreator.createLauncherIcon
+leak-5: LauncherIconCreator.createLauncherIcon
+leak-6: LauncherIconCreator.createLauncherIcon
+leak-7: LauncherIconCreator.createLauncherIcon
+leak-8: LauncherIconCreator.launchActivity
+leak-9: LauncherIconCreator.launchActivity
+leak-10: LauncherIconCreator.launchActivity
+In file: IconPickerDialogFragment.java
+Input operator: COMPLEXREACHABILITY
+leak-11: IconPickerDialogFragment.onAttach
+leak-12: IconPickerDialogFragment.attachIconPickerListener
+leak-13: IconPickerDialogFragment.onCreateDialog
+leak-14: 1.onItemClick
+leak-15: 1.onItemClick
+leak-16: 1.onClick
+leak-17: IconPickerDialogFragment.onProviderFininshed
+leak-18: IconPickerDialogFragment.onProviderFininshed
+leak-19: IconPickerDialogFragment.onProviderFininshed
+In file: MyPackageInfo.java
+Input operator: COMPLEXREACHABILITY
+leak-20: MyPackageInfo.MyPackageInfo
+leak-21: MyPackageInfo.MyPackageInfo
+leak-22: MyPackageInfo.MyPackageInfo
+leak-23: MyPackageInfo.MyPackageInfo
+leak-24: MyPackageInfo.MyPackageInfo
+leak-25: MyPackageInfo.MyPackageInfo
+leak-26: MyPackageInfo.MyPackageInfo
+leak-27: MyPackageInfo.MyPackageInfo
+leak-28: MyPackageInfo.MyPackageInfo
+leak-29: MyPackageInfo.MyPackageInfo
+leak-30: MyPackageInfo.MyPackageInfo
+leak-31: MyPackageInfo.MyPackageInfo
+leak-32: MyPackageInfo.countActivitiesFromInfo
+leak-33: MyPackageInfo.countActivitiesFromInfo
+leak-34: MyPackageInfo.countActivitiesFromInfo
+leak-35: MyPackageInfo.getActivitiesCount
+leak-36: MyPackageInfo.getActivity
+leak-37: MyPackageInfo.getPackageName
+leak-38: MyPackageInfo.getIcon
+leak-39: MyPackageInfo.getName
+leak-40: MyPackageInfo.getIconResourceName
+leak-41: MyPackageInfo.compareTo
+leak-42: MyPackageInfo.equals
+leak-43: MyPackageInfo.equals
+In file: MainActivity.java
+Input operator: COMPLEXREACHABILITY
+leak-44: MainActivity.onCreate
+leak-45: MainActivity.onCreate
+leak-46: MainActivity.getActionBarThemedContextCompat
+leak-47: MainActivity.getActionBarThemedContextCompat
+leak-48: MainActivity.getActionBarThemedContextCompat
+leak-49: MainActivity.onRestoreInstanceState
+leak-50: MainActivity.onRestoreInstanceState
+leak-51: MainActivity.onCreateOptionsMenu
+leak-52: MainActivity.onOptionsItemSelected
+leak-53: MainActivity.onSaveInstanceState
+leak-54: MainActivity.onNavigationItemSelected
+In file: DisclaimerDialogFragment.java
+Input operator: COMPLEXREACHABILITY
+leak-55: DisclaimerDialogFragment.onCreateDialog
+leak-56: 1.onClick
+leak-57: 1.onClick
+In file: AllTasksListAsyncProvider.java
+Input operator: COMPLEXREACHABILITY
+leak-58: AllTasksListAsyncProvider.AllTasksListAsyncProvider
+leak-59: AllTasksListAsyncProvider.run
+In file: ShortcutEditDialogFragment.java
+Input operator: COMPLEXREACHABILITY
+leak-60: ShortcutEditDialogFragment.onCreateDialog
+leak-61: 1.onTextChanged
+leak-62: 1.beforeTextChanged
+leak-63: 1.afterTextChanged
+leak-64: 1.onClick
+leak-65: 1.iconPicked
+leak-66: 1.onClick
+leak-67: 1.onClick
+leak-68: 1.onClick
+leak-69: 1.onClick
+leak-70: 1.onClick
+leak-71: 1.onClick
+leak-72: 1.onClick
+In file: IconPickerFragment.java
+Input operator: COMPLEXREACHABILITY
+leak-73: IconPickerFragment.onCreateView
+leak-74: 1.onItemClick
+leak-75: IconPickerFragment.onAttach
+leak-76: IconPickerFragment.onProviderFininshed
+leak-77: IconPickerFragment.onProviderFininshed
+leak-78: IconPickerFragment.onProviderFininshed
+In file: AllTasksListAdapter.java
+Input operator: COMPLEXREACHABILITY
+leak-79: AllTasksListAdapter.AllTasksListAdapter
+leak-80: AllTasksListAdapter.AllTasksListAdapter
+leak-81: AllTasksListAdapter.AllTasksListAdapter
+leak-82: AllTasksListAdapter.AllTasksListAdapter
+leak-83: AllTasksListAdapter.AllTasksListAdapter
+leak-84: AllTasksListAdapter.getChild
+leak-85: AllTasksListAdapter.getChildId
+leak-86: AllTasksListAdapter.getChildView
+leak-87: AllTasksListAdapter.getChildrenCount
+leak-88: AllTasksListAdapter.getGroup
+leak-89: AllTasksListAdapter.getGroupCount
+leak-90: AllTasksListAdapter.getGroupId
+leak-91: AllTasksListAdapter.getGroupView
+leak-92: AllTasksListAdapter.hasStableIds
+leak-93: AllTasksListAdapter.isChildSelectable
+In file: RecentTaskListAsyncProvider.java
+Input operator: COMPLEXREACHABILITY
+leak-94: RecentTaskListAsyncProvider.RecentTaskListAsyncProvider
+leak-95: RecentTaskListAsyncProvider.run
+leak-96: RecentTaskListAsyncProvider.run
+leak-97: RecentTaskListAsyncProvider.run
+In file: AsyncProvider.java
+Input operator: COMPLEXREACHABILITY
+leak-98: Updater.Updater
+leak-99: Updater.update
+leak-100: Updater.updateMax
+leak-101: AsyncProvider.AsyncProvider
+leak-102: AsyncProvider.AsyncProvider
+leak-103: AsyncProvider.AsyncProvider
+leak-104: AsyncProvider.onProgressUpdate
+leak-105: AsyncProvider.onProgressUpdate
+leak-106: AsyncProvider.onProgressUpdate
+leak-107: AsyncProvider.onPreExecute
+leak-108: AsyncProvider.onPreExecute
+leak-109: AsyncProvider.onPostExecute
+leak-110: AsyncProvider.onPostExecute
+leak-111: AsyncProvider.onPostExecute
+leak-112: AsyncProvider.doInBackground
+In file: IconListAdapter.java
+Input operator: COMPLEXREACHABILITY
+leak-113: IconListAdapter.IconListAdapter
+leak-114: IconListAdapter.IconListAdapter
+leak-115: IconListAdapter.IconListAdapter
+leak-116: IconListAdapter.IconListAdapter
+leak-117: IconListAdapter.IconListAdapter
+leak-118: IconListAdapter.IconListAdapter
+leak-119: IconListAdapter.getCount
+leak-120: IconListAdapter.getItem
+leak-121: IconListAdapter.getItemId
+leak-122: IconListAdapter.getIcon
+leak-123: IconListAdapter.getIcon
+leak-124: IconListAdapter.getIcon
+leak-125: IconListAdapter.getView
+In file: RecentTaskListAdapter.java
+Input operator: COMPLEXREACHABILITY
+leak-126: RecentTaskListAdapter.RecentTaskListAdapter
+leak-127: RecentTaskListAdapter.RecentTaskListAdapter
+leak-128: RecentTaskListAdapter.getView
+In file: IconListAsyncProvider.java
+Input operator: COMPLEXREACHABILITY
+leak-129: IconListAsyncProvider.IconListAsyncProvider
+leak-130: IconListAsyncProvider.run
+In file: MyActivityInfo.java
+Input operator: COMPLEXREACHABILITY
+leak-131: MyActivityInfo.MyActivityInfo
+leak-132: MyActivityInfo.MyActivityInfo
+leak-133: MyActivityInfo.MyActivityInfo
+leak-134: MyActivityInfo.MyActivityInfo
+leak-135: MyActivityInfo.MyActivityInfo
+leak-136: MyActivityInfo.MyActivityInfo
+leak-137: MyActivityInfo.MyActivityInfo
+leak-138: MyActivityInfo.MyActivityInfo
+leak-139: MyActivityInfo.getComponentName
+leak-140: MyActivityInfo.getIcon
+leak-141: MyActivityInfo.getName
+leak-142: MyActivityInfo.getIconResouceName
+leak-143: MyActivityInfo.compareTo
+leak-144: MyActivityInfo.equals
+leak-145: MyActivityInfo.equals
+In file: AllTasksListFragment.java
+Input operator: COMPLEXREACHABILITY
+leak-146: AllTasksListFragment.onCreateView
+leak-147: 1.onChildClick
+leak-148: AllTasksListFragment.onActivityCreated
+leak-149: AllTasksListFragment.onCreateContextMenu
+leak-150: AllTasksListFragment.onContextItemSelected
+leak-151: AllTasksListFragment.onProviderFininshed
+leak-152: AllTasksListFragment.onProviderFininshed
+leak-153: AllTasksListFragment.onProviderFininshed
+In file: PackageManagerCache.java
+Input operator: COMPLEXREACHABILITY
+leak-154: PackageManagerCache.getPackageManagerCache
+leak-155: PackageManagerCache.getPackageManagerCache
+leak-156: PackageManagerCache.PackageManagerCache
+leak-157: PackageManagerCache.getPackageInfo
+leak-158: PackageManagerCache.getPackageInfo
+leak-159: PackageManagerCache.getPackageInfo
+leak-160: PackageManagerCache.getPackageInfo
+leak-161: PackageManagerCache.getPackageInfo
+leak-162: PackageManagerCache.getAllPackageInfo
+leak-163: PackageManagerCache.getActivityInfo
+leak-164: PackageManagerCache.getActivityInfo
+leak-165: PackageManagerCache.getActivityInfo
+In file: RecentTaskListFragment.java
+Input operator: COMPLEXREACHABILITY
+leak-166: RecentTaskListFragment.onCreate
+leak-167: RecentTaskListFragment.onActivityCreated
+leak-168: RecentTaskListFragment.onListItemClick
+leak-169: RecentTaskListFragment.onCreateContextMenu
+leak-170: RecentTaskListFragment.onContextItemSelected
+leak-171: RecentTaskListFragment.onProviderFininshed
+leak-172: RecentTaskListFragment.onProviderFininshed
+leak-173: RecentTaskListFragment.onProviderFininshed

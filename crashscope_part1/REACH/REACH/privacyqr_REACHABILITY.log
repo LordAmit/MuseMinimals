@@ -1,0 +1,295 @@
+/home/amit/muse/output/privacyqr/schemas/REACHABILITY/privacyqr
+In file: MainActivity.java
+Input operator: REACHABILITY
+leak-0: <MainActivity.<init>>
+leak-1: MainActivity.onCreate
+leak-2: MainActivity.onCreate
+leak-3: MainActivity.onCreate
+leak-4: MainActivity.onOptionsItemSelected
+leak-5: MainActivity.onOptionsItemSelected
+leak-6: MainActivity.onOptionsItemSelected
+leak-7: <1.<init>>
+leak-8: 1.onCancel
+leak-9: <1.<init>>
+leak-10: 1.onClick
+leak-11: <1.<init>>
+leak-12: 1.onClick
+leak-13: <WelcomeDialog.<init>>
+leak-14: WelcomeDialog.onAttach
+leak-15: WelcomeDialog.onCreateDialog
+leak-16: <1.<init>>
+leak-17: 1.onClick
+leak-18: <1.<init>>
+leak-19: 1.onClick
+leak-20: MainActivity.switchToFragment
+leak-21: MainActivity.onResume
+leak-22: MainActivity.onBackPressed
+leak-23: MainActivity.onBackPressed
+leak-24: MainActivity.goBack
+leak-25: MainActivity.onPostCreate
+leak-26: MainActivity.onPostCreate
+leak-27: MainActivity.onPostCreate
+leak-28: MainActivity.selectNavigationItem
+leak-29: MainActivity.selectNavigationItem
+leak-30: MainActivity.getNavigationDrawerID
+leak-31: MainActivity.onNavigationItemSelected
+leak-32: MainActivity.goToNavigationItem
+leak-33: <1.<init>>
+leak-34: 1.run
+leak-35: MainActivity.callDrawerItem
+leak-36: MainActivity.onConfigurationChanged
+leak-37: MainActivity.selectItem
+leak-38: MainActivity.selectItem
+leak-39: MainActivity.selectItem
+leak-40: MainActivity.selectItem
+leak-41: MainActivity.selectItem
+leak-42: MainActivity.selectItem
+In file: MyCaptureActivity.java
+Input operator: REACHABILITY
+leak-43: <MyCaptureActivity.<init>>
+leak-44: MyCaptureActivity.onCreate
+In file: SplashActivity.java
+Input operator: REACHABILITY
+leak-45: <SplashActivity.<init>>
+leak-46: SplashActivity.onCreate
+In file: MyCaptureFragment.java
+Input operator: REACHABILITY
+leak-47: <MyCaptureFragment.<init>>
+leak-48: MyCaptureFragment.onCreateView
+leak-49: MyCaptureFragment.onCreateView
+leak-50: MyCaptureFragment.onCreateView
+leak-51: <1.<init>>
+leak-52: 1.onTorchOn
+leak-53: 1.onTorchOff
+leak-54: MyCaptureFragment.onCreate
+leak-55: MyCaptureFragment.onCreateOptionsMenu
+leak-56: MyCaptureFragment.onOptionsItemSelected
+leak-57: MyCaptureFragment.onOptionsItemSelected
+leak-58: MyCaptureFragment.toggleLight
+leak-59: MyCaptureFragment.onResume
+leak-60: MyCaptureFragment.onPause
+leak-61: <1.<init>>
+leak-62: 1.barcodeResult
+leak-63: 1.barcodeResult
+leak-64: 1.possibleResultPoints
+leak-65: MyCaptureFragment.hasFlash
+leak-66: MyCaptureFragment.onAttach
+In file: SettingsFragment.java
+Input operator: REACHABILITY
+leak-67: <SettingsFragment.<init>>
+leak-68: SettingsFragment.SettingsFragment
+leak-69: SettingsFragment.onActivityCreated
+leak-70: SettingsFragment.onCreate
+In file: AboutFragment.java
+Input operator: REACHABILITY
+leak-71: <AboutFragment.<init>>
+leak-72: AboutFragment.onCreateView
+leak-73: AboutFragment.onAttach
+In file: HistoryFragment.java
+Input operator: REACHABILITY
+leak-74: <HistoryFragment.<init>>
+leak-75: HistoryFragment.HistoryFragment
+leak-76: <HistoryViewElement.<init>>
+leak-77: HistoryViewElement.HistoryViewElement
+leak-78: HistoryViewElement.setArgs
+leak-79: HistoryViewElement.setView
+leak-80: HistoryViewElement.setId
+leak-81: HistoryFragment.onCreateView
+leak-82: HistoryFragment.onCreateView
+leak-83: HistoryFragment.onCreateView
+leak-84: HistoryFragment.onCreateView
+leak-85: HistoryFragment.onCreate
+leak-86: HistoryFragment.onCreateOptionsMenu
+leak-87: HistoryFragment.createViews
+leak-88: HistoryFragment.createViews
+leak-89: HistoryFragment.refresh
+leak-90: HistoryFragment.remove
+leak-91: HistoryFragment.loadPreviousScanned
+leak-92: HistoryFragment.loadPreviousScanned
+leak-93: HistoryFragment.loadPreviousScanned
+leak-94: HistoryFragment.loadPreviousScanned
+leak-95: HistoryFragment.loadPreviousScanned
+leak-96: HistoryFragment.loadPreviousScanned
+leak-97: HistoryFragment.loadPreviousScanned
+leak-98: HistoryFragment.loadPreviousScanned
+leak-99: HistoryFragment.loadPreviousScanned
+leak-100: HistoryFragment.loadPreviousScanned
+leak-101: HistoryFragment.loadPreviousScanned
+leak-102: HistoryFragment.loadPreviousScanned
+leak-103: HistoryFragment.loadPreviousScanned
+leak-104: HistoryFragment.loadPreviousScanned
+leak-105: HistoryFragment.loadPreviousScanned
+leak-106: HistoryFragment.loadPreviousScanned
+leak-107: <1.<init>>
+leak-108: 1.onClick
+leak-109: <1.<init>>
+leak-110: 1.onLongClick
+leak-111: <1.<init>>
+leak-112: 1.onClick
+leak-113: <1.<init>>
+leak-114: 1.onCancel
+In file: IntroFragment.java
+Input operator: REACHABILITY
+leak-115: <IntroFragment.<init>>
+leak-116: IntroFragment.IntroFragment
+leak-117: IntroFragment.onActivityCreated
+leak-118: IntroFragment.onCreateView
+In file: HelpFragment.java
+Input operator: REACHABILITY
+leak-119: <HelpFragment.<init>>
+leak-120: HelpFragment.HelpFragment
+leak-121: HelpFragment.onCreate
+In file: ScanFragment.java
+Input operator: REACHABILITY
+leak-122: <ScanFragment.<init>>
+leak-123: ScanFragment.ScanFragment
+leak-124: ScanFragment.onActivityCreated
+leak-125: ScanFragment.onCreateView
+leak-126: ScanFragment.scanFromFragment
+leak-127: ScanFragment.displayToast
+leak-128: ScanFragment.displayToast
+leak-129: ScanFragment.onActivityResult
+leak-130: ScanFragment.onAttach
+In file: History.java
+Input operator: REACHABILITY
+leak-131: <History.<init>>
+leak-132: History.getHistory
+leak-133: History.getHistory
+leak-134: History.getHistory
+leak-135: History.getHistory
+leak-136: History.getHistory
+leak-137: History.getHistory
+leak-138: History.getHistory
+leak-139: History.getHistory
+leak-140: History.getHistory
+leak-141: History.saveScan
+leak-142: History.saveScan
+leak-143: History.saveScan
+leak-144: History.saveScan
+leak-145: History.saveHistory
+leak-146: History.saveHistory
+leak-147: History.saveHistory
+leak-148: History.saveHistory
+leak-149: History.saveHistory
+leak-150: History.saveHistory
+leak-151: History.printHistory
+leak-152: History.printHistory
+leak-153: History.printHistory
+leak-154: History.printHistory
+leak-155: History.printHistory
+In file: FragmentGenerator.java
+Input operator: REACHABILITY
+leak-156: <FragmentGenerator.<init>>
+leak-157: FragmentGenerator.getFragment
+leak-158: FragmentGenerator.getFragment
+leak-159: FragmentGenerator.getFragmentFromContent
+In file: HistoryEntry.java
+Input operator: REACHABILITY
+leak-160: <HistoryEntry.<init>>
+leak-161: HistoryEntry.HistoryEntry
+In file: ContactFragment.java
+Input operator: REACHABILITY
+leak-162: <ContactFragment.<init>>
+leak-163: ContactFragment.ContactFragment
+leak-164: ContactFragment.onCreateView
+leak-165: ContactFragment.onCreateView
+leak-166: <1.<init>>
+leak-167: 1.onClick
+leak-168: <1.<init>>
+leak-169: 1.onClick
+leak-170: ContactFragment.createVCard
+leak-171: ContactFragment.createVCard
+leak-172: ContactFragment.createVCard
+In file: SendEmailFragment.java
+Input operator: REACHABILITY
+leak-173: <SendEmailFragment.<init>>
+leak-174: SendEmailFragment.SendEmailFragment
+leak-175: SendEmailFragment.onCreateView
+leak-176: SendEmailFragment.onCreateView
+leak-177: SendEmailFragment.onCreateView
+leak-178: <1.<init>>
+leak-179: 1.onClick
+leak-180: <1.<init>>
+leak-181: 1.onClick
+In file: EmailFragment.java
+Input operator: REACHABILITY
+leak-182: <EmailFragment.<init>>
+leak-183: EmailFragment.EmailFragment
+leak-184: EmailFragment.onCreateView
+leak-185: <1.<init>>
+leak-186: 1.onClick
+leak-187: <1.<init>>
+leak-188: 1.onClick
+In file: ProductFragment.java
+Input operator: REACHABILITY
+leak-189: <ProductFragment.<init>>
+leak-190: ProductFragment.ProductFragment
+leak-191: ProductFragment.onCreateView
+leak-192: <1.<init>>
+leak-193: 1.onClick
+leak-194: <1.<init>>
+leak-195: 1.onClick
+In file: SmsFragment.java
+Input operator: REACHABILITY
+leak-196: <SmsFragment.<init>>
+leak-197: SmsFragment.SmsFragment
+leak-198: SmsFragment.onCreateView
+leak-199: <1.<init>>
+leak-200: 1.onClick
+leak-201: <1.<init>>
+leak-202: 1.onClick
+In file: UrlFragment.java
+Input operator: REACHABILITY
+leak-203: <UrlFragment.<init>>
+leak-204: UrlFragment.UrlFragment
+leak-205: UrlFragment.onCreateView
+leak-206: <1.<init>>
+leak-207: 1.onClick
+leak-208: 1.onClick
+leak-209: 1.onClick
+leak-210: <1.<init>>
+leak-211: 1.onClick
+leak-212: 1.onClick
+leak-213: 1.onClick
+leak-214: <1.<init>>
+leak-215: 1.onClick
+In file: TextFragment.java
+Input operator: REACHABILITY
+leak-216: <TextFragment.<init>>
+leak-217: TextFragment.TextFragment
+leak-218: TextFragment.onCreateView
+leak-219: <1.<init>>
+leak-220: 1.onClick
+leak-221: <1.<init>>
+leak-222: 1.onClick
+In file: WifiFragment.java
+Input operator: REACHABILITY
+leak-223: <WifiFragment.<init>>
+leak-224: WifiFragment.WifiFragment
+leak-225: WifiFragment.onCreateView
+leak-226: WifiFragment.onCreateView
+leak-227: <1.<init>>
+leak-228: 1.onClick
+leak-229: <1.<init>>
+leak-230: 1.onClick
+In file: ResultFragment.java
+Input operator: REACHABILITY
+leak-231: <ResultFragment.<init>>
+leak-232: ResultFragment.ResultFragment
+leak-233: ResultFragment.createBitmap
+leak-234: ResultFragment.setResult
+leak-235: ResultFragment.setResult
+leak-236: <1.<init>>
+leak-237: 1.onClick
+leak-238: ResultFragment.saveScanned
+leak-239: ResultFragment.displayToast
+leak-240: ResultFragment.displayToast
+In file: TelFragment.java
+Input operator: REACHABILITY
+leak-241: <TelFragment.<init>>
+leak-242: TelFragment.TelFragment
+leak-243: TelFragment.onCreateView
+leak-244: <1.<init>>
+leak-245: 1.onClick
+leak-246: <1.<init>>
+leak-247: 1.onClick

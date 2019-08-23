@@ -1,0 +1,72 @@
+/home/amit/muse/output/2048/schemas/TAINTSINK/2048
+In file: MainActivity.java
+Input operator: TAINTSINK
+onCreate
+onTouch
+onSaveInstanceState
+onCreateOptionsMenu
+Private method: saveFullScreen
+Private method: isFullScreen
+Private method: applyFullScreen
+onConfigurationChanged
+onBackPressed
+leak-6-0: MainActivity.onCreate
+SUper found
+leak-5-0: MainActivity.onCreate
+SUper found
+leak-6-1: MainActivity.onSaveInstanceState
+leak-5-1: MainActivity.onSaveInstanceState
+leak-6-2: MainActivity.onCreateOptionsMenu
+leak-5-2: MainActivity.onCreateOptionsMenu
+leak-6-3: MainActivity.saveFullScreen
+leak-5-3: MainActivity.saveFullScreen
+leak-6-4: MainActivity.isFullScreen
+leak-5-4: MainActivity.isFullScreen
+leak-6-5: MainActivity.applyFullScreen
+leak-5-5: MainActivity.applyFullScreen
+leak-6-6: MainActivity.onConfigurationChanged
+SUper found
+leak-5-6: MainActivity.onConfigurationChanged
+SUper found
+leak-6-7: MainActivity.onBackPressed
+leak-5-7: MainActivity.onBackPressed
+leak-4-0: MainActivity.onCreate
+SUper found
+leak-4-1: MainActivity.onSaveInstanceState
+leak-4-2: MainActivity.onCreateOptionsMenu
+leak-4-3: MainActivity.saveFullScreen
+leak-4-4: MainActivity.isFullScreen
+leak-4-5: MainActivity.applyFullScreen
+leak-4-6: MainActivity.onConfigurationChanged
+SUper found
+leak-4-7: MainActivity.onBackPressed
+leak-3-0: MainActivity.onCreate
+SUper found
+leak-3-1: MainActivity.onSaveInstanceState
+leak-3-2: MainActivity.onCreateOptionsMenu
+leak-3-3: MainActivity.saveFullScreen
+leak-3-4: MainActivity.isFullScreen
+leak-3-5: MainActivity.applyFullScreen
+leak-3-6: MainActivity.onConfigurationChanged
+SUper found
+leak-3-7: MainActivity.onBackPressed
+leak-2-0: MainActivity.onCreate
+SUper found
+leak-2-1: MainActivity.onSaveInstanceState
+leak-2-2: MainActivity.onCreateOptionsMenu
+leak-2-3: MainActivity.saveFullScreen
+leak-2-4: MainActivity.isFullScreen
+leak-2-5: MainActivity.applyFullScreen
+leak-2-6: MainActivity.onConfigurationChanged
+SUper found
+leak-2-7: MainActivity.onBackPressed
+leak-0-0: MainActivity.onCreate
+SUper found
+leak-0-1: MainActivity.onSaveInstanceState
+leak-0-2: MainActivity.onCreateOptionsMenu
+leak-0-3: MainActivity.saveFullScreen
+leak-0-4: MainActivity.isFullScreen
+leak-0-5: MainActivity.applyFullScreen
+leak-0-6: MainActivity.onConfigurationChanged
+SUper found
+leak-0-7: MainActivity.onBackPressed

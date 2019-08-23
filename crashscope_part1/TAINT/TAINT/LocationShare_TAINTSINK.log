@@ -1,0 +1,253 @@
+/home/amit/muse/output/LocationShare/schemas/TAINTSINK/LocationShare
+In file: MainActivity.java
+Input operator: TAINTSINK
+onLocationChanged
+onProviderEnabled
+onProviderDisabled
+onStatusChanged
+onCreate
+onStop
+onResume
+onRequestPermissionsResult
+Private method: updateLocation
+Private method: updateLocation
+onClick
+onClick
+shareLocation
+copyLocation
+viewLocation
+openLocationSettings
+Private method: startRequestingLocation
+Private method: validLocation
+Private method: getAccuracy
+Private method: getLatitude
+Private method: getLongitude
+Private method: formatLocation
+leak-15-0: MainActivity.onCreate
+SUper found
+leak-14-0: MainActivity.onCreate
+SUper found
+leak-15-1: MainActivity.onStop
+SUper found
+leak-14-1: MainActivity.onStop
+SUper found
+leak-15-2: MainActivity.onResume
+SUper found
+leak-14-2: MainActivity.onResume
+SUper found
+leak-15-3: MainActivity.onRequestPermissionsResult
+leak-14-3: MainActivity.onRequestPermissionsResult
+leak-15-4: MainActivity.updateLocation
+leak-14-4: MainActivity.updateLocation
+leak-15-5: MainActivity.updateLocation
+leak-14-5: MainActivity.updateLocation
+leak-15-8: MainActivity.shareLocation
+leak-14-8: MainActivity.shareLocation
+leak-15-9: MainActivity.copyLocation
+leak-14-9: MainActivity.copyLocation
+leak-15-10: MainActivity.viewLocation
+leak-14-10: MainActivity.viewLocation
+leak-15-11: MainActivity.openLocationSettings
+leak-14-11: MainActivity.openLocationSettings
+leak-15-12: MainActivity.startRequestingLocation
+leak-14-12: MainActivity.startRequestingLocation
+leak-15-13: MainActivity.validLocation
+leak-14-13: MainActivity.validLocation
+leak-15-14: MainActivity.getAccuracy
+leak-14-14: MainActivity.getAccuracy
+leak-15-15: MainActivity.getLatitude
+leak-14-15: MainActivity.getLatitude
+leak-15-16: MainActivity.getLongitude
+leak-14-16: MainActivity.getLongitude
+leak-15-17: MainActivity.formatLocation
+leak-14-17: MainActivity.formatLocation
+leak-13-0: MainActivity.onCreate
+SUper found
+leak-13-1: MainActivity.onStop
+SUper found
+leak-13-2: MainActivity.onResume
+SUper found
+leak-13-3: MainActivity.onRequestPermissionsResult
+leak-13-4: MainActivity.updateLocation
+leak-13-5: MainActivity.updateLocation
+leak-13-8: MainActivity.shareLocation
+leak-13-9: MainActivity.copyLocation
+leak-13-10: MainActivity.viewLocation
+leak-13-11: MainActivity.openLocationSettings
+leak-13-12: MainActivity.startRequestingLocation
+leak-13-13: MainActivity.validLocation
+leak-13-14: MainActivity.getAccuracy
+leak-13-15: MainActivity.getLatitude
+leak-13-16: MainActivity.getLongitude
+leak-13-17: MainActivity.formatLocation
+leak-12-0: MainActivity.onCreate
+SUper found
+leak-12-1: MainActivity.onStop
+SUper found
+leak-12-2: MainActivity.onResume
+SUper found
+leak-12-3: MainActivity.onRequestPermissionsResult
+leak-12-4: MainActivity.updateLocation
+leak-12-5: MainActivity.updateLocation
+leak-12-8: MainActivity.shareLocation
+leak-12-9: MainActivity.copyLocation
+leak-12-10: MainActivity.viewLocation
+leak-12-11: MainActivity.openLocationSettings
+leak-12-12: MainActivity.startRequestingLocation
+leak-12-13: MainActivity.validLocation
+leak-12-14: MainActivity.getAccuracy
+leak-12-15: MainActivity.getLatitude
+leak-12-16: MainActivity.getLongitude
+leak-12-17: MainActivity.formatLocation
+leak-11-0: MainActivity.onCreate
+SUper found
+leak-11-1: MainActivity.onStop
+SUper found
+leak-11-2: MainActivity.onResume
+SUper found
+leak-11-3: MainActivity.onRequestPermissionsResult
+leak-11-4: MainActivity.updateLocation
+leak-11-5: MainActivity.updateLocation
+leak-11-8: MainActivity.shareLocation
+leak-11-9: MainActivity.copyLocation
+leak-11-10: MainActivity.viewLocation
+leak-11-11: MainActivity.openLocationSettings
+leak-11-12: MainActivity.startRequestingLocation
+leak-11-13: MainActivity.validLocation
+leak-11-14: MainActivity.getAccuracy
+leak-11-15: MainActivity.getLatitude
+leak-11-16: MainActivity.getLongitude
+leak-11-17: MainActivity.formatLocation
+leak-10-0: MainActivity.onCreate
+SUper found
+leak-10-1: MainActivity.onStop
+SUper found
+leak-10-2: MainActivity.onResume
+SUper found
+leak-10-3: MainActivity.onRequestPermissionsResult
+leak-10-4: MainActivity.updateLocation
+leak-10-5: MainActivity.updateLocation
+leak-10-8: MainActivity.shareLocation
+leak-10-9: MainActivity.copyLocation
+leak-10-10: MainActivity.viewLocation
+leak-10-11: MainActivity.openLocationSettings
+leak-10-12: MainActivity.startRequestingLocation
+leak-10-13: MainActivity.validLocation
+leak-10-14: MainActivity.getAccuracy
+leak-10-15: MainActivity.getLatitude
+leak-10-16: MainActivity.getLongitude
+leak-10-17: MainActivity.formatLocation
+leak-9-0: MainActivity.onCreate
+SUper found
+leak-9-1: MainActivity.onStop
+SUper found
+leak-9-2: MainActivity.onResume
+SUper found
+leak-9-3: MainActivity.onRequestPermissionsResult
+leak-9-4: MainActivity.updateLocation
+leak-9-5: MainActivity.updateLocation
+leak-9-8: MainActivity.shareLocation
+leak-9-9: MainActivity.copyLocation
+leak-9-10: MainActivity.viewLocation
+leak-9-11: MainActivity.openLocationSettings
+leak-9-12: MainActivity.startRequestingLocation
+leak-9-13: MainActivity.validLocation
+leak-9-14: MainActivity.getAccuracy
+leak-9-15: MainActivity.getLatitude
+leak-9-16: MainActivity.getLongitude
+leak-9-17: MainActivity.formatLocation
+leak-8-0: MainActivity.onCreate
+SUper found
+leak-8-1: MainActivity.onStop
+SUper found
+leak-8-2: MainActivity.onResume
+SUper found
+leak-8-3: MainActivity.onRequestPermissionsResult
+leak-8-4: MainActivity.updateLocation
+leak-8-5: MainActivity.updateLocation
+leak-8-8: MainActivity.shareLocation
+leak-8-9: MainActivity.copyLocation
+leak-8-10: MainActivity.viewLocation
+leak-8-11: MainActivity.openLocationSettings
+leak-8-12: MainActivity.startRequestingLocation
+leak-8-13: MainActivity.validLocation
+leak-8-14: MainActivity.getAccuracy
+leak-8-15: MainActivity.getLatitude
+leak-8-16: MainActivity.getLongitude
+leak-8-17: MainActivity.formatLocation
+leak-7-0: MainActivity.onCreate
+SUper found
+leak-7-1: MainActivity.onStop
+SUper found
+leak-7-2: MainActivity.onResume
+SUper found
+leak-7-3: MainActivity.onRequestPermissionsResult
+leak-7-4: MainActivity.updateLocation
+leak-7-5: MainActivity.updateLocation
+leak-7-8: MainActivity.shareLocation
+leak-7-9: MainActivity.copyLocation
+leak-7-10: MainActivity.viewLocation
+leak-7-11: MainActivity.openLocationSettings
+leak-7-12: MainActivity.startRequestingLocation
+leak-7-13: MainActivity.validLocation
+leak-7-14: MainActivity.getAccuracy
+leak-7-15: MainActivity.getLatitude
+leak-7-16: MainActivity.getLongitude
+leak-7-17: MainActivity.formatLocation
+leak-5-0: MainActivity.onCreate
+SUper found
+leak-5-1: MainActivity.onStop
+SUper found
+leak-5-2: MainActivity.onResume
+SUper found
+leak-5-3: MainActivity.onRequestPermissionsResult
+leak-5-4: MainActivity.updateLocation
+leak-5-5: MainActivity.updateLocation
+leak-5-8: MainActivity.shareLocation
+leak-5-9: MainActivity.copyLocation
+leak-5-10: MainActivity.viewLocation
+leak-5-11: MainActivity.openLocationSettings
+leak-5-12: MainActivity.startRequestingLocation
+leak-5-13: MainActivity.validLocation
+leak-5-14: MainActivity.getAccuracy
+leak-5-15: MainActivity.getLatitude
+leak-5-16: MainActivity.getLongitude
+leak-5-17: MainActivity.formatLocation
+leak-3-0: MainActivity.onCreate
+SUper found
+leak-3-1: MainActivity.onStop
+SUper found
+leak-3-2: MainActivity.onResume
+SUper found
+leak-3-3: MainActivity.onRequestPermissionsResult
+leak-3-4: MainActivity.updateLocation
+leak-3-5: MainActivity.updateLocation
+leak-3-8: MainActivity.shareLocation
+leak-3-9: MainActivity.copyLocation
+leak-3-10: MainActivity.viewLocation
+leak-3-11: MainActivity.openLocationSettings
+leak-3-12: MainActivity.startRequestingLocation
+leak-3-13: MainActivity.validLocation
+leak-3-14: MainActivity.getAccuracy
+leak-3-15: MainActivity.getLatitude
+leak-3-16: MainActivity.getLongitude
+leak-3-17: MainActivity.formatLocation
+leak-1-0: MainActivity.onCreate
+SUper found
+leak-1-1: MainActivity.onStop
+SUper found
+leak-1-2: MainActivity.onResume
+SUper found
+leak-1-3: MainActivity.onRequestPermissionsResult
+leak-1-4: MainActivity.updateLocation
+leak-1-5: MainActivity.updateLocation
+leak-1-8: MainActivity.shareLocation
+leak-1-9: MainActivity.copyLocation
+leak-1-10: MainActivity.viewLocation
+leak-1-11: MainActivity.openLocationSettings
+leak-1-12: MainActivity.startRequestingLocation
+leak-1-13: MainActivity.validLocation
+leak-1-14: MainActivity.getAccuracy
+leak-1-15: MainActivity.getLatitude
+leak-1-16: MainActivity.getLongitude
+leak-1-17: MainActivity.formatLocation

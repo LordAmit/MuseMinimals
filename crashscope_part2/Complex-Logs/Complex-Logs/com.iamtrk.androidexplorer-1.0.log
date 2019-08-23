@@ -1,0 +1,2068 @@
+--------- beginning of system
+I/ActivityManager(  676): Waited long enough for: ServiceRecord{19582fe0 u0 com.android.calendar/.alerts.InitAlarmsService}
+--------- beginning of main
+D/AndroidRuntime( 2158): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 2158): CheckJNI is OFF
+E/memtrack( 2158): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 2158): failed to load memtrack module: -2
+D/AndroidRuntime( 2158): Calling main entry com.android.commands.pm.Pm
+I/PackageManager(  676): Package doesn't exist in get block uninstall com.iamtrk.androidexplorer
+W/PackageManager(  676): Package named 'com.iamtrk.androidexplorer' doesn't exist.
+I/art     (  676): Explicit concurrent mark sweep GC freed 29052(2MB) AllocSpace objects, 34(762KB) LOS objects, 33% free, 6MB/10MB, paused 487us total 14.831ms
+E/Pm      ( 2158): Failure details: Bundle[{android.content.pm.extra.STATUS=1, android.content.pm.extra.PACKAGE_NAME=com.iamtrk.androidexplorer, android.content.pm.extra.LEGACY_STATUS=-1, android.content.pm.extra.STATUS_MESSAGE=DELETE_FAILED_INTERNAL_ERROR}]
+I/art     ( 2158): System.exit called, status: 1
+I/AndroidRuntime( 2158): VM exiting with result code 1.
+D/AndroidRuntime( 2176): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 2176): CheckJNI is OFF
+E/memtrack( 2176): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 2176): failed to load memtrack module: -2
+D/AndroidRuntime( 2176): Calling main entry com.android.commands.pm.Pm
+E/libprocessgroup( 2189): failed to make and chown /acct/uid_10003: Read-only file system
+W/Zygote  ( 2189): createProcessGroup failed, kernel missing CONFIG_CGROUP_CPUACCT?
+I/ActivityManager(  676): Start proc 2189:com.android.defcontainer/u0a3 for service com.android.defcontainer/.DefaultContainerService
+D/DefContainer( 2189): Copying /data/local/tmp/device-explorer-release-unsigned_COMPLEX.apk to base.apk
+D/PackageManager(  676): Renaming /data/app/vmdl279010737.tmp to /data/app/com.iamtrk.androidexplorer-1
+I/PackageManager(  676): Running dexopt on: /data/app/com.iamtrk.androidexplorer-1/base.apk pkg=com.iamtrk.androidexplorer isa=x86 vmSafeMode=false
+E/cutils-trace( 2208): Error opening trace file: Permission denied (13)
+I/dex2oat ( 2208): /system/bin/dex2oat --zip-fd=5 --zip-location=/data/app/com.iamtrk.androidexplorer-1/base.apk --oat-fd=6 --oat-location=/data/dalvik-cache/x86/data@app@com.iamtrk.androidexplorer-1@base.apk@classes.dex --instruction-set=x86 --instruction-set-features=default --runtime-arg -Xms64m --runtime-arg -Xmx512m --swap-fd=7
+I/dex2oat ( 2208): Decided to run without swap.
+I/dex2oat ( 2208): dex2oat took 308.116ms (threads: 4) arena alloc=279KB java alloc=2013KB native alloc=4MB free=7MB
+V/BackupManagerService(  676): restoreAtInstall pkg=com.iamtrk.androidexplorer token=1 restoreSet=0
+V/BackupManagerService(  676): Finishing install immediately
+W/Settings(  676): Setting install_non_market_apps has moved from android.provider.Settings.Global to android.provider.Settings.Secure, returning read-only value.
+I/InputReader(  676): Reconfiguring input devices.  changes=0x00000010
+D/BackupManagerService(  676): Received broadcast Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.iamtrk.androidexplorer flg=0x4000010 (has extras) }
+E/libprocessgroup( 2213): failed to make and chown /acct/uid_10009: Read-only file system
+W/Zygote  ( 2213): createProcessGroup failed, kernel missing CONFIG_CGROUP_CPUACCT?
+I/art     (  676): WaitForGcToComplete blocked for 21.644ms for cause Explicit
+I/ActivityManager(  676): Start proc 2213:com.android.musicfx/u0a9 for broadcast com.android.musicfx/.Compatibility$Receiver
+W/VoiceInteractionManagerService(  676): no available voice recognition services found for user 0
+I/art     (  676): Explicit concurrent mark sweep GC freed 8016(435KB) AllocSpace objects, 1(16KB) LOS objects, 33% free, 6MB/10MB, paused 1.236ms total 23.300ms
+I/art     ( 2176): System.exit called, status: 0
+I/AndroidRuntime( 2176): VM exiting with result code 0.
+D/Launcher.Workspace( 1569): 11683562 - removeExtraEmptyScreen()
+D/Launcher.Workspace( 1569): 11683562 - convertFinalScreenToEmptyScreenIfNecessary()
+E/libprocessgroup( 2236): failed to make and chown /acct/uid_10049: Read-only file system
+W/Zygote  ( 2236): createProcessGroup failed, kernel missing CONFIG_CGROUP_CPUACCT?
+I/ActivityManager(  676): Start proc 2236:com.svox.pico/u0a49 for broadcast com.svox.pico/.VoiceDataInstallerReceiver
+I/ActivityManager(  676): Killing 1402:com.android.printspooler/u0a50 (adj 15): empty #17
+W/libprocessgroup(  676): failed to open /acct/uid_10050/pid_1402/cgroup.procs: No such file or directory
+I/ActivityManager(  676): Killing 1898:com.android.dialer/u0a4 (adj 15): empty #17
+W/libprocessgroup(  676): failed to open /acct/uid_10004/pid_1898/cgroup.procs: No such file or directory
+D/AndroidRuntime( 2260): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 2260): CheckJNI is OFF
+E/memtrack( 2260): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 2260): failed to load memtrack module: -2
+D/AndroidRuntime( 2260): Calling main entry com.android.commands.monkey.Monkey
+W/BroadcastQueue(  676): Skipping deliver [background] BroadcastRecord{13f635c u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{d6b8665 2260 (unknown name)/0/u-1 remote:3a915e2e}: process crashing
+I/ActivityManager(  676): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity} from uid 0 on display 0
+V/WindowManager(  676): addAppToken: AppWindowToken{3a0d5948 token=Token{19b8f7eb ActivityRecord{10d92f3a u0 com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity t4}}} to stack=1 task=4 at 0
+V/WindowManager(  676): Adding window Window{8ca7963 u0 Starting com.iamtrk.androidexplorer} at 2 of 7 (after Window{19027b4a u0 com.android.launcher3/com.android.launcher3.Launcher})
+E/libprocessgroup( 2275): failed to make and chown /acct/uid_10059: Read-only file system
+W/Zygote  ( 2275): createProcessGroup failed, kernel missing CONFIG_CGROUP_CPUACCT?
+I/ActivityManager(  676): Start proc 2275:com.iamtrk.androidexplorer/u0a59 for activity com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity
+D/Sensors (  676): batch handle 1, but there is no batch sensor in genymotion
+I/art     ( 2260): System.exit called, status: 0
+I/AndroidRuntime( 2260): VM exiting with result code 0.
+D/leak-14 ( 2275): Eastern Standard Time
+D/leak-18 ( 2275): Eastern Standard Time
+D/leak-30 ( 2275): Eastern Standard Time
+D/leak-159( 2275): Eastern Standard Time
+D/leak-53 ( 2275): Eastern Standard Time
+D/leak-66 ( 2275): Eastern Standard Time
+D/leak-46 ( 2275): Eastern Standard Time
+D/leak-53 ( 2275): Eastern Standard Time
+D/leak-120( 2275): Eastern Standard Time
+D/leak-46 ( 2275): Eastern Standard Time
+D/leak-53 ( 2275): Eastern Standard Time
+D/leak-97 ( 2275): Eastern Standard Time
+D/leak-46 ( 2275): Eastern Standard Time
+D/leak-53 ( 2275): Eastern Standard Time
+D/leak-75 ( 2275): Eastern Standard Time
+D/leak-76 ( 2275): Eastern Standard Time
+D/leak-57 ( 2275): Eastern Standard Time
+D/leak-57 ( 2275): Eastern Standard Time
+D/leak-57 ( 2275): Eastern Standard Time
+D/leak-57 ( 2275): Eastern Standard Time
+D/leak-57 ( 2275): Eastern Standard Time
+D/leak-57 ( 2275): Eastern Standard Time
+D/leak-57 ( 2275): Eastern Standard Time
+D/leak-57 ( 2275): Eastern Standard Time
+D/leak-58 ( 2275): Eastern Standard Time
+D/leak-59 ( 2275): Eastern Standard Time
+D/leak-59 ( 2275): Eastern Standard Time
+D/leak-60 ( 2275): Eastern Standard Time
+D/leak-61 ( 2275): Eastern Standard Time
+D/leak-59 ( 2275): Eastern Standard Time
+D/leak-59 ( 2275): Eastern Standard Time
+D/leak-59 ( 2275): Eastern Standard Time
+D/leak-59 ( 2275): Eastern Standard Time
+D/leak-59 ( 2275): Eastern Standard Time
+D/leak-60 ( 2275): Eastern Standard Time
+D/leak-61 ( 2275): Eastern Standard Time
+D/leak-59 ( 2275): Eastern Standard Time
+I/ConfigItem( 2275): Config: {1.0 310mcc270mnc en_US ldltr sw600dp w600dp h887dp 320dpi lrg port finger -keyb/v/h dpad/v s.6}
+I/ConfigItem( 2275): fontScale: 1.00000
+I/ConfigItem( 2275): hardKeyboardHidden: 2
+I/ConfigItem( 2275): keyboard: 1
+I/ConfigItem( 2275): keyboardHidden: 1
+I/ConfigItem( 2275): locale: en_US
+I/ConfigItem( 2275): mcc: 310
+I/ConfigItem( 2275): mnc: 270
+I/ConfigItem( 2275): navigation: 2
+I/ConfigItem( 2275): navigationHidden: 1
+I/ConfigItem( 2275): orientation: 1
+I/ConfigItem( 2275): screenHeightDp: 887
+I/ConfigItem( 2275): screenLayout: 0x10000053
+I/ConfigItem( 2275): screenWidthDp: 600
+I/ConfigItem( 2275): smallestScreenWidthDp: 600
+I/ConfigItem( 2275): touchscreen: 3
+I/ConfigItem( 2275): uiMode: UI_MODE_TYPE_NORMAL|UI_MODE_NIGHT_NO
+D/leak-46 ( 2275): Eastern Standard Time
+D/leak-53 ( 2275): Eastern Standard Time
+D/leak-72 ( 2275): Eastern Standard Time
+D/leak-46 ( 2275): Eastern Standard Time
+D/leak-53 ( 2275): Eastern Standard Time
+D/leak-85 ( 2275): Eastern Standard Time
+D/leak-46 ( 2275): Eastern Standard Time
+D/leak-53 ( 2275): Eastern Standard Time
+D/leak-85 ( 2275): Eastern Standard Time
+D/leak-46 ( 2275): Eastern Standard Time
+D/leak-53 ( 2275): Eastern Standard Time
+D/leak-85 ( 2275): Eastern Standard Time
+D/leak-46 ( 2275): Eastern Standard Time
+D/leak-53 ( 2275): Eastern Standard Time
+D/leak-85 ( 2275): Eastern Standard Time
+D/leak-46 ( 2275): Eastern Standard Time
+D/leak-53 ( 2275): Eastern Standard Time
+D/leak-146( 2275): Eastern Standard Time
+D/leak-46 ( 2275): Eastern Standard Time
+D/leak-53 ( 2275): Eastern Standard Time
+D/leak-117( 2275): Eastern Standard Time
+D/leak-46 ( 2275): Eastern Standard Time
+D/leak-53 ( 2275): Eastern Standard Time
+D/leak-111( 2275): Eastern Standard Time
+D/leak-46 ( 2275): Eastern Standard Time
+D/leak-53 ( 2275): Eastern Standard Time
+D/leak-85 ( 2275): Eastern Standard Time
+D/leak-46 ( 2275): Eastern Standard Time
+D/leak-53 ( 2275): Eastern Standard Time
+D/leak-87 ( 2275): Eastern Standard Time
+D/leak-46 ( 2275): Eastern Standard Time
+D/leak-53 ( 2275): Eastern Standard Time
+D/leak-85 ( 2275): Eastern Standard Time
+D/leak-46 ( 2275): Eastern Standard Time
+D/leak-53 ( 2275): Eastern Standard Time
+D/leak-85 ( 2275): Eastern Standard Time
+D/leak-46 ( 2275): Eastern Standard Time
+D/leak-53 ( 2275): Eastern Standard Time
+D/leak-85 ( 2275): Eastern Standard Time
+D/leak-46 ( 2275): Eastern Standard Time
+D/leak-53 ( 2275): Eastern Standard Time
+D/leak-85 ( 2275): Eastern Standard Time
+D/leak-46 ( 2275): Eastern Standard Time
+D/leak-53 ( 2275): Eastern Standard Time
+D/leak-78 ( 2275): Eastern Standard Time
+D/leak-46 ( 2275): Eastern Standard Time
+D/leak-53 ( 2275): Eastern Standard Time
+D/leak-68 ( 2275): Eastern Standard Time
+D/leak-46 ( 2275): Eastern Standard Time
+D/leak-53 ( 2275): Eastern Standard Time
+D/leak-92 ( 2275): Eastern Standard Time
+D/leak-46 ( 2275): Eastern Standard Time
+D/leak-53 ( 2275): Eastern Standard Time
+D/leak-149( 2275): Eastern Standard Time
+D/leak-46 ( 2275): Eastern Standard Time
+D/leak-53 ( 2275): Eastern Standard Time
+D/leak-85 ( 2275): Eastern Standard Time
+D/leak-46 ( 2275): Eastern Standard Time
+D/leak-198( 2275): Eastern Standard Time
+D/leak-203( 2275): Eastern Standard Time
+D/leak-199( 2275): Eastern Standard Time
+D/leak-40 ( 2275): Eastern Standard Time
+D/leak-44 ( 2275): Eastern Standard Time
+D/leak-174( 2275): Eastern Standard Time
+D/leak-201( 2275): Eastern Standard Time
+D/leak-161( 2275): Eastern Standard Time
+D/leak-162( 2275): Eastern Standard Time
+D/leak-180( 2275): Eastern Standard Time
+D/leak-181( 2275): Eastern Standard Time
+D/leak-182( 2275): Eastern Standard Time
+D/AndroidRuntime( 2275): Shutting down VM
+--------- beginning of crash
+E/AndroidRuntime( 2275): FATAL EXCEPTION: main
+E/AndroidRuntime( 2275): Process: com.iamtrk.androidexplorer, PID: 2275
+E/AndroidRuntime( 2275): java.lang.RuntimeException: Unable to start activity ComponentInfo{com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity}: java.lang.RuntimeException: java.io.FileNotFoundException: /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: open failed: ENOENT (No such file or directory)
+E/AndroidRuntime( 2275): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2325)
+E/AndroidRuntime( 2275): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2387)
+E/AndroidRuntime( 2275): 	at android.app.ActivityThread.access$800(ActivityThread.java:151)
+E/AndroidRuntime( 2275): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1303)
+E/AndroidRuntime( 2275): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/AndroidRuntime( 2275): 	at android.os.Looper.loop(Looper.java:135)
+E/AndroidRuntime( 2275): 	at android.app.ActivityThread.main(ActivityThread.java:5254)
+E/AndroidRuntime( 2275): 	at java.lang.reflect.Method.invoke(Native Method)
+E/AndroidRuntime( 2275): 	at java.lang.reflect.Method.invoke(Method.java:372)
+E/AndroidRuntime( 2275): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:903)
+E/AndroidRuntime( 2275): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:698)
+E/AndroidRuntime( 2275): Caused by: java.lang.RuntimeException: java.io.FileNotFoundException: /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: open failed: ENOENT (No such file or directory)
+E/AndroidRuntime( 2275): 	at com.iamtrk.a.c.<init>(Unknown Source)
+E/AndroidRuntime( 2275): 	at com.iamtrk.ItemListActivity.k(Unknown Source)
+E/AndroidRuntime( 2275): 	at com.iamtrk.ItemListActivity.onCreate(Unknown Source)
+E/AndroidRuntime( 2275): 	at android.app.Activity.performCreate(Activity.java:5990)
+E/AndroidRuntime( 2275): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1106)
+E/AndroidRuntime( 2275): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2278)
+E/AndroidRuntime( 2275): 	... 10 more
+E/AndroidRuntime( 2275): Caused by: java.io.FileNotFoundException: /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: open failed: ENOENT (No such file or directory)
+E/AndroidRuntime( 2275): 	at libcore.io.IoBridge.open(IoBridge.java:456)
+E/AndroidRuntime( 2275): 	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:117)
+E/AndroidRuntime( 2275): 	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:149)
+E/AndroidRuntime( 2275): 	... 16 more
+E/AndroidRuntime( 2275): Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+E/AndroidRuntime( 2275): 	at libcore.io.Posix.open(Native Method)
+E/AndroidRuntime( 2275): 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:186)
+E/AndroidRuntime( 2275): 	at libcore.io.IoBridge.open(IoBridge.java:442)
+E/AndroidRuntime( 2275): 	... 18 more
+W/ActivityManager(  676):   Force finishing activity 1 com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity
+D/PermissionCache(  646): checking android.permission.READ_FRAME_BUFFER for uid=1000 => granted (246 us)
+D/        (  676): HostConnection::get() New Host Connection established 0xdf4bbad0, tid 1401
+D/        (  646): HostConnection::get() New Host Connection established 0xf602d240, tid 1711
+E/EGL_emulation(  646): tid 646: eglCreateSyncKHR(1215): error 0x3004 (EGL_BAD_ATTRIBUTE)
+D/OpenGLRenderer(  676): Use EGL_SWAP_BEHAVIOR_PRESERVED: true
+D/Atlas   (  676): Validating map...
+I/OpenGLRenderer(  676): Initialized EGL, version 1.4
+D/        (  676): HostConnection::get() New Host Connection established 0xdf14e470, tid 2297
+D/OpenGLRenderer(  676): Enabling debug mode 0
+W/EGL_emulation(  676): eglSurfaceAttrib not implemented
+W/OpenGLRenderer(  676): Failed to set EGL_SWAP_BEHAVIOR on surface 0xdf07f980, error=EGL_SUCCESS
+W/EGL_emulation(  676): eglSurfaceAttrib not implemented
+W/OpenGLRenderer(  676): Failed to set EGL_SWAP_BEHAVIOR on surface 0xdf07f980, error=EGL_SUCCESS
+W/ActivityManager(  676): Activity pause timeout for ActivityRecord{10d92f3a u0 com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity t4 f}
+W/EGL_emulation( 1569): eglSurfaceAttrib not implemented
+W/OpenGLRenderer( 1569): Failed to set EGL_SWAP_BEHAVIOR on surface 0xf3fd20c0, error=EGL_SUCCESS
+I/ActivityManager(  676): Killing 1923:com.android.managedprovisioning/u0a7 (adj 15): empty #17
+W/libprocessgroup(  676): failed to open /acct/uid_10007/pid_1923/cgroup.procs: No such file or directory
+W/OpenGLRenderer( 1569): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+W/ResourceType( 1079): No package identifier when getting value for resource number 0x00000000
+W/PackageManager( 1079): Failure retrieving resources for com.iamtrk.androidexplorer: Resource ID #0x0
+D/AndroidRuntime( 2301): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 2301): CheckJNI is OFF
+E/memtrack( 2301): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 2301): failed to load memtrack module: -2
+D/AndroidRuntime( 2301): Calling main entry com.android.commands.content.Content
+D/AndroidRuntime( 2301): Shutting down VM
+D/AndroidRuntime( 2315): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 2315): CheckJNI is OFF
+E/memtrack( 2315): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 2315): failed to load memtrack module: -2
+D/AndroidRuntime( 2315): Calling main entry com.android.commands.content.Content
+D/AndroidRuntime( 2315): Shutting down VM
+D/AndroidRuntime( 2341): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 2341): CheckJNI is OFF
+E/memtrack( 2341): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 2341): failed to load memtrack module: -2
+D/AndroidRuntime( 2341): Calling main entry com.android.commands.uiautomator.Launcher
+W/AccessibilityNodeInfoDumper( 2341): Fetch time: 2ms
+W/WindowManager(  676): Attempted to remove non-existing token: android.os.Binder@34375fb5
+D/AndroidRuntime( 2341): Shutting down VM
+D/AndroidRuntime( 2363): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 2363): CheckJNI is OFF
+E/memtrack( 2363): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 2363): failed to load memtrack module: -2
+D/AndroidRuntime( 2363): Calling main entry com.android.commands.uiautomator.Launcher
+W/AccessibilityNodeInfoDumper( 2363): Fetch time: 1ms
+W/WindowManager(  676): Attempted to remove non-existing token: android.os.Binder@3a4090f0
+D/AndroidRuntime( 2363): Shutting down VM
+I/ActivityManager(  676): Killing 1597:android.process.media/u0a5 (adj 15): empty #17
+W/libprocessgroup(  676): failed to open /acct/uid_10005/pid_1597/cgroup.procs: No such file or directory
+D/AndroidRuntime( 2391): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 2391): CheckJNI is OFF
+E/memtrack( 2391): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 2391): failed to load memtrack module: -2
+D/AndroidRuntime( 2391): Calling main entry com.android.commands.uiautomator.Launcher
+I/InputReader(  676): Reconfiguring input devices.  changes=0x00000010
+W/Launcher( 1569): setApplicationContext called twice! old=com.android.launcher3.LauncherApplication@2a0b515f new=com.android.launcher3.LauncherApplication@2a0b515f
+D/BackupManagerService(  676): Received broadcast Intent { act=android.intent.action.PACKAGE_CHANGED dat=package:com.android.musicfx flg=0x4000010 (has extras) }
+W/AccessibilityNodeInfoDumper( 2391): Fetch time: 1ms
+W/WindowManager(  676): Attempted to remove non-existing token: android.os.Binder@3470669
+D/AndroidRuntime( 2391): Shutting down VM
+W/ActivityManager(  676): Activity destroy timeout for ActivityRecord{10d92f3a u0 com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity t4 f}
+D/InitAlarmsService( 1691): Clearing and rescheduling alarms.
+I/ActivityManager(  676): Killing 1974:com.android.onetimeinitializer/u0a10 (adj 15): empty #17
+W/libprocessgroup(  676): failed to open /acct/uid_10010/pid_1974/cgroup.procs: No such file or directory
+D/AndroidRuntime( 2424): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 2424): CheckJNI is OFF
+E/memtrack( 2424): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 2424): failed to load memtrack module: -2
+D/AndroidRuntime( 2424): Calling main entry com.android.commands.uiautomator.Launcher
+W/AccessibilityNodeInfoDumper( 2424): Fetch time: 3ms
+W/WindowManager(  676): Attempted to remove non-existing token: android.os.Binder@247b81aa
+D/AndroidRuntime( 2424): Shutting down VM
+D/AndroidRuntime( 2454): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 2454): CheckJNI is OFF
+E/memtrack( 2454): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 2454): failed to load memtrack module: -2
+D/AndroidRuntime( 2454): Calling main entry com.android.commands.uiautomator.Launcher
+D/TaskPersister(  676): removeObsoleteFile: deleting file=4_task.xml
+D/TaskPersister(  676): removeObsoleteFile: deleting file=4_task_thumbnail.png
+W/AccessibilityNodeInfoDumper( 2454): Fetch time: 1ms
+W/WindowManager(  676): Attempted to remove non-existing token: android.os.Binder@1d94319b
+D/AndroidRuntime( 2454): Shutting down VM
+D/AndroidRuntime( 2477): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 2477): CheckJNI is OFF
+E/memtrack( 2477): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 2477): failed to load memtrack module: -2
+D/AndroidRuntime( 2477): Calling main entry com.android.commands.uiautomator.Launcher
+W/AccessibilityNodeInfoDumper( 2477): Fetch time: 1ms
+W/WindowManager(  676): Attempted to remove non-existing token: android.os.Binder@3591ad11
+D/AndroidRuntime( 2477): Shutting down VM
+D/AndroidRuntime( 2506): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 2506): CheckJNI is OFF
+E/memtrack( 2506): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 2506): failed to load memtrack module: -2
+D/AndroidRuntime( 2506): Calling main entry com.android.commands.uiautomator.Launcher
+W/AccessibilityNodeInfoDumper( 2506): Fetch time: 2ms
+W/WindowManager(  676): Attempted to remove non-existing token: android.os.Binder@157a4c77
+D/AndroidRuntime( 2506): Shutting down VM
+D/AndroidRuntime( 2528): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 2528): CheckJNI is OFF
+E/memtrack( 2528): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 2528): failed to load memtrack module: -2
+D/AndroidRuntime( 2528): Calling main entry com.android.commands.uiautomator.Launcher
+W/AccessibilityNodeInfoDumper( 2528): Fetch time: 2ms
+W/WindowManager(  676): Attempted to remove non-existing token: android.os.Binder@36900e4
+D/AndroidRuntime( 2528): Shutting down VM
+D/AndroidRuntime( 2556): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 2556): CheckJNI is OFF
+E/memtrack( 2556): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 2556): failed to load memtrack module: -2
+D/AndroidRuntime( 2556): Calling main entry com.android.commands.uiautomator.Launcher
+W/AccessibilityNodeInfoDumper( 2556): Fetch time: 2ms
+W/WindowManager(  676): Attempted to remove non-existing token: android.os.Binder@653094d
+D/AndroidRuntime( 2556): Shutting down VM
+D/AndroidRuntime( 2578): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 2578): CheckJNI is OFF
+E/memtrack( 2578): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 2578): failed to load memtrack module: -2
+D/AndroidRuntime( 2578): Calling main entry com.android.commands.uiautomator.Launcher
+W/AccessibilityNodeInfoDumper( 2578): Fetch time: 2ms
+W/WindowManager(  676): Attempted to remove non-existing token: android.os.Binder@3cbe9c02
+D/AndroidRuntime( 2578): Shutting down VM
+D/AndroidRuntime( 2606): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 2606): CheckJNI is OFF
+E/memtrack( 2606): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 2606): failed to load memtrack module: -2
+D/AndroidRuntime( 2606): Calling main entry com.android.commands.uiautomator.Launcher
+W/AccessibilityNodeInfoDumper( 2606): Fetch time: 1ms
+W/WindowManager(  676): Attempted to remove non-existing token: android.os.Binder@1c3d3913
+D/AndroidRuntime( 2606): Shutting down VM
+D/AndroidRuntime( 2628): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 2628): CheckJNI is OFF
+E/memtrack( 2628): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 2628): failed to load memtrack module: -2
+D/AndroidRuntime( 2628): Calling main entry com.android.commands.uiautomator.Launcher
+W/AccessibilityNodeInfoDumper( 2628): Fetch time: 2ms
+W/WindowManager(  676): Attempted to remove non-existing token: android.os.Binder@25274750
+D/AndroidRuntime( 2628): Shutting down VM
+D/AndroidRuntime( 2650): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 2650): CheckJNI is OFF
+E/memtrack( 2650): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 2650): failed to load memtrack module: -2
+D/AndroidRuntime( 2650): Calling main entry com.android.commands.monkey.Monkey
+W/BroadcastQueue(  676): Skipping deliver [background] BroadcastRecord{1638536f u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{1641887c 2650 (unknown name)/0/u-1 remote:153ed49}: process crashing
+I/ActivityManager(  676): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity} from uid 0 on display 0
+V/WindowManager(  676): addAppToken: AppWindowToken{2820b78b token=Token{374fa95a ActivityRecord{3d651505 u0 com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity t5}}} to stack=1 task=5 at 0
+V/WindowManager(  676): Adding window Window{b9a09b2 u0 Starting com.iamtrk.androidexplorer} at 2 of 8 (after Window{19027b4a u0 com.android.launcher3/com.android.launcher3.Launcher})
+D/Sensors (  676): batch handle 1, but there is no batch sensor in genymotion
+I/art     ( 2650): System.exit called, status: 0
+I/AndroidRuntime( 2650): VM exiting with result code 0.
+I/Choreographer(  676): Skipped 41 frames!  The application may be doing too much work on its main thread.
+D/AndroidRuntime( 2676): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 2676): CheckJNI is OFF
+E/memtrack( 2676): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 2676): failed to load memtrack module: -2
+D/AndroidRuntime( 2676): Calling main entry com.android.commands.uiautomator.Launcher
+W/AccessibilityNodeInfoDumper( 2676): Fetch time: 1ms
+W/WindowManager(  676): Attempted to remove non-existing token: android.os.Binder@7151d0a
+D/AndroidRuntime( 2676): Shutting down VM
+D/AndroidRuntime( 2698): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 2698): CheckJNI is OFF
+E/memtrack( 2698): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 2698): failed to load memtrack module: -2
+D/AndroidRuntime( 2698): Calling main entry com.android.commands.uiautomator.Launcher
+I/MediaFocusControl(  676):  AudioFocus  abandonAudioFocus() from android.media.AudioManager@1d919c75com.android.music.MediaPlaybackService$3@2c29740a
+V/MusicFXControlPanelReceiver( 2213): onReceive
+V/MusicFXControlPanelReceiver( 2213): Action: android.media.action.CLOSE_AUDIO_EFFECT_CONTROL_SESSION
+V/MusicFXControlPanelReceiver( 2213): Package name: com.android.music
+V/MusicFXControlPanelReceiver( 2213): Audio session: 8
+V/MusicFXControlPanelEffect( 2213): closeSession(android.app.ReceiverRestrictedContext@1d919c75, com.android.music, 8)
+I/art     (  676): Explicit concurrent mark sweep GC freed 43716(2MB) AllocSpace objects, 43(2MB) LOS objects, 33% free, 7MB/10MB, paused 417us total 12.745ms
+W/AccessibilityNodeInfoDumper( 2698): Fetch time: 2ms
+W/WindowManager(  676): Attempted to remove non-existing token: android.os.Binder@3292997b
+D/AndroidRuntime( 2698): Shutting down VM
+D/AndroidRuntime( 2717): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 2717): CheckJNI is OFF
+E/memtrack( 2717): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 2717): failed to load memtrack module: -2
+D/AndroidRuntime( 2717): Calling main entry com.android.commands.input.Input
+I/Input   ( 2717): injectMotionEvent: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=1060.0, y[0]=985.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=79190, downTime=79190, deviceId=0, source=0x1002 }
+I/Input   ( 2717): injectMotionEvent: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=1060.0, y[0]=985.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=79190, downTime=79190, deviceId=0, source=0x1002 }
+D/AndroidRuntime( 2717): Shutting down VM
+W/AudioTrack(  676): AUDIO_OUTPUT_FLAG_FAST denied by client
+I/Process ( 2275): Sending signal. PID: 2275 SIG: 9
+W/libprocessgroup(  676): failed to open /acct/uid_10059/pid_2275/cgroup.procs: No such file or directory
+I/ActivityManager(  676): Process com.iamtrk.androidexplorer (pid 2275) has died
+E/libprocessgroup( 2732): failed to make and chown /acct/uid_10059: Read-only file system
+W/Zygote  ( 2732): createProcessGroup failed, kernel missing CONFIG_CGROUP_CPUACCT?
+I/ActivityManager(  676): Start proc 2732:com.iamtrk.androidexplorer/u0a59 for activity com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity
+D/leak-14 ( 2732): Eastern Standard Time
+D/leak-18 ( 2732): Eastern Standard Time
+D/leak-30 ( 2732): Eastern Standard Time
+D/leak-159( 2732): Eastern Standard Time
+D/leak-53 ( 2732): Eastern Standard Time
+D/leak-66 ( 2732): Eastern Standard Time
+D/leak-46 ( 2732): Eastern Standard Time
+D/leak-53 ( 2732): Eastern Standard Time
+D/leak-120( 2732): Eastern Standard Time
+D/leak-46 ( 2732): Eastern Standard Time
+D/leak-53 ( 2732): Eastern Standard Time
+D/leak-97 ( 2732): Eastern Standard Time
+D/leak-46 ( 2732): Eastern Standard Time
+D/leak-53 ( 2732): Eastern Standard Time
+D/leak-75 ( 2732): Eastern Standard Time
+D/leak-76 ( 2732): Eastern Standard Time
+D/leak-57 ( 2732): Eastern Standard Time
+D/leak-57 ( 2732): Eastern Standard Time
+D/leak-57 ( 2732): Eastern Standard Time
+D/leak-57 ( 2732): Eastern Standard Time
+D/leak-57 ( 2732): Eastern Standard Time
+D/leak-57 ( 2732): Eastern Standard Time
+D/leak-57 ( 2732): Eastern Standard Time
+D/leak-57 ( 2732): Eastern Standard Time
+D/leak-58 ( 2732): Eastern Standard Time
+D/leak-59 ( 2732): Eastern Standard Time
+D/leak-59 ( 2732): Eastern Standard Time
+D/leak-60 ( 2732): Eastern Standard Time
+D/leak-61 ( 2732): Eastern Standard Time
+D/leak-59 ( 2732): Eastern Standard Time
+D/leak-59 ( 2732): Eastern Standard Time
+D/leak-59 ( 2732): Eastern Standard Time
+D/leak-59 ( 2732): Eastern Standard Time
+D/leak-59 ( 2732): Eastern Standard Time
+D/leak-60 ( 2732): Eastern Standard Time
+D/leak-61 ( 2732): Eastern Standard Time
+D/leak-59 ( 2732): Eastern Standard Time
+I/ConfigItem( 2732): Config: {1.0 310mcc270mnc en_US ldltr sw600dp w600dp h887dp 320dpi lrg port finger -keyb/v/h dpad/v s.6}
+I/ConfigItem( 2732): fontScale: 1.00000
+I/ConfigItem( 2732): hardKeyboardHidden: 2
+I/ConfigItem( 2732): keyboard: 1
+I/ConfigItem( 2732): keyboardHidden: 1
+I/ConfigItem( 2732): locale: en_US
+I/ConfigItem( 2732): mcc: 310
+I/ConfigItem( 2732): mnc: 270
+I/ConfigItem( 2732): navigation: 2
+I/ConfigItem( 2732): navigationHidden: 1
+I/ConfigItem( 2732): orientation: 1
+I/ConfigItem( 2732): screenHeightDp: 887
+I/ConfigItem( 2732): screenLayout: 0x10000053
+I/ConfigItem( 2732): screenWidthDp: 600
+I/ConfigItem( 2732): smallestScreenWidthDp: 600
+I/ConfigItem( 2732): touchscreen: 3
+I/ConfigItem( 2732): uiMode: UI_MODE_TYPE_NORMAL|UI_MODE_NIGHT_NO
+D/leak-46 ( 2732): Eastern Standard Time
+D/leak-53 ( 2732): Eastern Standard Time
+D/leak-72 ( 2732): Eastern Standard Time
+D/leak-46 ( 2732): Eastern Standard Time
+D/leak-53 ( 2732): Eastern Standard Time
+D/leak-85 ( 2732): Eastern Standard Time
+D/leak-46 ( 2732): Eastern Standard Time
+D/leak-53 ( 2732): Eastern Standard Time
+D/leak-85 ( 2732): Eastern Standard Time
+D/leak-46 ( 2732): Eastern Standard Time
+D/leak-53 ( 2732): Eastern Standard Time
+D/leak-85 ( 2732): Eastern Standard Time
+D/leak-46 ( 2732): Eastern Standard Time
+D/leak-53 ( 2732): Eastern Standard Time
+D/leak-85 ( 2732): Eastern Standard Time
+D/leak-46 ( 2732): Eastern Standard Time
+D/leak-53 ( 2732): Eastern Standard Time
+D/leak-146( 2732): Eastern Standard Time
+D/leak-46 ( 2732): Eastern Standard Time
+D/leak-53 ( 2732): Eastern Standard Time
+D/leak-117( 2732): Eastern Standard Time
+D/leak-46 ( 2732): Eastern Standard Time
+D/leak-53 ( 2732): Eastern Standard Time
+D/leak-111( 2732): Eastern Standard Time
+D/leak-46 ( 2732): Eastern Standard Time
+D/leak-53 ( 2732): Eastern Standard Time
+D/leak-85 ( 2732): Eastern Standard Time
+D/leak-46 ( 2732): Eastern Standard Time
+D/leak-53 ( 2732): Eastern Standard Time
+D/leak-87 ( 2732): Eastern Standard Time
+D/leak-46 ( 2732): Eastern Standard Time
+D/leak-53 ( 2732): Eastern Standard Time
+D/leak-85 ( 2732): Eastern Standard Time
+D/leak-46 ( 2732): Eastern Standard Time
+D/leak-53 ( 2732): Eastern Standard Time
+D/leak-85 ( 2732): Eastern Standard Time
+D/leak-46 ( 2732): Eastern Standard Time
+D/leak-53 ( 2732): Eastern Standard Time
+D/leak-85 ( 2732): Eastern Standard Time
+D/leak-46 ( 2732): Eastern Standard Time
+D/leak-53 ( 2732): Eastern Standard Time
+D/leak-85 ( 2732): Eastern Standard Time
+D/leak-46 ( 2732): Eastern Standard Time
+D/leak-53 ( 2732): Eastern Standard Time
+D/leak-78 ( 2732): Eastern Standard Time
+D/leak-46 ( 2732): Eastern Standard Time
+D/leak-53 ( 2732): Eastern Standard Time
+D/leak-68 ( 2732): Eastern Standard Time
+D/leak-46 ( 2732): Eastern Standard Time
+D/leak-53 ( 2732): Eastern Standard Time
+D/leak-92 ( 2732): Eastern Standard Time
+D/leak-46 ( 2732): Eastern Standard Time
+D/leak-53 ( 2732): Eastern Standard Time
+D/leak-149( 2732): Eastern Standard Time
+D/leak-46 ( 2732): Eastern Standard Time
+D/leak-53 ( 2732): Eastern Standard Time
+D/leak-85 ( 2732): Eastern Standard Time
+D/leak-46 ( 2732): Eastern Standard Time
+D/leak-198( 2732): Eastern Standard Time
+D/leak-203( 2732): Eastern Standard Time
+D/leak-199( 2732): Eastern Standard Time
+D/leak-40 ( 2732): Eastern Standard Time
+D/leak-44 ( 2732): Eastern Standard Time
+D/leak-174( 2732): Eastern Standard Time
+D/leak-201( 2732): Eastern Standard Time
+D/leak-161( 2732): Eastern Standard Time
+D/leak-162( 2732): Eastern Standard Time
+D/leak-180( 2732): Eastern Standard Time
+D/leak-181( 2732): Eastern Standard Time
+D/leak-182( 2732): Eastern Standard Time
+D/AndroidRuntime( 2732): Shutting down VM
+E/AndroidRuntime( 2732): FATAL EXCEPTION: main
+E/AndroidRuntime( 2732): Process: com.iamtrk.androidexplorer, PID: 2732
+E/AndroidRuntime( 2732): java.lang.RuntimeException: Unable to start activity ComponentInfo{com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity}: java.lang.RuntimeException: java.io.FileNotFoundException: /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: open failed: ENOENT (No such file or directory)
+E/AndroidRuntime( 2732): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2325)
+E/AndroidRuntime( 2732): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2387)
+E/AndroidRuntime( 2732): 	at android.app.ActivityThread.access$800(ActivityThread.java:151)
+E/AndroidRuntime( 2732): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1303)
+E/AndroidRuntime( 2732): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/AndroidRuntime( 2732): 	at android.os.Looper.loop(Looper.java:135)
+E/AndroidRuntime( 2732): 	at android.app.ActivityThread.main(ActivityThread.java:5254)
+E/AndroidRuntime( 2732): 	at java.lang.reflect.Method.invoke(Native Method)
+E/AndroidRuntime( 2732): 	at java.lang.reflect.Method.invoke(Method.java:372)
+E/AndroidRuntime( 2732): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:903)
+E/AndroidRuntime( 2732): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:698)
+E/AndroidRuntime( 2732): Caused by: java.lang.RuntimeException: java.io.FileNotFoundException: /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: open failed: ENOENT (No such file or directory)
+E/AndroidRuntime( 2732): 	at com.iamtrk.a.c.<init>(Unknown Source)
+E/AndroidRuntime( 2732): 	at com.iamtrk.ItemListActivity.k(Unknown Source)
+E/AndroidRuntime( 2732): 	at com.iamtrk.ItemListActivity.onCreate(Unknown Source)
+E/AndroidRuntime( 2732): 	at android.app.Activity.performCreate(Activity.java:5990)
+E/AndroidRuntime( 2732): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1106)
+E/AndroidRuntime( 2732): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2278)
+E/AndroidRuntime( 2732): 	... 10 more
+E/AndroidRuntime( 2732): Caused by: java.io.FileNotFoundException: /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: open failed: ENOENT (No such file or directory)
+E/AndroidRuntime( 2732): 	at libcore.io.IoBridge.open(IoBridge.java:456)
+E/AndroidRuntime( 2732): 	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:117)
+E/AndroidRuntime( 2732): 	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:149)
+E/AndroidRuntime( 2732): 	... 16 more
+E/AndroidRuntime( 2732): Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+E/AndroidRuntime( 2732): 	at libcore.io.Posix.open(Native Method)
+E/AndroidRuntime( 2732): 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:186)
+E/AndroidRuntime( 2732): 	at libcore.io.IoBridge.open(IoBridge.java:442)
+E/AndroidRuntime( 2732): 	... 18 more
+W/ActivityManager(  676):   Force finishing activity 1 com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity
+I/WindowManager(  676): Screenshot max retries 4 of Token{374fa95a ActivityRecord{3d651505 u0 com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity t5 f}} appWin=Window{b9a09b2 u0 Starting com.iamtrk.androidexplorer} drawState=4
+W/art     (  676): Long monitor contention event with owner method=void com.android.server.am.ActivityManagerService.crashApplication(com.android.server.am.ProcessRecord, android.app.ApplicationErrorReport$CrashInfo) from ActivityManagerService.java:12093 waiters=0 for 301ms
+I/OpenGLRenderer(  676): Initialized EGL, version 1.4
+W/EGL_emulation(  676): eglSurfaceAttrib not implemented
+W/OpenGLRenderer(  676): Failed to set EGL_SWAP_BEHAVIOR on surface 0xdf07fc80, error=EGL_SUCCESS
+W/EGL_emulation(  676): eglSurfaceAttrib not implemented
+W/OpenGLRenderer(  676): Failed to set EGL_SWAP_BEHAVIOR on surface 0xdf07fc80, error=EGL_SUCCESS
+W/ActivityManager(  676): Activity pause timeout for ActivityRecord{3d651505 u0 com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity t5 f}
+W/EGL_emulation( 1569): eglSurfaceAttrib not implemented
+W/OpenGLRenderer( 1569): Failed to set EGL_SWAP_BEHAVIOR on surface 0xe0e87d00, error=EGL_SUCCESS
+I/ActivityManager(  676): Killing 1504:com.android.music/u0a42 (adj 15): empty #17
+W/libprocessgroup(  676): failed to open /acct/uid_10042/pid_1504/cgroup.procs: No such file or directory
+W/OpenGLRenderer( 1569): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+W/ResourceType( 1079): No package identifier when getting value for resource number 0x00000000
+W/PackageManager( 1079): Failure retrieving resources for com.iamtrk.androidexplorer: Resource ID #0x0
+D/AndroidRuntime( 3079): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 3079): CheckJNI is OFF
+E/memtrack( 3079): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 3079): failed to load memtrack module: -2
+D/AndroidRuntime( 3079): Calling main entry com.android.commands.monkey.Monkey
+W/BroadcastQueue(  676): Skipping deliver [background] BroadcastRecord{19fb4d0c u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{4c1a655 3079 (unknown name)/0/u-1 remote:271de45e}: process crashing
+I/ActivityManager(  676): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity} from uid 0 on display 0
+V/WindowManager(  676): addAppToken: AppWindowToken{31962df8 token=Token{3122715b ActivityRecord{1dfe86a u0 com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity t6}}} to stack=1 task=6 at 0
+V/WindowManager(  676): Based on layer: Adding window Window{13dbb0d3 u0 Starting com.iamtrk.androidexplorer} at 2 of 8
+D/Sensors (  676): batch handle 1, but there is no batch sensor in genymotion
+I/art     ( 3079): System.exit called, status: 0
+I/AndroidRuntime( 3079): VM exiting with result code 0.
+D/TaskPersister(  676): removeObsoleteFile: deleting file=5_task.xml
+D/AndroidRuntime( 3096): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 3096): CheckJNI is OFF
+E/memtrack( 3096): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 3096): failed to load memtrack module: -2
+D/AndroidRuntime( 3096): Calling main entry com.android.commands.uiautomator.Launcher
+W/ActivityManager(  676): Activity destroy timeout for ActivityRecord{3d651505 u0 com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity t5 f}
+W/AccessibilityNodeInfoDumper( 3096): Fetch time: 2ms
+W/WindowManager(  676): Attempted to remove non-existing token: android.os.Binder@3872113c
+D/AndroidRuntime( 3096): Shutting down VM
+D/AndroidRuntime( 3114): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 3114): CheckJNI is OFF
+E/memtrack( 3114): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 3114): failed to load memtrack module: -2
+D/AndroidRuntime( 3114): Calling main entry com.android.commands.input.Input
+I/Input   ( 3114): injectMotionEvent: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=1060.0, y[0]=985.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=91014, downTime=91014, deviceId=0, source=0x1002 }
+I/Input   ( 3114): injectMotionEvent: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=1060.0, y[0]=985.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=91014, downTime=91014, deviceId=0, source=0x1002 }
+D/AndroidRuntime( 3114): Shutting down VM
+I/Process ( 2732): Sending signal. PID: 2732 SIG: 9
+W/AudioTrack(  676): AUDIO_OUTPUT_FLAG_FAST denied by client
+W/libprocessgroup(  676): failed to open /acct/uid_10059/pid_2732/cgroup.procs: No such file or directory
+I/ActivityManager(  676): Process com.iamtrk.androidexplorer (pid 2732) has died
+E/libprocessgroup( 3129): failed to make and chown /acct/uid_10059: Read-only file system
+W/Zygote  ( 3129): createProcessGroup failed, kernel missing CONFIG_CGROUP_CPUACCT?
+I/ActivityManager(  676): Start proc 3129:com.iamtrk.androidexplorer/u0a59 for activity com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity
+D/leak-14 ( 3129): Eastern Standard Time
+D/leak-18 ( 3129): Eastern Standard Time
+D/leak-30 ( 3129): Eastern Standard Time
+D/leak-159( 3129): Eastern Standard Time
+D/leak-53 ( 3129): Eastern Standard Time
+D/leak-66 ( 3129): Eastern Standard Time
+D/leak-46 ( 3129): Eastern Standard Time
+D/leak-53 ( 3129): Eastern Standard Time
+D/leak-120( 3129): Eastern Standard Time
+D/leak-46 ( 3129): Eastern Standard Time
+D/leak-53 ( 3129): Eastern Standard Time
+D/leak-97 ( 3129): Eastern Standard Time
+D/leak-46 ( 3129): Eastern Standard Time
+D/leak-53 ( 3129): Eastern Standard Time
+D/leak-75 ( 3129): Eastern Standard Time
+D/leak-76 ( 3129): Eastern Standard Time
+D/leak-57 ( 3129): Eastern Standard Time
+D/leak-57 ( 3129): Eastern Standard Time
+D/leak-57 ( 3129): Eastern Standard Time
+D/leak-57 ( 3129): Eastern Standard Time
+D/leak-57 ( 3129): Eastern Standard Time
+D/leak-57 ( 3129): Eastern Standard Time
+D/leak-57 ( 3129): Eastern Standard Time
+D/leak-57 ( 3129): Eastern Standard Time
+D/leak-58 ( 3129): Eastern Standard Time
+D/leak-59 ( 3129): Eastern Standard Time
+D/leak-59 ( 3129): Eastern Standard Time
+D/leak-60 ( 3129): Eastern Standard Time
+D/leak-61 ( 3129): Eastern Standard Time
+D/leak-59 ( 3129): Eastern Standard Time
+D/leak-59 ( 3129): Eastern Standard Time
+D/leak-59 ( 3129): Eastern Standard Time
+D/leak-59 ( 3129): Eastern Standard Time
+D/leak-59 ( 3129): Eastern Standard Time
+D/leak-60 ( 3129): Eastern Standard Time
+D/leak-61 ( 3129): Eastern Standard Time
+D/leak-59 ( 3129): Eastern Standard Time
+I/ConfigItem( 3129): Config: {1.0 310mcc270mnc en_US ldltr sw600dp w600dp h887dp 320dpi lrg port finger -keyb/v/h dpad/v s.6}
+I/ConfigItem( 3129): fontScale: 1.00000
+I/ConfigItem( 3129): hardKeyboardHidden: 2
+I/ConfigItem( 3129): keyboard: 1
+I/ConfigItem( 3129): keyboardHidden: 1
+I/ConfigItem( 3129): locale: en_US
+I/ConfigItem( 3129): mcc: 310
+I/ConfigItem( 3129): mnc: 270
+I/ConfigItem( 3129): navigation: 2
+I/ConfigItem( 3129): navigationHidden: 1
+I/ConfigItem( 3129): orientation: 1
+I/ConfigItem( 3129): screenHeightDp: 887
+I/ConfigItem( 3129): screenLayout: 0x10000053
+I/ConfigItem( 3129): screenWidthDp: 600
+I/ConfigItem( 3129): smallestScreenWidthDp: 600
+I/ConfigItem( 3129): touchscreen: 3
+I/ConfigItem( 3129): uiMode: UI_MODE_TYPE_NORMAL|UI_MODE_NIGHT_NO
+D/leak-46 ( 3129): Eastern Standard Time
+D/leak-53 ( 3129): Eastern Standard Time
+D/leak-72 ( 3129): Eastern Standard Time
+D/leak-46 ( 3129): Eastern Standard Time
+D/leak-53 ( 3129): Eastern Standard Time
+D/leak-85 ( 3129): Eastern Standard Time
+D/leak-46 ( 3129): Eastern Standard Time
+D/leak-53 ( 3129): Eastern Standard Time
+D/leak-85 ( 3129): Eastern Standard Time
+D/leak-46 ( 3129): Eastern Standard Time
+D/leak-53 ( 3129): Eastern Standard Time
+D/leak-85 ( 3129): Eastern Standard Time
+D/leak-46 ( 3129): Eastern Standard Time
+D/leak-53 ( 3129): Eastern Standard Time
+D/leak-85 ( 3129): Eastern Standard Time
+D/leak-46 ( 3129): Eastern Standard Time
+D/leak-53 ( 3129): Eastern Standard Time
+D/leak-146( 3129): Eastern Standard Time
+D/leak-46 ( 3129): Eastern Standard Time
+D/leak-53 ( 3129): Eastern Standard Time
+D/leak-117( 3129): Eastern Standard Time
+D/leak-46 ( 3129): Eastern Standard Time
+D/leak-53 ( 3129): Eastern Standard Time
+D/leak-111( 3129): Eastern Standard Time
+D/leak-46 ( 3129): Eastern Standard Time
+D/leak-53 ( 3129): Eastern Standard Time
+D/leak-85 ( 3129): Eastern Standard Time
+D/leak-46 ( 3129): Eastern Standard Time
+D/leak-53 ( 3129): Eastern Standard Time
+D/leak-87 ( 3129): Eastern Standard Time
+D/leak-46 ( 3129): Eastern Standard Time
+D/leak-53 ( 3129): Eastern Standard Time
+D/leak-85 ( 3129): Eastern Standard Time
+D/leak-46 ( 3129): Eastern Standard Time
+D/leak-53 ( 3129): Eastern Standard Time
+D/leak-85 ( 3129): Eastern Standard Time
+D/leak-46 ( 3129): Eastern Standard Time
+D/leak-53 ( 3129): Eastern Standard Time
+D/leak-85 ( 3129): Eastern Standard Time
+D/leak-46 ( 3129): Eastern Standard Time
+D/leak-53 ( 3129): Eastern Standard Time
+D/leak-85 ( 3129): Eastern Standard Time
+D/leak-46 ( 3129): Eastern Standard Time
+D/leak-53 ( 3129): Eastern Standard Time
+D/leak-78 ( 3129): Eastern Standard Time
+D/leak-46 ( 3129): Eastern Standard Time
+D/leak-53 ( 3129): Eastern Standard Time
+D/leak-68 ( 3129): Eastern Standard Time
+D/leak-46 ( 3129): Eastern Standard Time
+D/leak-53 ( 3129): Eastern Standard Time
+D/leak-92 ( 3129): Eastern Standard Time
+D/leak-46 ( 3129): Eastern Standard Time
+D/leak-53 ( 3129): Eastern Standard Time
+D/leak-149( 3129): Eastern Standard Time
+D/leak-46 ( 3129): Eastern Standard Time
+D/leak-53 ( 3129): Eastern Standard Time
+D/leak-85 ( 3129): Eastern Standard Time
+D/leak-46 ( 3129): Eastern Standard Time
+D/leak-198( 3129): Eastern Standard Time
+D/leak-203( 3129): Eastern Standard Time
+D/leak-199( 3129): Eastern Standard Time
+D/leak-40 ( 3129): Eastern Standard Time
+D/leak-44 ( 3129): Eastern Standard Time
+D/leak-174( 3129): Eastern Standard Time
+D/leak-201( 3129): Eastern Standard Time
+D/leak-161( 3129): Eastern Standard Time
+D/leak-162( 3129): Eastern Standard Time
+D/leak-180( 3129): Eastern Standard Time
+D/leak-181( 3129): Eastern Standard Time
+D/leak-182( 3129): Eastern Standard Time
+D/AndroidRuntime( 3129): Shutting down VM
+E/AndroidRuntime( 3129): FATAL EXCEPTION: main
+E/AndroidRuntime( 3129): Process: com.iamtrk.androidexplorer, PID: 3129
+E/AndroidRuntime( 3129): java.lang.RuntimeException: Unable to start activity ComponentInfo{com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity}: java.lang.RuntimeException: java.io.FileNotFoundException: /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: open failed: ENOENT (No such file or directory)
+E/AndroidRuntime( 3129): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2325)
+E/AndroidRuntime( 3129): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2387)
+E/AndroidRuntime( 3129): 	at android.app.ActivityThread.access$800(ActivityThread.java:151)
+E/AndroidRuntime( 3129): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1303)
+E/AndroidRuntime( 3129): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/AndroidRuntime( 3129): 	at android.os.Looper.loop(Looper.java:135)
+E/AndroidRuntime( 3129): 	at android.app.ActivityThread.main(ActivityThread.java:5254)
+E/AndroidRuntime( 3129): 	at java.lang.reflect.Method.invoke(Native Method)
+E/AndroidRuntime( 3129): 	at java.lang.reflect.Method.invoke(Method.java:372)
+E/AndroidRuntime( 3129): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:903)
+E/AndroidRuntime( 3129): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:698)
+E/AndroidRuntime( 3129): Caused by: java.lang.RuntimeException: java.io.FileNotFoundException: /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: open failed: ENOENT (No such file or directory)
+E/AndroidRuntime( 3129): 	at com.iamtrk.a.c.<init>(Unknown Source)
+E/AndroidRuntime( 3129): 	at com.iamtrk.ItemListActivity.k(Unknown Source)
+E/AndroidRuntime( 3129): 	at com.iamtrk.ItemListActivity.onCreate(Unknown Source)
+E/AndroidRuntime( 3129): 	at android.app.Activity.performCreate(Activity.java:5990)
+E/AndroidRuntime( 3129): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1106)
+E/AndroidRuntime( 3129): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2278)
+E/AndroidRuntime( 3129): 	... 10 more
+E/AndroidRuntime( 3129): Caused by: java.io.FileNotFoundException: /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: open failed: ENOENT (No such file or directory)
+E/AndroidRuntime( 3129): 	at libcore.io.IoBridge.open(IoBridge.java:456)
+E/AndroidRuntime( 3129): 	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:117)
+E/AndroidRuntime( 3129): 	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:149)
+E/AndroidRuntime( 3129): 	... 16 more
+E/AndroidRuntime( 3129): Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+E/AndroidRuntime( 3129): 	at libcore.io.Posix.open(Native Method)
+E/AndroidRuntime( 3129): 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:186)
+E/AndroidRuntime( 3129): 	at libcore.io.IoBridge.open(IoBridge.java:442)
+E/AndroidRuntime( 3129): 	... 18 more
+W/ActivityManager(  676):   Force finishing activity 1 com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity
+I/WindowManager(  676): Screenshot max retries 4 of Token{3122715b ActivityRecord{1dfe86a u0 com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity t6 f}} appWin=Window{13dbb0d3 u0 Starting com.iamtrk.androidexplorer} drawState=4
+W/art     (  676): Long monitor contention event with owner method=void com.android.server.am.ActivityManagerService.crashApplication(com.android.server.am.ProcessRecord, android.app.ApplicationErrorReport$CrashInfo) from ActivityManagerService.java:12093 waiters=0 for 302ms
+I/OpenGLRenderer(  676): Initialized EGL, version 1.4
+W/EGL_emulation(  676): eglSurfaceAttrib not implemented
+W/OpenGLRenderer(  676): Failed to set EGL_SWAP_BEHAVIOR on surface 0xdf0847e0, error=EGL_SUCCESS
+W/EGL_emulation(  676): eglSurfaceAttrib not implemented
+W/OpenGLRenderer(  676): Failed to set EGL_SWAP_BEHAVIOR on surface 0xdf0847e0, error=EGL_SUCCESS
+D/AndroidRuntime( 3152): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 3152): CheckJNI is OFF
+W/ActivityManager(  676): Activity pause timeout for ActivityRecord{1dfe86a u0 com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity t6 f}
+E/memtrack( 3152): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 3152): failed to load memtrack module: -2
+W/EGL_emulation( 1569): eglSurfaceAttrib not implemented
+W/OpenGLRenderer( 1569): Failed to set EGL_SWAP_BEHAVIOR on surface 0xf3fefa60, error=EGL_SUCCESS
+D/AndroidRuntime( 3152): Calling main entry com.android.commands.am.Am
+I/ActivityManager(  676): Force stopping com.iamtrk.androidexplorer appid=10059 user=0: from pid 3152
+I/ActivityManager(  676): Killing 3129:com.iamtrk.androidexplorer/u0a59 (adj 1): stop com.iamtrk.androidexplorer
+W/libprocessgroup(  676): failed to open /acct/uid_10059/pid_3129/cgroup.procs: No such file or directory
+D/AndroidRuntime( 3152): Shutting down VM
+W/InputMethodManagerService(  676): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@3dda13a5 attribute=null, token = android.os.BinderProxy@61938b5
+W/OpenGLRenderer( 1569): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+D/TaskPersister(  676): removeObsoleteFile: deleting file=6_task.xml
+D/AndroidRuntime( 3168): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 3168): CheckJNI is OFF
+E/memtrack( 3168): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 3168): failed to load memtrack module: -2
+D/AndroidRuntime( 3168): Calling main entry com.android.commands.monkey.Monkey
+W/BroadcastQueue(  676): Skipping deliver [background] BroadcastRecord{3d7d4521 u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{31ecad46 3168 (unknown name)/0/u-1 remote:1a89672b}: process crashing
+I/ActivityManager(  676): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity} from uid 0 on display 0
+V/WindowManager(  676): addAppToken: AppWindowToken{1dc8125d token=Token{20774434 ActivityRecord{28b54b07 u0 com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity t7}}} to stack=1 task=7 at 0
+V/WindowManager(  676): Adding window Window{dcae5cc u0 Starting com.iamtrk.androidexplorer} at 2 of 7 (after Window{19027b4a u0 com.android.launcher3/com.android.launcher3.Launcher})
+E/libprocessgroup( 3183): failed to make and chown /acct/uid_10059: Read-only file system
+W/Zygote  ( 3183): createProcessGroup failed, kernel missing CONFIG_CGROUP_CPUACCT?
+I/ActivityManager(  676): Start proc 3183:com.iamtrk.androidexplorer/u0a59 for activity com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity
+I/art     (  387): Explicit concurrent mark sweep GC freed 706(30KB) AllocSpace objects, 0(0B) LOS objects, 91% free, 92KB/1116KB, paused 52us total 4.447ms
+I/art     (  387): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 91% free, 92KB/1116KB, paused 50us total 3.202ms
+I/art     (  387): Explicit concurrent mark sweep GC freed 5(160B) AllocSpace objects, 0(0B) LOS objects, 91% free, 92KB/1116KB, paused 50us total 2.904ms
+D/Sensors (  676): batch handle 1, but there is no batch sensor in genymotion
+I/art     ( 3168): System.exit called, status: 0
+I/AndroidRuntime( 3168): VM exiting with result code 0.
+D/leak-14 ( 3183): Eastern Standard Time
+D/leak-18 ( 3183): Eastern Standard Time
+D/leak-30 ( 3183): Eastern Standard Time
+D/leak-159( 3183): Eastern Standard Time
+D/leak-53 ( 3183): Eastern Standard Time
+D/leak-66 ( 3183): Eastern Standard Time
+D/leak-46 ( 3183): Eastern Standard Time
+D/leak-53 ( 3183): Eastern Standard Time
+D/leak-120( 3183): Eastern Standard Time
+D/leak-46 ( 3183): Eastern Standard Time
+D/leak-53 ( 3183): Eastern Standard Time
+D/leak-97 ( 3183): Eastern Standard Time
+D/leak-46 ( 3183): Eastern Standard Time
+D/leak-53 ( 3183): Eastern Standard Time
+D/leak-75 ( 3183): Eastern Standard Time
+D/leak-76 ( 3183): Eastern Standard Time
+D/leak-57 ( 3183): Eastern Standard Time
+D/leak-57 ( 3183): Eastern Standard Time
+D/leak-57 ( 3183): Eastern Standard Time
+D/leak-57 ( 3183): Eastern Standard Time
+D/leak-57 ( 3183): Eastern Standard Time
+D/leak-57 ( 3183): Eastern Standard Time
+D/leak-57 ( 3183): Eastern Standard Time
+D/leak-57 ( 3183): Eastern Standard Time
+D/leak-58 ( 3183): Eastern Standard Time
+D/leak-59 ( 3183): Eastern Standard Time
+D/leak-59 ( 3183): Eastern Standard Time
+D/leak-60 ( 3183): Eastern Standard Time
+D/leak-61 ( 3183): Eastern Standard Time
+D/leak-59 ( 3183): Eastern Standard Time
+D/leak-59 ( 3183): Eastern Standard Time
+D/leak-59 ( 3183): Eastern Standard Time
+D/leak-59 ( 3183): Eastern Standard Time
+D/leak-59 ( 3183): Eastern Standard Time
+D/leak-60 ( 3183): Eastern Standard Time
+D/leak-61 ( 3183): Eastern Standard Time
+D/leak-59 ( 3183): Eastern Standard Time
+I/ConfigItem( 3183): Config: {1.0 310mcc270mnc en_US ldltr sw600dp w600dp h887dp 320dpi lrg port finger -keyb/v/h dpad/v s.6}
+I/ConfigItem( 3183): fontScale: 1.00000
+I/ConfigItem( 3183): hardKeyboardHidden: 2
+I/ConfigItem( 3183): keyboard: 1
+I/ConfigItem( 3183): keyboardHidden: 1
+I/ConfigItem( 3183): locale: en_US
+I/ConfigItem( 3183): mcc: 310
+I/ConfigItem( 3183): mnc: 270
+I/ConfigItem( 3183): navigation: 2
+I/ConfigItem( 3183): navigationHidden: 1
+I/ConfigItem( 3183): orientation: 1
+I/ConfigItem( 3183): screenHeightDp: 887
+I/ConfigItem( 3183): screenLayout: 0x10000053
+I/ConfigItem( 3183): screenWidthDp: 600
+I/ConfigItem( 3183): smallestScreenWidthDp: 600
+I/ConfigItem( 3183): touchscreen: 3
+I/ConfigItem( 3183): uiMode: UI_MODE_TYPE_NORMAL|UI_MODE_NIGHT_NO
+D/leak-46 ( 3183): Eastern Standard Time
+D/leak-53 ( 3183): Eastern Standard Time
+D/leak-72 ( 3183): Eastern Standard Time
+D/leak-46 ( 3183): Eastern Standard Time
+D/leak-53 ( 3183): Eastern Standard Time
+D/leak-85 ( 3183): Eastern Standard Time
+D/leak-46 ( 3183): Eastern Standard Time
+D/leak-53 ( 3183): Eastern Standard Time
+D/leak-85 ( 3183): Eastern Standard Time
+D/leak-46 ( 3183): Eastern Standard Time
+D/leak-53 ( 3183): Eastern Standard Time
+D/leak-85 ( 3183): Eastern Standard Time
+D/leak-46 ( 3183): Eastern Standard Time
+D/leak-53 ( 3183): Eastern Standard Time
+D/leak-85 ( 3183): Eastern Standard Time
+D/leak-46 ( 3183): Eastern Standard Time
+D/leak-53 ( 3183): Eastern Standard Time
+D/leak-146( 3183): Eastern Standard Time
+D/leak-46 ( 3183): Eastern Standard Time
+D/leak-53 ( 3183): Eastern Standard Time
+D/leak-117( 3183): Eastern Standard Time
+D/leak-46 ( 3183): Eastern Standard Time
+D/leak-53 ( 3183): Eastern Standard Time
+D/leak-111( 3183): Eastern Standard Time
+D/leak-46 ( 3183): Eastern Standard Time
+D/leak-53 ( 3183): Eastern Standard Time
+D/leak-85 ( 3183): Eastern Standard Time
+D/leak-46 ( 3183): Eastern Standard Time
+D/leak-53 ( 3183): Eastern Standard Time
+D/leak-87 ( 3183): Eastern Standard Time
+D/leak-46 ( 3183): Eastern Standard Time
+D/leak-53 ( 3183): Eastern Standard Time
+D/leak-85 ( 3183): Eastern Standard Time
+D/leak-46 ( 3183): Eastern Standard Time
+D/leak-53 ( 3183): Eastern Standard Time
+D/leak-85 ( 3183): Eastern Standard Time
+D/leak-46 ( 3183): Eastern Standard Time
+D/leak-53 ( 3183): Eastern Standard Time
+D/leak-85 ( 3183): Eastern Standard Time
+D/leak-46 ( 3183): Eastern Standard Time
+D/leak-53 ( 3183): Eastern Standard Time
+D/leak-85 ( 3183): Eastern Standard Time
+D/leak-46 ( 3183): Eastern Standard Time
+D/leak-53 ( 3183): Eastern Standard Time
+D/leak-78 ( 3183): Eastern Standard Time
+D/leak-46 ( 3183): Eastern Standard Time
+D/leak-53 ( 3183): Eastern Standard Time
+D/leak-68 ( 3183): Eastern Standard Time
+D/leak-46 ( 3183): Eastern Standard Time
+D/leak-53 ( 3183): Eastern Standard Time
+D/leak-92 ( 3183): Eastern Standard Time
+D/leak-46 ( 3183): Eastern Standard Time
+D/leak-53 ( 3183): Eastern Standard Time
+D/leak-149( 3183): Eastern Standard Time
+D/leak-46 ( 3183): Eastern Standard Time
+D/leak-53 ( 3183): Eastern Standard Time
+D/leak-85 ( 3183): Eastern Standard Time
+D/leak-46 ( 3183): Eastern Standard Time
+D/leak-198( 3183): Eastern Standard Time
+D/leak-203( 3183): Eastern Standard Time
+D/leak-199( 3183): Eastern Standard Time
+D/leak-40 ( 3183): Eastern Standard Time
+D/leak-44 ( 3183): Eastern Standard Time
+D/leak-174( 3183): Eastern Standard Time
+D/leak-201( 3183): Eastern Standard Time
+D/leak-161( 3183): Eastern Standard Time
+D/leak-162( 3183): Eastern Standard Time
+D/leak-180( 3183): Eastern Standard Time
+D/leak-181( 3183): Eastern Standard Time
+D/leak-182( 3183): Eastern Standard Time
+D/AndroidRuntime( 3183): Shutting down VM
+E/AndroidRuntime( 3183): FATAL EXCEPTION: main
+E/AndroidRuntime( 3183): Process: com.iamtrk.androidexplorer, PID: 3183
+E/AndroidRuntime( 3183): java.lang.RuntimeException: Unable to start activity ComponentInfo{com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity}: java.lang.RuntimeException: java.io.FileNotFoundException: /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: open failed: ENOENT (No such file or directory)
+E/AndroidRuntime( 3183): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2325)
+E/AndroidRuntime( 3183): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2387)
+E/AndroidRuntime( 3183): 	at android.app.ActivityThread.access$800(ActivityThread.java:151)
+E/AndroidRuntime( 3183): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1303)
+E/AndroidRuntime( 3183): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/AndroidRuntime( 3183): 	at android.os.Looper.loop(Looper.java:135)
+E/AndroidRuntime( 3183): 	at android.app.ActivityThread.main(ActivityThread.java:5254)
+E/AndroidRuntime( 3183): 	at java.lang.reflect.Method.invoke(Native Method)
+E/AndroidRuntime( 3183): 	at java.lang.reflect.Method.invoke(Method.java:372)
+E/AndroidRuntime( 3183): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:903)
+E/AndroidRuntime( 3183): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:698)
+E/AndroidRuntime( 3183): Caused by: java.lang.RuntimeException: java.io.FileNotFoundException: /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: open failed: ENOENT (No such file or directory)
+E/AndroidRuntime( 3183): 	at com.iamtrk.a.c.<init>(Unknown Source)
+E/AndroidRuntime( 3183): 	at com.iamtrk.ItemListActivity.k(Unknown Source)
+E/AndroidRuntime( 3183): 	at com.iamtrk.ItemListActivity.onCreate(Unknown Source)
+E/AndroidRuntime( 3183): 	at android.app.Activity.performCreate(Activity.java:5990)
+E/AndroidRuntime( 3183): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1106)
+E/AndroidRuntime( 3183): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2278)
+E/AndroidRuntime( 3183): 	... 10 more
+E/AndroidRuntime( 3183): Caused by: java.io.FileNotFoundException: /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: open failed: ENOENT (No such file or directory)
+E/AndroidRuntime( 3183): 	at libcore.io.IoBridge.open(IoBridge.java:456)
+E/AndroidRuntime( 3183): 	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:117)
+E/AndroidRuntime( 3183): 	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:149)
+E/AndroidRuntime( 3183): 	... 16 more
+E/AndroidRuntime( 3183): Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+E/AndroidRuntime( 3183): 	at libcore.io.Posix.open(Native Method)
+E/AndroidRuntime( 3183): 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:186)
+E/AndroidRuntime( 3183): 	at libcore.io.IoBridge.open(IoBridge.java:442)
+E/AndroidRuntime( 3183): 	... 18 more
+W/ActivityManager(  676):   Force finishing activity 1 com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity
+D/        (  676): HostConnection::get() New Host Connection established 0xdf14e630, tid 897
+E/EGL_emulation(  646): tid 646: eglCreateSyncKHR(1215): error 0x3004 (EGL_BAD_ATTRIBUTE)
+W/art     (  676): Long monitor contention event with owner method=android.graphics.Bitmap com.android.server.wm.WindowManagerService.screenshotApplications(android.os.IBinder, int, int, int, boolean) from WindowManagerService.java:6129 waiters=1 for 102ms
+W/art     (  676): Long monitor contention event with owner method=void com.android.server.am.ActivityManagerService.crashApplication(com.android.server.am.ProcessRecord, android.app.ApplicationErrorReport$CrashInfo) from ActivityManagerService.java:12093 waiters=0 for 457ms
+I/OpenGLRenderer(  676): Initialized EGL, version 1.4
+W/EGL_emulation(  676): eglSurfaceAttrib not implemented
+W/OpenGLRenderer(  676): Failed to set EGL_SWAP_BEHAVIOR on surface 0xdf4a4ea0, error=EGL_SUCCESS
+W/EGL_emulation(  676): eglSurfaceAttrib not implemented
+W/OpenGLRenderer(  676): Failed to set EGL_SWAP_BEHAVIOR on surface 0xdf4a4ea0, error=EGL_SUCCESS
+W/ActivityManager(  676): Activity pause timeout for ActivityRecord{28b54b07 u0 com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity t7 f}
+W/EGL_emulation( 1569): eglSurfaceAttrib not implemented
+W/OpenGLRenderer( 1569): Failed to set EGL_SWAP_BEHAVIOR on surface 0xe0d9f9a0, error=EGL_SUCCESS
+W/OpenGLRenderer( 1569): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+W/ResourceType( 1079): No package identifier when getting value for resource number 0x00000000
+W/PackageManager( 1079): Failure retrieving resources for com.iamtrk.androidexplorer: Resource ID #0x0
+D/AndroidRuntime( 3217): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 3217): CheckJNI is OFF
+E/memtrack( 3217): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 3217): failed to load memtrack module: -2
+D/AndroidRuntime( 3217): Calling main entry com.android.commands.uiautomator.Launcher
+W/AccessibilityNodeInfoDumper( 3217): Fetch time: 2ms
+W/WindowManager(  676): Attempted to remove non-existing token: android.os.Binder@1b7b96da
+D/AndroidRuntime( 3217): Shutting down VM
+D/AndroidRuntime( 3239): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 3239): CheckJNI is OFF
+E/memtrack( 3239): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 3239): failed to load memtrack module: -2
+D/AndroidRuntime( 3239): Calling main entry com.android.commands.uiautomator.Launcher
+W/AccessibilityNodeInfoDumper( 3239): Fetch time: 1ms
+W/WindowManager(  676): Attempted to remove non-existing token: android.os.Binder@4b09639
+D/AndroidRuntime( 3239): Shutting down VM
+D/AndroidRuntime( 3267): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 3267): CheckJNI is OFF
+E/memtrack( 3267): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 3267): failed to load memtrack module: -2
+D/AndroidRuntime( 3267): Calling main entry com.android.commands.uiautomator.Launcher
+W/AccessibilityNodeInfoDumper( 3267): Fetch time: 2ms
+W/WindowManager(  676): Attempted to remove non-existing token: android.os.Binder@360b847e
+D/AndroidRuntime( 3267): Shutting down VM
+D/AndroidRuntime( 3299): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 3299): CheckJNI is OFF
+E/memtrack( 3299): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 3299): failed to load memtrack module: -2
+D/AndroidRuntime( 3299): Calling main entry com.android.commands.uiautomator.Launcher
+W/ActivityManager(  676): Activity destroy timeout for ActivityRecord{28b54b07 u0 com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity t7 f}
+W/AccessibilityNodeInfoDumper( 3299): Fetch time: 1ms
+W/WindowManager(  676): Attempted to remove non-existing token: android.os.Binder@53a2c
+D/AndroidRuntime( 3299): Shutting down VM
+D/AndroidRuntime( 3335): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 3335): CheckJNI is OFF
+E/memtrack( 3335): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 3335): failed to load memtrack module: -2
+D/AndroidRuntime( 3335): Calling main entry com.android.commands.pm.Pm
+I/ActivityManager(  676): Force stopping com.iamtrk.androidexplorer appid=10059 user=-1: uninstall pkg
+I/ActivityManager(  676): Killing 3183:com.iamtrk.androidexplorer/u0a59 (adj 9): stop com.iamtrk.androidexplorer
+W/libprocessgroup(  676): failed to open /acct/uid_10059/pid_3183/cgroup.procs: No such file or directory
+W/InputMethodManagerService(  676): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@28ea98fb attribute=null, token = android.os.BinderProxy@61938b5
+I/ActivityManager(  676): Force stopping com.iamtrk.androidexplorer appid=10059 user=0: pkg removed
+I/LatinIME:LogUtils( 1191): Dictionary info: dictionary = main:en ; version = 47 ; date = 1402373178
+D/VoicemailCleanupService( 2109): Cleaning up data for package: com.iamtrk.androidexplorer
+I/InputReader(  676): Reconfiguring input devices.  changes=0x00000010
+I/art     ( 1569): Explicit concurrent mark sweep GC freed 13143(862KB) AllocSpace objects, 8(518KB) LOS objects, 39% free, 3MB/6MB, paused 5.125ms total 26.353ms
+I/art     ( 1079): Explicit concurrent mark sweep GC freed 12570(1161KB) AllocSpace objects, 0(0B) LOS objects, 40% free, 17MB/29MB, paused 409us total 27.153ms
+E/libprocessgroup( 3355): failed to make and chown /acct/uid_1000: Read-only file system
+W/Zygote  ( 3355): createProcessGroup failed, kernel missing CONFIG_CGROUP_CPUACCT?
+D/JobSchedulerService(  676): Receieved: android.intent.action.PACKAGE_REMOVED
+D/BackupManagerService(  676): Received broadcast Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.iamtrk.androidexplorer flg=0x4000010 (has extras) }
+I/ActivityManager(  676): Start proc 3355:com.android.keychain/1000 for broadcast com.android.keychain/.KeyChainBroadcastReceiver
+W/ContextImpl( 3355): Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1700 android.content.ContextWrapper.startService:516 android.content.ContextWrapper.startService:516 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2609 
+I/art     (  676): Explicit concurrent mark sweep GC freed 22228(1631KB) AllocSpace objects, 24(405KB) LOS objects, 33% free, 9MB/13MB, paused 1.419ms total 66.246ms
+I/art     ( 3335): System.exit called, status: 0
+I/AndroidRuntime( 3335): VM exiting with result code 0.
+W/Launcher( 1569): setApplicationContext called twice! old=com.android.launcher3.LauncherApplication@2a0b515f new=com.android.launcher3.LauncherApplication@2a0b515f
+D/Launcher.Workspace( 1569): 11683562 - stripEmptyScreens()
+D/Launcher.Workspace( 1569): 11683562 - stripEmptyScreens()
+E/libprocessgroup( 3378): failed to make and chown /acct/uid_10030: Read-only file system
+W/Zygote  ( 3378): createProcessGroup failed, kernel missing CONFIG_CGROUP_CPUACCT?
+I/ActivityManager(  676): Start proc 3378:com.android.documentsui/u0a30 for broadcast com.android.documentsui/.PackageReceiver
+E/libprocessgroup( 3400): failed to make and chown /acct/uid_10005: Read-only file system
+W/Zygote  ( 3400): createProcessGroup failed, kernel missing CONFIG_CGROUP_CPUACCT?
+I/ActivityManager(  676): Start proc 3400:android.process.media/u0a5 for content provider com.android.providers.downloads/.DownloadStorageProvider
+I/ActivityManager(  676): Killing 1355:com.android.settings/1000 (adj 15): empty #17
+W/libprocessgroup(  676): failed to open /acct/uid_1000/pid_1355/cgroup.procs: No such file or directory
+D/AndroidRuntime( 3395): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 3395): CheckJNI is OFF
+E/SQLiteLog( 3400): (283) recovered 85 frames from WAL file /data/data/com.android.providers.media/databases/external.db-wal
+E/memtrack( 3395): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 3395): failed to load memtrack module: -2
+D/AndroidRuntime( 3395): Calling main entry com.android.commands.pm.Pm
+E/libprocessgroup( 3436): failed to make and chown /acct/uid_10006: Read-only file system
+W/Zygote  ( 3436): createProcessGroup failed, kernel missing CONFIG_CGROUP_CPUACCT?
+I/ActivityManager(  676): Start proc 3436:com.android.externalstorage/u0a6 for content provider com.android.externalstorage/.ExternalStorageProvider
+D/DefContainer( 2189): Copying /data/local/tmp/device-explorer-release-unsigned_COMPLEX.apk to base.apk
+I/ActivityManager(  676): Killing 2019:com.android.camera2/u0a22 (adj 15): empty #17
+W/libprocessgroup(  676): failed to open /acct/uid_10022/pid_2019/cgroup.procs: No such file or directory
+D/ExternalStorage( 3436): After updating volumes, found 1 active roots
+D/Documents( 3378): Update found 6 roots in 218ms
+D/Documents( 3378): Update found 6 roots in 10ms
+D/PackageManager(  676): Renaming /data/app/vmdl635348755.tmp to /data/app/com.iamtrk.androidexplorer-1
+I/PackageManager(  676): Running dexopt on: /data/app/com.iamtrk.androidexplorer-1/base.apk pkg=com.iamtrk.androidexplorer isa=x86 vmSafeMode=false
+E/cutils-trace( 3455): Error opening trace file: Permission denied (13)
+I/dex2oat ( 3455): /system/bin/dex2oat --zip-fd=5 --zip-location=/data/app/com.iamtrk.androidexplorer-1/base.apk --oat-fd=6 --oat-location=/data/dalvik-cache/x86/data@app@com.iamtrk.androidexplorer-1@base.apk@classes.dex --instruction-set=x86 --instruction-set-features=default --runtime-arg -Xms64m --runtime-arg -Xmx512m --swap-fd=7
+I/dex2oat ( 3455): Decided to run without swap.
+I/dex2oat ( 3455): dex2oat took 414.070ms (threads: 4) arena alloc=465KB java alloc=2003KB native alloc=4MB free=3MB
+V/BackupManagerService(  676): restoreAtInstall pkg=com.iamtrk.androidexplorer token=2 restoreSet=0
+V/BackupManagerService(  676): Finishing install immediately
+W/Settings(  676): Setting install_non_market_apps has moved from android.provider.Settings.Global to android.provider.Settings.Secure, returning read-only value.
+I/InputReader(  676): Reconfiguring input devices.  changes=0x00000010
+D/BackupManagerService(  676): Received broadcast Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.iamtrk.androidexplorer flg=0x4000010 (has extras) }
+W/BackupManagerService(  676): Removing schedule queue dupe of com.iamtrk.androidexplorer
+D/Documents( 3378): Update found 6 roots in 3ms
+W/VoiceInteractionManagerService(  676): no available voice recognition services found for user 0
+D/Launcher.Workspace( 1569): 11683562 - removeExtraEmptyScreen()
+D/Launcher.Workspace( 1569): 11683562 - convertFinalScreenToEmptyScreenIfNecessary()
+I/art     (  676): Explicit concurrent mark sweep GC freed 56977(2MB) AllocSpace objects, 35(2MB) LOS objects, 33% free, 7MB/10MB, paused 1.027ms total 47.728ms
+I/art     ( 3395): System.exit called, status: 0
+I/AndroidRuntime( 3395): VM exiting with result code 0.
+D/AndroidRuntime( 3470): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 3470): CheckJNI is OFF
+E/memtrack( 3470): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 3470): failed to load memtrack module: -2
+D/AndroidRuntime( 3470): Calling main entry com.android.commands.monkey.Monkey
+W/BroadcastQueue(  676): Skipping deliver [background] BroadcastRecord{2538d76d u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{36251fa2 3470 (unknown name)/0/u-1 remote:3cbea597}: process crashing
+I/ActivityManager(  676): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity} from uid 0 on display 0
+V/WindowManager(  676): addAppToken: AppWindowToken{24987d69 token=Token{26a183f0 ActivityRecord{36be0433 u0 com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity t8}}} to stack=1 task=8 at 0
+V/WindowManager(  676): Adding window Window{300de108 u0 Starting com.iamtrk.androidexplorer} at 2 of 7 (after Window{19027b4a u0 com.android.launcher3/com.android.launcher3.Launcher})
+E/libprocessgroup( 3484): failed to make and chown /acct/uid_10060: Read-only file system
+W/Zygote  ( 3484): createProcessGroup failed, kernel missing CONFIG_CGROUP_CPUACCT?
+I/ActivityManager(  676): Start proc 3484:com.iamtrk.androidexplorer/u0a60 for activity com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity
+D/Sensors (  676): batch handle 1, but there is no batch sensor in genymotion
+I/art     ( 3470): System.exit called, status: 0
+I/AndroidRuntime( 3470): VM exiting with result code 0.
+D/leak-14 ( 3484): Eastern Standard Time
+D/leak-18 ( 3484): Eastern Standard Time
+D/leak-30 ( 3484): Eastern Standard Time
+D/leak-159( 3484): Eastern Standard Time
+D/leak-53 ( 3484): Eastern Standard Time
+D/leak-66 ( 3484): Eastern Standard Time
+D/leak-46 ( 3484): Eastern Standard Time
+D/leak-53 ( 3484): Eastern Standard Time
+D/leak-120( 3484): Eastern Standard Time
+D/leak-46 ( 3484): Eastern Standard Time
+D/leak-53 ( 3484): Eastern Standard Time
+D/leak-97 ( 3484): Eastern Standard Time
+D/leak-46 ( 3484): Eastern Standard Time
+D/leak-53 ( 3484): Eastern Standard Time
+D/leak-75 ( 3484): Eastern Standard Time
+D/leak-76 ( 3484): Eastern Standard Time
+D/leak-57 ( 3484): Eastern Standard Time
+D/leak-57 ( 3484): Eastern Standard Time
+D/leak-57 ( 3484): Eastern Standard Time
+D/leak-57 ( 3484): Eastern Standard Time
+D/leak-57 ( 3484): Eastern Standard Time
+D/leak-57 ( 3484): Eastern Standard Time
+D/leak-57 ( 3484): Eastern Standard Time
+D/leak-57 ( 3484): Eastern Standard Time
+D/leak-58 ( 3484): Eastern Standard Time
+D/leak-59 ( 3484): Eastern Standard Time
+D/leak-59 ( 3484): Eastern Standard Time
+D/leak-60 ( 3484): Eastern Standard Time
+D/leak-61 ( 3484): Eastern Standard Time
+D/leak-59 ( 3484): Eastern Standard Time
+D/leak-59 ( 3484): Eastern Standard Time
+D/leak-59 ( 3484): Eastern Standard Time
+D/leak-59 ( 3484): Eastern Standard Time
+D/leak-59 ( 3484): Eastern Standard Time
+D/leak-60 ( 3484): Eastern Standard Time
+D/leak-61 ( 3484): Eastern Standard Time
+D/leak-59 ( 3484): Eastern Standard Time
+I/ConfigItem( 3484): Config: {1.0 310mcc270mnc en_US ldltr sw600dp w600dp h887dp 320dpi lrg port finger -keyb/v/h dpad/v s.6}
+I/ConfigItem( 3484): fontScale: 1.00000
+I/ConfigItem( 3484): hardKeyboardHidden: 2
+I/ConfigItem( 3484): keyboard: 1
+I/ConfigItem( 3484): keyboardHidden: 1
+I/ConfigItem( 3484): locale: en_US
+I/ConfigItem( 3484): mcc: 310
+I/ConfigItem( 3484): mnc: 270
+I/ConfigItem( 3484): navigation: 2
+I/ConfigItem( 3484): navigationHidden: 1
+I/ConfigItem( 3484): orientation: 1
+I/ConfigItem( 3484): screenHeightDp: 887
+I/ConfigItem( 3484): screenLayout: 0x10000053
+I/ConfigItem( 3484): screenWidthDp: 600
+I/ConfigItem( 3484): smallestScreenWidthDp: 600
+I/ConfigItem( 3484): touchscreen: 3
+I/ConfigItem( 3484): uiMode: UI_MODE_TYPE_NORMAL|UI_MODE_NIGHT_NO
+D/leak-46 ( 3484): Eastern Standard Time
+D/leak-53 ( 3484): Eastern Standard Time
+D/leak-72 ( 3484): Eastern Standard Time
+D/leak-46 ( 3484): Eastern Standard Time
+D/leak-53 ( 3484): Eastern Standard Time
+D/leak-85 ( 3484): Eastern Standard Time
+D/leak-46 ( 3484): Eastern Standard Time
+D/leak-53 ( 3484): Eastern Standard Time
+D/leak-85 ( 3484): Eastern Standard Time
+D/leak-46 ( 3484): Eastern Standard Time
+D/leak-53 ( 3484): Eastern Standard Time
+D/leak-85 ( 3484): Eastern Standard Time
+D/leak-46 ( 3484): Eastern Standard Time
+D/leak-53 ( 3484): Eastern Standard Time
+D/leak-85 ( 3484): Eastern Standard Time
+D/leak-46 ( 3484): Eastern Standard Time
+D/leak-53 ( 3484): Eastern Standard Time
+D/leak-146( 3484): Eastern Standard Time
+D/leak-46 ( 3484): Eastern Standard Time
+D/leak-53 ( 3484): Eastern Standard Time
+D/leak-117( 3484): Eastern Standard Time
+D/leak-46 ( 3484): Eastern Standard Time
+D/leak-53 ( 3484): Eastern Standard Time
+D/leak-111( 3484): Eastern Standard Time
+D/leak-46 ( 3484): Eastern Standard Time
+D/leak-53 ( 3484): Eastern Standard Time
+D/leak-85 ( 3484): Eastern Standard Time
+D/leak-46 ( 3484): Eastern Standard Time
+D/leak-53 ( 3484): Eastern Standard Time
+D/leak-87 ( 3484): Eastern Standard Time
+D/leak-46 ( 3484): Eastern Standard Time
+D/leak-53 ( 3484): Eastern Standard Time
+D/leak-85 ( 3484): Eastern Standard Time
+D/leak-46 ( 3484): Eastern Standard Time
+D/leak-53 ( 3484): Eastern Standard Time
+D/leak-85 ( 3484): Eastern Standard Time
+D/leak-46 ( 3484): Eastern Standard Time
+D/leak-53 ( 3484): Eastern Standard Time
+D/leak-85 ( 3484): Eastern Standard Time
+D/leak-46 ( 3484): Eastern Standard Time
+D/leak-53 ( 3484): Eastern Standard Time
+D/leak-85 ( 3484): Eastern Standard Time
+D/leak-46 ( 3484): Eastern Standard Time
+D/leak-53 ( 3484): Eastern Standard Time
+D/leak-78 ( 3484): Eastern Standard Time
+D/leak-46 ( 3484): Eastern Standard Time
+D/leak-53 ( 3484): Eastern Standard Time
+D/leak-68 ( 3484): Eastern Standard Time
+D/leak-46 ( 3484): Eastern Standard Time
+D/leak-53 ( 3484): Eastern Standard Time
+D/leak-92 ( 3484): Eastern Standard Time
+D/leak-46 ( 3484): Eastern Standard Time
+D/leak-53 ( 3484): Eastern Standard Time
+D/leak-149( 3484): Eastern Standard Time
+D/leak-46 ( 3484): Eastern Standard Time
+D/leak-53 ( 3484): Eastern Standard Time
+D/leak-85 ( 3484): Eastern Standard Time
+D/leak-46 ( 3484): Eastern Standard Time
+D/leak-198( 3484): Eastern Standard Time
+D/leak-203( 3484): Eastern Standard Time
+D/leak-199( 3484): Eastern Standard Time
+D/leak-40 ( 3484): Eastern Standard Time
+D/leak-44 ( 3484): Eastern Standard Time
+D/leak-174( 3484): Eastern Standard Time
+D/leak-201( 3484): Eastern Standard Time
+D/leak-161( 3484): Eastern Standard Time
+D/leak-162( 3484): Eastern Standard Time
+D/leak-180( 3484): Eastern Standard Time
+D/leak-181( 3484): Eastern Standard Time
+D/leak-182( 3484): Eastern Standard Time
+D/AndroidRuntime( 3484): Shutting down VM
+E/AndroidRuntime( 3484): FATAL EXCEPTION: main
+E/AndroidRuntime( 3484): Process: com.iamtrk.androidexplorer, PID: 3484
+E/AndroidRuntime( 3484): java.lang.RuntimeException: Unable to start activity ComponentInfo{com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity}: java.lang.RuntimeException: java.io.FileNotFoundException: /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: open failed: ENOENT (No such file or directory)
+E/AndroidRuntime( 3484): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2325)
+E/AndroidRuntime( 3484): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2387)
+E/AndroidRuntime( 3484): 	at android.app.ActivityThread.access$800(ActivityThread.java:151)
+E/AndroidRuntime( 3484): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1303)
+E/AndroidRuntime( 3484): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/AndroidRuntime( 3484): 	at android.os.Looper.loop(Looper.java:135)
+E/AndroidRuntime( 3484): 	at android.app.ActivityThread.main(ActivityThread.java:5254)
+E/AndroidRuntime( 3484): 	at java.lang.reflect.Method.invoke(Native Method)
+E/AndroidRuntime( 3484): 	at java.lang.reflect.Method.invoke(Method.java:372)
+E/AndroidRuntime( 3484): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:903)
+E/AndroidRuntime( 3484): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:698)
+E/AndroidRuntime( 3484): Caused by: java.lang.RuntimeException: java.io.FileNotFoundException: /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: open failed: ENOENT (No such file or directory)
+E/AndroidRuntime( 3484): 	at com.iamtrk.a.c.<init>(Unknown Source)
+E/AndroidRuntime( 3484): 	at com.iamtrk.ItemListActivity.k(Unknown Source)
+E/AndroidRuntime( 3484): 	at com.iamtrk.ItemListActivity.onCreate(Unknown Source)
+E/AndroidRuntime( 3484): 	at android.app.Activity.performCreate(Activity.java:5990)
+E/AndroidRuntime( 3484): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1106)
+E/AndroidRuntime( 3484): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2278)
+E/AndroidRuntime( 3484): 	... 10 more
+E/AndroidRuntime( 3484): Caused by: java.io.FileNotFoundException: /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: open failed: ENOENT (No such file or directory)
+E/AndroidRuntime( 3484): 	at libcore.io.IoBridge.open(IoBridge.java:456)
+E/AndroidRuntime( 3484): 	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:117)
+E/AndroidRuntime( 3484): 	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:149)
+E/AndroidRuntime( 3484): 	... 16 more
+E/AndroidRuntime( 3484): Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+E/AndroidRuntime( 3484): 	at libcore.io.Posix.open(Native Method)
+E/AndroidRuntime( 3484): 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:186)
+E/AndroidRuntime( 3484): 	at libcore.io.IoBridge.open(IoBridge.java:442)
+E/AndroidRuntime( 3484): 	... 18 more
+W/ActivityManager(  676):   Force finishing activity 1 com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity
+I/WindowManager(  676): Screenshot max retries 4 of Token{26a183f0 ActivityRecord{36be0433 u0 com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity t8 f}} appWin=Window{300de108 u0 Starting com.iamtrk.androidexplorer} drawState=1
+W/art     (  676): Long monitor contention event with owner method=void com.android.server.am.ActivityManagerService.crashApplication(com.android.server.am.ProcessRecord, android.app.ApplicationErrorReport$CrashInfo) from ActivityManagerService.java:12093 waiters=0 for 301ms
+I/OpenGLRenderer(  676): Initialized EGL, version 1.4
+W/EGL_emulation(  676): eglSurfaceAttrib not implemented
+W/OpenGLRenderer(  676): Failed to set EGL_SWAP_BEHAVIOR on surface 0xdf4a4c20, error=EGL_SUCCESS
+W/EGL_emulation(  676): eglSurfaceAttrib not implemented
+W/OpenGLRenderer(  676): Failed to set EGL_SWAP_BEHAVIOR on surface 0xdf4a4c20, error=EGL_SUCCESS
+D/TaskPersister(  676): removeObsoleteFile: deleting file=7_task.xml
+D/TaskPersister(  676): removeObsoleteFile: deleting file=7_task_thumbnail.png
+W/ActivityManager(  676): Activity pause timeout for ActivityRecord{36be0433 u0 com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity t8 f}
+W/EGL_emulation( 1569): eglSurfaceAttrib not implemented
+W/OpenGLRenderer( 1569): Failed to set EGL_SWAP_BEHAVIOR on surface 0xe0d9f420, error=EGL_SUCCESS
+I/ActivityManager(  676): Killing 1773:com.android.deskclock/u0a27 (adj 15): empty #17
+W/libprocessgroup(  676): failed to open /acct/uid_10027/pid_1773/cgroup.procs: No such file or directory
+I/Choreographer(  676): Skipped 78 frames!  The application may be doing too much work on its main thread.
+W/OpenGLRenderer( 1569): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+W/ResourceType( 1079): No package identifier when getting value for resource number 0x00000000
+W/PackageManager( 1079): Failure retrieving resources for com.iamtrk.androidexplorer: Resource ID #0x0
+D/AndroidRuntime( 3506): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 3506): CheckJNI is OFF
+E/memtrack( 3506): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 3506): failed to load memtrack module: -2
+D/AndroidRuntime( 3506): Calling main entry com.android.commands.content.Content
+D/AndroidRuntime( 3506): Shutting down VM
+D/AndroidRuntime( 3520): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 3520): CheckJNI is OFF
+E/memtrack( 3520): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 3520): failed to load memtrack module: -2
+D/AndroidRuntime( 3520): Calling main entry com.android.commands.content.Content
+D/AndroidRuntime( 3520): Shutting down VM
+D/AndroidRuntime( 3546): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 3546): CheckJNI is OFF
+E/memtrack( 3546): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 3546): failed to load memtrack module: -2
+D/AndroidRuntime( 3546): Calling main entry com.android.commands.uiautomator.Launcher
+W/AccessibilityNodeInfoDumper( 3546): Fetch time: 2ms
+W/WindowManager(  676): Attempted to remove non-existing token: android.os.Binder@3b3a904d
+D/AndroidRuntime( 3546): Shutting down VM
+D/AndroidRuntime( 3568): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 3568): CheckJNI is OFF
+E/memtrack( 3568): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 3568): failed to load memtrack module: -2
+D/AndroidRuntime( 3568): Calling main entry com.android.commands.uiautomator.Launcher
+W/AccessibilityNodeInfoDumper( 3568): Fetch time: 2ms
+W/WindowManager(  676): Attempted to remove non-existing token: android.os.Binder@382e8368
+D/AndroidRuntime( 3568): Shutting down VM
+I/ActivityManager(  676): Killing 1527:com.android.email/u0a31 (adj 15): empty #17
+W/libprocessgroup(  676): failed to open /acct/uid_10031/pid_1527/cgroup.procs: No such file or directory
+D/AndroidRuntime( 3597): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 3597): CheckJNI is OFF
+E/memtrack( 3597): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 3597): failed to load memtrack module: -2
+D/AndroidRuntime( 3597): Calling main entry com.android.commands.uiautomator.Launcher
+W/AccessibilityNodeInfoDumper( 3597): Fetch time: 2ms
+W/WindowManager(  676): Attempted to remove non-existing token: android.os.Binder@2247d381
+D/AndroidRuntime( 3597): Shutting down VM
+W/ActivityManager(  676): Activity destroy timeout for ActivityRecord{36be0433 u0 com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity t8 f}
+D/AndroidRuntime( 3630): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 3630): CheckJNI is OFF
+E/memtrack( 3630): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 3630): failed to load memtrack module: -2
+D/AndroidRuntime( 3630): Calling main entry com.android.commands.uiautomator.Launcher
+W/AccessibilityNodeInfoDumper( 3630): Fetch time: 1ms
+W/WindowManager(  676): Attempted to remove non-existing token: android.os.Binder@11cc8c26
+D/AndroidRuntime( 3630): Shutting down VM
+D/AndroidRuntime( 3660): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 3660): CheckJNI is OFF
+E/memtrack( 3660): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 3660): failed to load memtrack module: -2
+D/AndroidRuntime( 3660): Calling main entry com.android.commands.uiautomator.Launcher
+D/TaskPersister(  676): removeObsoleteFile: deleting file=8_task.xml
+W/AccessibilityNodeInfoDumper( 3660): Fetch time: 1ms
+W/WindowManager(  676): Attempted to remove non-existing token: android.os.Binder@322f7067
+D/AndroidRuntime( 3660): Shutting down VM
+D/AndroidRuntime( 3682): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 3682): CheckJNI is OFF
+E/memtrack( 3682): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 3682): failed to load memtrack module: -2
+D/AndroidRuntime( 3682): Calling main entry com.android.commands.uiautomator.Launcher
+W/AccessibilityNodeInfoDumper( 3682): Fetch time: 2ms
+W/WindowManager(  676): Attempted to remove non-existing token: android.os.Binder@291c6e14
+D/AndroidRuntime( 3682): Shutting down VM
+D/AndroidRuntime( 3710): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 3710): CheckJNI is OFF
+E/memtrack( 3710): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 3710): failed to load memtrack module: -2
+D/AndroidRuntime( 3710): Calling main entry com.android.commands.uiautomator.Launcher
+W/AccessibilityNodeInfoDumper( 3710): Fetch time: 2ms
+W/WindowManager(  676): Attempted to remove non-existing token: android.os.Binder@221d26bd
+D/AndroidRuntime( 3710): Shutting down VM
+D/AndroidRuntime( 3732): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 3732): CheckJNI is OFF
+E/memtrack( 3732): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 3732): failed to load memtrack module: -2
+D/AndroidRuntime( 3732): Calling main entry com.android.commands.uiautomator.Launcher
+W/AccessibilityNodeInfoDumper( 3732): Fetch time: 2ms
+W/WindowManager(  676): Attempted to remove non-existing token: android.os.Binder@1b6544b2
+D/AndroidRuntime( 3732): Shutting down VM
+D/AndroidRuntime( 3760): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 3760): CheckJNI is OFF
+E/memtrack( 3760): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 3760): failed to load memtrack module: -2
+D/AndroidRuntime( 3760): Calling main entry com.android.commands.uiautomator.Launcher
+W/AccessibilityNodeInfoDumper( 3760): Fetch time: 1ms
+W/WindowManager(  676): Attempted to remove non-existing token: android.os.Binder@185c5780
+D/AndroidRuntime( 3760): Shutting down VM
+D/AndroidRuntime( 3782): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 3782): CheckJNI is OFF
+E/memtrack( 3782): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 3782): failed to load memtrack module: -2
+D/AndroidRuntime( 3782): Calling main entry com.android.commands.uiautomator.Launcher
+W/AccessibilityNodeInfoDumper( 3782): Fetch time: 1ms
+W/WindowManager(  676): Attempted to remove non-existing token: android.os.Binder@2efa71b9
+D/AndroidRuntime( 3782): Shutting down VM
+D/AndroidRuntime( 3810): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 3810): CheckJNI is OFF
+E/memtrack( 3810): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 3810): failed to load memtrack module: -2
+D/AndroidRuntime( 3810): Calling main entry com.android.commands.uiautomator.Launcher
+W/AccessibilityNodeInfoDumper( 3810): Fetch time: 3ms
+W/WindowManager(  676): Attempted to remove non-existing token: android.os.Binder@3d5ef9fe
+D/AndroidRuntime( 3810): Shutting down VM
+D/AndroidRuntime( 3832): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 3832): CheckJNI is OFF
+E/memtrack( 3832): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 3832): failed to load memtrack module: -2
+D/AndroidRuntime( 3832): Calling main entry com.android.commands.uiautomator.Launcher
+W/AccessibilityNodeInfoDumper( 3832): Fetch time: 2ms
+W/WindowManager(  676): Attempted to remove non-existing token: android.os.Binder@2a10055f
+D/AndroidRuntime( 3832): Shutting down VM
+D/AndroidRuntime( 3854): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 3854): CheckJNI is OFF
+E/memtrack( 3854): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 3854): failed to load memtrack module: -2
+D/AndroidRuntime( 3854): Calling main entry com.android.commands.monkey.Monkey
+W/BroadcastQueue(  676): Skipping deliver [background] BroadcastRecord{7acb80a u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{659987b 3854 (unknown name)/0/u-1 remote:10ef6bac}: process crashing
+I/ActivityManager(  676): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity} from uid 0 on display 0
+V/WindowManager(  676): addAppToken: AppWindowToken{24664ad6 token=Token{82b9ef1 ActivityRecord{2abd9698 u0 com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity t9}}} to stack=1 task=9 at 0
+V/WindowManager(  676): Adding window Window{2f3e3b29 u0 Starting com.iamtrk.androidexplorer} at 2 of 8 (after Window{19027b4a u0 com.android.launcher3/com.android.launcher3.Launcher})
+D/Sensors (  676): batch handle 1, but there is no batch sensor in genymotion
+I/art     ( 3854): System.exit called, status: 0
+I/AndroidRuntime( 3854): VM exiting with result code 0.
+D/AndroidRuntime( 3880): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 3880): CheckJNI is OFF
+E/memtrack( 3880): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 3880): failed to load memtrack module: -2
+D/AndroidRuntime( 3880): Calling main entry com.android.commands.uiautomator.Launcher
+W/AccessibilityNodeInfoDumper( 3880): Fetch time: 2ms
+W/WindowManager(  676): Attempted to remove non-existing token: android.os.Binder@13112661
+D/AndroidRuntime( 3880): Shutting down VM
+D/AndroidRuntime( 3902): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 3902): CheckJNI is OFF
+E/memtrack( 3902): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 3902): failed to load memtrack module: -2
+D/AndroidRuntime( 3902): Calling main entry com.android.commands.uiautomator.Launcher
+W/AccessibilityNodeInfoDumper( 3902): Fetch time: 1ms
+W/WindowManager(  676): Attempted to remove non-existing token: android.os.Binder@28051586
+D/AndroidRuntime( 3902): Shutting down VM
+D/AndroidRuntime( 3920): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 3920): CheckJNI is OFF
+E/memtrack( 3920): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 3920): failed to load memtrack module: -2
+D/AndroidRuntime( 3920): Calling main entry com.android.commands.input.Input
+I/Input   ( 3920): injectMotionEvent: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=1060.0, y[0]=985.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=143390, downTime=143390, deviceId=0, source=0x1002 }
+I/Input   ( 3920): injectMotionEvent: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=1060.0, y[0]=985.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=143390, downTime=143390, deviceId=0, source=0x1002 }
+D/AndroidRuntime( 3920): Shutting down VM
+I/Process ( 3484): Sending signal. PID: 3484 SIG: 9
+W/AudioTrack(  676): AUDIO_OUTPUT_FLAG_FAST denied by client
+W/libprocessgroup(  676): failed to open /acct/uid_10060/pid_3484/cgroup.procs: No such file or directory
+I/ActivityManager(  676): Process com.iamtrk.androidexplorer (pid 3484) has died
+E/libprocessgroup( 3935): failed to make and chown /acct/uid_10060: Read-only file system
+W/Zygote  ( 3935): createProcessGroup failed, kernel missing CONFIG_CGROUP_CPUACCT?
+I/ActivityManager(  676): Start proc 3935:com.iamtrk.androidexplorer/u0a60 for activity com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity
+D/leak-14 ( 3935): Eastern Standard Time
+D/leak-18 ( 3935): Eastern Standard Time
+D/leak-30 ( 3935): Eastern Standard Time
+D/leak-159( 3935): Eastern Standard Time
+D/leak-53 ( 3935): Eastern Standard Time
+D/leak-66 ( 3935): Eastern Standard Time
+D/leak-46 ( 3935): Eastern Standard Time
+D/leak-53 ( 3935): Eastern Standard Time
+D/leak-120( 3935): Eastern Standard Time
+D/leak-46 ( 3935): Eastern Standard Time
+D/leak-53 ( 3935): Eastern Standard Time
+D/leak-97 ( 3935): Eastern Standard Time
+D/leak-46 ( 3935): Eastern Standard Time
+D/leak-53 ( 3935): Eastern Standard Time
+D/leak-75 ( 3935): Eastern Standard Time
+D/leak-76 ( 3935): Eastern Standard Time
+D/leak-57 ( 3935): Eastern Standard Time
+D/leak-57 ( 3935): Eastern Standard Time
+D/leak-57 ( 3935): Eastern Standard Time
+D/leak-57 ( 3935): Eastern Standard Time
+D/leak-57 ( 3935): Eastern Standard Time
+D/leak-57 ( 3935): Eastern Standard Time
+D/leak-57 ( 3935): Eastern Standard Time
+D/leak-57 ( 3935): Eastern Standard Time
+D/leak-58 ( 3935): Eastern Standard Time
+D/leak-59 ( 3935): Eastern Standard Time
+D/leak-59 ( 3935): Eastern Standard Time
+D/leak-60 ( 3935): Eastern Standard Time
+D/leak-61 ( 3935): Eastern Standard Time
+D/leak-59 ( 3935): Eastern Standard Time
+D/leak-59 ( 3935): Eastern Standard Time
+D/leak-59 ( 3935): Eastern Standard Time
+D/leak-59 ( 3935): Eastern Standard Time
+D/leak-59 ( 3935): Eastern Standard Time
+D/leak-60 ( 3935): Eastern Standard Time
+D/leak-61 ( 3935): Eastern Standard Time
+D/leak-59 ( 3935): Eastern Standard Time
+I/ConfigItem( 3935): Config: {1.0 310mcc270mnc en_US ldltr sw600dp w600dp h887dp 320dpi lrg port finger -keyb/v/h dpad/v s.6}
+I/ConfigItem( 3935): fontScale: 1.00000
+I/ConfigItem( 3935): hardKeyboardHidden: 2
+I/ConfigItem( 3935): keyboard: 1
+I/ConfigItem( 3935): keyboardHidden: 1
+I/ConfigItem( 3935): locale: en_US
+I/ConfigItem( 3935): mcc: 310
+I/ConfigItem( 3935): mnc: 270
+I/ConfigItem( 3935): navigation: 2
+I/ConfigItem( 3935): navigationHidden: 1
+I/ConfigItem( 3935): orientation: 1
+I/ConfigItem( 3935): screenHeightDp: 887
+I/ConfigItem( 3935): screenLayout: 0x10000053
+I/ConfigItem( 3935): screenWidthDp: 600
+I/ConfigItem( 3935): smallestScreenWidthDp: 600
+I/ConfigItem( 3935): touchscreen: 3
+I/ConfigItem( 3935): uiMode: UI_MODE_TYPE_NORMAL|UI_MODE_NIGHT_NO
+D/leak-46 ( 3935): Eastern Standard Time
+D/leak-53 ( 3935): Eastern Standard Time
+D/leak-72 ( 3935): Eastern Standard Time
+D/leak-46 ( 3935): Eastern Standard Time
+D/leak-53 ( 3935): Eastern Standard Time
+D/leak-85 ( 3935): Eastern Standard Time
+D/leak-46 ( 3935): Eastern Standard Time
+D/leak-53 ( 3935): Eastern Standard Time
+D/leak-85 ( 3935): Eastern Standard Time
+D/leak-46 ( 3935): Eastern Standard Time
+D/leak-53 ( 3935): Eastern Standard Time
+D/leak-85 ( 3935): Eastern Standard Time
+D/leak-46 ( 3935): Eastern Standard Time
+D/leak-53 ( 3935): Eastern Standard Time
+D/leak-85 ( 3935): Eastern Standard Time
+D/leak-46 ( 3935): Eastern Standard Time
+D/leak-53 ( 3935): Eastern Standard Time
+D/leak-146( 3935): Eastern Standard Time
+D/leak-46 ( 3935): Eastern Standard Time
+D/leak-53 ( 3935): Eastern Standard Time
+D/leak-117( 3935): Eastern Standard Time
+D/leak-46 ( 3935): Eastern Standard Time
+D/leak-53 ( 3935): Eastern Standard Time
+D/leak-111( 3935): Eastern Standard Time
+D/leak-46 ( 3935): Eastern Standard Time
+D/leak-53 ( 3935): Eastern Standard Time
+D/leak-85 ( 3935): Eastern Standard Time
+D/leak-46 ( 3935): Eastern Standard Time
+D/leak-53 ( 3935): Eastern Standard Time
+D/leak-87 ( 3935): Eastern Standard Time
+D/leak-46 ( 3935): Eastern Standard Time
+D/leak-53 ( 3935): Eastern Standard Time
+D/leak-85 ( 3935): Eastern Standard Time
+D/leak-46 ( 3935): Eastern Standard Time
+D/leak-53 ( 3935): Eastern Standard Time
+D/leak-85 ( 3935): Eastern Standard Time
+D/leak-46 ( 3935): Eastern Standard Time
+D/leak-53 ( 3935): Eastern Standard Time
+D/leak-85 ( 3935): Eastern Standard Time
+D/leak-46 ( 3935): Eastern Standard Time
+D/leak-53 ( 3935): Eastern Standard Time
+D/leak-85 ( 3935): Eastern Standard Time
+D/leak-46 ( 3935): Eastern Standard Time
+D/leak-53 ( 3935): Eastern Standard Time
+D/leak-78 ( 3935): Eastern Standard Time
+D/leak-46 ( 3935): Eastern Standard Time
+D/leak-53 ( 3935): Eastern Standard Time
+D/leak-68 ( 3935): Eastern Standard Time
+D/leak-46 ( 3935): Eastern Standard Time
+D/leak-53 ( 3935): Eastern Standard Time
+D/leak-92 ( 3935): Eastern Standard Time
+D/leak-46 ( 3935): Eastern Standard Time
+D/leak-53 ( 3935): Eastern Standard Time
+D/leak-149( 3935): Eastern Standard Time
+D/leak-46 ( 3935): Eastern Standard Time
+D/leak-53 ( 3935): Eastern Standard Time
+D/leak-85 ( 3935): Eastern Standard Time
+D/leak-46 ( 3935): Eastern Standard Time
+D/leak-198( 3935): Eastern Standard Time
+D/leak-203( 3935): Eastern Standard Time
+D/leak-199( 3935): Eastern Standard Time
+D/leak-40 ( 3935): Eastern Standard Time
+D/leak-44 ( 3935): Eastern Standard Time
+D/leak-174( 3935): Eastern Standard Time
+D/leak-201( 3935): Eastern Standard Time
+D/leak-161( 3935): Eastern Standard Time
+D/leak-162( 3935): Eastern Standard Time
+D/leak-180( 3935): Eastern Standard Time
+D/leak-181( 3935): Eastern Standard Time
+D/leak-182( 3935): Eastern Standard Time
+D/AndroidRuntime( 3935): Shutting down VM
+E/AndroidRuntime( 3935): FATAL EXCEPTION: main
+E/AndroidRuntime( 3935): Process: com.iamtrk.androidexplorer, PID: 3935
+E/AndroidRuntime( 3935): java.lang.RuntimeException: Unable to start activity ComponentInfo{com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity}: java.lang.RuntimeException: java.io.FileNotFoundException: /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: open failed: ENOENT (No such file or directory)
+E/AndroidRuntime( 3935): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2325)
+E/AndroidRuntime( 3935): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2387)
+E/AndroidRuntime( 3935): 	at android.app.ActivityThread.access$800(ActivityThread.java:151)
+E/AndroidRuntime( 3935): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1303)
+E/AndroidRuntime( 3935): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/AndroidRuntime( 3935): 	at android.os.Looper.loop(Looper.java:135)
+E/AndroidRuntime( 3935): 	at android.app.ActivityThread.main(ActivityThread.java:5254)
+E/AndroidRuntime( 3935): 	at java.lang.reflect.Method.invoke(Native Method)
+E/AndroidRuntime( 3935): 	at java.lang.reflect.Method.invoke(Method.java:372)
+E/AndroidRuntime( 3935): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:903)
+E/AndroidRuntime( 3935): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:698)
+E/AndroidRuntime( 3935): Caused by: java.lang.RuntimeException: java.io.FileNotFoundException: /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: open failed: ENOENT (No such file or directory)
+E/AndroidRuntime( 3935): 	at com.iamtrk.a.c.<init>(Unknown Source)
+E/AndroidRuntime( 3935): 	at com.iamtrk.ItemListActivity.k(Unknown Source)
+E/AndroidRuntime( 3935): 	at com.iamtrk.ItemListActivity.onCreate(Unknown Source)
+E/AndroidRuntime( 3935): 	at android.app.Activity.performCreate(Activity.java:5990)
+E/AndroidRuntime( 3935): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1106)
+E/AndroidRuntime( 3935): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2278)
+E/AndroidRuntime( 3935): 	... 10 more
+E/AndroidRuntime( 3935): Caused by: java.io.FileNotFoundException: /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: open failed: ENOENT (No such file or directory)
+E/AndroidRuntime( 3935): 	at libcore.io.IoBridge.open(IoBridge.java:456)
+E/AndroidRuntime( 3935): 	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:117)
+E/AndroidRuntime( 3935): 	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:149)
+E/AndroidRuntime( 3935): 	... 16 more
+E/AndroidRuntime( 3935): Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+E/AndroidRuntime( 3935): 	at libcore.io.Posix.open(Native Method)
+E/AndroidRuntime( 3935): 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:186)
+E/AndroidRuntime( 3935): 	at libcore.io.IoBridge.open(IoBridge.java:442)
+E/AndroidRuntime( 3935): 	... 18 more
+W/ActivityManager(  676):   Force finishing activity 1 com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity
+I/WindowManager(  676): Screenshot max retries 4 of Token{82b9ef1 ActivityRecord{2abd9698 u0 com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity t9 f}} appWin=Window{2f3e3b29 u0 Starting com.iamtrk.androidexplorer} drawState=4
+W/art     (  676): Long monitor contention event with owner method=void com.android.server.am.ActivityManagerService.crashApplication(com.android.server.am.ProcessRecord, android.app.ApplicationErrorReport$CrashInfo) from ActivityManagerService.java:12093 waiters=0 for 298ms
+I/OpenGLRenderer(  676): Initialized EGL, version 1.4
+W/EGL_emulation(  676): eglSurfaceAttrib not implemented
+W/OpenGLRenderer(  676): Failed to set EGL_SWAP_BEHAVIOR on surface 0xd98c46e0, error=EGL_SUCCESS
+W/EGL_emulation(  676): eglSurfaceAttrib not implemented
+W/OpenGLRenderer(  676): Failed to set EGL_SWAP_BEHAVIOR on surface 0xd98c46e0, error=EGL_SUCCESS
+W/ActivityManager(  676): Activity pause timeout for ActivityRecord{2abd9698 u0 com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity t9 f}
+W/EGL_emulation( 1569): eglSurfaceAttrib not implemented
+W/OpenGLRenderer( 1569): Failed to set EGL_SWAP_BEHAVIOR on surface 0xe0e87ea0, error=EGL_SUCCESS
+W/OpenGLRenderer( 1569): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+W/ResourceType( 1079): No package identifier when getting value for resource number 0x00000000
+W/PackageManager( 1079): Failure retrieving resources for com.iamtrk.androidexplorer: Resource ID #0x0
+D/AndroidRuntime( 4283): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 4283): CheckJNI is OFF
+E/memtrack( 4283): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 4283): failed to load memtrack module: -2
+D/AndroidRuntime( 4283): Calling main entry com.android.commands.monkey.Monkey
+W/BroadcastQueue(  676): Skipping deliver [background] BroadcastRecord{23791b1a u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{10eea64b 4283 (unknown name)/0/u-1 remote:2197b43c}: process crashing
+I/ActivityManager(  676): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity} from uid 0 on display 0
+V/WindowManager(  676): addAppToken: AppWindowToken{147dcee6 token=Token{273d6941 ActivityRecord{1549d828 u0 com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity t10}}} to stack=1 task=10 at 0
+V/WindowManager(  676): Based on layer: Adding window Window{6d4ff79 u0 Starting com.iamtrk.androidexplorer} at 2 of 8
+D/Sensors (  676): batch handle 1, but there is no batch sensor in genymotion
+I/art     ( 4283): System.exit called, status: 0
+I/AndroidRuntime( 4283): VM exiting with result code 0.
+D/TaskPersister(  676): removeObsoleteFile: deleting file=9_task.xml
+D/AndroidRuntime( 4300): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 4300): CheckJNI is OFF
+E/memtrack( 4300): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 4300): failed to load memtrack module: -2
+D/AndroidRuntime( 4300): Calling main entry com.android.commands.uiautomator.Launcher
+W/ActivityManager(  676): Activity destroy timeout for ActivityRecord{2abd9698 u0 com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity t9 f}
+W/AccessibilityNodeInfoDumper( 4300): Fetch time: 2ms
+W/WindowManager(  676): Attempted to remove non-existing token: android.os.Binder@145e7eca
+D/AndroidRuntime( 4300): Shutting down VM
+D/AndroidRuntime( 4318): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 4318): CheckJNI is OFF
+E/memtrack( 4318): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 4318): failed to load memtrack module: -2
+D/AndroidRuntime( 4318): Calling main entry com.android.commands.input.Input
+I/Input   ( 4318): injectMotionEvent: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=1060.0, y[0]=985.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=155771, downTime=155771, deviceId=0, source=0x1002 }
+I/Input   ( 4318): injectMotionEvent: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=1060.0, y[0]=985.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=155771, downTime=155771, deviceId=0, source=0x1002 }
+D/AndroidRuntime( 4318): Shutting down VM
+I/Process ( 3935): Sending signal. PID: 3935 SIG: 9
+W/AudioTrack(  676): AUDIO_OUTPUT_FLAG_FAST denied by client
+W/libprocessgroup(  676): failed to open /acct/uid_10060/pid_3935/cgroup.procs: No such file or directory
+I/ActivityManager(  676): Process com.iamtrk.androidexplorer (pid 3935) has died
+E/libprocessgroup( 4333): failed to make and chown /acct/uid_10060: Read-only file system
+W/Zygote  ( 4333): createProcessGroup failed, kernel missing CONFIG_CGROUP_CPUACCT?
+I/ActivityManager(  676): Start proc 4333:com.iamtrk.androidexplorer/u0a60 for activity com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity
+D/leak-14 ( 4333): Eastern Standard Time
+D/leak-18 ( 4333): Eastern Standard Time
+D/leak-30 ( 4333): Eastern Standard Time
+D/leak-159( 4333): Eastern Standard Time
+D/leak-53 ( 4333): Eastern Standard Time
+D/leak-66 ( 4333): Eastern Standard Time
+D/leak-46 ( 4333): Eastern Standard Time
+D/leak-53 ( 4333): Eastern Standard Time
+D/leak-120( 4333): Eastern Standard Time
+D/leak-46 ( 4333): Eastern Standard Time
+D/leak-53 ( 4333): Eastern Standard Time
+D/leak-97 ( 4333): Eastern Standard Time
+D/leak-46 ( 4333): Eastern Standard Time
+D/leak-53 ( 4333): Eastern Standard Time
+D/leak-75 ( 4333): Eastern Standard Time
+D/leak-76 ( 4333): Eastern Standard Time
+D/leak-57 ( 4333): Eastern Standard Time
+D/leak-57 ( 4333): Eastern Standard Time
+D/leak-57 ( 4333): Eastern Standard Time
+D/leak-57 ( 4333): Eastern Standard Time
+D/leak-57 ( 4333): Eastern Standard Time
+D/leak-57 ( 4333): Eastern Standard Time
+D/leak-57 ( 4333): Eastern Standard Time
+D/leak-57 ( 4333): Eastern Standard Time
+D/leak-58 ( 4333): Eastern Standard Time
+D/leak-59 ( 4333): Eastern Standard Time
+D/leak-59 ( 4333): Eastern Standard Time
+D/leak-60 ( 4333): Eastern Standard Time
+D/leak-61 ( 4333): Eastern Standard Time
+D/leak-59 ( 4333): Eastern Standard Time
+D/leak-59 ( 4333): Eastern Standard Time
+D/leak-59 ( 4333): Eastern Standard Time
+D/leak-59 ( 4333): Eastern Standard Time
+D/leak-59 ( 4333): Eastern Standard Time
+D/leak-60 ( 4333): Eastern Standard Time
+D/leak-61 ( 4333): Eastern Standard Time
+D/leak-59 ( 4333): Eastern Standard Time
+I/ConfigItem( 4333): Config: {1.0 310mcc270mnc en_US ldltr sw600dp w600dp h887dp 320dpi lrg port finger -keyb/v/h dpad/v s.6}
+I/ConfigItem( 4333): fontScale: 1.00000
+I/ConfigItem( 4333): hardKeyboardHidden: 2
+I/ConfigItem( 4333): keyboard: 1
+I/ConfigItem( 4333): keyboardHidden: 1
+I/ConfigItem( 4333): locale: en_US
+I/ConfigItem( 4333): mcc: 310
+I/ConfigItem( 4333): mnc: 270
+I/ConfigItem( 4333): navigation: 2
+I/ConfigItem( 4333): navigationHidden: 1
+I/ConfigItem( 4333): orientation: 1
+I/ConfigItem( 4333): screenHeightDp: 887
+I/ConfigItem( 4333): screenLayout: 0x10000053
+I/ConfigItem( 4333): screenWidthDp: 600
+I/ConfigItem( 4333): smallestScreenWidthDp: 600
+I/ConfigItem( 4333): touchscreen: 3
+I/ConfigItem( 4333): uiMode: UI_MODE_TYPE_NORMAL|UI_MODE_NIGHT_NO
+D/leak-46 ( 4333): Eastern Standard Time
+D/leak-53 ( 4333): Eastern Standard Time
+D/leak-72 ( 4333): Eastern Standard Time
+D/leak-46 ( 4333): Eastern Standard Time
+D/leak-53 ( 4333): Eastern Standard Time
+D/leak-85 ( 4333): Eastern Standard Time
+D/leak-46 ( 4333): Eastern Standard Time
+D/leak-53 ( 4333): Eastern Standard Time
+D/leak-85 ( 4333): Eastern Standard Time
+D/leak-46 ( 4333): Eastern Standard Time
+D/leak-53 ( 4333): Eastern Standard Time
+D/leak-85 ( 4333): Eastern Standard Time
+D/leak-46 ( 4333): Eastern Standard Time
+D/leak-53 ( 4333): Eastern Standard Time
+D/leak-85 ( 4333): Eastern Standard Time
+D/leak-46 ( 4333): Eastern Standard Time
+D/leak-53 ( 4333): Eastern Standard Time
+D/leak-146( 4333): Eastern Standard Time
+D/leak-46 ( 4333): Eastern Standard Time
+D/leak-53 ( 4333): Eastern Standard Time
+D/leak-117( 4333): Eastern Standard Time
+D/leak-46 ( 4333): Eastern Standard Time
+D/leak-53 ( 4333): Eastern Standard Time
+D/leak-111( 4333): Eastern Standard Time
+D/leak-46 ( 4333): Eastern Standard Time
+D/leak-53 ( 4333): Eastern Standard Time
+D/leak-85 ( 4333): Eastern Standard Time
+D/leak-46 ( 4333): Eastern Standard Time
+D/leak-53 ( 4333): Eastern Standard Time
+D/leak-87 ( 4333): Eastern Standard Time
+D/leak-46 ( 4333): Eastern Standard Time
+D/leak-53 ( 4333): Eastern Standard Time
+D/leak-85 ( 4333): Eastern Standard Time
+D/leak-46 ( 4333): Eastern Standard Time
+D/leak-53 ( 4333): Eastern Standard Time
+D/leak-85 ( 4333): Eastern Standard Time
+D/leak-46 ( 4333): Eastern Standard Time
+D/leak-53 ( 4333): Eastern Standard Time
+D/leak-85 ( 4333): Eastern Standard Time
+D/leak-46 ( 4333): Eastern Standard Time
+D/leak-53 ( 4333): Eastern Standard Time
+D/leak-85 ( 4333): Eastern Standard Time
+D/leak-46 ( 4333): Eastern Standard Time
+D/leak-53 ( 4333): Eastern Standard Time
+D/leak-78 ( 4333): Eastern Standard Time
+D/leak-46 ( 4333): Eastern Standard Time
+D/leak-53 ( 4333): Eastern Standard Time
+D/leak-68 ( 4333): Eastern Standard Time
+D/leak-46 ( 4333): Eastern Standard Time
+D/leak-53 ( 4333): Eastern Standard Time
+D/leak-92 ( 4333): Eastern Standard Time
+D/leak-46 ( 4333): Eastern Standard Time
+D/leak-53 ( 4333): Eastern Standard Time
+D/leak-149( 4333): Eastern Standard Time
+D/leak-46 ( 4333): Eastern Standard Time
+D/leak-53 ( 4333): Eastern Standard Time
+D/leak-85 ( 4333): Eastern Standard Time
+D/leak-46 ( 4333): Eastern Standard Time
+D/leak-198( 4333): Eastern Standard Time
+D/leak-203( 4333): Eastern Standard Time
+D/leak-199( 4333): Eastern Standard Time
+D/leak-40 ( 4333): Eastern Standard Time
+D/leak-44 ( 4333): Eastern Standard Time
+D/leak-174( 4333): Eastern Standard Time
+D/leak-201( 4333): Eastern Standard Time
+D/leak-161( 4333): Eastern Standard Time
+D/leak-162( 4333): Eastern Standard Time
+D/leak-180( 4333): Eastern Standard Time
+D/leak-181( 4333): Eastern Standard Time
+D/leak-182( 4333): Eastern Standard Time
+D/AndroidRuntime( 4333): Shutting down VM
+E/AndroidRuntime( 4333): FATAL EXCEPTION: main
+E/AndroidRuntime( 4333): Process: com.iamtrk.androidexplorer, PID: 4333
+E/AndroidRuntime( 4333): java.lang.RuntimeException: Unable to start activity ComponentInfo{com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity}: java.lang.RuntimeException: java.io.FileNotFoundException: /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: open failed: ENOENT (No such file or directory)
+E/AndroidRuntime( 4333): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2325)
+E/AndroidRuntime( 4333): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2387)
+E/AndroidRuntime( 4333): 	at android.app.ActivityThread.access$800(ActivityThread.java:151)
+E/AndroidRuntime( 4333): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1303)
+E/AndroidRuntime( 4333): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/AndroidRuntime( 4333): 	at android.os.Looper.loop(Looper.java:135)
+E/AndroidRuntime( 4333): 	at android.app.ActivityThread.main(ActivityThread.java:5254)
+E/AndroidRuntime( 4333): 	at java.lang.reflect.Method.invoke(Native Method)
+E/AndroidRuntime( 4333): 	at java.lang.reflect.Method.invoke(Method.java:372)
+E/AndroidRuntime( 4333): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:903)
+E/AndroidRuntime( 4333): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:698)
+E/AndroidRuntime( 4333): Caused by: java.lang.RuntimeException: java.io.FileNotFoundException: /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: open failed: ENOENT (No such file or directory)
+E/AndroidRuntime( 4333): 	at com.iamtrk.a.c.<init>(Unknown Source)
+E/AndroidRuntime( 4333): 	at com.iamtrk.ItemListActivity.k(Unknown Source)
+E/AndroidRuntime( 4333): 	at com.iamtrk.ItemListActivity.onCreate(Unknown Source)
+E/AndroidRuntime( 4333): 	at android.app.Activity.performCreate(Activity.java:5990)
+E/AndroidRuntime( 4333): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1106)
+E/AndroidRuntime( 4333): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2278)
+E/AndroidRuntime( 4333): 	... 10 more
+E/AndroidRuntime( 4333): Caused by: java.io.FileNotFoundException: /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: open failed: ENOENT (No such file or directory)
+E/AndroidRuntime( 4333): 	at libcore.io.IoBridge.open(IoBridge.java:456)
+E/AndroidRuntime( 4333): 	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:117)
+E/AndroidRuntime( 4333): 	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:149)
+E/AndroidRuntime( 4333): 	... 16 more
+E/AndroidRuntime( 4333): Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+E/AndroidRuntime( 4333): 	at libcore.io.Posix.open(Native Method)
+E/AndroidRuntime( 4333): 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:186)
+E/AndroidRuntime( 4333): 	at libcore.io.IoBridge.open(IoBridge.java:442)
+E/AndroidRuntime( 4333): 	... 18 more
+W/ActivityManager(  676):   Force finishing activity 1 com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity
+I/WindowManager(  676): Screenshot max retries 4 of Token{273d6941 ActivityRecord{1549d828 u0 com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity t10 f}} appWin=Window{6d4ff79 u0 Starting com.iamtrk.androidexplorer} drawState=4
+I/OpenGLRenderer(  676): Initialized EGL, version 1.4
+W/EGL_emulation(  676): eglSurfaceAttrib not implemented
+W/OpenGLRenderer(  676): Failed to set EGL_SWAP_BEHAVIOR on surface 0xd98c49a0, error=EGL_SUCCESS
+W/EGL_emulation(  676): eglSurfaceAttrib not implemented
+W/OpenGLRenderer(  676): Failed to set EGL_SWAP_BEHAVIOR on surface 0xd98c49a0, error=EGL_SUCCESS
+D/AndroidRuntime( 4356): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 4356): CheckJNI is OFF
+E/memtrack( 4356): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 4356): failed to load memtrack module: -2
+D/AndroidRuntime( 4356): Calling main entry com.android.commands.am.Am
+I/ActivityManager(  676): Force stopping com.iamtrk.androidexplorer appid=10060 user=0: from pid 4356
+I/ActivityManager(  676): Killing 4333:com.iamtrk.androidexplorer/u0a60 (adj 0): stop com.iamtrk.androidexplorer
+W/libprocessgroup(  676): failed to open /acct/uid_10060/pid_4333/cgroup.procs: No such file or directory
+D/AndroidRuntime( 4356): Shutting down VM
+W/WindowManager(  676): Failed looking up window
+W/WindowManager(  676): java.lang.IllegalArgumentException: Requested window android.view.ViewRootImpl$W@11758440 does not exist
+W/WindowManager(  676): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:8539)
+W/WindowManager(  676): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:8530)
+W/WindowManager(  676): 	at com.android.server.wm.WindowManagerService.removeWindow(WindowManagerService.java:2593)
+W/WindowManager(  676): 	at com.android.server.wm.Session.remove(Session.java:187)
+W/WindowManager(  676): 	at android.view.ViewRootImpl.dispatchDetachedFromWindow(ViewRootImpl.java:3009)
+W/WindowManager(  676): 	at android.view.ViewRootImpl.doDie(ViewRootImpl.java:5496)
+W/WindowManager(  676): 	at android.view.ViewRootImpl$ViewRootHandler.handleMessage(ViewRootImpl.java:3315)
+W/WindowManager(  676): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/WindowManager(  676): 	at android.os.Looper.loop(Looper.java:135)
+W/WindowManager(  676): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+W/WindowManager(  676): 	at com.android.server.ServiceThread.run(ServiceThread.java:46)
+W/EGL_emulation( 1569): eglSurfaceAttrib not implemented
+W/OpenGLRenderer( 1569): Failed to set EGL_SWAP_BEHAVIOR on surface 0xe0d9fb80, error=EGL_SUCCESS
+W/InputMethodManagerService(  676): Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@281ff01b attribute=null, token = android.os.BinderProxy@61938b5
+W/OpenGLRenderer( 1569): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+D/TaskPersister(  676): removeObsoleteFile: deleting file=10_task.xml
+D/AndroidRuntime( 4373): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 4373): CheckJNI is OFF
+E/memtrack( 4373): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 4373): failed to load memtrack module: -2
+D/AndroidRuntime( 4373): Calling main entry com.android.commands.monkey.Monkey
+W/BroadcastQueue(  676): Skipping deliver [background] BroadcastRecord{134372f7 u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{22c96564 4373 (unknown name)/0/u-1 remote:267bcf91}: process crashing
+I/ActivityManager(  676): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity} from uid 0 on display 0
+V/WindowManager(  676): addAppToken: AppWindowToken{27b24793 token=Token{30bcd482 ActivityRecord{3bfcd3cd u0 com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity t11}}} to stack=1 task=11 at 0
+V/WindowManager(  676): Adding window Window{24cc71da u0 Starting com.iamtrk.androidexplorer} at 2 of 7 (after Window{19027b4a u0 com.android.launcher3/com.android.launcher3.Launcher})
+E/libprocessgroup( 4387): failed to make and chown /acct/uid_10060: Read-only file system
+W/Zygote  ( 4387): createProcessGroup failed, kernel missing CONFIG_CGROUP_CPUACCT?
+I/ActivityManager(  676): Start proc 4387:com.iamtrk.androidexplorer/u0a60 for activity com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity
+D/Sensors (  676): batch handle 1, but there is no batch sensor in genymotion
+I/art     ( 4373): System.exit called, status: 0
+I/AndroidRuntime( 4373): VM exiting with result code 0.
+D/leak-14 ( 4387): Eastern Standard Time
+D/leak-18 ( 4387): Eastern Standard Time
+D/leak-30 ( 4387): Eastern Standard Time
+D/leak-159( 4387): Eastern Standard Time
+D/leak-53 ( 4387): Eastern Standard Time
+D/leak-66 ( 4387): Eastern Standard Time
+D/leak-46 ( 4387): Eastern Standard Time
+D/leak-53 ( 4387): Eastern Standard Time
+D/leak-120( 4387): Eastern Standard Time
+D/leak-46 ( 4387): Eastern Standard Time
+D/leak-53 ( 4387): Eastern Standard Time
+D/leak-97 ( 4387): Eastern Standard Time
+D/leak-46 ( 4387): Eastern Standard Time
+D/leak-53 ( 4387): Eastern Standard Time
+D/leak-75 ( 4387): Eastern Standard Time
+D/leak-76 ( 4387): Eastern Standard Time
+D/leak-57 ( 4387): Eastern Standard Time
+D/leak-57 ( 4387): Eastern Standard Time
+D/leak-57 ( 4387): Eastern Standard Time
+D/leak-57 ( 4387): Eastern Standard Time
+D/leak-57 ( 4387): Eastern Standard Time
+D/leak-57 ( 4387): Eastern Standard Time
+D/leak-57 ( 4387): Eastern Standard Time
+D/leak-57 ( 4387): Eastern Standard Time
+D/leak-58 ( 4387): Eastern Standard Time
+D/leak-59 ( 4387): Eastern Standard Time
+D/leak-59 ( 4387): Eastern Standard Time
+D/leak-60 ( 4387): Eastern Standard Time
+D/leak-61 ( 4387): Eastern Standard Time
+D/leak-59 ( 4387): Eastern Standard Time
+D/leak-59 ( 4387): Eastern Standard Time
+D/leak-59 ( 4387): Eastern Standard Time
+D/leak-59 ( 4387): Eastern Standard Time
+D/leak-59 ( 4387): Eastern Standard Time
+D/leak-60 ( 4387): Eastern Standard Time
+D/leak-61 ( 4387): Eastern Standard Time
+D/leak-59 ( 4387): Eastern Standard Time
+I/ConfigItem( 4387): Config: {1.0 310mcc270mnc en_US ldltr sw600dp w600dp h887dp 320dpi lrg port finger -keyb/v/h dpad/v s.6}
+I/ConfigItem( 4387): fontScale: 1.00000
+I/ConfigItem( 4387): hardKeyboardHidden: 2
+I/ConfigItem( 4387): keyboard: 1
+I/ConfigItem( 4387): keyboardHidden: 1
+I/ConfigItem( 4387): locale: en_US
+I/ConfigItem( 4387): mcc: 310
+I/ConfigItem( 4387): mnc: 270
+I/ConfigItem( 4387): navigation: 2
+I/ConfigItem( 4387): navigationHidden: 1
+I/ConfigItem( 4387): orientation: 1
+I/ConfigItem( 4387): screenHeightDp: 887
+I/ConfigItem( 4387): screenLayout: 0x10000053
+I/ConfigItem( 4387): screenWidthDp: 600
+I/ConfigItem( 4387): smallestScreenWidthDp: 600
+I/ConfigItem( 4387): touchscreen: 3
+I/ConfigItem( 4387): uiMode: UI_MODE_TYPE_NORMAL|UI_MODE_NIGHT_NO
+D/leak-46 ( 4387): Eastern Standard Time
+D/leak-53 ( 4387): Eastern Standard Time
+D/leak-72 ( 4387): Eastern Standard Time
+D/leak-46 ( 4387): Eastern Standard Time
+D/leak-53 ( 4387): Eastern Standard Time
+D/leak-85 ( 4387): Eastern Standard Time
+D/leak-46 ( 4387): Eastern Standard Time
+D/leak-53 ( 4387): Eastern Standard Time
+D/leak-85 ( 4387): Eastern Standard Time
+D/leak-46 ( 4387): Eastern Standard Time
+D/leak-53 ( 4387): Eastern Standard Time
+D/leak-85 ( 4387): Eastern Standard Time
+D/leak-46 ( 4387): Eastern Standard Time
+D/leak-53 ( 4387): Eastern Standard Time
+D/leak-85 ( 4387): Eastern Standard Time
+D/leak-46 ( 4387): Eastern Standard Time
+D/leak-53 ( 4387): Eastern Standard Time
+D/leak-146( 4387): Eastern Standard Time
+D/leak-46 ( 4387): Eastern Standard Time
+D/leak-53 ( 4387): Eastern Standard Time
+D/leak-117( 4387): Eastern Standard Time
+D/leak-46 ( 4387): Eastern Standard Time
+D/leak-53 ( 4387): Eastern Standard Time
+D/leak-111( 4387): Eastern Standard Time
+D/leak-46 ( 4387): Eastern Standard Time
+D/leak-53 ( 4387): Eastern Standard Time
+D/leak-85 ( 4387): Eastern Standard Time
+D/leak-46 ( 4387): Eastern Standard Time
+D/leak-53 ( 4387): Eastern Standard Time
+D/leak-87 ( 4387): Eastern Standard Time
+D/leak-46 ( 4387): Eastern Standard Time
+D/leak-53 ( 4387): Eastern Standard Time
+D/leak-85 ( 4387): Eastern Standard Time
+D/leak-46 ( 4387): Eastern Standard Time
+D/leak-53 ( 4387): Eastern Standard Time
+D/leak-85 ( 4387): Eastern Standard Time
+D/leak-46 ( 4387): Eastern Standard Time
+D/leak-53 ( 4387): Eastern Standard Time
+D/leak-85 ( 4387): Eastern Standard Time
+D/leak-46 ( 4387): Eastern Standard Time
+D/leak-53 ( 4387): Eastern Standard Time
+D/leak-85 ( 4387): Eastern Standard Time
+D/leak-46 ( 4387): Eastern Standard Time
+D/leak-53 ( 4387): Eastern Standard Time
+D/leak-78 ( 4387): Eastern Standard Time
+D/leak-46 ( 4387): Eastern Standard Time
+D/leak-53 ( 4387): Eastern Standard Time
+D/leak-68 ( 4387): Eastern Standard Time
+D/leak-46 ( 4387): Eastern Standard Time
+D/leak-53 ( 4387): Eastern Standard Time
+D/leak-92 ( 4387): Eastern Standard Time
+D/leak-46 ( 4387): Eastern Standard Time
+D/leak-53 ( 4387): Eastern Standard Time
+D/leak-149( 4387): Eastern Standard Time
+D/leak-46 ( 4387): Eastern Standard Time
+D/leak-53 ( 4387): Eastern Standard Time
+D/leak-85 ( 4387): Eastern Standard Time
+D/leak-46 ( 4387): Eastern Standard Time
+D/leak-198( 4387): Eastern Standard Time
+D/leak-203( 4387): Eastern Standard Time
+D/leak-199( 4387): Eastern Standard Time
+D/leak-40 ( 4387): Eastern Standard Time
+D/leak-44 ( 4387): Eastern Standard Time
+D/leak-174( 4387): Eastern Standard Time
+D/leak-201( 4387): Eastern Standard Time
+D/leak-161( 4387): Eastern Standard Time
+D/leak-162( 4387): Eastern Standard Time
+D/leak-180( 4387): Eastern Standard Time
+D/leak-181( 4387): Eastern Standard Time
+D/leak-182( 4387): Eastern Standard Time
+D/AndroidRuntime( 4387): Shutting down VM
+E/AndroidRuntime( 4387): FATAL EXCEPTION: main
+E/AndroidRuntime( 4387): Process: com.iamtrk.androidexplorer, PID: 4387
+E/AndroidRuntime( 4387): java.lang.RuntimeException: Unable to start activity ComponentInfo{com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity}: java.lang.RuntimeException: java.io.FileNotFoundException: /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: open failed: ENOENT (No such file or directory)
+E/AndroidRuntime( 4387): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2325)
+E/AndroidRuntime( 4387): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2387)
+E/AndroidRuntime( 4387): 	at android.app.ActivityThread.access$800(ActivityThread.java:151)
+E/AndroidRuntime( 4387): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1303)
+E/AndroidRuntime( 4387): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/AndroidRuntime( 4387): 	at android.os.Looper.loop(Looper.java:135)
+E/AndroidRuntime( 4387): 	at android.app.ActivityThread.main(ActivityThread.java:5254)
+E/AndroidRuntime( 4387): 	at java.lang.reflect.Method.invoke(Native Method)
+E/AndroidRuntime( 4387): 	at java.lang.reflect.Method.invoke(Method.java:372)
+E/AndroidRuntime( 4387): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:903)
+E/AndroidRuntime( 4387): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:698)
+E/AndroidRuntime( 4387): Caused by: java.lang.RuntimeException: java.io.FileNotFoundException: /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: open failed: ENOENT (No such file or directory)
+E/AndroidRuntime( 4387): 	at com.iamtrk.a.c.<init>(Unknown Source)
+E/AndroidRuntime( 4387): 	at com.iamtrk.ItemListActivity.k(Unknown Source)
+E/AndroidRuntime( 4387): 	at com.iamtrk.ItemListActivity.onCreate(Unknown Source)
+E/AndroidRuntime( 4387): 	at android.app.Activity.performCreate(Activity.java:5990)
+E/AndroidRuntime( 4387): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1106)
+E/AndroidRuntime( 4387): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2278)
+E/AndroidRuntime( 4387): 	... 10 more
+E/AndroidRuntime( 4387): Caused by: java.io.FileNotFoundException: /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: open failed: ENOENT (No such file or directory)
+E/AndroidRuntime( 4387): 	at libcore.io.IoBridge.open(IoBridge.java:456)
+E/AndroidRuntime( 4387): 	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:117)
+E/AndroidRuntime( 4387): 	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:149)
+E/AndroidRuntime( 4387): 	... 16 more
+E/AndroidRuntime( 4387): Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+E/AndroidRuntime( 4387): 	at libcore.io.Posix.open(Native Method)
+E/AndroidRuntime( 4387): 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:186)
+E/AndroidRuntime( 4387): 	at libcore.io.IoBridge.open(IoBridge.java:442)
+E/AndroidRuntime( 4387): 	... 18 more
+W/ActivityManager(  676):   Force finishing activity 1 com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity
+D/        (  676): HostConnection::get() New Host Connection established 0xdf5d06c0, tid 1558
+E/EGL_emulation(  646): tid 646: eglCreateSyncKHR(1215): error 0x3004 (EGL_BAD_ATTRIBUTE)
+W/art     (  676): Long monitor contention event with owner method=android.graphics.Bitmap com.android.server.wm.WindowManagerService.screenshotApplications(android.os.IBinder, int, int, int, boolean) from WindowManagerService.java:6129 waiters=0 for 299ms
+W/art     (  676): Long monitor contention event with owner method=void com.android.server.am.ActivityManagerService.crashApplication(com.android.server.am.ProcessRecord, android.app.ApplicationErrorReport$CrashInfo) from ActivityManagerService.java:12093 waiters=0 for 614ms
+W/art     (  676): Long monitor contention event with owner method=void com.android.server.am.ActivityManagerService.crashApplication(com.android.server.am.ProcessRecord, android.app.ApplicationErrorReport$CrashInfo) from ActivityManagerService.java:12093 waiters=1 for 217ms
+I/OpenGLRenderer(  676): Initialized EGL, version 1.4
+W/EGL_emulation(  676): eglSurfaceAttrib not implemented
+W/OpenGLRenderer(  676): Failed to set EGL_SWAP_BEHAVIOR on surface 0xd98a0260, error=EGL_SUCCESS
+W/EGL_emulation(  676): eglSurfaceAttrib not implemented
+W/OpenGLRenderer(  676): Failed to set EGL_SWAP_BEHAVIOR on surface 0xd98a0260, error=EGL_SUCCESS
+W/ActivityManager(  676): Activity pause timeout for ActivityRecord{3bfcd3cd u0 com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity t11 f}
+W/art     (  676): Long monitor contention event with owner method=void com.android.server.am.ActivityStack$ActivityStackHandler.handleMessage(android.os.Message) from ActivityStack.java:273 waiters=0 for 212ms
+W/ResourceType( 1079): No package identifier when getting value for resource number 0x00000000
+W/PackageManager( 1079): Failure retrieving resources for com.iamtrk.androidexplorer: Resource ID #0x0
+W/EGL_emulation( 1569): eglSurfaceAttrib not implemented
+W/OpenGLRenderer( 1569): Failed to set EGL_SWAP_BEHAVIOR on surface 0xe0d9f880, error=EGL_SUCCESS
+W/OpenGLRenderer( 1569): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+D/AndroidRuntime( 4420): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 4420): CheckJNI is OFF
+E/memtrack( 4420): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 4420): failed to load memtrack module: -2
+D/AndroidRuntime( 4420): Calling main entry com.android.commands.uiautomator.Launcher
+W/AccessibilityNodeInfoDumper( 4420): Fetch time: 2ms
+W/WindowManager(  676): Attempted to remove non-existing token: android.os.Binder@ea46018
+D/AndroidRuntime( 4420): Shutting down VM
+D/AndroidRuntime( 4442): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 4442): CheckJNI is OFF
+E/memtrack( 4442): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 4442): failed to load memtrack module: -2
+D/AndroidRuntime( 4442): Calling main entry com.android.commands.uiautomator.Launcher
+W/AccessibilityNodeInfoDumper( 4442): Fetch time: 2ms
+W/WindowManager(  676): Attempted to remove non-existing token: android.os.Binder@7f8ebcf
+D/AndroidRuntime( 4442): Shutting down VM
+D/AndroidRuntime( 4470): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 4470): CheckJNI is OFF
+E/memtrack( 4470): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 4470): failed to load memtrack module: -2
+D/AndroidRuntime( 4470): Calling main entry com.android.commands.uiautomator.Launcher
+W/AccessibilityNodeInfoDumper( 4470): Fetch time: 1ms
+W/WindowManager(  676): Attempted to remove non-existing token: android.os.Binder@2defa95c
+D/AndroidRuntime( 4470): Shutting down VM
+D/AndroidRuntime( 4502): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 4502): CheckJNI is OFF
+E/memtrack( 4502): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 4502): failed to load memtrack module: -2
+D/AndroidRuntime( 4502): Calling main entry com.android.commands.uiautomator.Launcher
+W/ActivityManager(  676): Activity destroy timeout for ActivityRecord{3bfcd3cd u0 com.iamtrk.androidexplorer/com.iamtrk.ItemListActivity t11 f}
+W/AccessibilityNodeInfoDumper( 4502): Fetch time: 1ms
+W/WindowManager(  676): Attempted to remove non-existing token: android.os.Binder@2dcd5465
+D/AndroidRuntime( 4502): Shutting down VM
+Elapsed Time: 129325

@@ -1,0 +1,92 @@
+/home/amit/muse/output/babymonitor/schemas/COMPLEXREACHABILITY/babymonitor
+In file: DiscoverActivity.java
+Input operator: COMPLEXREACHABILITY
+leak-0: DiscoverActivity.onCreate
+leak-1: 1.onClick
+leak-2: 1.onClick
+leak-3: DiscoverActivity.loadDiscoveryViaMdns
+leak-4: DiscoverActivity.loadDiscoveryViaAddress
+leak-5: 1.onClick
+leak-6: 1.onClick
+leak-7: 1.onClick
+leak-8: 1.onClick
+leak-9: DiscoverActivity.onDestroy
+leak-10: DiscoverActivity.onDestroy
+leak-11: DiscoverActivity.startServiceDiscovery
+leak-12: 1.onItemClick
+leak-13: 1.onDiscoveryStarted
+leak-14: 1.onServiceFound
+leak-15: 1.onServiceFound
+leak-16: 1.onServiceFound
+leak-17: 1.onResolveFailed
+leak-18: 1.onServiceResolved
+leak-19: 1.run
+leak-20: 1.onServiceFound
+leak-21: 1.onServiceLost
+leak-22: 1.onDiscoveryStopped
+leak-23: 1.onStartDiscoveryFailed
+leak-24: 1.onStopDiscoveryFailed
+leak-25: DiscoverActivity.connectToChild
+leak-26: ServiceInfoWrapper.ServiceInfoWrapper
+leak-27: ServiceInfoWrapper.getAddress
+leak-28: ServiceInfoWrapper.getPort
+leak-29: ServiceInfoWrapper.getName
+leak-30: ServiceInfoWrapper.toString
+In file: MonitorActivity.java
+Input operator: COMPLEXREACHABILITY
+leak-31: MonitorActivity.serviceConnection
+leak-32: 1.run
+leak-33: MonitorActivity.serviceConnection
+leak-34: MonitorActivity.serviceConnection
+leak-35: MonitorActivity.serviceConnection
+leak-36: MonitorActivity.onCreate
+leak-37: 1.run
+leak-38: 1.run
+leak-39: 1.run
+leak-40: 1.run
+leak-41: 1.run
+leak-42: 1.run
+leak-43: 1.run
+leak-44: 1.run
+leak-45: 1.run
+leak-46: 1.run
+leak-47: 1.run
+leak-48: 1.run
+leak-49: MonitorActivity.onDestroy
+leak-50: MonitorActivity.onDestroy
+leak-51: MonitorActivity.onCreateOptionsMenu
+leak-52: MonitorActivity.onOptionsItemSelected
+leak-53: MonitorActivity.onOptionsItemSelected
+leak-54: MonitorActivity.registerService
+leak-55: 1.onServiceRegistered
+leak-56: 1.run
+leak-57: 1.onRegistrationFailed
+leak-58: 1.onServiceUnregistered
+leak-59: 1.onUnregistrationFailed
+leak-60: MonitorActivity.unregisterService
+leak-61: MonitorActivity.unregisterService
+In file: ListenActivity.java
+Input operator: COMPLEXREACHABILITY
+leak-62: ListenActivity.streamAudio
+leak-63: ListenActivity.streamAudio
+leak-64: ListenActivity.streamAudio
+leak-65: ListenActivity.streamAudio
+leak-66: ListenActivity.streamAudio
+leak-67: ListenActivity.onCreate
+leak-68: 1.run
+leak-69: 1.run
+leak-70: 1.run
+leak-71: 1.run
+leak-72: 1.run
+leak-73: 1.run
+leak-74: 1.run
+leak-75: ListenActivity.onDestroy
+leak-76: ListenActivity.playAlert
+leak-77: ListenActivity.playAlert
+leak-78: 1.onCompletion
+leak-79: ListenActivity.playAlert
+In file: StartActivity.java
+Input operator: COMPLEXREACHABILITY
+leak-80: StartActivity.onCreate
+leak-81: 1.onClick
+leak-82: 1.onClick

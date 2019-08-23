@@ -1,0 +1,491 @@
+/home/amit/muse/output/androidpn/schemas/REACHABILITY/androidpn
+In file: onClickListener.java
+Input operator: REACHABILITY
+leak-0: <onClickListener.<init>>
+leak-1: onClickListener.onClickListener
+leak-2: onClickListener.onItemClick
+leak-3: onClickListener.onItemClick
+leak-4: onClickListener.onItemClick
+leak-5: onClickListener.onItemClick
+In file: EasyPermissions.java
+Input operator: REACHABILITY
+leak-6: <EasyPermissions.<init>>
+leak-7: EasyPermissions.hasPermissions
+leak-8: EasyPermissions.hasPermissions
+leak-9: EasyPermissions.hasPermissions
+leak-10: EasyPermissions.requestPermissions
+leak-11: EasyPermissions.requestPermissions
+leak-12: EasyPermissions.requestPermissions
+leak-13: EasyPermissions.requestPermissions
+leak-14: <1.<init>>
+leak-15: 1.onClick
+leak-16: <1.<init>>
+leak-17: 1.onClick
+leak-18: EasyPermissions.requestPermissions
+leak-19: EasyPermissions.onRequestPermissionsResult
+leak-20: EasyPermissions.onRequestPermissionsResult
+leak-21: EasyPermissions.onRequestPermissionsResult
+leak-22: EasyPermissions.onRequestPermissionsResult
+leak-23: EasyPermissions.onRequestPermissionsResult
+leak-24: EasyPermissions.onRequestPermissionsResult
+leak-25: EasyPermissions.onRequestPermissionsResult
+leak-26: EasyPermissions.shouldShowRequestPermissionRationale
+leak-27: EasyPermissions.shouldShowRequestPermissionRationale
+leak-28: EasyPermissions.shouldShowRequestPermissionRationale
+leak-29: EasyPermissions.shouldShowRequestPermissionRationale
+leak-30: EasyPermissions.executePermissionsRequest
+leak-31: EasyPermissions.executePermissionsRequest
+leak-32: EasyPermissions.executePermissionsRequest
+leak-33: EasyPermissions.getActivity
+leak-34: EasyPermissions.getActivity
+leak-35: EasyPermissions.getActivity
+leak-36: EasyPermissions.getActivity
+leak-37: EasyPermissions.runAnnotatedMethods
+leak-38: EasyPermissions.runAnnotatedMethods
+leak-39: EasyPermissions.runAnnotatedMethods
+leak-40: EasyPermissions.runAnnotatedMethods
+leak-41: EasyPermissions.runAnnotatedMethods
+leak-42: EasyPermissions.runAnnotatedMethods
+leak-43: EasyPermissions.runAnnotatedMethods
+leak-44: EasyPermissions.runAnnotatedMethods
+leak-45: EasyPermissions.runAnnotatedMethods
+leak-46: EasyPermissions.checkCallingObjectSuitability
+leak-47: EasyPermissions.checkCallingObjectSuitability
+leak-48: EasyPermissions.checkCallingObjectSuitability
+In file: fixTheme.java
+Input operator: REACHABILITY
+leak-49: <fixTheme.<init>>
+leak-50: fixTheme.getThemePref
+leak-51: fixTheme.getThemePref
+leak-52: fixTheme.getThemePref
+leak-53: fixTheme.fixTheme
+leak-54: fixTheme.fixTheme
+In file: SwipeDismissListViewTouchListener.java
+Input operator: REACHABILITY
+leak-55: <SwipeDismissListViewTouchListener.<init>>
+leak-56: SwipeDismissListViewTouchListener.SwipeDismissListViewTouchListener
+leak-57: SwipeDismissListViewTouchListener.setEnabled
+leak-58: SwipeDismissListViewTouchListener.makeScrollListener
+leak-59: <1.<init>>
+leak-60: 1.onScrollStateChanged
+leak-61: 1.onScroll
+leak-62: SwipeDismissListViewTouchListener.onTouch
+leak-63: SwipeDismissListViewTouchListener.onTouch
+leak-64: SwipeDismissListViewTouchListener.onTouch
+leak-65: SwipeDismissListViewTouchListener.onTouch
+leak-66: SwipeDismissListViewTouchListener.onTouch
+leak-67: SwipeDismissListViewTouchListener.onTouch
+leak-68: SwipeDismissListViewTouchListener.onTouch
+leak-69: SwipeDismissListViewTouchListener.onTouch
+leak-70: SwipeDismissListViewTouchListener.onTouch
+leak-71: SwipeDismissListViewTouchListener.onTouch
+leak-72: SwipeDismissListViewTouchListener.onTouch
+leak-73: SwipeDismissListViewTouchListener.onTouch
+leak-74: SwipeDismissListViewTouchListener.onTouch
+leak-75: SwipeDismissListViewTouchListener.onTouch
+leak-76: SwipeDismissListViewTouchListener.onTouch
+leak-77: SwipeDismissListViewTouchListener.onTouch
+leak-78: SwipeDismissListViewTouchListener.onTouch
+leak-79: SwipeDismissListViewTouchListener.onTouch
+leak-80: <1.<init>>
+leak-81: 1.onAnimationEnd
+leak-82: SwipeDismissListViewTouchListener.onTouch
+leak-83: SwipeDismissListViewTouchListener.onTouch
+leak-84: SwipeDismissListViewTouchListener.onTouch
+leak-85: SwipeDismissListViewTouchListener.onTouch
+leak-86: SwipeDismissListViewTouchListener.onTouch
+leak-87: SwipeDismissListViewTouchListener.onTouch
+leak-88: SwipeDismissListViewTouchListener.onTouch
+leak-89: <PendingDismissData.<init>>
+leak-90: PendingDismissData.PendingDismissData
+leak-91: PendingDismissData.compareTo
+leak-92: SwipeDismissListViewTouchListener.performDismiss
+leak-93: <1.<init>>
+leak-94: 1.onAnimationEnd
+leak-95: 1.onAnimationEnd
+leak-96: 1.onAnimationEnd
+leak-97: 1.onAnimationEnd
+leak-98: <1.<init>>
+leak-99: 1.onAnimationUpdate
+In file: AfterPermissionGranted.java
+Input operator: REACHABILITY
+In file: SwipeDismissTouchListener.java
+Input operator: REACHABILITY
+leak-100: <SwipeDismissTouchListener.<init>>
+leak-101: SwipeDismissTouchListener.SwipeDismissTouchListener
+leak-102: SwipeDismissTouchListener.onTouch
+leak-103: SwipeDismissTouchListener.onTouch
+leak-104: SwipeDismissTouchListener.onTouch
+leak-105: SwipeDismissTouchListener.onTouch
+leak-106: SwipeDismissTouchListener.onTouch
+leak-107: SwipeDismissTouchListener.onTouch
+leak-108: SwipeDismissTouchListener.onTouch
+leak-109: SwipeDismissTouchListener.onTouch
+leak-110: SwipeDismissTouchListener.onTouch
+leak-111: SwipeDismissTouchListener.onTouch
+leak-112: <1.<init>>
+leak-113: 1.onAnimationEnd
+leak-114: SwipeDismissTouchListener.onTouch
+leak-115: SwipeDismissTouchListener.onTouch
+leak-116: SwipeDismissTouchListener.onTouch
+leak-117: SwipeDismissTouchListener.onTouch
+leak-118: SwipeDismissTouchListener.onTouch
+leak-119: SwipeDismissTouchListener.onTouch
+leak-120: SwipeDismissTouchListener.onTouch
+leak-121: SwipeDismissTouchListener.onTouch
+leak-122: SwipeDismissTouchListener.onTouch
+leak-123: SwipeDismissTouchListener.onTouch
+leak-124: SwipeDismissTouchListener.performDismiss
+leak-125: <1.<init>>
+leak-126: 1.onAnimationEnd
+leak-127: <1.<init>>
+leak-128: 1.onAnimationUpdate
+In file: MainActivity.java
+Input operator: REACHABILITY
+leak-129: <MainActivity.<init>>
+leak-130: MainActivity.onCreate
+leak-131: MainActivity.onCreate
+leak-132: MainActivity.onCreate
+leak-133: MainActivity.set
+leak-134: MainActivity.set
+leak-135: MainActivity.set
+leak-136: MainActivity.resetList
+leak-137: MainActivity.resetList
+leak-138: MainActivity.resetList
+leak-139: MainActivity.resetList
+leak-140: MainActivity.resetList
+leak-141: MainActivity.resetList
+leak-142: MainActivity.resetList
+leak-143: <1.<init>>
+leak-144: 1.canDismiss
+leak-145: 1.onDismiss
+leak-146: 1.onDismiss
+leak-147: MainActivity.onCreateOptionsMenu
+leak-148: MainActivity.onPrepareOptionsMenu
+leak-149: MainActivity.onPrepareOptionsMenu
+leak-150: MainActivity.onPrepareOptionsMenu
+leak-151: MainActivity.onOptionsItemSelected
+leak-152: MainActivity.onOptionsItemSelected
+leak-153: MainActivity.onOptionsItemSelected
+leak-154: MainActivity.onOptionsItemSelected
+leak-155: MainActivity.onOptionsItemSelected
+leak-156: MainActivity.onOptionsItemSelected
+leak-157: MainActivity.onActivityResult
+leak-158: MainActivity.onActivityResult
+leak-159: MainActivity.onActivityResult
+leak-160: MainActivity.onActivityResult
+leak-161: MainActivity.onActivityResult
+leak-162: MainActivity.onActivityResult
+leak-163: MainActivity.onResume
+leak-164: MainActivity.onResume
+leak-165: MainActivity.onResume
+leak-166: MainActivity.onPause
+leak-167: MainActivity.onRequestPermissionsResult
+leak-168: MainActivity.onPermissionsGranted
+leak-169: MainActivity.onPermissionsDenied
+In file: PrefsFragment.java
+Input operator: REACHABILITY
+leak-170: <PrefsFragment.<init>>
+leak-171: PrefsFragment.onCreate
+In file: MySQLiteHelper.java
+Input operator: REACHABILITY
+leak-172: <MySQLiteHelper.<init>>
+leak-173: MySQLiteHelper.MySQLiteHelper
+leak-174: MySQLiteHelper.onCreate
+leak-175: MySQLiteHelper.onUpgrade
+In file: XmppManager.java
+Input operator: REACHABILITY
+leak-176: <XmppManager.<init>>
+leak-177: XmppManager.XmppManager
+leak-178: XmppManager.getContext
+leak-179: XmppManager.connect
+leak-180: XmppManager.disconnect
+leak-181: XmppManager.disconnect
+leak-182: XmppManager.terminatePersistentConnection
+leak-183: <1.<init>>
+leak-184: 1.run
+leak-185: 1.run
+leak-186: XmppManager.getConnection
+leak-187: XmppManager.setConnection
+leak-188: XmppManager.getUsername
+leak-189: XmppManager.setUsername
+leak-190: XmppManager.getPassword
+leak-191: XmppManager.setPassword
+leak-192: XmppManager.getConnectionListener
+leak-193: XmppManager.getNotificationPacketListener
+leak-194: XmppManager.startReconnectionThread
+leak-195: XmppManager.startReconnectionThread
+leak-196: XmppManager.startReconnectionThread
+leak-197: XmppManager.getHandler
+leak-198: XmppManager.reregisterAccount
+leak-199: XmppManager.getTaskList
+leak-200: XmppManager.getFutureTask
+leak-201: XmppManager.runTask
+leak-202: XmppManager.runTask
+leak-203: XmppManager.runTask
+leak-204: XmppManager.runTask
+leak-205: XmppManager.newRandomUUID
+leak-206: XmppManager.isConnected
+leak-207: XmppManager.isAuthenticated
+leak-208: XmppManager.isRegistered
+leak-209: XmppManager.submitConnectTask
+leak-210: XmppManager.submitRegisterTask
+leak-211: XmppManager.submitLoginTask
+leak-212: XmppManager.addTask
+leak-213: XmppManager.addTask
+leak-214: XmppManager.addTask
+leak-215: XmppManager.addTask
+leak-216: XmppManager.addTask
+leak-217: XmppManager.removeAccount
+leak-218: <ConnectTask.<init>>
+leak-219: ConnectTask.ConnectTask
+leak-220: ConnectTask.run
+leak-221: ConnectTask.run
+leak-222: ConnectTask.run
+leak-223: ConnectTask.run
+leak-224: ConnectTask.run
+leak-225: ConnectTask.run
+leak-226: <RegisterTask.<init>>
+leak-227: RegisterTask.RegisterTask
+leak-228: RegisterTask.run
+leak-229: RegisterTask.run
+leak-230: RegisterTask.run
+leak-231: RegisterTask.run
+leak-232: <1.<init>>
+leak-233: 1.processPacket
+leak-234: 1.processPacket
+leak-235: 1.processPacket
+leak-236: 1.processPacket
+leak-237: 1.processPacket
+leak-238: RegisterTask.run
+leak-239: RegisterTask.run
+leak-240: RegisterTask.run
+leak-241: <LoginTask.<init>>
+leak-242: LoginTask.LoginTask
+leak-243: LoginTask.run
+leak-244: LoginTask.run
+leak-245: LoginTask.run
+leak-246: LoginTask.run
+leak-247: LoginTask.run
+leak-248: LoginTask.run
+leak-249: LoginTask.run
+leak-250: LoginTask.run
+leak-251: LoginTask.run
+In file: NotificationPacketListener.java
+Input operator: REACHABILITY
+leak-252: <NotificationPacketListener.<init>>
+leak-253: NotificationPacketListener.NotificationPacketListener
+leak-254: NotificationPacketListener.processPacket
+leak-255: NotificationPacketListener.processPacket
+leak-256: NotificationPacketListener.processPacket
+In file: PersistentConnectionListener.java
+Input operator: REACHABILITY
+leak-257: <PersistentConnectionListener.<init>>
+leak-258: PersistentConnectionListener.PersistentConnectionListener
+leak-259: PersistentConnectionListener.connectionClosed
+leak-260: PersistentConnectionListener.connectionClosedOnError
+leak-261: PersistentConnectionListener.connectionClosedOnError
+leak-262: PersistentConnectionListener.reconnectingIn
+leak-263: PersistentConnectionListener.reconnectionFailed
+leak-264: PersistentConnectionListener.reconnectionSuccessful
+In file: Notifier.java
+Input operator: REACHABILITY
+leak-265: <Notifier.<init>>
+leak-266: Notifier.Notifier
+leak-267: Notifier.notify
+leak-268: Notifier.notify
+leak-269: Notifier.notify
+leak-270: Notifier.notify
+leak-271: Notifier.notify
+leak-272: Notifier.notify
+leak-273: Notifier.notify
+leak-274: Notifier.notify
+leak-275: Notifier.notify
+leak-276: Notifier.notify
+leak-277: Notifier.notify
+leak-278: Notifier.notify
+leak-279: Notifier.getNotificationIcon
+leak-280: Notifier.isNotificationEnabled
+leak-281: Notifier.isNotificationSoundEnabled
+leak-282: Notifier.isNotificationVibrateEnabled
+leak-283: Notifier.isNotificationToastEnabled
+In file: Constants.java
+Input operator: REACHABILITY
+leak-284: <Constants.<init>>
+In file: LogUtil.java
+Input operator: REACHABILITY
+leak-285: <LogUtil.<init>>
+leak-286: LogUtil.makeLogTag
+In file: PhoneStateChangeListener.java
+Input operator: REACHABILITY
+leak-287: <PhoneStateChangeListener.<init>>
+leak-288: PhoneStateChangeListener.PhoneStateChangeListener
+leak-289: PhoneStateChangeListener.onDataConnectionStateChanged
+leak-290: PhoneStateChangeListener.onDataConnectionStateChanged
+leak-291: PhoneStateChangeListener.getState
+In file: NotificationService.java
+Input operator: REACHABILITY
+leak-292: <NotificationService.<init>>
+leak-293: NotificationService.NotificationService
+leak-294: NotificationService.onCreate
+leak-295: NotificationService.onCreate
+leak-296: NotificationService.onCreate
+leak-297: NotificationService.onCreate
+leak-298: <1.<init>>
+leak-299: 1.run
+leak-300: NotificationService.onStartCommand
+leak-301: NotificationService.onDestroy
+leak-302: NotificationService.onBind
+leak-303: NotificationService.onRebind
+leak-304: NotificationService.onUnbind
+leak-305: NotificationService.getIntent
+leak-306: NotificationService.getExecutorService
+leak-307: NotificationService.getTaskSubmitter
+leak-308: NotificationService.getTaskTracker
+leak-309: NotificationService.getXmppManager
+leak-310: NotificationService.getSharedPreferences
+leak-311: NotificationService.getDeviceId
+leak-312: NotificationService.connect
+leak-313: <1.<init>>
+leak-314: 1.run
+leak-315: NotificationService.disconnect
+leak-316: <1.<init>>
+leak-317: 1.run
+leak-318: NotificationService.registerNotificationReceiver
+leak-319: NotificationService.unregisterNotificationReceiver
+leak-320: NotificationService.registerConnectivityReceiver
+leak-321: NotificationService.unregisterConnectivityReceiver
+leak-322: NotificationService.start
+leak-323: NotificationService.stop
+leak-324: <TaskSubmitter.<init>>
+leak-325: TaskSubmitter.TaskSubmitter
+leak-326: TaskSubmitter.submit
+leak-327: TaskSubmitter.submit
+leak-328: <TaskTracker.<init>>
+leak-329: TaskTracker.TaskTracker
+leak-330: TaskTracker.increase
+leak-331: TaskTracker.increase
+leak-332: TaskTracker.decrease
+leak-333: TaskTracker.decrease
+In file: NotificationIQ.java
+Input operator: REACHABILITY
+leak-334: <NotificationIQ.<init>>
+leak-335: NotificationIQ.NotificationIQ
+leak-336: NotificationIQ.getChildElementXML
+leak-337: NotificationIQ.getChildElementXML
+leak-338: NotificationIQ.getId
+leak-339: NotificationIQ.setId
+leak-340: NotificationIQ.getApiKey
+leak-341: NotificationIQ.setApiKey
+leak-342: NotificationIQ.getTitle
+leak-343: NotificationIQ.setTitle
+leak-344: NotificationIQ.getMessage
+leak-345: NotificationIQ.setMessage
+leak-346: NotificationIQ.getUri
+leak-347: NotificationIQ.setUri
+In file: NotificationReceiver.java
+Input operator: REACHABILITY
+leak-348: <NotificationReceiver.<init>>
+leak-349: NotificationReceiver.NotificationReceiver
+leak-350: NotificationReceiver.onReceive
+leak-351: NotificationReceiver.onReceive
+In file: ReconnectionThread.java
+Input operator: REACHABILITY
+leak-352: <ReconnectionThread.<init>>
+leak-353: ReconnectionThread.ReconnectionThread
+leak-354: ReconnectionThread.run
+leak-355: ReconnectionThread.run
+leak-356: ReconnectionThread.run
+leak-357: ReconnectionThread.run
+leak-358: <1.<init>>
+leak-359: 1.run
+leak-360: ReconnectionThread.waiting
+leak-361: ReconnectionThread.waiting
+leak-362: ReconnectionThread.waiting
+In file: NotificationIQProvider.java
+Input operator: REACHABILITY
+leak-363: <NotificationIQProvider.<init>>
+leak-364: NotificationIQProvider.NotificationIQProvider
+leak-365: NotificationIQProvider.parseIQ
+leak-366: NotificationIQProvider.parseIQ
+leak-367: NotificationIQProvider.parseIQ
+leak-368: NotificationIQProvider.parseIQ
+leak-369: NotificationIQProvider.parseIQ
+leak-370: NotificationIQProvider.parseIQ
+leak-371: NotificationIQProvider.parseIQ
+leak-372: NotificationIQProvider.parseIQ
+leak-373: NotificationIQProvider.parseIQ
+In file: ConnectivityReceiver.java
+Input operator: REACHABILITY
+leak-374: <ConnectivityReceiver.<init>>
+leak-375: ConnectivityReceiver.ConnectivityReceiver
+leak-376: ConnectivityReceiver.onReceive
+leak-377: ConnectivityReceiver.onReceive
+leak-378: ConnectivityReceiver.onReceive
+leak-379: ConnectivityReceiver.onReceive
+In file: InvalidFormatException.java
+Input operator: REACHABILITY
+leak-380: <InvalidFormatException.<init>>
+leak-381: InvalidFormatException.InvalidFormatException
+leak-382: InvalidFormatException.InvalidFormatException
+leak-383: InvalidFormatException.InvalidFormatException
+leak-384: InvalidFormatException.InvalidFormatException
+In file: ServiceManager.java
+Input operator: REACHABILITY
+leak-385: <ServiceManager.<init>>
+leak-386: ServiceManager.isNewSettings
+leak-387: ServiceManager.isNewSettings
+leak-388: ServiceManager.ServiceManager
+leak-389: ServiceManager.ServiceManager
+leak-390: ServiceManager.isLoggedIn
+leak-391: ServiceManager.isLoggedIn
+leak-392: ServiceManager.setSettings
+leak-393: ServiceManager.setSettings
+leak-394: ServiceManager.setSettings
+leak-395: ServiceManager.startService
+leak-396: <1.<init>>
+leak-397: 1.run
+leak-398: ServiceManager.stopService
+leak-399: ServiceManager.loadProperties
+leak-400: ServiceManager.loadProperties
+leak-401: ServiceManager.loadProperties
+leak-402: ServiceManager.setNotificationIcon
+In file: MyBroadcastreceiver.java
+Input operator: REACHABILITY
+leak-403: <MyBroadcastreceiver.<init>>
+leak-404: MyBroadcastreceiver.onReceive
+leak-405: MyBroadcastreceiver.onReceive
+leak-406: MyBroadcastreceiver.onReceive
+In file: PNNotification.java
+Input operator: REACHABILITY
+leak-407: <PNNotification.<init>>
+leak-408: PNNotification.getId
+leak-409: PNNotification.setId
+leak-410: PNNotification.getTitle
+leak-411: PNNotification.getUri
+leak-412: PNNotification.getDttm
+leak-413: PNNotification.setUri
+leak-414: PNNotification.setDttm
+leak-415: PNNotification.setTitle
+leak-416: PNNotification.getMessage
+leak-417: PNNotification.setMessage
+leak-418: PNNotification.toString
+In file: SetPreferenceActivity.java
+Input operator: REACHABILITY
+leak-419: <SetPreferenceActivity.<init>>
+leak-420: SetPreferenceActivity.onCreate
+In file: PNNotificationDataSource.java
+Input operator: REACHABILITY
+leak-421: <PNNotificationDataSource.<init>>
+leak-422: PNNotificationDataSource.PNNotificationDataSource
+leak-423: PNNotificationDataSource.open
+leak-424: PNNotificationDataSource.close
+leak-425: PNNotificationDataSource.createNotification
+leak-426: PNNotificationDataSource.deleteNotification
+leak-427: PNNotificationDataSource.deleteAllNotifications
+leak-428: PNNotificationDataSource.getAllNotifications
+leak-429: PNNotificationDataSource.getAllNotifications
+leak-430: PNNotificationDataSource.fetchAllNotifications
+leak-431: PNNotificationDataSource.fetchAllNotifications
+leak-432: PNNotificationDataSource.cursorTonotification
+leak-433: PNNotificationDataSource.getDateTime
