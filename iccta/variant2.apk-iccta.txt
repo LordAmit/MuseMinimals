@@ -1,0 +1,854 @@
+[IccTA]variant2.apk, /home/aami/data/Android/Sdk/platforms/android-26/android.jar
+[IccTA]ICC Provider is ic3
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+add ipc methods!
+add <android.content.Context: void startActivityForResult(android.content.Intent,int)>
+add <android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,android.os.CancellationSignal)>
+add <android.content.Context: void startActivityIfNeeded(android.content.Intent,int)>
+add <android.content.Context: void startActivity(android.content.Intent,android.os.Bundle)>
+add <android.content.Context: void startActivityFromFragment(android.app.Fragment,android.content.Intent,int)>
+add <android.content.Context: void startActivityFromChild(android.app.Activity,android.content.Intent,int,android.os.Bundle)>
+add <android.content.Context: void sendStickyBroadcastAsUser(android.content.Intent,android.os.UserHandle)>
+add <android.content.Context: void sendOrderedBroadcast(android.content.Intent,java.lang.String)>
+add <android.content.Context: void sendBroadcast(android.content.Intent,java.lang.String)>
+add <android.content.Context: android.content.ComponentName startService(android.content.Intent)>
+add <android.content.Context: void sendBroadcastAsUser(android.content.Intent,android.os.UserHandle,java.lang.String)>
+add <android.content.Context: void startActivity(android.content.Intent)>
+add <android.content.Context: void startActivities(android.content.Intent[],android.os.Bundle)>
+add <android.content.Context: void sendBroadcastAsUser(android.content.Intent,android.os.UserHandle)>
+add <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+add <android.content.Context: boolean bindService(android.content.Intent,android.content.ServiceConnection,int)>
+add <android.content.Context: void sendStickyOrderedBroadcastAsUser(android.content.Intent,android.os.UserHandle,android.content.BroadcastReceiver,android.os.Handler,int,java.lang.String,android.os.Bundle)>
+add <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+add <android.content.Context: void startActivityIfNeeded(android.content.Intent,int,android.os.Bundle)>
+add <android.content.Context: void startActivityFromChild(android.app.Activity,android.content.Intent,int)>
+add <android.content.Context: void startActivityForResult(android.content.Intent,int,android.os.Bundle)>
+add <android.content.Context: void sendStickyOrderedBroadcast(android.content.Intent,android.content.BroadcastReceiver,android.os.Handler,int,java.lang.String,android.os.Bundle)>
+add <android.content.Context: void startActivities(android.content.Intent[])>
+add <android.content.Context: void startActivityFromFragment(android.app.Fragment,android.content.Intent,int,android.os.Bundle)>
+add <android.content.Context: void sendOrderedBroadcast(android.content.Intent,java.lang.String,android.content.BroadcastReceiver,android.os.Handler,int,java.lang.String,android.os.Bundle)>
+add <android.content.Context: void sendOrderedBroadcastAsUser(android.content.Intent,android.os.UserHandle,java.lang.String,android.content.BroadcastReceiver,android.os.Handler,int,java.lang.String,android.os.Bundle)>
+add <android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+add <android.content.Context: void sendBroadcast(android.content.Intent)>
+add <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+add <android.content.Context: void sendStickyBroadcast(android.content.Intent)>
+[main] INFO soot.jimple.infoflow.taintWrappers.EasyTaintWrapper - Loaded wrapper entries for 65 classes and 5 exclusions.
+[main] INFO soot.jimple.infoflow.android.SetupApplication - ARSC file parsing took 0.059228942 seconds
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+get type from 'I'
+get type from 'D'
+get type from 'Z'
+get type from 'D'
+get type from 'Z'
+get type from 'Z'
+get type from 'J'
+get type from 'J'
+get type from 'I'
+get type from 'I'
+get type from 'Z'
+get type from 'J'
+get type from 'J'
+get type from 'J'
+get type from 'J'
+get type from 'I'
+[main] INFO soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Generated main method:
+    public static void dummyMainMethod(java.lang.String[])
+    {
+        java.lang.String[] $r0;
+        int $i0;
+        com.example.variantroute.MainActivity $r1;
+        android.os.Bundle $r2;
+
+        $r0 := @parameter0: java.lang.String[];
+
+        $i0 = 0;
+
+     label1:
+        if $i0 == 0 goto label3;
+
+        $r1 = new com.example.variantroute.MainActivity;
+
+        specialinvoke $r1.<com.example.variantroute.MainActivity: void <init>()>();
+
+        if $i0 == 1 goto label3;
+
+        $r2 = new android.os.Bundle;
+
+        specialinvoke $r2.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r1.<com.example.variantroute.MainActivity: void onCreate(android.os.Bundle)>($r2);
+
+        $r2 = null;
+
+     label2:
+        if $i0 == 3 goto label3;
+
+        if $i0 == 4 goto label2;
+
+     label3:
+        if $i0 == 6 goto label1;
+
+        return;
+    }
+
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 2.8 seconds.
+[Spark] Solution found in 2.8 seconds.
+Callback analysis done.
+Warning: view is a phantom class!
+Warning: com.example.variantroute.view is a phantom class!
+Warning: android.view.view is a phantom class!
+Warning: android.widget.view is a phantom class!
+Warning: android.webkit.view is a phantom class!
+Could not find layout class view
+Found 0 layout controls in file res/layout-sw600dp-v13/design_layout_snackbar.xml
+Warning: FrameLayout is a phantom class!
+Warning: com.example.variantroute.FrameLayout is a phantom class!
+Warning: android.view.FrameLayout is a phantom class!
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Warning: View is a phantom class!
+Warning: com.example.variantroute.View is a phantom class!
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 1 layout controls in file res/layout-v16/design_bottom_sheet_dialog.xml
+Found unrecognized XML attribute:  id
+Warning: ImageView is a phantom class!
+Warning: com.example.variantroute.ImageView is a phantom class!
+Warning: android.view.ImageView is a phantom class!
+Found unrecognized XML attribute:  id
+Warning: LinearLayout is a phantom class!
+Warning: com.example.variantroute.LinearLayout is a phantom class!
+Warning: android.view.LinearLayout is a phantom class!
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Warning: ViewStub is a phantom class!
+Warning: com.example.variantroute.ViewStub is a phantom class!
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Warning: TextView is a phantom class!
+Warning: com.example.variantroute.TextView is a phantom class!
+Warning: android.view.TextView is a phantom class!
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 2 layout controls in file res/layout-v16/notification_template_custom_big.xml
+Found unrecognized XML attribute:  id
+Found 3 layout controls in file res/layout-v17/abc_action_mode_close_item_material.xml
+Warning: ScrollView is a phantom class!
+Warning: com.example.variantroute.ScrollView is a phantom class!
+Warning: android.view.ScrollView is a phantom class!
+Found unrecognized XML attribute:  id
+Warning: Button is a phantom class!
+Warning: com.example.variantroute.Button is a phantom class!
+Warning: android.view.Button is a phantom class!
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 4 layout controls in file res/layout-v17/abc_alert_dialog_button_bar_material.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 5 layout controls in file res/layout-v17/abc_alert_dialog_title_material.xml
+Found unrecognized XML attribute:  id
+Found 6 layout controls in file res/layout-v17/abc_dialog_title_material.xml
+Found unrecognized XML attribute:  id
+Found 7 layout controls in file res/layout-v17/abc_popup_menu_header_item_layout.xml
+Warning: RelativeLayout is a phantom class!
+Warning: com.example.variantroute.RelativeLayout is a phantom class!
+Warning: android.view.RelativeLayout is a phantom class!
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 8 layout controls in file res/layout-v17/abc_popup_menu_item_layout.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Could not find layout class view
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 9 layout controls in file res/layout-v17/abc_search_view.xml
+Could not find layout class view
+Found 9 layout controls in file res/layout-v17/abc_select_dialog_material.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 10 layout controls in file res/layout-v17/activity_main.xml
+Could not find layout class view
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 11 layout controls in file res/layout-v17/design_layout_snackbar_include.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 12 layout controls in file res/layout-v17/fragment_simple.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 13 layout controls in file res/layout-v17/notification_action.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 14 layout controls in file res/layout-v17/notification_action_tombstone.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 15 layout controls in file res/layout-v17/notification_template_big_media.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Warning: DateTimeView is a phantom class!
+Warning: com.example.variantroute.DateTimeView is a phantom class!
+Warning: android.view.DateTimeView is a phantom class!
+Warning: android.widget.DateTimeView is a phantom class!
+Warning: android.webkit.DateTimeView is a phantom class!
+Could not find layout class DateTimeView
+Warning: Chronometer is a phantom class!
+Warning: com.example.variantroute.Chronometer is a phantom class!
+Warning: android.view.Chronometer is a phantom class!
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 16 layout controls in file res/layout-v17/notification_template_big_media_custom.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 17 layout controls in file res/layout-v17/notification_template_big_media_narrow.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Could not find layout class DateTimeView
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 18 layout controls in file res/layout-v17/notification_template_big_media_narrow_custom.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 19 layout controls in file res/layout-v17/notification_template_custom_big.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Could not find layout class DateTimeView
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 20 layout controls in file res/layout-v17/notification_template_lines_media.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 21 layout controls in file res/layout-v17/notification_template_media.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Could not find layout class DateTimeView
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 22 layout controls in file res/layout-v17/notification_template_media_custom.xml
+Warning: CheckedTextView is a phantom class!
+Warning: com.example.variantroute.CheckedTextView is a phantom class!
+Warning: android.view.CheckedTextView is a phantom class!
+Found unrecognized XML attribute:  id
+Found 23 layout controls in file res/layout-v17/select_dialog_multichoice_material.xml
+Found unrecognized XML attribute:  id
+Found 24 layout controls in file res/layout-v17/select_dialog_singlechoice_material.xml
+Found unrecognized XML attribute:  id
+Found 25 layout controls in file res/layout-v17/tooltip.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 26 layout controls in file res/layout-v21/abc_screen_toolbar.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 27 layout controls in file res/layout-v21/notification_action.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 28 layout controls in file res/layout-v21/notification_action_tombstone.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 29 layout controls in file res/layout-v21/notification_template_custom_big.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 30 layout controls in file res/layout-v21/notification_template_icon_group.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 31 layout controls in file res/layout-v22/abc_alert_dialog_button_bar_material.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 32 layout controls in file res/layout-v26/abc_screen_toolbar.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 33 layout controls in file res/layout/abc_action_bar_title_item.xml
+Found 34 layout controls in file res/layout/abc_action_bar_up_container.xml
+Found 35 layout controls in file res/layout/abc_action_bar_view_list_nav_layout.xml
+Found 36 layout controls in file res/layout/abc_action_menu_item_layout.xml
+Found 37 layout controls in file res/layout/abc_action_menu_layout.xml
+Found 38 layout controls in file res/layout/abc_action_mode_bar.xml
+Found unrecognized XML attribute:  id
+Found 39 layout controls in file res/layout/abc_action_mode_close_item_material.xml
+Could not find layout class view
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 40 layout controls in file res/layout/abc_activity_chooser_view.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 41 layout controls in file res/layout/abc_activity_chooser_view_list_item.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 42 layout controls in file res/layout/abc_alert_dialog_button_bar_material.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 43 layout controls in file res/layout/abc_alert_dialog_material.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 44 layout controls in file res/layout/abc_alert_dialog_title_material.xml
+Found unrecognized XML attribute:  id
+Found 45 layout controls in file res/layout/abc_dialog_title_material.xml
+Found unrecognized XML attribute:  id
+Found 46 layout controls in file res/layout/abc_expanded_menu_layout.xml
+Warning: CheckBox is a phantom class!
+Warning: com.example.variantroute.CheckBox is a phantom class!
+Warning: android.view.CheckBox is a phantom class!
+Found unrecognized XML attribute:  id
+Found 47 layout controls in file res/layout/abc_list_menu_item_checkbox.xml
+Found unrecognized XML attribute:  id
+Found 48 layout controls in file res/layout/abc_list_menu_item_icon.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 49 layout controls in file res/layout/abc_list_menu_item_layout.xml
+Warning: RadioButton is a phantom class!
+Warning: com.example.variantroute.RadioButton is a phantom class!
+Warning: android.view.RadioButton is a phantom class!
+Found unrecognized XML attribute:  id
+Found 50 layout controls in file res/layout/abc_list_menu_item_radio.xml
+Found unrecognized XML attribute:  id
+Found 51 layout controls in file res/layout/abc_popup_menu_header_item_layout.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 52 layout controls in file res/layout/abc_popup_menu_item_layout.xml
+Found unrecognized XML attribute:  id
+Found 53 layout controls in file res/layout/abc_screen_content_include.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 54 layout controls in file res/layout/abc_screen_simple.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 55 layout controls in file res/layout/abc_screen_simple_overlay_action_mode.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 56 layout controls in file res/layout/abc_screen_toolbar.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 57 layout controls in file res/layout/abc_search_dropdown_item_icons_2line.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Could not find layout class view
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 58 layout controls in file res/layout/abc_search_view.xml
+Could not find layout class view
+Found 58 layout controls in file res/layout/abc_select_dialog_material.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 59 layout controls in file res/layout/activity_main.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 60 layout controls in file res/layout/design_bottom_navigation_item.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 61 layout controls in file res/layout/design_bottom_sheet_dialog.xml
+Could not find layout class view
+Found 61 layout controls in file res/layout/design_layout_snackbar.xml
+Could not find layout class view
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 62 layout controls in file res/layout/design_layout_snackbar_include.xml
+Found 63 layout controls in file res/layout/design_layout_tab_icon.xml
+Found 64 layout controls in file res/layout/design_layout_tab_text.xml
+Found 65 layout controls in file res/layout/design_menu_item_action_area.xml
+Found 66 layout controls in file res/layout/design_navigation_item.xml
+Found unrecognized XML attribute:  id
+Found 67 layout controls in file res/layout/design_navigation_item_header.xml
+Found 68 layout controls in file res/layout/design_navigation_item_separator.xml
+Found 69 layout controls in file res/layout/design_navigation_item_subheader.xml
+Found unrecognized XML attribute:  id
+Found 70 layout controls in file res/layout/design_navigation_menu.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 71 layout controls in file res/layout/design_navigation_menu_item.xml
+Found unrecognized XML attribute:  id
+Found 72 layout controls in file res/layout/design_text_input_password_icon.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 73 layout controls in file res/layout/fragment_simple.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 74 layout controls in file res/layout/notification_action.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 75 layout controls in file res/layout/notification_action_tombstone.xml
+Warning: ImageButton is a phantom class!
+Warning: com.example.variantroute.ImageButton is a phantom class!
+Warning: android.view.ImageButton is a phantom class!
+Found unrecognized XML attribute:  id
+Found 76 layout controls in file res/layout/notification_media_action.xml
+Found unrecognized XML attribute:  id
+Found 77 layout controls in file res/layout/notification_media_cancel_action.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 78 layout controls in file res/layout/notification_template_big_media.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Could not find layout class DateTimeView
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 79 layout controls in file res/layout/notification_template_big_media_custom.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 80 layout controls in file res/layout/notification_template_big_media_narrow.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Could not find layout class DateTimeView
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 81 layout controls in file res/layout/notification_template_big_media_narrow_custom.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 82 layout controls in file res/layout/notification_template_custom_big.xml
+Found unrecognized XML attribute:  id
+Found 83 layout controls in file res/layout/notification_template_icon_group.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Could not find layout class DateTimeView
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 84 layout controls in file res/layout/notification_template_lines_media.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 85 layout controls in file res/layout/notification_template_media.xml
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Could not find layout class DateTimeView
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found unrecognized XML attribute:  id
+Found 86 layout controls in file res/layout/notification_template_media_custom.xml
+Found unrecognized XML attribute:  id
+Found 87 layout controls in file res/layout/notification_template_part_chronometer.xml
+Could not find layout class DateTimeView
+Found 87 layout controls in file res/layout/notification_template_part_time.xml
+Found unrecognized XML attribute:  id
+Found 88 layout controls in file res/layout/select_dialog_item_material.xml
+Found unrecognized XML attribute:  id
+Found 89 layout controls in file res/layout/select_dialog_multichoice_material.xml
+Found unrecognized XML attribute:  id
+Found 90 layout controls in file res/layout/select_dialog_singlechoice_material.xml
+Found unrecognized XML attribute:  id
+Found 91 layout controls in file res/layout/support_simple_spinner_dropdown_item.xml
+Found unrecognized XML attribute:  id
+Found 92 layout controls in file res/layout/tooltip.xml
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+get type from 'I'
+get type from 'D'
+get type from 'Z'
+get type from 'D'
+get type from 'Z'
+get type from 'Z'
+get type from 'J'
+get type from 'J'
+get type from 'I'
+get type from 'I'
+get type from 'Z'
+get type from 'J'
+get type from 'J'
+get type from 'J'
+get type from 'J'
+get type from 'I'
+[main] INFO soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Generated main method:
+    public static void dummyMainMethod(java.lang.String[])
+    {
+        java.lang.String[] $r0;
+        int $i0;
+        com.example.variantroute.MainActivity $r1;
+        android.os.Bundle $r2;
+
+        $r0 := @parameter0: java.lang.String[];
+
+        $i0 = 0;
+
+     label1:
+        if $i0 == 0 goto label3;
+
+        $r1 = new com.example.variantroute.MainActivity;
+
+        specialinvoke $r1.<com.example.variantroute.MainActivity: void <init>()>();
+
+        if $i0 == 1 goto label3;
+
+        $r2 = new android.os.Bundle;
+
+        specialinvoke $r2.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r1.<com.example.variantroute.MainActivity: void onCreate(android.os.Bundle)>($r2);
+
+        $r2 = null;
+
+     label2:
+        if $i0 == 3 goto label2;
+
+        if $i0 == 4 goto label3;
+
+        if $i0 == 5 goto label2;
+
+     label3:
+        if $i0 == 9 goto label1;
+
+        return;
+    }
+
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 1.8 seconds.
+[Spark] Solution found in 1.8 seconds.
+Running incremental callback analysis for 1 components...
+Incremental callback analysis done.
+Found 1 callback methods for 1 components
+Found {res/layout/notification_action.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.ImageView, -1 - android.widget.TextView], res/layout/notification_template_icon_group.xml=[-1 - android.widget.ImageView], res/layout/design_text_input_password_icon.xml=[-1 - android.support.design.widget.CheckableImageButton], res/layout-v21/abc_screen_toolbar.xml=[-1 - android.support.v7.widget.ActionBarOverlayLayout, -1 - android.support.v7.widget.ActionBarContainer, -1 - android.support.v7.widget.Toolbar, -1 - android.support.v7.widget.ActionBarContextView], res/layout/notification_template_custom_big.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.ImageView, -1 - android.widget.FrameLayout, -1 - android.widget.TextView], res/layout/tooltip.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.TextView], res/layout-v17/notification_template_media_custom.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.Chronometer, -1 - android.widget.FrameLayout, -1 - android.widget.TextView, -1 - android.widget.ImageView], res/layout-v17/tooltip.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.TextView], res/layout/design_menu_item_action_area.xml=[-1 - android.widget.FrameLayout], res/layout-v17/select_dialog_singlechoice_material.xml=[-1 - android.widget.CheckedTextView], res/layout/design_layout_tab_text.xml=[-1 - android.widget.TextView], res/layout/notification_template_big_media.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.RelativeLayout, -1 - android.widget.ImageView], res/layout-v17/notification_template_big_media_narrow_custom.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.Chronometer, -1 - android.widget.RelativeLayout, -1 - android.widget.ImageView, -1 - android.widget.FrameLayout, -1 - android.widget.TextView], res/layout/design_navigation_item_subheader.xml=[-1 - android.widget.TextView], res/layout-v17/notification_action.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.ImageView, -1 - android.widget.TextView], res/layout-v17/notification_template_custom_big.xml=[-1 - android.widget.LinearLayout, -1 - android.view.ViewStub, -1 - android.widget.FrameLayout, -1 - android.widget.ImageView, -1 - android.widget.TextView], res/layout-v21/notification_action_tombstone.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.ImageView, -1 - android.widget.TextView], res/layout/design_layout_tab_icon.xml=[-1 - android.widget.ImageView], res/layout/design_layout_snackbar_include.xml=[-1 - android.widget.TextView, -1 - android.widget.Button], res/layout/abc_action_bar_view_list_nav_layout.xml=[-1 - android.widget.LinearLayout], res/layout/abc_screen_content_include.xml=[-1 - android.support.v7.widget.ContentFrameLayout], res/layout/abc_popup_menu_item_layout.xml=[-1 - android.widget.RelativeLayout, -1 - android.widget.TextView, -1 - android.widget.ImageView, -1 - android.support.v7.view.menu.ListMenuItemView], res/layout/design_bottom_navigation_item.xml=[-1 - android.support.design.internal.BaselineLayout, -1 - android.widget.ImageView, -1 - android.widget.TextView], res/layout-v16/notification_template_custom_big.xml=[-1 - android.widget.LinearLayout, -1 - android.view.ViewStub, -1 - android.widget.FrameLayout, -1 - android.widget.ImageView, -1 - android.widget.TextView], res/layout-v21/notification_action.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.ImageView, -1 - android.widget.TextView], res/layout/abc_expanded_menu_layout.xml=[-1 - android.support.v7.view.menu.ExpandedMenuView], res/layout/notification_template_big_media_narrow_custom.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.Chronometer, -1 - android.widget.RelativeLayout, -1 - android.widget.ImageView, -1 - android.widget.FrameLayout, -1 - android.widget.TextView], res/layout/notification_template_part_chronometer.xml=[-1 - android.widget.Chronometer], res/layout/design_bottom_sheet_dialog.xml=[-1 - android.view.View, -1 - android.support.design.widget.CoordinatorLayout, -1 - android.widget.FrameLayout], res/layout/abc_alert_dialog_button_bar_material.xml=[-1 - android.support.v7.widget.ButtonBarLayout, -1 - android.support.v4.widget.Space, -1 - android.widget.ScrollView, -1 - android.widget.Button], res/layout/abc_dialog_title_material.xml=[-1 - android.support.v7.widget.FitWindowsLinearLayout, -1 - android.widget.TextView], res/layout/abc_alert_dialog_title_material.xml=[-1 - android.widget.LinearLayout, -1 - android.support.v7.widget.DialogTitle, -1 - android.widget.ImageView, -1 - android.support.v4.widget.Space], res/layout-v17/notification_template_big_media_custom.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.Chronometer, -1 - android.widget.RelativeLayout, -1 - android.widget.FrameLayout, -1 - android.widget.TextView, -1 - android.widget.ImageView], res/layout/notification_template_media_custom.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.Chronometer, -1 - android.widget.FrameLayout, -1 - android.widget.TextView, -1 - android.widget.ImageView], res/layout/design_navigation_menu_item.xml=[-1 - android.widget.CheckedTextView, -1 - android.view.ViewStub], res/layout/abc_action_menu_item_layout.xml=[-1 - android.support.v7.view.menu.ActionMenuItemView], res/layout-v17/fragment_simple.xml=[-1 - android.support.constraint.ConstraintLayout, -1 - android.widget.Button], res/layout-v17/abc_alert_dialog_button_bar_material.xml=[-1 - android.support.v7.widget.ButtonBarLayout, -1 - android.support.v4.widget.Space, -1 - android.widget.ScrollView, -1 - android.widget.Button], res/layout/fragment_simple.xml=[-1 - android.support.constraint.ConstraintLayout, -1 - android.widget.Button], res/layout/select_dialog_singlechoice_material.xml=[-1 - android.widget.CheckedTextView], res/layout/select_dialog_item_material.xml=[-1 - android.widget.TextView], res/layout-v17/abc_action_mode_close_item_material.xml=[-1 - android.widget.ImageView], res/layout/select_dialog_multichoice_material.xml=[-1 - android.widget.CheckedTextView], res/layout/abc_screen_toolbar.xml=[-1 - android.support.v7.widget.ActionBarOverlayLayout, -1 - android.support.v7.widget.ActionBarContainer, -1 - android.support.v7.widget.Toolbar, -1 - android.support.v7.widget.ActionBarContextView], res/layout/design_navigation_item_separator.xml=[-1 - android.view.View, -1 - android.widget.FrameLayout], res/layout/abc_alert_dialog_material.xml=[-1 - android.widget.LinearLayout, -1 - android.view.View, -1 - android.support.v4.widget.NestedScrollView, -1 - android.support.v7.widget.AlertDialogLayout, -1 - android.widget.FrameLayout, -1 - android.widget.TextView, -1 - android.support.v4.widget.Space], res/layout/abc_action_mode_bar.xml=[-1 - android.support.v7.widget.ActionBarContextView], res/layout-v17/notification_template_media.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.ImageView], res/layout-v17/abc_popup_menu_header_item_layout.xml=[-1 - android.widget.FrameLayout, -1 - android.widget.TextView], res/layout/abc_action_mode_close_item_material.xml=[-1 - android.widget.ImageView], res/layout/notification_media_action.xml=[-1 - android.widget.ImageButton], res/layout/abc_search_dropdown_item_icons_2line.xml=[-1 - android.widget.RelativeLayout, -1 - android.widget.ImageView, -1 - android.widget.TextView], res/layout-v17/notification_action_tombstone.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.ImageView, -1 - android.widget.TextView], res/layout-v17/activity_main.xml=[-1 - android.support.constraint.ConstraintLayout, -1 - android.widget.TextView], res/layout-v17/abc_search_view.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.TextView, -1 - android.widget.ImageView], res/layout-v17/notification_template_big_media.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.RelativeLayout, -1 - android.widget.ImageView], res/layout/design_navigation_item_header.xml=[-1 - android.widget.LinearLayout], res/layout-v17/abc_popup_menu_item_layout.xml=[-1 - android.widget.RelativeLayout, -1 - android.widget.TextView, -1 - android.widget.ImageView, -1 - android.support.v7.view.menu.ListMenuItemView], res/layout-v22/abc_alert_dialog_button_bar_material.xml=[-1 - android.support.v7.widget.ButtonBarLayout, -1 - android.support.v4.widget.Space, -1 - android.widget.ScrollView, -1 - android.widget.Button], res/layout/design_navigation_menu.xml=[-1 - android.support.design.internal.NavigationMenuView], res/layout-v26/abc_screen_toolbar.xml=[-1 - android.support.v7.widget.ActionBarOverlayLayout, -1 - android.support.v7.widget.ActionBarContainer, -1 - android.support.v7.widget.Toolbar, -1 - android.support.v7.widget.ActionBarContextView], res/layout-v17/abc_alert_dialog_title_material.xml=[-1 - android.widget.LinearLayout, -1 - android.support.v7.widget.DialogTitle, -1 - android.widget.ImageView, -1 - android.support.v4.widget.Space], res/layout/abc_list_menu_item_layout.xml=[-1 - android.widget.RelativeLayout, -1 - android.widget.TextView, -1 - android.support.v7.view.menu.ListMenuItemView], res/layout/notification_template_big_media_custom.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.Chronometer, -1 - android.widget.RelativeLayout, -1 - android.widget.FrameLayout, -1 - android.widget.TextView, -1 - android.widget.ImageView], res/layout/abc_screen_simple_overlay_action_mode.xml=[-1 - android.support.v7.widget.FitWindowsFrameLayout, -1 - android.support.v7.widget.ViewStubCompat], res/layout-v16/design_bottom_sheet_dialog.xml=[-1 - android.view.View, -1 - android.support.design.widget.CoordinatorLayout, -1 - android.widget.FrameLayout], res/layout-v21/notification_template_custom_big.xml=[-1 - android.widget.LinearLayout, -1 - android.view.ViewStub, -1 - android.widget.FrameLayout, -1 - android.widget.TextView, -1 - android.widget.ImageView], res/layout/abc_list_menu_item_checkbox.xml=[-1 - android.widget.CheckBox], res/layout/abc_popup_menu_header_item_layout.xml=[-1 - android.widget.FrameLayout, -1 - android.widget.TextView], res/layout-v17/notification_template_big_media_narrow.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.RelativeLayout, -1 - android.widget.ImageView], res/layout-v17/notification_template_lines_media.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.Chronometer, -1 - android.widget.TextView], res/layout/abc_list_menu_item_radio.xml=[-1 - android.widget.RadioButton], res/layout-v17/abc_dialog_title_material.xml=[-1 - android.support.v7.widget.FitWindowsLinearLayout, -1 - android.widget.TextView], res/layout/abc_activity_chooser_view.xml=[-1 - android.widget.FrameLayout, -1 - android.widget.ImageView], res/layout/abc_screen_simple.xml=[-1 - android.support.v7.widget.FitWindowsLinearLayout, -1 - android.support.v7.widget.ViewStubCompat], res/layout/notification_action_tombstone.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.ImageView, -1 - android.widget.TextView], res/layout-v17/select_dialog_multichoice_material.xml=[-1 - android.widget.CheckedTextView], res/layout/abc_action_bar_up_container.xml=[-1 - android.widget.LinearLayout], res/layout/activity_main.xml=[-1 - android.support.constraint.ConstraintLayout, -1 - android.widget.TextView], res/layout-v21/notification_template_icon_group.xml=[-1 - android.widget.FrameLayout, -1 - android.widget.ImageView], res/layout-v17/design_layout_snackbar_include.xml=[-1 - android.widget.TextView, -1 - android.widget.Button], res/layout/abc_search_view.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.TextView, -1 - android.widget.ImageView], res/layout/abc_activity_chooser_view_list_item.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.ImageView, -1 - android.widget.TextView], res/layout/notification_template_media.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.ImageView], res/layout/notification_template_lines_media.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.Chronometer, -1 - android.widget.TextView], res/layout/abc_action_menu_layout.xml=[-1 - android.support.v7.widget.ActionMenuView], res/layout/notification_template_big_media_narrow.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.RelativeLayout, -1 - android.widget.ImageView], res/layout/abc_action_bar_title_item.xml=[-1 - android.widget.LinearLayout, -1 - android.widget.TextView], res/layout/design_navigation_item.xml=[-1 - android.support.design.internal.NavigationMenuItemView], res/layout/notification_media_cancel_action.xml=[-1 - android.widget.ImageButton], res/layout/support_simple_spinner_dropdown_item.xml=[-1 - android.widget.TextView], res/layout/abc_list_menu_item_icon.xml=[-1 - android.widget.ImageView]} layout controls
+Entry point calculation done.
+Created a SourceSinkManager with 43 sources, 90 sinks, and 1 callback methods.
+Running data flow analysis...
+Running data flow analysis on variant2.apk with 43 sources and 90 sinks...
+Starting infoflow computation...
+[main] INFO soot.jimple.infoflow.Infoflow - Resetting Soot...
+get type from 'I'
+get type from 'D'
+get type from 'Z'
+get type from 'D'
+get type from 'Z'
+get type from 'Z'
+get type from 'J'
+get type from 'J'
+get type from 'I'
+get type from 'I'
+get type from 'Z'
+get type from 'J'
+get type from 'J'
+get type from 'J'
+get type from 'J'
+get type from 'I'
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[main] INFO soot.jimple.infoflow.Infoflow - Basic class loading done.
+[main] INFO soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Generated main method:
+    public static void dummyMainMethod(java.lang.String[])
+    {
+        java.lang.String[] $r0;
+        int $i0;
+        com.example.variantroute.MainActivity $r1;
+        android.os.Bundle $r2;
+
+        $r0 := @parameter0: java.lang.String[];
+
+        $i0 = 0;
+
+     label1:
+        if $i0 == 0 goto label3;
+
+        $r1 = new com.example.variantroute.MainActivity;
+
+        specialinvoke $r1.<com.example.variantroute.MainActivity: void <init>()>();
+
+        if $i0 == 1 goto label3;
+
+        $r2 = new android.os.Bundle;
+
+        specialinvoke $r2.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r1.<com.example.variantroute.MainActivity: void onCreate(android.os.Bundle)>($r2);
+
+        $r2 = null;
+
+     label2:
+        if $i0 == 3 goto label2;
+
+        if $i0 == 4 goto label3;
+
+        if $i0 == 5 goto label2;
+
+     label3:
+        if $i0 == 9 goto label1;
+
+        return;
+    }
+
+In step Beginning, The number of Jimple line is 60781
+In step Beginning, The number of Jimple method is 18570
+In step Beginning, The number of Jimple class is 1385
+In step Beginning, The number of Jimple component is 7
+
+java.lang.RuntimeException: No method source set for method <android.content.BroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)>
+	at soot.SootMethod.getBodyFromMethodSource(SootMethod.java:90)
+	at soot.SootMethod.retrieveActiveBody(SootMethod.java:322)
+	at soot.jimple.infoflow.android.iccta.sharedpreferences.SharedPreferencesUpdater.extractSharedReferencesName(SharedPreferencesUpdater.java:287)
+	at soot.jimple.infoflow.android.iccta.sharedpreferences.SharedPreferencesUpdater.updateJimple(SharedPreferencesUpdater.java:32)
+	at soot.jimple.infoflow.android.iccta.AndroidIPCManager.updateJimpleForICC(AndroidIPCManager.java:115)
+	at soot.jimple.infoflow.AbstractInfoflow.constructCallgraph(AbstractInfoflow.java:301)
+	at soot.jimple.infoflow.Infoflow.runAnalysis(Infoflow.java:207)
+	at soot.jimple.infoflow.Infoflow.computeInfoflow(Infoflow.java:137)
+	at soot.jimple.infoflow.android.SetupApplication.runInfoflow(SetupApplication.java:696)
+	at soot.jimple.infoflow.android.iccta.TestApps.FlowDroidLauncher.runAnalysis(FlowDroidLauncher.java:564)
+	at soot.jimple.infoflow.android.iccta.TestApps.FlowDroidLauncher.main(FlowDroidLauncher.java:221)
+	at soot.jimple.infoflow.android.iccta.TestApps.Test.main(Test.java:100)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:61)
+Application classes:
+com.example.variantroute.MainActivity
+java.time.Instant
+java.time.temporal.Temporal
+java.time.temporal.TemporalAdjuster
+java.time.Clock
+java.time.temporal.TemporalAccessor
+java.time.temporal.TemporalField
+java.time.temporal.TemporalUnit
+java.time.temporal.ValueRange
+java.time.temporal.TemporalAmount
+java.time.temporal.TemporalQuery
+java.time.OffsetDateTime
+java.time.ZoneOffset
+java.time.ZonedDateTime
+java.time.ZoneId
+java.time.Duration
+java.time.format.ResolverStyle
+java.time.LocalDate
+java.time.LocalTime
+java.time.LocalDateTime
+java.time.format.DateTimeFormatter
+java.time.Month
+java.time.DayOfWeek
+java.time.OffsetTime
+java.time.zone.ZoneRules
+java.time.chrono.ChronoZonedDateTime
+java.time.chrono.ChronoLocalDateTime
+java.time.chrono.ChronoLocalDate
+java.time.format.TextStyle
+java.time.chrono.IsoChronology
+java.time.chrono.Era
+java.time.Period
+java.time.chrono.ChronoPeriod
+java.time.chrono.Chronology
+java.time.format.FormatStyle
+java.time.format.DecimalStyle
+java.time.zone.ZoneOffsetTransition
+java.time.chrono.AbstractChronology
+java.time.chrono.IsoEra
+java.time.temporal.ChronoField
+android.transition.Transition
+android.transition.TransitionValues
+android.transition.Transition$TransitionListener
+android.transition.Transition$EpicenterCallback
+android.transition.PathMotion
+android.transition.TransitionPropagation
+android.transition.TransitionManager
+android.transition.Scene
+android.arch.core.internal.FastSafeIterableMap
+android.arch.core.internal.SafeIterableMap
+android.arch.core.internal.SafeIterableMap$Entry
+android.arch.core.internal.SafeIterableMap$IteratorWithAdditions
+android.arch.core.internal.SafeIterableMap$SupportRemove
+android.arch.core.internal.SafeIterableMap$1
+android.arch.core.internal.SafeIterableMap$AscendingIterator
+android.arch.core.internal.SafeIterableMap$ListIterator
+android.arch.core.internal.SafeIterableMap$DescendingIterator
+android.arch.lifecycle.BuildConfig
+android.arch.lifecycle.GenericLifecycleObserver
+android.arch.lifecycle.LifecycleObserver
+android.arch.lifecycle.LifecycleOwner
+android.arch.lifecycle.Lifecycle$Event
+android.arch.lifecycle.Lifecycle
+android.arch.lifecycle.Lifecycle$State
+android.arch.lifecycle.LifecycleRegistry$1
+android.arch.lifecycle.LifecycleRegistry
+android.arch.lifecycle.LifecycleRegistry$ObserverWithState
+android.arch.lifecycle.LifecycleRegistryOwner
+android.arch.lifecycle.Lifecycling
+android.arch.lifecycle.OnLifecycleEvent
+android.arch.lifecycle.R
+android.arch.lifecycle.ReflectiveGenericLifecycleObserver$CallbackInfo
+android.arch.lifecycle.ReflectiveGenericLifecycleObserver
+android.arch.lifecycle.ReflectiveGenericLifecycleObserver$MethodReference
+android.arch.lifecycle.ReportFragment$ActivityInitializationListener
+android.arch.lifecycle.ReportFragment
+android.print.PageRange
+android.print.PrintAttributes$Builder
+android.print.PrintAttributes$MediaSize
+android.print.PrintAttributes$Resolution
+android.print.PrintAttributes$Margins
+android.print.PrintAttributes
+android.print.PrintDocumentAdapter$LayoutResultCallback
+android.print.PrintDocumentInfo
+android.print.PrintDocumentAdapter$WriteResultCallback
+android.print.PrintDocumentAdapter
+android.print.PrintDocumentInfo$Builder
+android.print.PrintJob
+android.print.PrintJobId
+android.print.PrintJobInfo
+android.print.PrinterId
+android.print.PrintManager
+android.print.pdf.PrintedPdfDocument
+android.system.ErrnoException
+android.system.Os
+android.system.StructStat
+android.system.StructStatVfs
+android.system.StructPollfd
+android.system.StructUtsname
+android.system.OsConstants
+android.transition.TransitionSet
+com.example.variantroute.BuildConfig
+com.example.variantroute.MainActivity$SimpleFragment
+com.example.variantroute.R$anim
+com.example.variantroute.R
+com.example.variantroute.R$animator
+com.example.variantroute.R$attr
+com.example.variantroute.R$bool
+com.example.variantroute.R$color
+com.example.variantroute.R$dimen
+com.example.variantroute.R$drawable
+com.example.variantroute.R$id
+com.example.variantroute.R$integer
+com.example.variantroute.R$layout
+com.example.variantroute.R$mipmap
+com.example.variantroute.R$string
+com.example.variantroute.R$style
+com.example.variantroute.R$styleable
+dummyMainClass
+SharedPreferencesHelper
+select distinct d.method, d.instruction, d.exit_kind, f.class from Applications a, Classes b, Components c, ExitPoints d, Applications e, Classes f, Components g, ProviderLinks h where a.id=b.app_id and b.id=c.class_id and b.id=d.class_id and e.id=f.app_id and f.id=g.class_id and c.id=h.src_component_id and g.id=h.dest_component_id and d.exit_kind='p' and a.app in (?) and e.app in (?);
+In step Ending, The number of Jimple line is 60781
+In step Ending, The number of Jimple method is 18570
+In step Ending, The number of Jimple class is 1386
+In step Ending, The number of Jimple component is 7
+
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 1.0 seconds.
+[Spark] Solution found in 1.0 seconds.
+[main] INFO soot.jimple.infoflow.Infoflow - Callgraph has 4383 edges
+[main] INFO soot.jimple.infoflow.android.InfoflowAndroidConfiguration - Implicit flow tracking is NOT enabled
+[main] INFO soot.jimple.infoflow.android.InfoflowAndroidConfiguration - Exceptional flow tracking is enabled
+[main] INFO soot.jimple.infoflow.android.InfoflowAndroidConfiguration - Running with a maximum access path length of 5
+[main] INFO soot.jimple.infoflow.android.InfoflowAndroidConfiguration - Using path-agnostic result collection
+[main] INFO soot.jimple.infoflow.android.InfoflowAndroidConfiguration - Recursive access path shortening is enabled
+[main] INFO soot.jimple.infoflow.Infoflow - Looking for sources and sinks...
+[main] ERROR soot.jimple.infoflow.Infoflow - No sinks found, aborting analysis
+Analysis has run for 31.450198453 seconds
