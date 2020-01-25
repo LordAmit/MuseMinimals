@@ -1,0 +1,8 @@
+Cmd line options = -approot /media/data/droidsafe-src/apks -apkfile manualVariant419.apk -t specdump 
+Start time = 2020/01/24 11:47:47
+End time = 2020/01/24 11:49:35
+Elapsed Minutes: 1:47
+Used Memory: 3 GB
+Free Memory: 2 GB
+Total Memory: 5 GB
+Max Memory: 14 GB

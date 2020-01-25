@@ -1,0 +1,2 @@
+$r3 = virtualinvoke $r2.<java.util.Calendar: java.util.TimeZone getTimeZone()>() in <com.example.helloandroid.MainActivity: void button2Clicked(android.view.View)>(not reachable)
+$r4 = virtualinvoke $r3.<java.util.TimeZone: java.lang.String getDisplayName()>() in <com.example.helloandroid.MainActivity: void button2Clicked(android.view.View)>(not reachable)

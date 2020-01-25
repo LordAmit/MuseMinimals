@@ -1,0 +1,11 @@
+{
+  "indicator-type" : "Call Graphs from Entry Points",
+  "visibility" :  {  },
+  "display"    :  {
+    "calls"      : false,
+    "syscalls"   : false,
+    "score"      : false
+  },
+ "contents"   :  [
+  {}
+]}

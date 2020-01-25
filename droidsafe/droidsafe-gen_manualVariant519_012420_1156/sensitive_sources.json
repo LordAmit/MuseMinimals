@@ -1,0 +1,8 @@
+{
+  "indicator-type": "Sensitive Sources",
+  "visibility": {},
+  "display": {
+    "info_kinds": true
+  },
+  "contents": []
+}

@@ -1,0 +1,24 @@
+{
+  "indicator-type": "ICC: Unresolved Calls",
+  "visibility": {},
+  "display": {
+    "desc": true
+  },
+  "contents": [
+    {
+      "label": "com.example.helloandroid.MainActivity",
+      "contents": [
+        {
+          "type": "icc_callback",
+          "signature": "<com.example.helloandroid.MainActivity: void onCreate(android.os.Bundle)>",
+          "link": "as_entry_point",
+          "desc": "AIDL Callback",
+          "src-loc": {
+            "class": "com.example.helloandroid.MainActivity",
+            "line": 17
+          }
+        }
+      ]
+    }
+  ]
+}

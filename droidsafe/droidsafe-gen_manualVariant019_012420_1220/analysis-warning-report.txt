@@ -1,0 +1,8 @@
+LOW: Application method that overrides API method is dead code. [<init>]
+HIGH: Unknown error in manifest. [No Source Location]
+ELEVATED: Found an application method callback that is not exercised by analysis: <com.example.helloandroid.MainActivity: void onCreate(android.os.Bundle)> [No Source Location]
+LOW: Application method that overrides API method is dead code. [onCreate]
+ELEVATED: Could not replace findViewById because could not find resource. [Line: com.example.helloandroid.MainActivity 29]
+ELEVATED: Could not replace setContentView because could not find resource [Line: com.example.helloandroid.MainActivity 18]
+ELEVATED: Found an application method callback that is not exercised by analysis: <com.example.helloandroid.MainActivity$SimpleFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)> [No Source Location]
+LOW: Application method that overrides API method is dead code. [onCreateView]

@@ -1,0 +1,9 @@
+# All Reachable Methods in User Classes (including system methods) 
+
+Method <droidsafe.generated.DroidSafeMain: void main(java.lang.String[])> in context <ENTRY-CONTEXT>
+	SRCS:
+
+Method <droidsafe.generated.DroidSafeDummies: void dummyInit()> in context <ENTRY-CONTEXT>
+	SRCS:
+	Method <droidsafe.generated.DroidSafeMain: void main(java.lang.String[])> in context <ENTRY-CONTEXT>
+
