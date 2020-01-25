@@ -1,0 +1,60 @@
+Analyzing:apks/manualVariant319.apk
+analyzing apk:apks/manualVariant319.apk
+Soot started on Fri Jan 24 14:06:22 EST 2020
+Could not find sdk version in Android manifest! Using default: 15
+Using 'android-jars/android-15/android.jar' as android.jar
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+Total methods: 3925
+Initially reachable methods: 4
+Classes with at least one reachable method: 4
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+Total types: 646
+[Spark] Type masks in 0.0 seconds.
+VarNodes: 9
+FieldRefNodes: 0
+AllocNodes: 5
+Cleaning up graph for merged nodes
+Done cleaning up graph for merged nodes
+[Spark] Pointer Graph simplified in 0.0 seconds.
+Worklist has 5 nodes.
+Now handling field references
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+[Spark] Number of reachable methods: 21
+
+[Spark] Time: 0.010 s
+[Spark] Memory: 90.7 MB
+[Geom] Start working on <NoName> with <Geom> encoding.
+
+[Geom] Propagation Round 0 ==> 
+Reachable Methods = 21, in which #Condensed Nodes = 21, #Full Context Nodes = 0 
+Maximum SCC = 1 
+The maximum context size = 2.700000e+01
+Only 71 (74.0%) constraints are needed for this run.
+0 of 4 virtual call edges are proved to be spurious.
+
+The points-to information has converged. We stop here.
+
+[Geom] Preprocessing time: 0.00 s
+[Geom] Total time: 0.39 s
+[Geom] Memory: 32.0 MB
+[AM] number of methods to be analysed: 4
+[AM] number of methods to be analysed: 5
+ ----------printing BlueSeal results---------------------
+ ----------printing BlueSeal results done----------------
+global BlueSeal graph has 0nodes
+total:0
+Transforming com.example.helloandroid.R$string... 
+Transforming com.example.helloandroid.R$attr... 
+Transforming com.example.helloandroid.MainActivity... 
+Transforming com.example.helloandroid.R$layout... 
+Transforming com.example.helloandroid.R... 
+Transforming Transforming com.example.helloandroid.MainActivity$SimpleFragment... 
+Transforming dummyMainClass... 
+com.example.helloandroid.R$id... 
+Soot finished on Fri Jan 24 14:06:24 EST 2020
+Soot has run for 0 min. 1 sec.
