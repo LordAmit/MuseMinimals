@@ -1,0 +1,8 @@
+Processing class #0: Lcom/example/helloandroid/MainActivity$SimpleFragment;
+Processing class #1: Lcom/example/helloandroid/MainActivity;
+Processing class #2: Lcom/example/helloandroid/R$attr;
+Processing class #3: Lcom/example/helloandroid/R$id;
+Processing class #4: Lcom/example/helloandroid/R$layout;
+Processing class #5: Lcom/example/helloandroid/R$string;
+Processing class #6: Lcom/example/helloandroid/R;
+Assembling classes

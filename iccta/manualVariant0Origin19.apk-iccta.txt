@@ -1,0 +1,287 @@
+[IccTA]manualVariant0Origin19.apk, /home/aami/data/Android/Sdk/platforms/android-19/android.jar
+[IccTA]ICC Provider is ic3
+Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+add ipc methods!
+add <android.content.Context: void startActivityForResult(android.content.Intent,int)>
+add <android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,android.os.CancellationSignal)>
+add <android.content.Context: void startActivityIfNeeded(android.content.Intent,int)>
+add <android.content.Context: void startActivity(android.content.Intent,android.os.Bundle)>
+add <android.content.Context: void startActivityFromFragment(android.app.Fragment,android.content.Intent,int)>
+add <android.content.Context: void startActivityFromChild(android.app.Activity,android.content.Intent,int,android.os.Bundle)>
+add <android.content.Context: void sendStickyBroadcastAsUser(android.content.Intent,android.os.UserHandle)>
+add <android.content.Context: void sendOrderedBroadcast(android.content.Intent,java.lang.String)>
+add <android.content.Context: void sendBroadcast(android.content.Intent,java.lang.String)>
+add <android.content.Context: android.content.ComponentName startService(android.content.Intent)>
+add <android.content.Context: void sendBroadcastAsUser(android.content.Intent,android.os.UserHandle,java.lang.String)>
+add <android.content.Context: void startActivity(android.content.Intent)>
+add <android.content.Context: void startActivities(android.content.Intent[],android.os.Bundle)>
+add <android.content.Context: void sendBroadcastAsUser(android.content.Intent,android.os.UserHandle)>
+add <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+add <android.content.Context: boolean bindService(android.content.Intent,android.content.ServiceConnection,int)>
+add <android.content.Context: void sendStickyOrderedBroadcastAsUser(android.content.Intent,android.os.UserHandle,android.content.BroadcastReceiver,android.os.Handler,int,java.lang.String,android.os.Bundle)>
+add <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+add <android.content.Context: void startActivityIfNeeded(android.content.Intent,int,android.os.Bundle)>
+add <android.content.Context: void startActivityFromChild(android.app.Activity,android.content.Intent,int)>
+add <android.content.Context: void startActivityForResult(android.content.Intent,int,android.os.Bundle)>
+add <android.content.Context: void sendStickyOrderedBroadcast(android.content.Intent,android.content.BroadcastReceiver,android.os.Handler,int,java.lang.String,android.os.Bundle)>
+add <android.content.Context: void startActivities(android.content.Intent[])>
+add <android.content.Context: void startActivityFromFragment(android.app.Fragment,android.content.Intent,int,android.os.Bundle)>
+add <android.content.Context: void sendOrderedBroadcast(android.content.Intent,java.lang.String,android.content.BroadcastReceiver,android.os.Handler,int,java.lang.String,android.os.Bundle)>
+add <android.content.Context: void sendOrderedBroadcastAsUser(android.content.Intent,android.os.UserHandle,java.lang.String,android.content.BroadcastReceiver,android.os.Handler,int,java.lang.String,android.os.Bundle)>
+add <android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+add <android.content.Context: void sendBroadcast(android.content.Intent)>
+add <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+add <android.content.Context: void sendStickyBroadcast(android.content.Intent)>
+[main] INFO soot.jimple.infoflow.taintWrappers.EasyTaintWrapper - Loaded wrapper entries for 65 classes and 5 exclusions.
+[main] INFO soot.jimple.infoflow.android.SetupApplication - ARSC file parsing took 0.019629013 seconds
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[main] INFO soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Generated main method:
+    public static void dummyMainMethod(java.lang.String[])
+    {
+        java.lang.String[] $r0;
+        int $i0;
+        com.example.helloandroid.MainActivity $r1;
+        android.os.Bundle $r2;
+
+        $r0 := @parameter0: java.lang.String[];
+
+        $i0 = 0;
+
+     label1:
+        if $i0 == 0 goto label3;
+
+        $r1 = new com.example.helloandroid.MainActivity;
+
+        specialinvoke $r1.<com.example.helloandroid.MainActivity: void <init>()>();
+
+        if $i0 == 1 goto label3;
+
+        $r2 = new android.os.Bundle;
+
+        specialinvoke $r2.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r1.<com.example.helloandroid.MainActivity: void onCreate(android.os.Bundle)>($r2);
+
+        $r2 = null;
+
+     label2:
+        if $i0 == 3 goto label3;
+
+        if $i0 == 4 goto label2;
+
+     label3:
+        if $i0 == 6 goto label1;
+
+        return;
+    }
+
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.2 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+Callback analysis done.
+Warning: RelativeLayout is a phantom class!
+Warning: com.example.helloandroid.RelativeLayout is a phantom class!
+Warning: android.view.RelativeLayout is a phantom class!
+Warning: TextView is a phantom class!
+Warning: com.example.helloandroid.TextView is a phantom class!
+Warning: android.view.TextView is a phantom class!
+Warning: Button is a phantom class!
+Warning: com.example.helloandroid.Button is a phantom class!
+Warning: android.view.Button is a phantom class!
+Found 1 layout controls in file res/layout-v17/fragment_simple.xml
+Found 2 layout controls in file res/layout-v4/fragment_simple.xml
+Found 3 layout controls in file res/layout/activity_main.xml
+Found 4 layout controls in file res/layout/fragment_simple.xml
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[main] INFO soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Generated main method:
+    public static void dummyMainMethod(java.lang.String[])
+    {
+        java.lang.String[] $r0;
+        int $i0;
+        com.example.helloandroid.MainActivity $r1;
+        android.os.Bundle $r2;
+
+        $r0 := @parameter0: java.lang.String[];
+
+        $i0 = 0;
+
+     label1:
+        if $i0 == 0 goto label6;
+
+        $r1 = new com.example.helloandroid.MainActivity;
+
+        specialinvoke $r1.<com.example.helloandroid.MainActivity: void <init>()>();
+
+        if $i0 == 1 goto label6;
+
+        $r2 = new android.os.Bundle;
+
+        specialinvoke $r2.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r1.<com.example.helloandroid.MainActivity: void onCreate(android.os.Bundle)>($r2);
+
+        $r2 = null;
+
+     label2:
+        if $i0 == 2 goto label5;
+
+     label3:
+        if $i0 == 3 goto label4;
+
+        staticinvoke <com.example.helloandroid.MainActivity: void <clinit>()>();
+
+     label4:
+        if $i0 == 4 goto label3;
+
+     label5:
+        if $i0 == 5 goto label2;
+
+        if $i0 == 6 goto label6;
+
+        if $i0 == 7 goto label2;
+
+     label6:
+        if $i0 == 9 goto label1;
+
+        return;
+    }
+
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+Running incremental callback analysis for 1 components...
+Incremental callback analysis done.
+Found 2 callback methods for 1 components
+Found {res/layout-v4/fragment_simple.xml=[2130968578 - android.widget.Button, 2130968577 - android.widget.TextView, -1 - android.widget.RelativeLayout], res/layout/activity_main.xml=[2130968576 - android.widget.RelativeLayout, -1 - android.widget.TextView], res/layout-v17/fragment_simple.xml=[2130968578 - android.widget.Button, 2130968577 - android.widget.TextView, -1 - android.widget.RelativeLayout], res/layout/fragment_simple.xml=[2130968578 - android.widget.Button, 2130968577 - android.widget.TextView, -1 - android.widget.RelativeLayout]} layout controls
+Entry point calculation done.
+Created a SourceSinkManager with 43 sources, 90 sinks, and 2 callback methods.
+Running data flow analysis...
+Running data flow analysis on manualVariant0Origin19.apk with 43 sources and 90 sinks...
+Starting infoflow computation...
+[main] INFO soot.jimple.infoflow.Infoflow - Resetting Soot...
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[main] INFO soot.jimple.infoflow.Infoflow - Basic class loading done.
+[main] INFO soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator - Generated main method:
+    public static void dummyMainMethod(java.lang.String[])
+    {
+        java.lang.String[] $r0;
+        int $i0;
+        com.example.helloandroid.MainActivity $r1;
+        android.os.Bundle $r2;
+
+        $r0 := @parameter0: java.lang.String[];
+
+        $i0 = 0;
+
+     label1:
+        if $i0 == 0 goto label6;
+
+        $r1 = new com.example.helloandroid.MainActivity;
+
+        specialinvoke $r1.<com.example.helloandroid.MainActivity: void <init>()>();
+
+        if $i0 == 1 goto label6;
+
+        $r2 = new android.os.Bundle;
+
+        specialinvoke $r2.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r1.<com.example.helloandroid.MainActivity: void onCreate(android.os.Bundle)>($r2);
+
+        $r2 = null;
+
+     label2:
+        if $i0 == 2 goto label5;
+
+     label3:
+        if $i0 == 3 goto label4;
+
+        staticinvoke <com.example.helloandroid.MainActivity: void <clinit>()>();
+
+     label4:
+        if $i0 == 4 goto label3;
+
+     label5:
+        if $i0 == 5 goto label2;
+
+        if $i0 == 6 goto label6;
+
+        if $i0 == 7 goto label2;
+
+     label6:
+        if $i0 == 9 goto label1;
+
+        return;
+    }
+
+In step Beginning, The number of Jimple line is 25156
+In step Beginning, The number of Jimple method is 7852
+In step Beginning, The number of Jimple class is 561
+In step Beginning, The number of Jimple component is 5
+
+Application classes:
+com.example.helloandroid.MainActivity
+com.example.helloandroid.MainActivity$SimpleFragment
+com.example.helloandroid.R$attr
+com.example.helloandroid.R
+com.example.helloandroid.R$id
+com.example.helloandroid.R$layout
+com.example.helloandroid.R$string
+dummyMainClass
+SharedPreferencesHelper
+select distinct d.method, d.instruction, d.exit_kind, f.class from Applications a, Classes b, Components c, ExitPoints d, Applications e, Classes f, Components g, ProviderLinks h where a.id=b.app_id and b.id=c.class_id and b.id=d.class_id and e.id=f.app_id and f.id=g.class_id and c.id=h.src_component_id and g.id=h.dest_component_id and d.exit_kind='p' and a.app in (?) and e.app in (?);
+In step Ending, The number of Jimple line is 25156
+In step Ending, The number of Jimple method is 7852
+In step Ending, The number of Jimple class is 562
+In step Ending, The number of Jimple component is 5
+
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+[main] INFO soot.jimple.infoflow.Infoflow - Callgraph has 47 edges
+[main] INFO soot.jimple.infoflow.android.InfoflowAndroidConfiguration - Implicit flow tracking is NOT enabled
+[main] INFO soot.jimple.infoflow.android.InfoflowAndroidConfiguration - Exceptional flow tracking is enabled
+[main] INFO soot.jimple.infoflow.android.InfoflowAndroidConfiguration - Running with a maximum access path length of 5
+[main] INFO soot.jimple.infoflow.android.InfoflowAndroidConfiguration - Using path-agnostic result collection
+[main] INFO soot.jimple.infoflow.android.InfoflowAndroidConfiguration - Recursive access path shortening is enabled
+[main] INFO soot.jimple.infoflow.Infoflow - Looking for sources and sinks...
+[main] INFO soot.jimple.infoflow.Infoflow - Source lookup done, found 2 sources and 1 sinks.
+[main] INFO soot.jimple.infoflow.Infoflow - Taint wrapper hits: 12
+[main] INFO soot.jimple.infoflow.Infoflow - Taint wrapper misses: 14
+[main] INFO soot.jimple.infoflow.Infoflow - IFDS problem with 73 forward and 25 backward edges solved, processing 1 results...
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Context-sensitive path reconstructor started
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Obtainted 1 connections between null sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Building path 1
+[main] INFO soot.jimple.infoflow.data.pathBuilders.ContextSensitivePathBuilder - Path processing took 0.013015024 seconds in total
+[main] INFO soot.jimple.infoflow.Infoflow - The sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("leak-0-1", $r1) on line 40 in method <com.example.helloandroid.MainActivity$SimpleFragment: void <init>()> was called with values from the following sources:
+[main] INFO soot.jimple.infoflow.Infoflow - - $r4 = virtualinvoke $r3.<java.util.Calendar: java.util.TimeZone getTimeZone()>() on line 19 in method <com.example.helloandroid.MainActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.Infoflow - 	on Path: 
+[main] INFO soot.jimple.infoflow.Infoflow - 	 -> <com.example.helloandroid.MainActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.Infoflow - 		 -> $r4 = virtualinvoke $r3.<java.util.Calendar: java.util.TimeZone getTimeZone()>()
+[main] INFO soot.jimple.infoflow.Infoflow - 	 -> <com.example.helloandroid.MainActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.Infoflow - 		 -> $r5 = virtualinvoke $r4.<java.util.TimeZone: java.lang.String getDisplayName()>()
+[main] INFO soot.jimple.infoflow.Infoflow - 	 -> <com.example.helloandroid.MainActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.Infoflow - 		 -> <com.example.helloandroid.MainActivity: java.lang.String dataLeAk0> = $r5
+[main] INFO soot.jimple.infoflow.Infoflow - 	 -> <com.example.helloandroid.MainActivity: void onCreate(android.os.Bundle)>
+[main] INFO soot.jimple.infoflow.Infoflow - 		 -> specialinvoke $r2.<com.example.helloandroid.MainActivity$SimpleFragment: void <init>()>()
+[main] INFO soot.jimple.infoflow.Infoflow - 	 -> <com.example.helloandroid.MainActivity$SimpleFragment: void <init>()>
+[main] INFO soot.jimple.infoflow.Infoflow - 		 -> $r1 = <com.example.helloandroid.MainActivity: java.lang.String dataLeAk0>
+[main] INFO soot.jimple.infoflow.Infoflow - 	 -> <com.example.helloandroid.MainActivity$SimpleFragment: void <init>()>
+[main] INFO soot.jimple.infoflow.Infoflow - 		 -> staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("leak-0-1", $r1)
+Found a flow to sink staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("leak-0-1", $r1) on line 40, from the following sources:
+	- $r4 = virtualinvoke $r3.<java.util.Calendar: java.util.TimeZone getTimeZone()>() (in <com.example.helloandroid.MainActivity: void onCreate(android.os.Bundle)>)
+		on Path [$r4 = virtualinvoke $r3.<java.util.Calendar: java.util.TimeZone getTimeZone()>(), $r5 = virtualinvoke $r4.<java.util.TimeZone: java.lang.String getDisplayName()>(), <com.example.helloandroid.MainActivity: java.lang.String dataLeAk0> = $r5, specialinvoke $r2.<com.example.helloandroid.MainActivity$SimpleFragment: void <init>()>(), $r1 = <com.example.helloandroid.MainActivity: java.lang.String dataLeAk0>, staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("leak-0-1", $r1)]
+Maximum memory consumption: 88.558992 MB
+Analysis has run for 3.505759563 seconds
