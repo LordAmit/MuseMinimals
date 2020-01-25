@@ -1,0 +1,40 @@
+java.lang.RuntimeException: No method source set for method <android.support.v7.util.SortedList$Callback: int compare(java.lang.Object,java.lang.Object)>
+	at soot.SootMethod.getBodyFromMethodSource(SootMethod.java:90)
+	at soot.SootMethod.retrieveActiveBody(SootMethod.java:322)
+	at soot.jimple.toolkits.callgraph.OnFlyCallGraphBuilder.processNewMethod(OnFlyCallGraphBuilder.java:531)
+	at soot.jimple.toolkits.callgraph.OnFlyCallGraphBuilder.processReachables(OnFlyCallGraphBuilder.java:420)
+	at soot.jimple.toolkits.callgraph.CallGraphBuilder.build(CallGraphBuilder.java:96)
+	at soot.jimple.toolkits.callgraph.CHATransformer.internalTransform(CHATransformer.java:46)
+	at soot.SceneTransformer.transform(SceneTransformer.java:39)
+	at soot.SceneTransformer.transform(SceneTransformer.java:45)
+	at soot.SceneTransformer.transform(SceneTransformer.java:50)
+	at edu.buffalo.cse.blueseal.utils.DynamicEntryPointsManager.parseLayoutForDynamicEntryPoints(DynamicEntryPointsManager.java:52)
+	at edu.buffalo.cse.blueseal.utils.DynamicEntryPointsManager.<init>(DynamicEntryPointsManager.java:40)
+	at edu.buffalo.cse.blueseal.utils.EntryPointsManager.loadApkEntryPoints(EntryPointsManager.java:42)
+	at edu.buffalo.cse.blueseal.BSCallgraph.BSCallGraphTransformer.internalTransform(BSCallGraphTransformer.java:40)
+	at soot.SceneTransformer.transform(SceneTransformer.java:39)
+	at soot.Transform.apply(Transform.java:90)
+	at soot.ScenePack.internalApply(ScenePack.java:40)
+	at soot.Pack.apply(Pack.java:118)
+	at soot.PackManager.runWholeProgramPacks(PackManager.java:571)
+	at soot.PackManager.runPacksNormally(PackManager.java:461)
+	at soot.PackManager.runPacks(PackManager.java:396)
+	at soot.Main.run(Main.java:271)
+	at soot.Main.main(Main.java:147)
+	at edu.buffalo.cse.blueseal.main.Main.main(Main.java:48)
+
+
+Ouuups... something went wrong! Sorry about that.
+Follow these steps to fix the problem:
+1.) Are you sure you used the right command line?
+    Click here to double-check:
+    https://ssebuild.cased.de/nightly/soot/doc/soot_options.htm
+
+2.) Not sure whether it's a bug? Feel free to discuss
+    the issue on the Soot mailing list:
+    https://github.com/Sable/soot/wiki/Getting-help
+
+3.) Sure it's a bug? Click this link to report it.
+    https://github.com/Sable/soot/issues/new?title=java.lang.RuntimeException+when+...&body=Steps+to+reproduce%3A%0A1.%29+...%0A%0AFiles+used+to+reproduce%3A+%0A...%0A%0ASoot+version%3A+%3Cpre%3Etrunk%3C%2Fpre%3E%0A%0ACommand+line%3A%0A%3Cpre%3E-w+-f+n+-allow-phantom-refs+-x+android.support.+-x+android.annotation.+-process-dir+apks%2FRecyclerViewMinimal4.apk+-android-jars+android-jars+-src-prec+apk+-no-bodies-for-excluded%3C%2Fpre%3E%0A%0AMax+Memory%3A%0A%3Cpre%3E7150MB%3C%2Fpre%3E%0A%0AStack+trace%3A%0A%3Cpre%3Ejava.lang.RuntimeException%3A+No+method+source+set+for+method+%26%2360%3Bandroid.support.v7.util.SortedList%24Callback%3A+int+compare%28java.lang.Object%2Cjava.lang.Object%29%26%2362%3B%0A%09at+soot.SootMethod.getBodyFromMethodSource%28SootMethod.java%3A90%29%0A%09at+soot.SootMethod.retrieveActiveBody%28SootMethod.java%3A322%29%0A%09at+soot.jimple.toolkits.callgraph.OnFlyCallGraphBuilder.processNewMethod%28OnFlyCallGraphBuilder.java%3A531%29%0A%09at+soot.jimple.toolkits.callgraph.OnFlyCallGraphBuilder.processReachables%28OnFlyCallGraphBuilder.java%3A420%29%0A%09at+soot.jimple.toolkits.callgraph.CallGraphBuilder.build%28CallGraphBuilder.java%3A96%29%0A%09at+soot.jimple.toolkits.callgraph.CHATransformer.internalTransform%28CHATransformer.java%3A46%29%0A%09at+soot.SceneTransformer.transform%28SceneTransformer.java%3A39%29%0A%09at+soot.SceneTransformer.transform%28SceneTransformer.java%3A45%29%0A%09at+soot.SceneTransformer.transform%28SceneTransformer.java%3A50%29%0A%09at+edu.buffalo.cse.blueseal.utils.DynamicEntryPointsManager.parseLayoutForDynamicEntryPoints%28DynamicEntryPointsManager.java%3A52%29%0A%09at+edu.buffalo.cse.blueseal.utils.DynamicEntryPointsManager.%26%2360%3Binit%26%2362%3B%28DynamicEntryPointsManager.java%3A40%29%0A%09at+edu.buffalo.cse.blueseal.utils.EntryPointsManager.loadApkEntryPoints%28EntryPointsManager.java%3A42%29%0A%09at+edu.buffalo.cse.blueseal.BSCallgraph.BSCallGraphTransformer.internalTransform%28BSCallGraphTransformer.java%3A40%29%0A%09at+soot.SceneTransformer.transform%28SceneTransformer.java%3A39%29%0A%09at+soot.Transform.apply%28Transform.java%3A90%29%0A%09at+soot.ScenePack.internalApply%28ScenePack.java%3A40%29%0A%09at+soot.Pack.apply%28Pack.java%3A118%29%0A%09at+soot.PackManager.runWholeProgramPacks%28PackManager.java%3A571%29%0A%09at+soot.PackManager.runPacksNormally%28PackManager.java%3A461%29%0A%09at+soot.PackManager.runPacks%28PackManager.java%3A396%29%0A%09at+soot.Main.run%28Main.java%3A271%29%0A%09at+soot.Main.main%28Main.java%3A147%29%0A%09at+edu.buffalo.cse.blueseal.main.Main.main%28Main.java%3A48%29%0A%3C%2Fpre%3E
+    Please be as precise as possible when giving us
+    information on how to reproduce the problem. Thanks!

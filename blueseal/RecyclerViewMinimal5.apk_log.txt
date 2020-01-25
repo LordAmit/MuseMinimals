@@ -1,0 +1,8 @@
+Analyzing:apks/RecyclerViewMinimal5.apk
+analyzing apk:apks/RecyclerViewMinimal5.apk
+Soot started on Fri Jan 24 21:20:47 EST 2020
+Using 'android-jars/android-26/android.jar' as android.jar
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
